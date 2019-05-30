@@ -1,0 +1,33 @@
+.disableinfo-platform-site .anticon-plus-circle-o,
+.disableinfo-platform-site .anticon-minus-circle-o{
+    font-size: 16px;
+    margin-top: 12px;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+.common-sensitive-platform-site .disableinfo-disable-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.common-sensitive-platform-site .ant-col-19 .platform-site:nth-child(n+3) {
+    position: relative;
+    left: 120px;
+}
+
+.disabled {
+    /* pointer-events: none; */
+    cursor: not-allowed!important;
+    opacity: 0.6;
+}
+.sensitive-layer .has-error .ant-form-explain {
+    position: absolute;
+}
+.common-sensitive-platform-site .ant-form-item-control-wrapper {
+    position: relative;
+}
+.common-sensitive-platform-site .disableinfo-platform-site{
+    padding-left: 120px;
+}

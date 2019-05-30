@@ -1,0 +1,110 @@
+.scopeCluenk .ant-tabs-nav {
+    padding-left: 0px;
+}
+.scopeCluenk .tabTop { height:56px; margin:0px 20px;}
+.scopeCluenk .tabTop  .toplf{width: 4px; height: 14px; margin-top:20px; float:left; background: #4D7BFE;}
+.scopeCluenk .tabTop  .toprt{float:left; line-height: 53px; margin-left:5px; color: #333333; font-size: 14px;}
+.scopeCluenk  .ant-checkbox-group{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.scopeCluenk  .ant-checkbox-group .ant-col-6{
+    margin-top: 13px;
+}
+.shujufangan .areaTop{
+    margin-top: 10px;
+}
+.shujufangan .areaTop .ant-form-item-label{
+    margin-top: -6px;
+}
+.scopeCluenk  .maxBox{
+    margin-top: 10px;
+    padding-bottom: 40px;
+} 
+.scopeCluenk  .maxBox .bottomText{
+    margin-top: 10px;
+    line-height: 24px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}  
+.scopeCluenk  .maxBox .bottomText .pt{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.scopeCluenk  .maxBox .bottomText .ptTitle{
+    font-weight: bolder !important;
+    width: 150px;
+    display: flex;
+    flex-direction:row-reverse;
+} 
+.scopeCluenk  .maxBox .bottomText .ptText{
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.scopeCluenk  .maxBox .bottomText .ptText .subAccount{
+    display: inline-block;
+}
+.scopeCluenk  .maxBox .bottomText .ptText .subAccount a{
+    cursor: default;
+}
+
+
+/* 去除边框 */
+.view .ant-form-item-children .ant-input {
+    border: none;
+    outline: none;
+}
+.view .ant-form-item-children .ant-input-group-addon {
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.view .ant-form-item-children .ant-input:focus{
+    box-shadow: none;
+}
+.view textarea{
+    resize: none;
+}
+
+
+/* 弹窗样式 */
+.fast-alloc {
+    width: 636px;
+    height: 24px;
+    line-height: 0px;
+}
+.fast-alloc .left-span {
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+.fast-alloc .right-span {
+    position: absolute;
+    top: 0;
+    right: 220px;
+}
+.ant-transfer .ant-transfer-list:last-child .ant-transfer-list-body-search-wrapper{
+    display: none;
+}
+.ant-transfer .ant-transfer-list:last-child .ant-transfer-list-body-with-search{
+    padding-top: 0px;
+}
+
+/* 数据方案名称 */
+.viewName .ant-input-disabled{
+    background-color: white;
+    cursor: text;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+/*特殊*/
+.modelBox{
+    top:10px;
+}

@@ -1,0 +1,573 @@
+.leftwidget {
+    width: 198px;
+    height: 100%;
+    background-color: #222838;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.leftwidget .ant-menu-inline .ant-menu-item, .leftwidget .ant-menu-inline .ant-menu-submenu-title {
+    margin: 0;
+}
+
+.leftwidget .ant-menu-inline, .leftwidget .ant-menu-vertical, .leftwidget .ant-menu-vertical-left {
+    border-right: 1px solid #313945
+}
+
+.ant-menu-inline .ant-menu-selected:after, .ant-menu-inline .ant-menu-item-selected:after{
+    opacity: 0;
+}
+
+.leftall {
+    height: 100%;
+}
+
+.left-icon {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 30px;
+    background: #38415a;
+    text-align: center;
+    line-height: 30px;
+    color: #c2c6cf;
+    font-size: 18px;
+    cursor: pointer;
+}
+.left-icon .anticon:hover {
+    color: #c2c6cf;
+}
+
+.leftlogo {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 0;
+    text-align: center;
+    background: #fff;
+    overflow: hidden;
+    top:0px;
+    left: 0px;
+}
+
+.leftlogo .leftimg {
+    float: left;
+    width: 52px;
+    height: 47px;
+    margin-top: 4px;
+    margin-left: 18px;
+}
+
+.leftlogo .leftimg img {
+    vertical-align: initial;
+}
+
+.leftlogo .lefttxt {
+    float: left;
+    height: 54px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.leftlogo .lefttxt .sp1 {
+    color: #51EE86;
+    display: inline-block;
+    height: 54px;
+    font-size: 22px;
+}
+
+.leftlogo .sp2 {
+    color: #4D7BFE;
+    height: 54px;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.leftlogo span img {
+    vertical-align: middle;
+}
+
+.leftwidget .switch {
+    background-color: #3a3b6c;
+    height: 60px;
+    position: relative;
+}
+
+.leftwidget .system {
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.leftwidget .switch-wrap {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px;
+    background: #417ab3;
+    height: 100%;
+}
+
+.switch-icon {
+    background: url('./img/switch.png') 16px 0 no-repeat;
+    font-size: 16px;
+    line-height: 86px;
+    padding-top: 24px;
+    padding-left: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.leftwidget .ant-menu-submenu-title .anticon {
+    margin-right: 20px;
+}
+
+.keybac {
+    margin-left: 11px;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    background-image: url("./img/hoverkey1.png");
+}
+
+.leftswitch-sm .keybac {
+    margin-left: 0px;
+}
+
+.leftwidget .switch-wrap a:hover {
+    color: #fff;
+}
+
+.leftwidget .ant-menu-submenu-title {
+    font-size: 14px;
+}
+
+.leftwidget .ant-menu-submenu-title:hover {
+    color: #fff;
+    background: #2B3245
+}
+
+.leftwidget .ant-menu-submenu-title:hover .ant-menu-submenu-arrow {
+    background: url('./img/downarrow1.png') no-repeat;
+}
+
+.leftwidget .ant-menu-submenu-open .key1,
+.leftwidget .ant-menu-submenu-title:hover .key1 {
+    background-image: url("./img/hoverkey1.png");
+}
+
+.leftwidget .ant-menu-submenu-open .key2,
+.leftwidget .ant-menu-submenu-title:hover .key2 {
+    background-image: url("./img/hoverkey2.png");
+}
+
+.leftwidget .ant-menu-submenu-open .key3,
+.leftwidget .ant-menu-submenu-title:hover .key3 {
+    background-image: url("./img/hoverkey3.png");
+}
+
+.leftwidget .ant-menu-submenu-open .key4,
+.leftwidget .ant-menu-submenu-title:hover .key4 {
+    background-image: url("./img/hoverkey4.png");
+}
+
+.leftwidget .ant-menu-submenu-open .key0,
+.leftwidget .ant-menu-submenu-title:hover .key0, .leftwidget .ant-menu-submenu-open .key5,
+.leftwidget .ant-menu-submenu-title:hover .key5 {
+    background-image: url("./img/hoverkey1.png");
+}
+
+.ant-menu-item {
+    font-size: 16px !important;
+    color: #666666;
+}
+
+.pdl5 {
+    padding-left: 20px;
+    font-size: 16px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.erp_vsub {
+    vertical-align: sub
+}
+
+.leftwidget .index {
+    background: url('./img/index.png') 0 10px no-repeat;
+}
+
+.leftwidget .supplier-discover {
+    background: url('./img/supplier-discover.png') 0 2px no-repeat;
+}
+
+.leftwidget .supplier-manage {
+    background: url('./img/supplier-manage.png') 0 2px no-repeat;
+}
+
+.leftwidget .supplier-authentication {
+    background: url('./img/supplier-authentication.png') 0 2px no-repeat;
+}
+
+.leftwidget .customer-follow-up {
+    background: url('./img/customer-follow-up.png') 0 2px no-repeat;
+}
+
+.leftwidget .product-quotation-manage {
+    background: url('./img/product-quotation-manage.png') 0 2px no-repeat;
+}
+
+.leftwidget .ant-menu {
+    color: #FFF;
+}
+
+.leftwidget .ant-menu-submenu.ant-menu-submenu-active:hover {
+    color: #fff
+}
+
+.leftwidget .ant-menu, .leftwidget .ant-menu-submenu > .ant-menu {
+    background-color: #222838;
+}
+
+.leftwidget .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background: #4D7BFE
+}
+
+.leftwidget .ant-menu-submenu-open {
+    background: #2B3245;
+}
+
+.leftwidget .ant-menu-submenu-open .ant-menu-submenu-title {
+    background: #2B3245;
+    color: #fff;
+}
+
+.leftwidget .ant-menu-submenu-open .ant-menu-sub {
+    background: #2B3245;
+}
+
+.leftwidget .ant-menu-submenu-selected .ant-menu-submenu-arrow:before,
+.leftwidget .ant-menu-submenu-selected .ant-menu-submenu-arrow:after,
+.leftwidget .ant-menu-submenu-title .ant-menu-submenu-arrow:before,
+.leftwidget .ant-menu-submenu-title .ant-menu-submenu-arrow:after {
+    background: transparent;
+}
+
+.leftwidget .ant-menu-submenu-title .ant-menu-submenu-arrow {
+    vertical-align: middle;
+    width: 5px;
+    height: 9px;
+    background: url('./img/downarrow1.png') no-repeat;
+    background-size: contain;
+}
+
+.leftwidget .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow {
+    top: 18px;
+}
+
+.leftwidget .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow:before,
+.leftwidget .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow:after {
+    position: static;
+}
+
+.leftwidget .ant-menu-submenu-open.ant-menu-submenu-inline .ant-menu-submenu-arrow {
+    transform: rotate(90deg);
+}
+
+.leftwidget .ant-menu-item > a {
+    font-size: 14px;
+    color: #fff;
+    padding-left: 24px;
+}
+
+.leftwidget .ant-menu-item > a:hover {
+    color: #fff;
+}
+
+.leftwidget .ant-menu-item-selected > a,
+.leftwidget .ant-menu-item-selected > a:hover {
+    color: #6699cc;
+}
+
+.leftwidget .ant-menu-item.ant-menu-item-selected a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.top-tool .crumbs {
+    background: #fff;
+    box-shadow: 0px 0px 5px #ddd;
+    font-family: Microsoft yahei;
+    color: #666;
+    position: relative;
+    z-index: 1;
+}
+
+.top-tool .crumbs .ant-breadcrumb {
+    border-bottom: 1px solid #edf1f5;
+    box-shadow: 2px 1px 5px #edf1f5;
+}
+
+.top-tool .ant-breadcrumb {
+    padding: 0px 15px;
+    line-height: 39px
+}
+
+.top-tool .ant-breadcrumb a, .top-tool .ant-breadcrumb-separator {
+    color: #999
+}
+
+.top-tool .ant-breadcrumb > span:last-child {
+    color: #333
+}
+
+.leftlogo-sm {
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    background: #fff;
+    transition: width 0.4s;
+}
+
+.leftlogo-sm .leftimg-sm {
+    width: 40px;
+    height: 38px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.leftlogo-sm .leftimg-sm img {
+    vertical-align: initial;
+}
+
+.leftswitch-sm {
+    background: #222838;
+}
+
+.leftswitch-sm ul li {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.leftswitch-sm ul li:hover {
+    background: #4D7BFE;
+}
+
+.ant-popover-open {
+    background: #4D7BFE;
+}
+
+.popoverli {
+    height: 40px;
+    line-height: 40px;
+}
+
+.ant-popover-arrow {
+    background: #2B3245;
+}
+
+.ant-popover-inner-content {
+    padding: 0px 16px;
+    background: #2B3245;
+}
+
+.ant-popover-inner-content .popoverli a {
+    color: #fff;
+}
+
+.ant-popover-inner-content .popoverli a:hover, .ant-popover-inner-content .popoverli a:active {
+    color: #4D7BFE;
+}
+
+/* 二级菜单图标 */
+
+/* 工作台 */
+.keyinedx_000-000001 {
+    background-image: url("./img/keyinedx_000-000001.png");
+}
+/* 个人中心 */
+.keyinedx_000-000002 {
+    background-image: url("./img/keyinedx_000-000002.png");
+}
+/* 业绩看板 */
+.key001-000006 {
+    background-image: url("./img/key001-000006.png");
+}
+/* 平台订单 */
+.key001-000001 {
+    background-image: url("./img/key001-000001.png");
+}
+/* 订单管理 */
+.key001-000002 {
+    background-image: url("./img/key001-000002.png");
+}
+/* 分仓订单 */
+.key001-000003 {
+    background-image: url("./img/key001-000003.png");
+}
+/* 订单配置 */
+.key001-000004 {
+    background-image: url("./img/key001-000004.png");
+}
+/* 基础数据 */
+.key001-000005 {
+    background-image: url("./img/key001-000005.png");
+}
+/* 用户中心 */
+.key004-000001 {
+    background-image: url("./img/key004-000001.png");
+}
+/* 亚马逊索赔 */
+.key006-000001 {
+    background-image: url("./img/key006-000001.png");
+}
+/* 报关管理 */
+.key002-000001 {
+    background-image: url("./img/key002-000001.png");
+}
+/* 平台授权 */
+.key004-000002 {
+    background-image: url("./img/key003-000001.png");
+}
+/* ebay刊登 */
+.key008-000001 {
+    background-image: url("./img/key008-000001.png");
+}
+/* 基础设置 */
+.key008-000002 {
+    background-image: url("./img/key007-000002.png");
+}
+/* 速卖通刊登 */
+.key008-000003 {
+    background-image: url("./img/key008-000003.png");
+}
+/* 批量刊登 */
+.key008-000004 {
+    background-image: url("./img/key008-000004.png");
+}
+/* 销售定价 */
+.key008-000005 {
+    background-image: url("./img/key008-000005.png");
+}
+/* Amazon刊登 */
+.key008-000007 {
+    background-image: url("./img/amazon-pulish.png");
+}
+/* 新品开发 */
+.key005-000001 {
+    background-image: url("./img/key001-000004.png");
+}
+
+.key005-000002 {
+    background-image: url("./img/key005-000002.png");
+}
+
+/* 合规 */
+.key007-000001 {
+    background-image: url("./img/key007-000001.png");
+}
+
+.key007-000002 {
+    background-image: url("./img/key007-000002.png");
+}
+
+/* 客服 */
+.key009-000001 {
+    background-image: url("./img/key009-000001.png");
+}
+.key009-000002 {
+    background-image: url("./img/key009-000002.png");
+}
+.key009-000003 {
+    background-image: url("./img/key009-000003.png");
+}
+.key009-000004 {
+    background-image: url("./img/key009-000004.png");
+}
+.key009-000005 {
+    background-image: url("./img/key009-000005.png");
+}
+.key009-000006 {
+    background-image: url("./img/key009-000006.png");
+}
+
+/* 仓储 */
+.key012-000001 {
+    background-image: url("./img/key012-000001.png");
+}
+
+.key012-000002 {
+    background-image: url("./img/key012-000002.png");
+}
+
+.key012-000003 {
+    background-image: url("./img/key012-000003.png");
+}
+
+.key012-000004 {
+    background-image: url("./img/key012-000004.png");
+}
+
+.key012-000005 {
+    background-image: url("./img/key012-000005.png");
+}
+.key012-000006 {
+    background-image: url("./img/key012-000006.png");
+}
+.key012-000007 {
+    background-image: url("./img/key012-000007.png");
+}
+.key012-000008 {
+    background-image: url("./img/key012-000008.png");
+}
+.key012-000009 {
+    background-image: url("./img/key012-000009.png");
+}
+.key012-000010 {
+    background-image: url("./img/key012-000010.png");
+}
+/* 采购 */
+.key010-000002 {
+    background-image: url("./img/key010-000002.png");
+}
+.key010-000003 {
+    background-image: url("./img/key010-000003.png");
+}
+.key010-000004 {
+    background-image: url("./img/key010-000004.png");
+}
+
+/* 采购--不良品管理 */
+.key010-000005 {
+    background-image: url("./img/key010-000005.png");
+}
+
+/* 采购--报表 */
+.key010-000006 {
+    background-image: url("./img/key010-000006.png");
+}
+
+/* 采购--导入导出管理 */
+.key010-000007 {
+    background-image: url("./img/key010-000007.png");
+}
+
+.key002-000002 {
+    background-image: url("./img/key002-000002.png");
+}
+
+.key002-000003 {
+    background-image: url("./img/key002-000003.png");
+}

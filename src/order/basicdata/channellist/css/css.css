@@ -1,0 +1,15 @@
+.pad-top-bottom8{padding: 8px 0px;}
+.newClue .newCluenk .qu-searchlist {
+    padding: 10px;
+}
+.newCluenk .title .ant-link:hover{
+    background-color: #4D7BFE;
+    color: #fff;
+}
+.channellist-search {
+    margin-bottom: 20px;
+}
+.channellist-optionBtn{
+    text-align: right;
+    padding: 10px 10px 0 0;
+}

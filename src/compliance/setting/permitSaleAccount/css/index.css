@@ -1,0 +1,100 @@
+.data-permit-sale-account .search{
+    position: relative;
+}
+.data-permit-sale-account .height-search{
+    overflow: hidden;
+}
+.data-permit-sale-account .screen-tags  {
+    overflow: hidden;
+}
+.data-permit-sale-account .height-search .common-standard-form-row {
+    overflow: hidden;
+    margin-top: 10px;
+}
+ /* .data-permit-sale-account .ant-form-item-control-wrapper {
+     width: 300px;
+ } */
+.data-permit-sale-account .table-item .label span:after {
+    content: "";
+}
+.data-permit-sale-account .ant-form-item-control-wrapper  .ant-select-selection {
+    width: 344px;
+}
+.data-permit-sale-account .ant-form-item-control-wrapper .ant-select-selection--multiple {
+    width: 344px;
+}
+ .data-permit-sale-account-cascader {
+     width: 240px;
+ }
+.data-permit-sale-account-detail .ant-row .ant-form-item {
+     margin-bottom: 12px;
+ }
+ 
+ .data-permit-sale-account-detail .ant-row .common-sensitive-platform-site .ant-form-item {
+    margin-bottom: 0;
+}
+
+.data-permit-sale-account-detail .ant-form:last-of-type .ant-col-24 .ant-col-24:last-of-type .ant-form-item {
+    margin-bottom: 0;
+}
+.data-permit-sale-account-detail .ant-table-body td {
+    text-align: center;
+ }
+ .data-permit-sale-account-detail .ant-table-body td .tableOption {
+    color: #4d7bfe;
+    cursor: pointer;
+    padding: 0 5px;
+ }
+
+ .data-permit-sale-account-detail2 {
+    padding: 0 50px;
+ }
+ .data-permit-sale-account-detail2 .title{
+    padding-left: 0!important;
+    padding-right: 0!important;
+    margin-bottom: 10px;
+ }
+ .data-permit-sale-account-detail2 .infoTabel {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+ }
+ .data-permit-sale-account-detail2 .title:last-of-type {
+    margin-top: 40px;
+ }
+ .data-permit-sale-account-detail2 .ant-table-body td {
+    text-align: center;
+ }
+ .data-permit-sale-account-detail2 .separate-line {
+    display: inline-block;
+    width:4px;
+    height:16px;
+    line-height: 30px;
+    background:rgba(77,123,254,1);
+    border-radius:2px;
+    vertical-align: middle;
+ }
+ .data-permit-sale-account-detail2 .separate-header {
+    margin: 8px;
+    height:17px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    vertical-align: middle;
+ }
+ .data-permit-sale-account-detail2 .ant-form-item-control-wrapper {
+    /* overflow: hidden; */
+}
+.data-permit-sale-account-detail2 .ant-form-text {
+    width: 210px;
+    /* text-overflow: ellipsis;
+    white-space: nowrap; */
+}
+.data-permit-sale-account-detail2 .ant-row .ant-form-item-control {
+    line-height: 20px;
+    font-size: 12px;
+}
+.data-permit-sale-account-detail2 .ant-row .ant-form-item-label {
+    line-height: 20px;
+}

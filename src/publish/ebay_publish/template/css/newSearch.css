@@ -1,0 +1,73 @@
+/* 搜索 */
+.pbh-tle-list_container .search{
+    position: relative;
+}
+.pbh-tle-list_container .search-tab{
+    position: absolute;
+    width: 120px;
+    top: 15px;
+    right: 10px;
+    z-index: 0;
+}
+.pbh-tle-list_container .search-tab .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.pbh-tle-list_container .text-search .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.pbh-tle-list_container .pbh-tle-list_container .default-search{
+    overflow: hidden;
+}
+.pbh-tle-list_container .text-search{
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    background: #fafafa;
+}
+.pbh-tle-list_container .btn-search{
+    width: 495px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+.pbh-tle-list_container .publish-ebay-tem-match{
+    width:445px;
+}
+.pbh-tle-list_container .publish-isHightSearch{
+    width:483px;
+}
+.pbh-tle-list_container .btn-search button{
+    margin-left: 10px;
+}
+.pbh-tle-list_container .height-search{
+    overflow: hidden;
+}
+.pbh-tle-list_container .height-search .standard-form-row{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.pbh-tle-list_container .height-search .ant-form-item-control-wrapper, .pbh-tle-list_container .height-search .ant-calendar-picker{
+    width: 330px;
+}
+.pbh-tle-list_container .ant-form-item-children #templateName{
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+}
+.pbh-tle-list_container .ant-form-item-children #templateName::-webkit-input-placeholder {
+    color:#bfbfbf;
+    text-indent: 10px;
+}
+.publish-ebay-temp .list-filter-item-title-width{
+    width:160px;
+}
+.publish-ebay-temp .list-filter-item{
+    padding-left: 165px;
+}

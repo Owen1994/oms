@@ -1,0 +1,154 @@
+.alloc-role-list {
+    width: 260px;
+    padding: 40px 10px 10px;
+    font-size: 12px;
+    background-color: #fff;
+    height: 100%;
+    float: left;
+    position: relative;
+    box-shadow: 0 0 5px #ddd;
+}
+.alloc-role-list-title,
+.alloc-role-content-title  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:0 10px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+.alloc-role-list-title span {
+    height: 14px;
+}
+.alloc-role-list-title i {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    height: 23px;
+    font-style: normal;
+    color:#4D7BFE;
+    line-height: 23px;
+}
+.longstring {
+    padding-left: 10px;
+    position: relative;
+}
+.longstring::before{
+    position: absolute;
+    content:"";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 4px;
+    background-color: #4D7BFE;
+    border-radius:2px;
+}
+.oms_inx .alloc-role-list-content {
+    padding: 10px;
+    height: 100%;
+    border: 1px solid #EEEEEE;
+    border-radius:4px;
+    overflow-y: auto;
+}
+.alloc-role-list-content li {
+    width: 100%;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 10px;
+    background-color: #EEEEEE;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    position: relative;
+}
+.alloc-role-list-content li:hover {
+    background-color: #4D7BFE;
+    color:#fff;
+}
+.alloc-role-list-content li:last-child {
+    margin-bottom: 0;
+}
+.alloc-role-list-content .alloc-role-list-content-close {
+    position: absolute;
+    top: 2px;
+    right: 7px;
+    cursor: pointer;
+    padding: 5px;
+}
+.alloc-role-list-content .alloc-role-list-content-close:hover {
+    color:#fff;
+}
+.alloc-role-content {
+    padding: 40px 10px 10px;
+    position: relative;
+    min-height: 100%;
+    margin-left: 275px;
+    background-color: #fff;
+    margin-bottom: 67px;
+    box-shadow: 0 0 5px #ddd;
+}
+.ant-transfer-list-header {
+    text-align: center;
+}
+.ant-transfer-list-header .ant-checkbox-wrapper {
+    position: absolute;
+    top: 6px;
+    left: 11px;
+}
+.alloc-transfer-title {
+    width: 636px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+}
+.alloc-transfer-title .left-span {
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+.alloc-transfer-title .right-span {
+    position: absolute;
+    top: 0;
+    right: 220px;
+}
+.alloc-role-btn {
+    margin-top: 60px;
+    text-align: right;
+}
+.alloc-role-content .alloc-role-input-search {
+    position: absolute;
+    top: 35px;
+    left: 1px;
+    width: 278px;
+    z-index: 1;
+    background-color: #fff;
+    font-size: 14px;
+}
+.ant-transfer .ant-transfer-list:last-child .ant-transfer-list-body-search-wrapper{
+    display: none;
+}
+.ant-transfer .ant-transfer-list:last-child .ant-transfer-list-body-with-search{
+    padding-top: 0px;
+}
+
+.alloc-role-content .addupdatafootbtn{transition: all 0.3s;
+    position:fixed;
+    height: 52px;
+    background: #fff;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    padding:0 15px 0 0px;
+    z-index: 100;
+    box-shadow: 0 0 5px #ddd;
+}
+
+.alloc-role-content .addupdatafootbtn .exc-detail-footer-content{
+    transition: all 0.3s;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #fff;
+}
+
+

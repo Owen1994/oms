@@ -1,0 +1,20 @@
+.wms-abnormalorder .border-top-1 {
+    border-top: 1px solid #EAEDF3;
+}
+
+.wms-abnormalorder .ant-table-expanded-row > td {
+    padding: 0 !important;
+}
+
+.wms-abnormalorder .ant-table-expanded-row table {
+    border: none;
+    margin: 0;
+}
+
+.wms-abnormalorder .ant-table-expanded-row .ant-table-small {
+    border: none;
+}
+
+.wms-abnormalorder .ant-table-expanded-row td {
+    background: #fff;
+}

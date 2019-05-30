@@ -1,0 +1,87 @@
+/* 搜索 */
+.basicdata-importexportrecords .search{
+    position: relative;
+}
+.basicdata-importexportrecords .search-tab{
+    position: absolute;
+    width: 120px;
+    top: 15px;
+    right: 10px;
+    z-index: 1;
+}
+.basicdata-importexportrecords .search-tab .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.basicdata-importexportrecords .text-search .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.basicdata-importexportrecords .basicdata-importexportrecords .default-search{
+    overflow: hidden;
+}
+.basicdata-importexportrecords .text-search{
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    overflow: hidden;
+    background: #fafafa;
+}
+.basicdata-importexportrecords .btn-search{
+    width: 330px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+.basicdata-importexportrecords .btn-search button{
+    margin-left: 10px;
+}
+.basicdata-importexportrecords .height-search{
+    overflow: hidden;
+}
+.basicdata-importexportrecords .height-search .standard-form-row{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.basicdata-importexportrecords .height-search .ant-form-item-control-wrapper, .basicdata-importexportrecords .height-search .ant-calendar-picker{
+    width: 344px;
+}
+.basicdata-importexportrecords .height-search .ant-form-item-control-wrapper,
+.basicdata-importexportrecords .height-search .ant-calendar-picker{
+    width: 344px;
+}
+.span-4{
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+}
+.span-content {
+    /* width: 110px; */
+    display: inline-flex;
+    word-break: break-all;
+    text-align: left;
+}
+.logistics_info .name,
+.process-info .name,
+.process-info .name1
+{
+    display: inline-block;
+    width: 115px;
+    text-align: right;
+}
+.process-info .name{
+    width: 50px;
+}
+.order-negativeprofitauditlist .select-type{
+    border-bottom: none;
+}
+.records-option{
+    max-width: 400px;
+    max-height: 150px;
+    word-break: break-all;
+    text-align: center;
+    margin: 0 auto;
+    overflow-y: auto;
+}

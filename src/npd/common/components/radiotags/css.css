@@ -1,0 +1,21 @@
+.oms-radiotags > .ant-radio-group > .ant-radio-button-wrapper:first-child {
+    margin-left: 0;
+}
+.oms-radiotags > .ant-radio-group > .ant-radio-button-wrapper {
+    margin-left: 15px;
+    border-radius: 0;
+    width: 92px;
+    height: 22px;
+    line-height: 22px;
+    padding: 0;
+}
+.oms-radiotags > .ant-radio-group > .ant-radio-button-wrapper-checked {
+    background-color: #4d7bfe;
+    color: white;
+}
+
+.oms-radiotags > .ant-radio-group > .ant-radio-button-wrapper > span:last-child {
+    line-height: 20px;
+    text-align: center;
+    display: block;
+}

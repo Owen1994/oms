@@ -1,0 +1,31 @@
+
+.message-template-class-span {
+    color: #ccc
+}
+
+.temp-control .common-standard-form-row {
+    overflow: hidden;
+}
+.temp-control .common-standard-form-row .ant-form-item-control .ant-select,
+.temp-control .common-standard-form-row .ant-form-item-control input  {
+    width: 344px !important;
+}
+/* fix style */
+.label-height-search {
+    margin-top: 10px;
+}
+.add-content .mt-5 {
+    margin-top: -5px;
+}
+.add-content .mt-12 {
+    margin-top: -12px;
+}
+.add-content .mt12 {
+    margin-top: 12px;
+}
+.add-content .tp8 {
+    margin-top: 8px;
+}
+.temp-tablelist-item .ant-table-row.ant-table-row-level-2 .table-list-option {
+    margin-right: -20px;
+}

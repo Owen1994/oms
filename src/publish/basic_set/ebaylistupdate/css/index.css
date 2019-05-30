@@ -1,0 +1,73 @@
+/* Search begin */
+.update-search{
+    overflow: hidden;
+    background-color: #ffffff;
+    padding-top: 10px;
+}
+.update-search .standard-form-row{
+    overflow: hidden;
+    padding: 10px 0;
+}
+.update-search .standard-form-row .label, .update-search .standard-form-row .ant-form-item-control{
+    overflow: hidden;
+    line-height: 33px !important;
+}
+.update-defaultSearch{
+    overflow: hidden;
+    /* margin-top: 6px; */
+}
+.update-searchBtn{
+    margin: 10px 0;
+    width: 504px;
+    text-align: right
+}
+.update-searchBtn button{
+    margin-left: 10px;
+}
+.update-heightSearch{
+    overflow: hidden;
+}
+.update-heightSearch .standard-form-row .ant-form-item-control .ant-select{
+    width: 330px !important;
+}
+/* search end */
+
+.update-tablelist{
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+}
+.update-addBtn{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.update-modal-baseInfo .ant-form-item-control .ant-select{
+    width: 330px !important;
+}
+.update-modal-baseInfo .ant-form-item-label, .update-modal-baseInfo .ant-form-item-control{
+    overflow: hidden;
+    line-height: 33px !important;
+}
+.update-modal-form{
+    margin-bottom: 20px !important;
+}
+
+.update-modal-updateObject{
+    border-top: 1px solid #EAE9E9;
+    padding-top: 20px;
+}
+
+.update-modal-updateObject .ant-checkbox-group{
+    line-height: 2.5;
+}
+.update-submitBtn{
+    text-align: right;
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 1px solid #EAE9E9;
+}
+
+.update-submitBtn button{
+    margin-left: 20px;
+}

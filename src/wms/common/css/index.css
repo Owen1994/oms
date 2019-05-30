@@ -1,0 +1,561 @@
+/* tabs begin */
+.wms-tabs .erp-search {
+    box-shadow: 0 0 0;
+}
+
+.wms-tabs .ant-tabs-bar {
+    margin-bottom: 0;
+    background-color: #ffffff;
+}
+
+.wms-tabs .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    position: relative;
+    top: 1px !important;
+    border-top: 2px solid #4D7BFE;
+}
+
+.wms-tabs .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    top: -1px;
+    margin-right: 0;
+    border-left: none;
+    border-radius: 0;
+}
+
+/* tabs end */
+
+/*table*/
+.wms-expanded-table .ant-table-expanded-row > td {
+    padding: 0 !important;
+}
+
+.wms-expanded-table .ant-table-expanded-row table {
+    border: none !important;
+    margin: 0;
+}
+
+.wms-expanded-table tr.ant-table-expanded-row .ant-table-wrapper {
+    margin: 0 !important;
+}
+.wms-expanded-table .ant-table-expanded-row .ant-table-small {
+    border: none;
+}
+
+.wms-expanded-table .ant-table-expanded-row td {
+    background: #fff;
+}
+
+/*table*/
+
+.wms-search {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.wms-search .table-item {
+    line-height: 39px;
+}
+
+.wms-search .border-bottom-line {
+    border-bottom: 1px solid #EAEDF3;
+}
+
+.wms-search .ant-form-item {
+    display: flex;
+}
+
+.wms-defaultSearch {
+    overflow: hidden;
+}
+
+.wms-heightSearch {
+    overflow: hidden;
+}
+
+.wms-searchBtn {
+    margin: 10px 0;
+    width: 330px;
+    text-align: right
+}
+
+.wms-searchBtn button {
+    margin-left: 10px;
+}
+
+.wms-searchTab {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.wms-searchTab .ant-radio-button-wrapper-checked {
+    background-color: #4D7BFE !important;
+    color: #ffffff !important;
+}
+
+.wms-textSearch {
+    background: #fafafa;
+    border-top: 1px #EAE9E9 solid;
+    border-bottom: 1px #EAE9E9 solid;
+}
+
+.wms-textSearch > .ant-row.ant-form-item, .wms-heightSearch > .ant-row.ant-form-item {
+    margin-top: 4px;
+}
+
+.wms-textSearch > .ant-row.ant-form-item:last-child {
+    margin-bottom: 10px;
+}
+
+.wms-textSearch .ant-radio-button-wrapper-checked {
+    color: #ffffff;
+    background-color: #4d7bfe;
+}
+
+/* search end */
+
+/* tablelist begin */
+.wms-tablelist {
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.wms-addBtn {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.wms-addBtn button {
+    margin-left: 10px;
+}
+
+.wms-tablelist-orderdetail {
+    float: left;
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+}
+
+.wms-tablelist-orderdetail img {
+    width: 100%;
+    height: 100%;
+}
+
+.wms-tablelist-span {
+    display: inline-block;
+    width: 65px;
+    text-align: right;
+}
+
+.wms-tablelist-span3 {
+    display: inline-block;
+    width: 75px;
+    text-align: right;
+}
+
+.wms-tablelist-span2 {
+    display: inline-block;
+    width: 85px;
+    text-align: right;
+}
+
+.wms-tablelist-info {
+    max-width: 240px;
+    margin: 0 auto;
+}
+
+.wms-tablelist-info p {
+    text-align: left;
+}
+
+.wms-span-bg {
+    background: rgba(236, 241, 254, 1);
+    color: #4D7BFE;
+    display: inline-block;
+    padding: 2px 10px;
+}
+
+.wms-tablelist-content {
+    max-width: 100px;
+    display: inline-flex;
+}
+
+.wms-tablelist-content2 {
+    max-width: 100px;
+    display: inline-flex;
+}
+
+/* tablelist end */
+
+/* modal begin */
+.wms-modal-form .ant-row.ant-form-item {
+    margin-bottom: 18px;
+}
+
+.wms-modal-form .ant-row.ant-form-item:last-of-type {
+    margin-bottom: 0;
+}
+
+.wms-modal-form .ant-form-item-control {
+    width: 260px;
+}
+
+.wms-modal-form p {
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    line-height: 33px;
+}
+
+.wms-modal-form button {
+    width: 260px;
+}
+
+/*.wms-submitBtn{*/
+/*text-align: right;*/
+/*padding-top: 15px;*/
+/*margin-top: 15px;*/
+/*border-top: 1px solid #EAE9E9;*/
+/*}*/
+/*.wms-submitBtn button{*/
+/*margin-left: 20px;*/
+/*}*/
+.wms-modal-cselect .ant-form-item-control {
+    width: 260px !important;
+}
+
+/* modal end */
+
+.wms-span-4 {
+    display: inline-block;
+    font-weight: 400;
+    color: #333333;
+    width: 52px;
+    text-align: right;
+}
+
+.wms-span-6 {
+    display: inline-block;
+    font-weight: 400;
+    color: #333333;
+    width: 72px;
+    text-align: right;
+}
+
+.wms-span-content {
+    display: inline-flex;
+    width: 66%;
+    text-align: left;
+    font-weight: 400;
+    color: #333333;
+    word-break: break-all;
+}
+
+.wms-modal-content h3 {
+    font-weight: bold;
+    color: rgba(51, 51, 51, 1);
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.wms-span-before {
+    display: inline-block;
+    width: 3px;
+    height: 12px;
+    background: rgba(77, 123, 254, 1);
+    border-radius: 1px;
+    margin-right: 3px;
+}
+
+.wms-modal-content > div {
+    margin-bottom: 20px;
+}
+
+.wms-tablecell-flex {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.wms-div-flex {
+    display: flex;
+    /* flex: 1; */
+    height: 50px;
+    /* line-height: 50px; */
+    border-bottom: 1px solid #e8e8e8;
+    align-items: center;
+    justify-content: center;
+}
+
+.wms-tablecell-flex > .wms-div-flex:last-child {
+    border-bottom: none;
+}
+
+.wms-treatmentplan-td {
+    padding: 0 !important;
+    height: 34px;
+}
+
+.wms-modal-print .title {
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: #EAE9E9 solid 2px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.wms-modal-print {
+    height: 460px;
+    width: 460px;
+    padding: 20px;
+    border: #000 solid 2px;
+}
+
+.wms-modal-print .text-label {
+    color: #333333;
+    font-size: 18px;
+    text-align: right;
+    line-height: 29px;
+    padding-right: 10px;
+}
+
+.wms-modal-print .text-content {
+    color: #333333;
+    font-size: 18px;
+    text-align: left;
+    line-height: 29px;
+    padding-left: 10px;
+}
+
+/**
+----------------打印条形码-----------------
+ */
+.wms-print-barcode-content {
+    overflow: auto;
+    max-height: 290px;
+}
+
+.wms-print-barcode-content .print-col {
+    text-align: -webkit-center;
+    padding: 5px;
+}
+
+.wms-print-barcode {
+    width: 100%;
+    border: #EAE9E9 solid 1px;
+    border-radius: 3px;
+    padding: 10px;
+    line-height: 1;
+    text-align: center;
+}
+
+.wms-print-barcode-label {
+    margin-top: 10px;
+    color: #333333;
+    line-height: 1;
+    text-align: center;
+}
+
+/**
+ ----------------打印SKU -----------------
+ */
+.wms-print-sku {
+    width: 100%;
+    height: 144px;
+    border: #EAE9E9 solid 1px;
+    border-radius: 3px;
+    display: flex;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.wms-print-sku p {
+    word-break: break-all;
+    margin-left: 5px;
+}
+
+.wms-print-sku .label-p1 {
+    font-size: 16px;
+    color: #333333;
+    line-height: 1;
+}
+
+.wms-print-sku .label-p2 {
+    font-size: 12px;
+    color: #333333;
+    margin-bottom: 6px;
+}
+
+.wms-print-sku .label-p3 {
+    font-size: 16px;
+    color: #333333;
+    text-align: left;
+}
+
+.wms-print-sku-content {
+    overflow: auto;
+    max-height: 290px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: #EAE9E9 solid 1px;
+}
+
+.wms-print-sku-content .print-col {
+    text-align: -webkit-center;
+    padding: 5px;
+}
+
+/**
+---------------------打印箱唛-------------------------
+ */
+.wms-print-box-group {
+    padding-top: 20px;
+    margin-top: 10px;
+    line-height: 1;
+    border-top: #EAE9E9 solid 1px;
+    max-height: 500px;
+    overflow: auto;
+    text-align: center;
+}
+
+/**
+添加非打印范围wms-print-box-group约束,避免这些样式打印时带过去.
+ */
+.wms-print-box-group .wms-print-box {
+    margin-bottom: 20px;
+}
+
+.wms-print-box {
+    padding: 20px;
+    border: #000 solid 2px;
+    width: 500px;
+    height: 500px;
+}
+
+.wms-print-box .text-label {
+    color: #333333;
+    font-size: 18px;
+    text-align: right;
+    line-height: 29px;
+    padding-right: 10px;
+}
+
+.wms-print-box .text-content {
+    color: #333333;
+    font-size: 18px;
+    text-align: left;
+    line-height: 29px;
+    padding-left: 10px;
+}
+
+.wms-print-box .title {
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: #EAE9E9 solid 1px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.wms-pickingrule-arrow {
+    padding: 0 4px;
+    color: rgba(153, 153, 153, 1);
+}
+
+/*************新版 搜索栏 CSS 样式  临时,g1上线后删除*************/
+.erp-search {
+    background-color: #fff;
+    box-shadow: 0 0 5px #ddd;
+    padding: 10px 10px 0 10px;
+}
+
+.erp-search .ant-form-item {
+    display: flex;
+    align-items: center;
+}
+
+.erp-search .search_select .ant-row-flex {
+    padding-bottom: 7px;
+}
+
+.erp-search .search_select .ant-form-item-label {
+    float: left;
+    width: 95px;
+    text-align: right;
+}
+
+.erp-search .search_select .ant-form-item-control-wrapper {
+    float: left;
+    width: 270px;
+}
+
+.erp-search .search_select .ant-calendar-picker {
+    width: 270px !important;
+}
+
+.erp-search .search_select .ant-form-item-control-wrapper .ant-select-selection__placeholder {
+    font-size: 12px;
+    color: #999;
+}
+
+.erp-search .search_content {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.erp-search .search_content .ant-form-item {
+    display: flex;
+}
+
+.erp-search .search_content .ant-form-item-label {
+    float: left;
+    width: 95px;
+    text-align: right;
+}
+
+.erp-search .search_content .ant-form-item-control-wrapper .ant-radio-wrapper {
+    font-size: 12px;
+}
+
+.erp-search .search_content .content_right {
+    padding-top: 3px;
+}
+
+.erp-search .search_content .content_right .ant-input-search {
+    width: 280px;
+}
+
+.erp-search .content_right .ant-form-item-children {
+    display: flex;
+}
+
+.erp-search .content_right .ant-btn-default {
+    margin-left: 15px;
+}
+
+.erp-search .search_tag {
+    border-top: 1px solid #dddddd;
+    padding-bottom: 8px;
+    padding-top: 5px;
+}
+
+.erp-search .search_tag .ant-form-item {
+    display: flex;
+}
+
+.erp-search .search_tag .ant-form-item-label {
+    width: 95px;
+    text-align: right;
+}
+
+.wms-ant-table  .ant-table table {
+     text-align: center !important;
+ }

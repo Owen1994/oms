@@ -1,0 +1,224 @@
+.print_div {
+    background: #FFFFFF;
+    box-shadow: 0 0 5px #ddd;
+    margin-right: 15px;
+    min-width: 700px;
+    max-width: 700px;
+}
+
+.print_div_hidden_button {
+    background: #FFFFFF;
+    margin-right: 15px;
+    min-width: 700px;
+    max-width: 700px;
+}
+
+.designation_card_div {
+    background: #FFFFFF;
+    box-shadow: 0 0 5px #ddd;
+    width: 700px;
+}
+
+.print_button {
+    padding-top: 15px;
+    margin: 0px 15px;
+}
+
+.print_purchase_order_div {
+    position: relative;
+    padding: 15px 15px 0px 15px;
+    margin-bottom: 30px;
+    bottom: 15px;
+}
+
+.print_purchase_order_div_head_title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.print_purchase_order_div_head_title1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.print_purchase_order_div_head_PObarCode {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.print_purchase_order_div_head_info {
+    margin: 5px 0px;
+    padding: 5px 0px;
+}
+
+.print_purchase_order_head_info_cell {
+    display: inline-flex;
+}
+
+.print_purchase_order_head_info_cell .cell_div_neiron {
+    font-weight: 700;
+    width: 217px;
+    color: #000;
+}
+
+.print_purchase_order_head_info_cell .cell_div_neiron_long {
+    font-weight: 700;
+    color: #000;
+}
+
+.print_purchase_order_head_info_cell .cell_div_height {
+    height: 25px;
+    width: 90px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 10px;
+    color: #000;
+}
+
+.print_purchase_order_foot_info_sku {
+    margin-top: 10px;
+    color: #000;
+}
+
+.print_purchase_order_foot_info_delivery {
+    margin: 15px 0px 15px 20px;
+}
+
+.print_purchase_order_foot_info_time {
+    margin-top: 40px;
+    color: #000;
+}
+
+.print_purchase_order_foot_info_sku .cell_div_neiron {
+    font-weight: 700;
+}
+
+.print_purchase_order_foot_info_sku .cell_div_height {
+    height: 25px;
+    width: 100px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.designation_card_copy_view {
+    position: relative;
+    padding: 0px 15px 15px 15px;
+    bottom: 15px;
+    min-width: 700px;
+    margin: 0 auto;
+}
+
+.designation_card_copy_view .copy_div {
+    position: relative;
+    border-right: 1px solid #E8E8E8 !important;
+    border-left: 1px solid #E8E8E8 !important;
+    border-bottom: 1px solid #E8E8E8 !important;
+}
+
+.designation_card_copy_view .copy_div .copy_text {
+    display: inline-block;
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: top;
+    float: left;
+    margin-top: 15px;
+}
+
+.designation_card_copy_view .copy_div .copy_neiron {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 15px;
+
+}
+
+.designation_card_top_view {
+    position: relative;
+    padding: 15px 15px 0px 15px;
+    bottom: 15px;
+    min-width: 700px;
+    margin: 0px auto;
+}
+
+
+.designation_card_top_title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.designation_card_top_barCode {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.designation_card_top_info {
+    margin: 5px 0px;
+    padding: 5px 0px;
+}
+
+.print_view_main {
+    /*overflow: scroll;*/
+    /*height: calc(100% - 60px);*/
+}
+
+.print_view_main .print_view_sub {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.print_modal_view {
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.print_main_all {
+    /*background: #f2f2f5;*/
+    /*position: absolute;*/
+    /*top: 0px;*/
+    /*bottom: 0px;*/
+    /*left: 15px;*/
+    /*right: 15px;*/
+    /*height: 100%;*/
+    margin-bottom: 15px;
+}
+
+.print_main_all .ant-spin-nested-loading {
+    /*height: 100%;*/
+}
+
+.print_main_all .ant-spin-container {
+    /*height: 100%;*/
+}
+
+.print_table-footer-fixed {
+
+    width: 1415px;
+    height: 52px;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px #ddd;
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*height: 52px;*/
+    /*line-height: 52px;*/
+    /*z-index: 1;*/
+    /*text-align: right;*/
+    /*background-color: #ffffff;*/
+    /*padding-right: 20px;*/
+    /*box-shadow: 0px 0px 5px #ddd;*/
+}
+
+.print_table_color .ant-table-tbody,
+.print_table_color .ant-table thead th {
+    color: #000 !important;
+}

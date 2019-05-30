@@ -1,0 +1,200 @@
+.customer-tabs-search {
+    background-color: #fff;
+}
+.customer-tabs-search .breadcrumb {
+    box-shadow: none;
+}
+.customer-tabs-search .customer-service-tab-platform {
+    position: static;
+}
+.customer-tabs-search .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    border-radius: 0;
+    margin-right: 0; 
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.customer-tabs-search .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab + .ant-tabs-tab {
+    border-left: 0;
+}
+.customer-tabs-search .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    position: relative;
+}
+.customer-tabs-search .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active::after {
+    width: 100%;
+    height: 2px;
+    background-color: #4D7BFE;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.customer-tabs-search .customer-service-tab-platform .ant-tabs-ink-bar{
+    height: 2px;
+}
+.customer-tabs-search .customer-service-tab-platform .ant-tabs-nav .ant-tabs-tab-active{
+    background: #fff;
+    color: #4D7BFE;
+}
+.customer-tabs-search .func-btn-search {
+    width: 250px;
+    position: absolute;
+    left: 505px;
+    bottom: 12px;
+    text-align: left;
+}
+.customer-tabs-search .func-btn-search > div {
+    float: left;
+}
+.customer-tabs-search .func-btn-search > button {
+    margin: 15px 0 6px 10px;
+}
+.customer-tabs-search .btn-search {
+    width: auto;
+    text-align: left;
+}
+.customer-message-list {
+    width: 260px;
+    height: 860px;
+    float: left;
+    padding-right: 0;
+}
+.customer-message-list .messge-list-nodata {
+    padding: 10px;
+}
+.customer-message-list li.message-li-info {
+    overflow: hidden;
+}
+.customer-message-list ul > li.message-li-info:hover {
+    background: #F9FAFD;
+}
+.customer-message-list ul > li.message-li-info.active {
+    background: #ebebeb;
+}
+.customer-message-list .ant-collapse-content > .ant-collapse-content-box {
+    padding: 0;
+}
+.customer-message-list .ant-collapse-content > .ant-collapse-content-box li {
+    padding: 20px;
+    cursor: pointer;
+}
+.customer-message-list .ant-collapse-content > .ant-collapse-content-box li + li {
+    border-top: 1px solid #ddd;
+}
+.customer-message-list li.message-li-info p:nth-of-type(1) {
+    width: 140px;
+    float: left;
+    word-break: break-all;
+}
+.customer-message-list li.message-li-info p:nth-of-type(2) {
+    float: right;
+    word-break: break-all;
+}
+.customer-message-list .message-list-view-container {
+    position: relative;
+}
+.customer-message-list .message-list-view-container::before {
+    content: '';
+    width: 232px;
+    height: 1px;
+    background-color: #ddd;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.customer-message-list .message-list-view {
+    height: 790px;
+    overflow-y: scroll;
+    padding-right: 10px;
+}
+.customer-chat-box {
+    margin-left: 280px;
+}
+.customer-message-list .more-msg-list {
+    color: #4D7BFE;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.date-type-select .message-status-select {
+    margin: 4px 0 0 8px;
+    width: 120px;
+}
+.mail-href {
+    cursor: pointer;
+    color: #4D7BFE;
+}
+.message-sort-icons {
+    position: relative;
+    cursor: pointer;
+}
+.message-caret-up {
+    position: absolute;
+    bottom: 11px;
+    right: 80px;
+    font-size: 12px;
+}
+.message-caret-down {
+    position: absolute;
+    bottom: 1px;
+    right: 80px;
+}
+.customer-message-list .message-collapse-container {
+    position: relative;
+}
+.customer-message-list .message-collapse-container::before {
+    content: '';
+    width: 232px;
+    height: 1px;
+    background-color: #ddd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 55;
+}
+.message-collapse {
+    cursor: pointer;
+    list-style: none;
+    height: 790px;
+    overflow-y: scroll;
+    padding-right: 10px;
+    font-size: 13px;
+    position: relative;
+}
+.message-collapse-list {
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+    border-bottom: none;
+    background-color: #fafafa;
+}
+.message-collapse-content {
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: #fff;
+    border-top: 1px solid #d9d9d9;
+    transition: height .3s;
+}
+.message-collapse-content.message-collapse-content-inactive {
+    height: 0;
+    border: none;
+}
+.message-collapse-item {
+    border-bottom: 1px solid #d9d9d9;
+}
+.message-collapse .message-collapse-header {
+    line-height: 22px;
+    padding: 12px 0 12px 40px;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.customer-message-list .message-collapse-content li + li {
+    border-top: 1px solid #ddd;
+}
+.message-collapse .message-collapse-content li {
+    padding: 20px;
+}
+.message-collapse li.message-li-info {
+    overflow: hidden;
+}

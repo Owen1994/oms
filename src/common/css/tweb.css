@@ -1,0 +1,112 @@
+.tweb-list-filter-item {
+    position: relative;
+    padding-left: 115px;
+    line-height: 24px;
+}
+
+.tweb-list-filter-item-title {
+    width: 110px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.tweb-list-filter-item-title.top7 {
+    top: 7px;
+}
+
+.tweb-choice-select {
+    margin-bottom: 10px;
+}
+.tweb-choice-select-n.ant-select {
+    width: 100px;
+    margin-right: 20px;
+}
+.tweb-choice-select-v.ant-select {
+    width: 344px;
+}
+.tweb-choice-list-add {
+    color:#4D7BFE;
+    font-size: 12px;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+.tweb-choice-select-del {
+    padding: 10px;
+    cursor:pointer;
+}
+
+.publish-batch-import .ant-steps-item-content{
+    padding-left: 30px;
+    text-align: left;
+}
+.publish-batch-import .ant-steps-item-title{
+    font-size: 12px;
+}
+/* .publish-batch-import .tweb-list-filter-item-title {
+    top: 7px;
+} */
+.publish-batch-import .red{
+    color:red;
+}
+.publish-batch-upload-com {
+    padding-left:117px;
+}
+.publish-batch-upload-com-btn {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color:#fff;
+    background-color: #4D7BFE;
+    border-radius:4px;
+    position: relative;
+    cursor: pointer;
+}
+.publish-batch-upload-com-btn input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    cursor: pointer;
+}
+.publish-batch-import-result {
+    height: 268px;
+    position: relative;
+}
+.publish-batch-import-result i {
+    margin: 20px auto;
+    width: 100px;
+    display: block;
+    font-size: 100px;
+}
+.publish-batch-import-success {
+    color: #4D7BFE;
+}
+.publish-batch-import-result p {
+    width: 100%;
+    text-align: center;
+    color: #4D7BFE;
+    font-size: 24px;
+}
+.publish-batch-import-success:hover {
+    color: #4D7BFE;
+}
+.publish-batch-buttons {
+    width: 459px;
+    text-align: right;
+}
+
+
+
+.ant-table-body tr.ant-table-row td {
+    word-wrap:break-word;
+    word-break: break-all;
+}

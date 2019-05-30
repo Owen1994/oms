@@ -1,0 +1,96 @@
+.organheight100{
+    height: 100%;
+}
+
+.organallLeft{
+    position: absolute;
+    width:305px;
+    height: 100%;
+    top: 49px;
+    left: 15px;
+    background: #fff;
+    z-index: 1;
+    box-shadow: 0 0 5px #ddd;
+}
+.organallLeft .top{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height:40px;
+    padding:0px 10px;
+}
+.organallLeft .top .toplf{width: 4px; height: 16px; margin-top:10px; float:left; background: #4D7BFE; border-radius: 2px;}
+.organallLeft .top .toprt{float:left; line-height: 40px; margin-left:10px; color: #666666; font-size: 14px;}
+.organallLeft .cen{
+    height: 100%;
+    padding:40px 0px 50px 10px;
+}
+.organallLeft .cen .centree {
+    height: 100%;
+    overflow: auto;
+}
+.organallLeft .tit{ 
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    width: 100%;
+    height: 38px; 
+    background: #F2F2F5; 
+    color: #666; 
+    font-size: 14px; 
+    text-align: center; 
+    line-height: 38px;
+}
+
+.organallright{
+    position: absolute;
+    left: 0px;
+    top: 49px;
+    width: 100%;
+}
+.organallright .organtop{
+    background: #fff;
+    margin-left: 335px;
+    margin-right: 15px;
+    box-shadow: 0 0 5px #ddd;
+}
+.organallright .organtop .organtype{ padding:15px 0px 0px 20px;  overflow: hidden;}
+.organallright .organtop .organtype .typetit{color: #333; font-size: 12px; float:left; width: 60px; height:24px; line-height:24px;}
+.organallright .organtop .organtype .typetab{ float:left; width: 92px; height:24px; padding: 0px; border-radius: 0px; font-size: 12px; margin-right:0px; line-height:22px; text-align: center; border: 1px solid #ddd; margin-left:20px;}
+.organallright .organtop .organtype .mglf0{margin-left:0px;}
+
+.organallright .organtop .organcenter{ overflow: hidden; padding:20px 0px 20px 20px;}
+.organallright .organtop .organcenter .ant-form-item-control-wrapper{width: 100%}
+.organallright .organtop .organcenter .typetit{color: #333; font-size: 12px; float:left; width: 60px; height:24px; line-height:24px;}
+.organallright .organtop .organcenter .typenr{width:286px;  float:left;}
+.organallright .organtop .organcenter .typebtn{margin:3px 0px 3px 30px;float: left;}
+
+.organtable{
+    margin-top: 15px;
+    margin-left: 335px;
+    margin-right: 15px;
+    background: #fff;
+}
+.organtable .organtableall{margin:0px; box-shadow: 0 0 5px #ddd;}
+.organtableall .rightbtn{text-align: right; line-height: normal; padding:10px 10px 0px 10px;}
+.organtablecen{padding: 10px 10px 10px 10px;}
+.organtype .ant-tag-checkable-checked{background-color: #4D7BFE}
+
+.tablelisall{width:120px; margin: auto; text-align: left;color:#999;}
+.tipname{color: #333;}
+.tablelisall2{width:160px; margin: auto; text-align: left;color:#999;}
+.tablelisall3{width:180px; margin: auto; text-align: left;color:#999;}
+.tablelisall .tipcolor{width:36px;}
+.tablelisall2 .tipcolor2{width:66px;}
+.tablelisall3 .tipcolor3{width:48px;}
+.tablelisall .tipname{text-align: left; width: 84px; display: inline-flex}
+.tablelisall3 .tipname{text-align: left; width: 132px; display: inline-flex}
+.centree img{line-height:24px;vertical-align:sub}
+.centree .ant-tree li .ant-tree-node-content-wrapper{color:#333333;}
+.centree .ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected{background-color:#fff; color: #4D7BFE}
+.centree .ant-tree li .ant-tree-node-content-wrapper:hover{background-color:#fff; color:#4D7BFE }
+
+
+
+

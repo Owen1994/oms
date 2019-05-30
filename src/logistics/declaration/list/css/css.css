@@ -1,0 +1,250 @@
+.lgt-dlt-common_font{
+    color: #333;
+    font-size: 16px;
+}
+.lgt-dlt-common_btn{
+    color: #4D7BFE;
+    cursor: pointer;
+}
+.lgt-dlt-list_container,
+.lgt-dlt-list_container .breadcrumb{
+    background-color: #fff;
+}
+.lgt-dlt-list_container .babel{
+    color: #333
+}
+.lgt-dlt-list_underline{
+    height: 0;
+    border-top: 1px solid #EAE9E9;
+    margin-top: -10px;
+}
+.lgt-dlt-list_search_condition .ant-row{
+    width: 100%;
+}
+.lgt-dlt-list_search_condition .ant-row .ant-form-item-label{
+    color: #333;
+    font-weight: 700;
+    line-height: 32px;
+}
+.lgt-dlt-list_search_condition .ant-row .ant-form-item-control{
+    line-height: 32px;
+}
+.lgt-dlt-list_search_condition .ant-form-item-label label:after{
+    content: "：";
+}
+.lgt-dlt-list_search_condition .ant-row .ant-input{
+    width: 320px;
+}
+.merge_dec_text{
+    font-size: 14px;
+    color: #333;
+}
+.merge_dec_text .anticon-info-circle{
+    color: #4D7BFE;
+}
+.lgt-dlt-list_merge_dec_modal .merge_dec_text .anticon{
+    margin-right: 5px;
+    font-size: 16px;
+    color: #4D7BFE;
+    vertical-align: text-bottom;
+}
+
+/* tablist */
+.lgt-dlt-list_table .ant-dropdown .ant-dropdown-menu{
+    margin-left: 0;
+}
+
+/* tablelist 组件气泡框样式 */
+.ant-popover-placement-bottomRight{
+    padding-top: 3px;
+    color: #666;
+}
+.ant-popover-placement-bottomRight .ant-popover-inner-content{
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 12px;
+}
+.ant-popover-inner-content .lgt-dlt-list_popoverContent p:hover{
+    color: #4D7BFE;
+}
+.ant-popover-placement-bottomRight .ant-popover-inner-content,
+.ant-popover-placement-bottomRight .ant-popover-arrow{
+    background-color: #fff;
+}
+.ant-popover-placement-bottomRight > .ant-popover-content > .ant-popover-arrow{
+    top: -4px;
+    border-color: transparent transparent #ddd transparent;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+/* tablelist 上传文件组件样式覆写 */
+.temp_download{
+    padding-left: 10px;
+}
+.temp_upload>span{
+    display: block;
+    overflow: hidden;
+}
+.temp_upload>span>.ant-upload-select-text,
+.temp_upload>span>.ant-upload-list-text{
+    float: left;
+}
+.temp_upload>span>.ant-upload-list-text .ant-upload-list-item-info{
+    padding-right: 24px;
+}
+/* tablelist步骤条样式覆写 */
+.ant-steps-small .ant-steps-item-icon{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    background-color: #999;
+    border: 1px solid #DDE0FF;
+}
+.ant-steps-item-finish .ant-steps-item-icon{
+    background-color: #4D7BFE;
+    border: 1px solid #DDE0FF;
+}
+.ant-steps-item{
+    padding: 0 45px 20px;
+}
+.ant-steps-item > .ant-steps-item-content{
+    position: relative;
+}
+
+.ant-steps-item > .ant-steps-item-content > .ant-steps-item-title{
+    font-size: 12px;
+    position: absolute;
+    top: 20px;
+    left: -75px;
+    color: #999;
+    width: 120px;
+    text-align: center;
+}
+.ant-steps-item > .ant-steps-item-content >.ant-steps-item-title:after{
+    height: 5px;
+    left: 80px;
+    top: -13px;
+}
+.ant-steps-item-finish > .ant-steps-item-content > .ant-steps-item-title{
+    color: #4D7BFE;
+}
+.ant-steps-item-finish > .ant-steps-item-content > .ant-steps-item-title:after{
+    background-color: #4D7BFE;
+}
+.ant-steps-small .ant-steps-item-title:after{
+    top: 10px;
+    background-color: #5658B9;
+}
+.ant-steps-item-process > .ant-steps-item-content > .ant-steps-item-title:after{
+    background-color: #ddd;
+}
+.ant-steps-item .ant-steps-item-icon > .ant-steps-icon{
+    color: #fff;
+}
+.ant-steps-small.ant-steps-horizontal:not(.ant-steps-label-vertical) .ant-steps-item {
+    margin-right: -30px;
+}
+
+/* 导入组件样式 */
+.tweb-upload{
+    color: #333;
+}
+.tweb-upload .temp_download,
+.tweb-upload .files_type{
+    padding-left: 12px;
+}
+.tweb-upload .temp_download i{
+    margin-right: 5px;
+}
+.tweb-upload .temp_upload{
+    padding-left: 12px;
+}
+.tweb-upload .temp_upload .ant-upload,
+.tweb-upload .temp_upload .ant-upload-list-item{
+    float: left;
+}
+.tweb-upload .temp_upload .ant-upload-list-item{
+    margin-top: 4px;
+}
+.tweb-upload .temp_upload .ant-upload .ant-btn{
+    height: 30px;
+    line-height: 30px;
+    background-color: #4D7BFE;
+    color: #fff;
+}
+.tweb-upload_success,
+.tweb-upload_failed{
+    text-align: center;
+}
+.tweb-upload_success .tweb-upload_success_icon,
+.tweb-upload_failed .tweb-upload_failed_icon{
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: #4D7BFE;
+}
+.tweb-upload_failed .tweb-upload_failed_icon{
+    background-color: #F56A00;
+}
+.tweb-upload_success .tweb-upload_success_icon .anticon-check:before,
+.tweb-upload_failed .tweb-upload_failed_icon .anticon-close:before {
+    color: #fff;
+    line-height: 78px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.tweb-upload_success .tweb-upload_success_text,
+.tweb-upload_failed .tweb-upload_failed_text{
+    font-size: 24px;
+    color: #4D7BFE;
+}
+.tweb-upload_failed .tweb-upload_failed_text{
+    color: #F56A00;
+}
+.tweb-upload_failed_btns .ant-btn-primary{
+    background-color: #F56A00;
+    border-color: #F56A00;
+}
+.temp_upload .next_btn{
+    margin-top: 20px;
+}
+
+/* 表格自定义样式 */
+.logistics_info .name,
+.process-info .name,
+.process-info .name1
+{
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+.process-info .name{
+    width: 50px;
+}
+
+/* confirm 提示窗*/
+.ant-confirm-body .ant-confirm-content{
+    margin-left: 0;
+}
+/* FBA物流计划单样式 */
+.lgt-fba_logistics_plan{
+    color: #333;
+}
+.lgt-fba_logistics_plan .ant-table table{
+    text-align: center;
+    color: #333;
+}
+.lgt-fba_logistics_plan .table-header-scroll{
+    /*max-height: 200px;*/
+    /*overflow-y: scroll;*/
+}
+
+/* 审核模态框样式 */
+.audit-confirm .ant-modal-content .ant-modal-close{
+    display: block;
+}

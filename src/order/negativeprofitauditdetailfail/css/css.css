@@ -1,0 +1,148 @@
+.content .ant-form-item-children .ant-input {
+    padding-left: 5px;
+}
+
+.editableInput .ant-form-item-children .ant-input {
+    border: 1px solid #d9d9d9 !important;
+    padding-left: 5px !important;
+}
+
+.deliveryParcel .ant-form-item-children .ant-input {
+    border: none;
+    outline: none;
+    padding-left: 0px;
+}
+
+.deliveryParcel .ant-form-item-children .ant-input[disabled] {
+    background-color: #fff;
+    cursor: default;
+    overflow:hidden; 
+    text-overflow:ellipsis;
+    white-space:nowrap; 
+}
+.deliveryParcel .ant-form-item-children .ant-input-group-addon {
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.deliveryParcel  .ant-form-item-children .ant-input:focus{
+    box-shadow: none;
+}
+.deliveryParcel .ant-select-disabled .ant-select-selection {
+    cursor: default;
+    background-color: #fff;
+    border: none;
+}
+.deliveryParcel .ant-select-disabled .ant-select-selection .ant-select-arrow{
+    display: none;
+}
+.profit .profit-title{
+    padding: 8px 5px;
+}
+.profit .ant-form .content .ant-row{
+    padding: 8px 0px;
+}
+.profit .ant-form .content .padding-right{
+    width: 100%;
+    padding-right: 10px;
+}
+.font-lg-weight{
+    line-height: 20px;
+    height: 20px;
+}
+/* .cl-warehouse .ant-form-item-control,
+.cl-warehouse .ant-form-item-label,
+.cl-warehouse .ant-input {
+    height: 15px;
+    line-height: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 0;
+}
+.cl-warehouse .ant-row .ant-col-6,
+.cl-warehouse .ant-row .ant-col-24{
+    height: 15px;
+    line-height: 15px;
+} */
+.newClue .deliveryParcel .title {
+    padding-left: 10px;
+    height: 44px;
+    line-height: 44px;
+    color: #333;
+}
+
+.pr {
+    position: relative;
+}
+.flex-btn {
+    position: absolute;
+    top: 7px;
+    right: 20px;
+    font-size: 12px;
+}
+.exc-isHide {
+    display: none;
+}
+.sku-flex{
+    display: flex;
+    display: -webkit-flex;
+}
+.sku-left{
+    text-align: right;
+    width: 75px;
+    display: block;
+}
+.sku-font{
+    display: block;
+    width: 70%;
+}
+.oms-order-log{
+    margin-bottom: 50px;
+}
+.title .editable-add-btn{
+    position: absolute;
+    top: 7px;
+    right: 20px;
+}
+.newCluenk .content .widthAll {
+    width: 100% !important;
+}
+.auditmodal-p{
+    padding: 0 30px;
+    color: red;
+}
+
+/* 审核弹窗 */
+.auditmodal-result{
+    margin: 20px 0 !important;
+    display: flex;
+    align-items: center;
+}
+.auditmodal-result .ant-form-item-children{
+    display: flex;
+}
+.auditmodal-result #auditStatus{
+    min-width: 150px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.auditmodal-div{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+.auditmodal-span{
+    display: inline-block;
+}
+.auditmodal-span::before{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    content: '*';
+    color: red;
+}
+#revokeType{
+    width: 100%;
+}

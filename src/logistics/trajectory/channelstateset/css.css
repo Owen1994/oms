@@ -1,0 +1,13 @@
+.channel-state-key-word {
+    /*white-space:normal;*/
+    word-break:break-all;
+    word-wrap:break-word;
+}
+
+.channel-state-table .ant-table-tbody > tr > td {
+    text-align: center;
+}
+
+.channel-state-bounced .ant-tooltip-arrow{
+    border-style: none !important;
+}

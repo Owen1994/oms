@@ -1,0 +1,20 @@
+.ant-pagination.upload-logs-pagination {
+    padding-top: 15px;
+    float: right;
+}
+.customer-uploadpaypal-btn {
+    text-align: right;
+    margin: 5px 0 20px 0;
+}
+.import-succ {
+    color: #419D19;
+}
+.import-fail {
+    color: #FF0000;
+}
+.import-ing {
+    color: #F4951A;
+}
+.import-part {
+    color: #F4951A;
+}

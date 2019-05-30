@@ -1,0 +1,149 @@
+/* containers index */
+.npd-project-tablelist{
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+/* component Options */
+.npd-project-options .npd-inline-block{
+    display: inline-block;
+    color: #4D7BFE;
+    cursor: pointer;
+}
+.npd-project-options .npd-vertical-moulding{
+    margin: 0 10px;
+    vertical-align: text-bottom;
+    color: #4D7BFE;
+}
+
+/* component Tablelist */
+.npd-project-info .npd-clear{
+    clear: both;
+}
+.npd-project-info .npd-title{
+    float: left;
+    width: 33%;
+    text-align: right;
+}
+.npd-project-info .npd-content{
+    float: left;
+    /* width: 55%; */
+    display: inline-flex;
+    text-align: left;
+}
+.npd-project-info .npd-title4{
+    float: left;
+    width: 60px;
+    text-align: right;
+}
+
+.npd-project-table{
+    padding: 10px 10px 0;
+}
+
+/* component TableOption */
+.npd-project-table-option{
+    overflow: hidden;
+    padding: 10px 10px 0 0;
+    /* border-bottom: 1px solid #EAE9E9; */
+}
+
+/* component BtnSearch */
+.npd-project-btn-search{
+    margin-top: 87px;
+    overflow: hidden;
+    clear: both;
+    margin: 6px 0 20px 220px;
+}
+.npd-project-btn-search button{
+    margin-left: 10px;
+    min-width: 80px;
+}
+
+/* component DefaultSearch */
+.npd-project-defaultSearch{
+    padding-bottom: 7px;
+    overflow: hidden;
+}
+.npd-project-defaultSearch .ant-tag-checkable-checked {
+    background-color: #4D7BFE;
+}
+/* tabSearch begin */
+.npd-project-search{
+    padding-top: 2px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.npd-project-search .npd-project-tabSearch{
+    position: absolute;
+    width: 120px;
+    top: 10px;
+    right: 10px;
+    z-index: 0;
+}
+
+/* component Search */
+.npd-radioButton{
+    width: 92px;
+    text-align: center;
+}
+.npd-project-search .npd-project-textSearch .ant-radio-button-wrapper-checked, .npd-project-search .npd-project-tabSearch .ant-radio-button-wrapper-checked{
+    background-color: #4D7BFE !important;
+    color: #ffffff !important;
+}
+.npd-project-btnSearch{
+    width: 504px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: right;
+}
+.npd-project-btnSearch button{
+    margin-left: 10px;
+}
+/* component TextSearch */
+.npd-project-textSearch{
+    width: 100%;
+    background-color: #fafafa;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #EAE9E9;
+    border-top: 1px solid #EAE9E9;
+    overflow: hidden;
+}
+.npd-project-textSearch .standard-form-row{
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.npd-project-heightSearch{
+    overflow: hidden;
+}
+.npd-project-heightSearch .standard-form-row{
+    overflow: hidden;
+    margin-top: 14px;
+}
+
+.npd-project-search .standard-form-row .ant-form-item-control .ant-select{
+    width: 344px !important;
+}
+
+/* component Adddetail */
+.npd-project-adddetail  .ant-form-item-control{
+    line-height: 0;
+}
+.npd-project-adddetail  .ant-form-item-label{
+    line-height: 0;
+}
+.npd-project-adddetail  .ant-form-item-label > label {
+    line-height: 32px;
+}
+.npd-project-adddetail  .ant-row.ant-form-item{
+    margin-bottom: 20px;
+}
+.npd-project-adddetail  .ant-row.ant-form-item:last-child{
+    margin-bottom: 0;
+}

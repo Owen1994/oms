@@ -1,0 +1,31 @@
+.refund-tabs .breadcrumb {
+    box-shadow: none;
+}
+.refund-tabs .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    border-radius: 0;
+    margin-right: 0;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.refund-tabs .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab + .ant-tabs-tab {
+    border-left: 0;
+}
+.refund-tabs .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    position: relative;
+}
+.refund-tabs .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active::after {
+    width: 100%;
+    height: 2px;
+    background-color: #4D7BFE;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.refund-tabs .ant-tabs-bar {
+    margin-bottom: 0;
+}
+.refund-no-data {
+    border: 1px solid #EAE9E9;
+    padding: 20px;
+}

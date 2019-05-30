@@ -1,0 +1,199 @@
+/*.lgt-customs_set_btns .modify{*/
+    /*color:#000 !important;*/
+/*}*/
+.pbh-tle-list_container .lgt-customs_set_btns span{
+    cursor: pointer;
+    color:#4D7BFE;
+}
+/*弹窗样式*/
+.ebay-tpe-modal{
+    width:1140px !important;
+    height: auto;
+}
+.ebay-tpe-modal{
+    padding: 10px 0;
+}
+.ebay-tpe-modal .product-desc-editor{
+    /*width:666px;*/
+    margin-left: 160px;
+    margin-top: -29px;
+    margin-right: 100px;
+    border: 1px solid #d9d9d9;
+}
+.ebay-tpe-modal .product-desc-editor textarea{
+    width:100%;
+    border: 1px solid #d9d9d9;
+}
+.line-height{
+    line-height: 40px;
+}
+.ebay-tpe-modal-payment{
+    width:635px !important;
+    height: auto;
+}
+.publish-search .list-filter-item > .list-filter-input{
+    width: 360px !important;
+}
+.publish-search .margin-template-left{
+    margin-left: -13px;
+}
+.ebay-tpe-modal .product-desc-editor{
+    margin-left: 160px;
+    margin-top: -30px;
+    margin-right: 100px;
+    border: 1px solid #d9d9d9;
+    position: relative;
+}
+.ebay-tpe-modal .product-desc-editor .editor_html{
+    position: absolute;
+    z-index: 9;
+    height: 500px;
+    top: 92px;
+    width: 100%;
+    border-radius: 0;
+    display: block;
+}
+.ebay-tpe-modal .product-desc-editor .editor_html .ant-row.ant-form-item,
+.ebay-tpe-modal .product-desc-editor .editor_html .ant-form-item-control-wrapper,
+.ebay-tpe-modal .product-desc-editor .editor_html .has-success,
+.ebay-tpe-modal .product-desc-editor .editor_html .ant-form-item-children,
+.ebay-tpe-modal .product-desc-editor .editor_html .ant-form-item-control,
+.ebay-tpe-modal .product-desc-editor .editor_html textarea.ant-input
+{
+    height: 100%!important;
+    width: 100%!important;
+    font-size: 14px;
+    border: none;
+}
+.ebay-tpe-modal .product-desc-editor .editor_html textarea.ant-input{
+    padding: 15px
+}
+.ebay-tpe-modal .product-desc-editor .edit-html{
+    pointer-events: visible;
+    position: relative;
+    z-index: 10;
+}
+.cl_pagination  .ant-select, .cl_pagination .ant-cascader-picker{
+    width:30%;
+}
+.cl_pagination .ant-pagination-options{
+    margin-left: -50px;
+    width:35%
+}
+.template-tab .ant-tabs-bar{
+    background: #fff;
+    margin: 0 !important;
+}
+.template-tab .search{
+    background: #fff;
+}
+.list-filter-item-templateName{
+    background: #fafafa;
+    border-top: 1px #EAE9E9 solid;
+    border-bottom: 1px #EAE9E9 solid;
+    margin: 10px;
+    padding:10px 0;
+}
+.publich-modal{
+    margin-left: -21px;
+}
+.publich-modal .ant-radio-wrapper{
+    margin-left: 5px;
+}
+.publish-standardFormRow .standard-form-row .items{
+    float: left;
+    display: block;
+    width: auto;
+}
+.publish-template-transport .list-filter-flex{
+    display: flex;
+}
+/*.publish-template-transport .shippingService-width{*/
+    /*width:490px*/
+/*}*/
+.publish-template-transport .shippingService-sm-width{
+    width:50px
+}
+.publish-template-transport  .shippingService-sm-margin-left{
+    margin-left:-55px
+}
+.publish-template-transport .shippingServiceCost-width{
+    width:45px
+}
+.publish-template-transport .shippingServiceCost-margin-left{
+    margin-left:-65px
+}
+.publish-template-transport .shippingServiceAdditionalCost-width{
+    width:65px
+}
+.publish-template-transport  .shippingServiceAdditionalCost-margin-left{
+    margin-left:-45px
+}
+.publish-template-transport .dynamic-delete-button{
+    position: relative;
+    font-size: 24px;
+    top: 7px;
+    left: 20px;
+    display: block;
+}
+/*.publish-template-transport .publish-template-transport-margin-left{*/
+    /*margin-left: 40px;*/
+/*}*/
+/*.publish-template-transport .publish-template-transport-dispatch-margin-left{*/
+    /*margin-left: 55px;*/
+/*}*/
+.publish-template-transport .cursor{
+    cursor:pointer;
+    color:#4D7BFE
+}
+/*.publish-template-transport .shipToLocationType,*/
+/*.publish-template-transport .packagingHandlingCosts,*/
+/*.publish-template-transport .internationalPackagingHandlingCosts{*/
+    /*margin-left: 20px;*/
+/*}*/
+/*.publish-template-transport .shipToLocationsType-margin-left{*/
+    /*margin-left: 52px;*/
+/*}*/
+.publish-template-transport .shipToLocationsArr{
+    margin: 15px 113px;
+}
+.shipToLocationsArr .ant-checkbox-wrapper{
+    margin: 10px 5px 10px 0px;
+}
+.publish-template-transport .outTransportAddressList{
+    margin: 15px 114px;
+}
+.publich-describe .ant-form-item-children{
+    top:-10px;
+}
+.publish-template-transport .publish-template-transport-salestax .ant-form-item-control-wrapper{
+    width:202px !important;
+}
+.publish-template-transport .ant-table-thead > tr > th{
+    padding: 0 !important;
+    height: 35px;
+    line-height: 35px;
+}
+.pbh-tle-list_container .tclould-tab .ant-tabs-nav .ant-tabs-tab{
+    /* width:120px; */
+}
+
+/* 模板管理-运输模板弹窗-处理花费样式 */
+.cwc-packing-count{
+    width: 100px !important;
+    display: inline-block;
+}
+.search_adjustment .ant-form-item-control-wrapper {
+    padding-top: 5px;
+}
+
+.search_adjustment .ant-form-item-control-wrapper .ant-form-item-control {
+    height: 39px !important;
+}
+
+.search_adjustment_button {
+    bottom: 1px;
+}
+.yks-erp-pub-tem-tab .ant-tabs-nav .ant-tabs-tab{
+    width: 156px;
+}

@@ -1,0 +1,597 @@
+{
+  "operator": "yangbo",
+  "pwd": "com.yks.urc.",
+  "ticket": "3e4708434d21374bfcca20b3a6870bf9",
+  "funcVersion": "718f4d07a1b07fb497250c3f1dc5a4a6",
+  "data": [
+    {
+      "apiUrlPrefix": ["/irp/api/"],
+      "system": {
+        "key": "007",
+        "name": "知产",
+        "url": "/compliance/"
+      },
+      "menu": [
+        {
+          "key": "007-000002",
+          "name": "基础设置",
+          "url": "/compliance/",
+          "module": [
+            {
+              "key": "007-000002-000001",
+              "name": "商标商品分类",
+              "url": "/compliance/setting/trademark/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "007-000002-000001-001",
+                  "name": "查看",
+                  "url": [
+                    "/irp/api/trademark/list"
+                  ]
+                }, {
+                  "key": "007-000002-000001-002",
+                  "name": "编辑",
+                  "url": [
+                    "/irp/api/trademark/edit"
+                  ]
+                }
+              ],
+              "module": []
+            },{
+              "key": "007-000002-000002",
+              "name": "知产代码设置",
+              "url": "/compliance/setting/riskcode/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "007-000002-000002-001",
+                  "name": "查看",
+                  "url": [
+                    "/irp/api/intellectualCode/List/list"
+                  ]
+                },{
+                  "key": "007-000002-000002-002",
+                  "name": "新增/编辑",
+                  "url": [
+                    "/irp/api/intellectualCode/Edit/edit"
+                  ]
+                },{
+                  "key": "007-000002-000002-003",
+                  "name": "删除",
+                  "url": [
+                    "/irp/api/intellectualCode/Delete/delete"
+                  ]
+                }
+              ],
+              "module": []
+            },{
+              "key": "007-000002-000003",
+              "name": "图形分类设置",
+              "url": "/compliance/setting/trademarkclass/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "007-000002-000003-001",
+                  "name": "查看",
+                  "url": [
+                    "/irp/api/figureCategory/List/list"
+                  ]
+                },{
+                  "key": "007-000002-000003-002",
+                  "name": "新增/编辑",
+                  "url": [
+                    "/irp/api/figureCategory/Edit/edit"
+                  ]
+                },{
+                  "key": "007-000002-000003-003",
+                  "name": "删除",
+                  "url": [
+                    "/irp/api/figureCategory/Delete/delete"
+                  ]
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "007-000002-000004",
+              "name": "特批销售账号",
+              "url": "/compliance/setting/permitSaleAccount/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "007-000002-000004-001",
+                  "name": "查看",
+                  "url": [
+                    "/irp/api/permitSaleAccount/List/list",
+                    "/irp/api/GetPermitSaleAccountDetail/getPermitSaleAccountDetail"
+                  ]
+                },{
+                  "key": "007-000002-000004-002",
+                  "name": "新增/编辑",
+                  "url": [
+                    "/irp/api/permitSaleAccount/Edit/edit"
+                  ]
+                },{
+                  "key": "007-000002-000004-003",
+                  "name": "删除",
+                  "url": [
+                    "/irp/api/permitSaleAccount/Delete/delete"
+                  ]
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "007-000002-000005",
+              "name": "审核人员设置",
+              "url": "/compliance/setting/reviewerSetting/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "007-000002-000005-001",
+                  "name": "查看",
+                  "url": [
+                    "/irp/api/reviewerSetting/List/list",
+                    "/irp/api/GetReviewerSettingDetail/getReviewerSettingDetail"
+                  ]
+                },{
+                  "key": "007-000002-000005-002",
+                  "name": "新增/编辑",
+                  "url": [
+                    "/irp/api/reviewerSetting/Edit/edit"
+                  ]
+                },{
+                  "key": "007-000002-000005-003",
+                  "name": "删除",
+                  "url": [
+                    "/irp/api/reviewerSetting/Delete/delete"
+                  ]
+                }
+              ],
+              "module": []
+            }
+          ]
+        }, {
+          "key": "007-000003",
+          "name": "知产查询",
+          "url": "/compliance/",
+          "module": [
+            {
+              "key": "007-000003-000001",
+              "name": "知产查询",
+              "url": "/compliance/query/intellctual/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "007-000003-000001-001",
+                  "name": "查看",
+                  "url": [
+                    "/irp/api/GetIntellctualRightQuery/getIntellctualRightQueryList"
+                  ]
+                }
+              ],
+              "module": []
+            }
+          ]
+        }, {
+          "key": "007-000001",
+          "name": "知产库",
+          "url": "/compliance/",
+          "module": [
+            {
+              "key": "007-000001-000001",
+              "name": "商标库",
+              "url": "/compliance/database/sensitive/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "007-000001-000001-001",
+                  "name": "查看",
+                  "url": [
+                    "/irp/api/sensitive/list",
+                    "/irp/api/GetSensitiveDetail/getSensitiveDetail",
+                    "/irp/api/GetSensitiveDetail2/getSensitiveDetail"
+                  ]
+                }, {
+                  "key": "007-000001-000001-002",
+                  "name": "新增/编辑",
+                  "url": [
+                    "/irp/api/sensitive/addOrEdit"
+                  ]
+                }, {
+                  "key": "007-000001-000001-003",
+                  "name": "启用/批量",
+                  "url": [
+                    "/irp/api/sensitive/batchOptions"
+                  ]
+                }, {
+                  "key": "007-000001-000001-004",
+                  "name": "停用/批量",
+                  "url": [
+                    "/irp/api/sensitive/batchOptions"
+                  ]
+                }, {
+                  "key": "007-000001-000001-005",
+                  "name": "数据导入",
+                  "url": [
+                    "/irp/api/sensitive/import",
+                    "/irp/api/sensitive/import/confirm"
+                  ]
+                }, {
+                  "key": "007-000001-000001-006",
+                  "name": "数据导出",
+                  "url": [
+                    "/irp/api/sensitive/import",
+                    "/irp/api/sensitive/import/confirm"
+                  ]
+                }, {
+                  "key": "007-000001-000001-007",
+                  "name": "删除/批量",
+                  "url": [
+                    "/irp/api/sensitive/batchOptions"
+                  ]
+                }
+              ],
+              "module": [
+                {
+                  "key": "007-000001-000001-000001",
+                  "name": "爬虫抓取",
+                  "url": "/compliance/database/sensitive/reptilian/",
+                  "show": 1,
+                  "function": [
+                    {
+                      "key": "007-000001-000001-000001-001",
+                      "name": "查看",
+                      "url": [
+                        "/irp/api/sensitive/reptilian/list"
+                      ]
+                    }, {
+                      "key": "007-000001-000001-000001-002",
+                      "name": "爬虫参数配置",
+                      "url": [
+                        "/irp/api/sensitive/reptilian/list"
+                      ]
+                    }
+                  ],
+                  "module": []
+                }
+              ]
+            }, {
+              "key": "007-000001-000003",
+              "name": "图形商标库",
+              "url": "/compliance/database/graphictrademark/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "007-000001-000003-001",
+                  "name": "查看",
+                  "url": [
+                    "/irp/api/GetFigureLogoPoolList/getFigureLogoPoolList",
+                    "/irp/api/GetFigureLogoPoolDetail/getFigureLogoPoolDetail",
+                    "/irp/api/GetFigureLogoPoolDetail2/getFigureLogoPoolDetail"
+                  ]
+                },{
+                  "key": "007-000001-000003-002",
+                  "name": "新增/编辑",
+                  "url": [
+                    "/irp/api/FigureLogoPoolAddOrEdit/figureLogoPoolAddOrEdit"
+                  ]
+                },{
+                  "key": "007-000001-000003-003",
+                  "name": "删除",
+                  "url": [
+                    "/irp/api/FigureLogoPoolDelete/figureLogoPoolDelete"
+                  ]
+                }
+              ],
+              "module": []
+            },{
+              "key": "007-000001-000004",
+              "name": "版权库",
+              "url": "/compliance/database/version/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "007-000001-000004-001",
+                  "name": "查看",
+                  "url": [
+                    "/irp/api/GetVersionRepositoryList/getVersionRepositoryList",
+                    "/irp/api/GetVersionRepositoryDetail/getVersionRepositoryDetail",
+                    "/irp/api/GetVersionRepositoryDetail2/getVersionRepositoryDetail"
+                  ]
+                },{
+                  "key": "007-000001-000004-002",
+                  "name": "新增/编辑",
+                  "url": [
+                    "/irp/api/VersionRepositoryAddOrEdit/versionRepositoryAddOrEdit"
+                  ]
+                },{
+                  "key": "007-000001-000004-003",
+                  "name": "删除",
+                  "url": [
+                    "/irp/api/VersionRepositoryDelete/versionRepositoryDelete"
+                  ]
+                }
+              ],
+              "module": []
+            }, {
+              "key": "007-000001-000005",
+              "name": "专利库",
+              "url": "/compliance/database/patent/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "007-000001-000005-001",
+                  "name": "查看",
+                  "url": [
+                    "/irp/api/GetPatentPoolList/getPatentPoolList",
+                    "/irp/api/GetPatentPoolDetail/getPatentPoolDetail",
+                    "/irp/api/GetPatentPoolDetail2/getPatentPoolDetail"
+                  ]
+                },{
+                  "key": "007-000001-000005-002",
+                  "name": "新增/编辑",
+                  "url": [
+                    "/irp/api/PatentAddOrEdit/patentAddOrEdit"
+                  ]
+                },{
+                  "key": "007-000001-000005-003",
+                  "name": "删除",
+                  "url": [
+                    "/irp/api/PatentDelete/patentDelete"
+                  ]
+                }
+              ],
+              "module": []
+            }, {
+              "key": "007-000001-000006",
+              "name": "平台违禁品库",
+              "url": "/compliance/database/contraband/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "007-000001-000006-001",
+                  "name": "查看",
+                  "url": [
+                    "/irp/api/GetPlatformContrabandPoolList/getPlatformContrabandPoolList",
+                    "/irp/api/GetPlatformContrabandPoolDetail/getPlatformContrabandPoolDetail",
+                    "/irp/api/GetPlatformContrabandPoolDetail2/getPlatformContrabandPoolDetail"
+                  ]
+                },{
+                  "key": "007-000001-000006-002",
+                  "name": "新增/编辑",
+                  "url": [
+                    "/irp/api/PlatformContrabandAddPoolOrEdit/platformContrabandAddPoolOrEdit"
+                  ]
+                },{
+                  "key": "007-000001-000006-003",
+                  "name": "删除",
+                  "url": [
+                    "/irp/api/PlatformContrabandPoolDelete/platformContrabandPoolDelete"
+                  ]
+                }
+              ],
+              "module": []
+            }, {
+              "key": "007-000001-000007",
+              "name": "平台认证库",
+              "url": "/compliance/database/authentication/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "007-000001-000007-001",
+                  "name": "查看",
+                  "url": [
+                    "/irp/api/GetPlatformAuthenticationPoolList/getPlatformAuthenticationPoolList",
+                    "/irp/api/GetPlatformAuthenticationPoolDetail/getPlatformAuthenticationPoolDetail",
+                    "/irp/api/GetPlatformAuthenticationPoolDetail2/getPlatformAuthenticationPoolDetail"
+                  ]
+                },{
+                  "key": "007-000001-000007-002",
+                  "name": "新增/编辑",
+                  "url": [
+                    "/irp/api/PlatformAuthenticationAddPoolOrEdit/platformAuthenticationAddPoolOrEdit"
+                  ]
+                },{
+                  "key": "007-000001-000007-003",
+                  "name": "删除",
+                  "url": [
+                    "/irp/api/platformAuthenticationPoolDelete/platformAuthenticationPoolDelete"
+                  ]
+                }
+              ],
+              "module": []
+            }, {
+              "key": "007-000001-000002",
+              "name": "已审SKU库",
+              "url": "/compliance/database/sku/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "007-000001-000002-001",
+                  "name": "查看",
+                  "url": [
+                    "/irp/api/sku/list",
+                    "/irp/api/GetSensitiveSkuDetail/getSensitiveSkuDetail",
+                    "/irp/api/GetSensitiveSkuDetail2/getSensitiveSkuDetail"
+                  ]
+                }, {
+                  "key": "007-000001-000002-002",
+                  "name": "新增/编辑",
+                  "url": [
+                    "/irp/api/sku/addOrEdit"
+                  ]
+                }, {
+                  "key": "007-000001-000002-003",
+                  "name": "启用/批量",
+                  "url": [
+                    "/irp/api/sku/batchOptions"
+                  ]
+                }, {
+                  "key": "007-000001-000002-004",
+                  "name": "停用/批量",
+                  "url": [
+                    "/irp/api/sku/batchOptions"
+                  ]
+                }, {
+                  "key": "007-000001-000002-005",
+                  "name": "数据导入",
+                  "url": [
+                    "/irp/api/sku/import",
+                    "/irp/api/sku/import/confirm"
+                  ]
+                }, {
+                  "key": "007-000001-000002-006",
+                  "name": "数据导出",
+                  "url": [
+                    "/irp/api/sku/export"
+                  ]
+                }, {
+                  "key": "007-000001-000002-007",
+                  "name": "操作日志",
+                  "url": [
+                    "/irp/api/sku/log"
+                  ]
+                }
+              ],
+              "module": [
+                {
+                  "key": "007-000001-000002-000001",
+                  "name": "按条件获取",
+                  "url": "/compliance/database/sku/conditionmenu/",
+                  "show": 1,
+                  "function": [
+                    {
+                      "key": "007-000001-000002-000001-001",
+                      "name": "查看",
+                      "url": [
+                        "/irp/api/GetConditionsMenuList/getConditionsMenuList",
+                        "/irp/api/GetConditionMenuDetail/getConditionMenuDetail",
+                        "/irp/api/GetConditionMenuDetail2/getConditionMenuDetail"
+                      ]
+                    }, {
+                      "key": "007-000001-000002-000001-002",
+                      "name": "新增",
+                      "url": [
+                        "/irp/api/ConditionsMenuAddOrEdit/conditionsMenuAddOrEdit"
+                      ]
+                    }, {
+                      "key": "007-000001-000002-000001-003",
+                      "name": "删除",
+                      "url": [
+                        "/irp/api/ConditionMenuDelete/conditionMenuDelete"
+                      ]
+                    }
+                  ],
+                  "module": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "007-000004",
+          "name": "知产处理",
+          "url": "/compliance/",
+          "module": [
+            {
+              "key": "007-000004-000002",
+              "name": "基础资料审核",
+              "url": "/compliance/handle/baseInfo/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "007-000004-000002-001",
+                  "name": "查看",
+                  "url": [
+                    "/irp/api/baseInfoReview/List/list",
+                    "/irp/api/getBaseInfoReviewDetail/Detail/detail"
+                  ]
+                }, {
+                  "key": "007-000004-000002-002",
+                  "name": "新增/审核",
+                  "url": [
+                    "/irp/api/baseInfoReview/Review/review"
+                  ]
+                }, {
+                  "key": "007-000004-000002-003",
+                  "name": "数据导出",
+                  "url": [
+                    "/irp/api/baseInfoReview/Export/export"
+                  ]
+                }, {
+                  "key": "007-000004-000002-004",
+                  "name": "操作日志",
+                  "url": [
+                    "/irp/api/baseInfoReview/Log/log"
+                  ]
+                }
+              ],
+              "module": [
+                {
+                  "key": "007-000004-000002-000001",
+                  "name": "审核",
+                  "url": "/compliance/handle/baseInfo/detail/",
+                  "show": 1,
+                  "function": [
+                    {
+                      "key": "007-000004-000002-000001-001",
+                      "name": "查看",
+                      "url": []
+                    }
+                  ],
+                  "module": []
+                }
+              ]
+            },
+            {
+              "key": "007-000004-000003",
+              "name": "listing图片审核",
+              "url": "/compliance/handle/listingImageReview/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "007-000004-000003-001",
+                  "name": "查看",
+                  "url": [
+                    "/irp/api/listingImageReview/List/list",
+                    "/irp/api/getListingImageDetail/Detail/detail"
+                  ]
+                }, {
+                  "key": "007-000004-000003-002",
+                  "name": "新增/审核",
+                  "url": [
+                    "/irp/api/listingImageReview/Review/review"
+                  ]
+                }, {
+                  "key": "007-000004-000003-003",
+                  "name": "操作日志",
+                  "url": [
+                    "/irp/api/listingImageReview/Log/log"
+                  ]
+                }
+              ],
+              "module": [
+                {
+                  "key": "007-000004-000003-000001",
+                  "name": "审核",
+                  "url": "/compliance/handle/listingImageReview/detail/",
+                  "show": 1,
+                  "function": [
+                    {
+                      "key": "007-000004-000003-000001-001",
+                      "name": "查看",
+                      "url": []
+                    }
+                  ],
+                  "module": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

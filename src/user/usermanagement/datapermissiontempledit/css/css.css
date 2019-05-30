@@ -1,0 +1,72 @@
+.scopeCluenk .ant-tabs-nav {
+    padding-left: 0px;
+}
+.scopeCluenk .tabTop { height:56px; margin:0px 20px;}
+.scopeCluenk .tabTop  .toplf{width: 4px; height: 14px; margin-top:20px; float:left; background: #4D7BFE;}
+.scopeCluenk .tabTop  .toprt{float:left; line-height: 53px; margin-left:5px; color: #333333; font-size: 14px;}
+.scopeCluenk  .ant-checkbox-group{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.scopeCluenk  .ant-checkbox-group .ant-col-6{
+    margin-top: 13px;
+}
+.shujufangan .areaTop{
+    margin-top: 18px;
+}
+.scopeCluenk  .maxBox{
+    margin-top: 10px;
+    padding-bottom: 40px;
+} 
+.scopeCluenk  .maxBox .bottomText{
+    margin-top: 10px;
+    line-height: 24px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}  
+.scopeCluenk  .maxBox .bottomText .pt{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.scopeCluenk  .maxBox .bottomText .ptTitle{
+    font-weight: bolder !important;
+    width: 150px;
+    display: flex;
+    flex-direction:row-reverse;
+} 
+.scopeCluenk  .maxBox .bottomText .ptText{
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.scopeCluenk  .maxBox .bottomText .ptText .subAccount{
+    display: inline-block;
+}
+.scopeCluenk  .maxBox .bottomText .ptText .subAccount a{
+    cursor: default;
+}
+
+/* 特殊 */
+.modelBox{
+    top:10px;
+}
+.modelBox .ant-modal-body{
+    max-height: 500px;
+    overflow-y: auto;
+    padding: 12px;
+}
+.modelBox .ant-modal-body{
+    padding: 12px;
+}
+.modelBox .ant-modal-body .platformSite .container .ant-checkbox-wrapper{
+    display: none;
+}
+.modelBox .ant-modal-body .platformSite .margin-ss-top{
+    margin-top: 0;
+}

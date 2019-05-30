@@ -1,0 +1,119 @@
+.yks-erp-search_order .select-type .noselect-type-btn.ant-btn-primary {
+    border-radius: 4px !important;
+    margin-right: 10px;
+}
+.domestic-submit-btn {
+    width: 360px;
+    padding: 10px 0 5px 0;
+    text-align: right;
+}
+.submit-btn-pd {
+    padding-right: 60px;
+}
+.customer-submit-btns {
+    position: absolute;
+    left: 232px;
+    top: 4px;
+    width: 160px;
+}
+.customer-submit-btns.customer-submit-sm-btns {
+    left: 140px;
+    top: 2px;
+}
+.customer-submit-btns.customer-submit-md-btns {
+    left: 222px;
+    top: 2px;
+}
+.customer-submit-btns .customer-reset-btn {
+    margin-left: 10px;
+}
+.yks-erp-search_order .select-type.pdt-none {
+    padding-top: 0;
+}
+.yks-erp-search_order .select-type .computed-rule-name .ant-form-item-control-wrapper {
+    width: 200px;
+}
+.domestic-drawer .ant-drawer-content {
+    background-color: rgb(242, 242, 245);
+}
+.domestic-drawer .ant-drawer-header {
+    background-color: rgb(242, 242, 245);
+}
+.domestic-drawer .rule-chunk {
+    padding: 15px;
+    background: #fff;
+}
+.domestic-drawer .rule-chunk + .rule-chunk {
+    margin-top: 20px;
+}
+.domestic-drawer .rule-chunk > .ant-row-flex + .ant-row-flex {
+    margin-top: 6px;
+}
+.domestic-drawer .chunk-header {
+    font-size: 14px;
+    padding-left: 11px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.domestic-drawer .chunk-header::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 4px;
+    height: 14px;
+    background-color: #4D7BFE;
+    border-radius: 2px;
+}
+.domestic-drawer .pdt3 {
+    padding-top: 3px;
+}
+.domestic-drawer .pd5 {
+    padding: 5px;
+}
+.domestic-drawer .prnone {
+    padding-right: 0;
+}
+.domestic-drawer .rule-currency {
+    float: left;
+    padding: 6px;
+}
+.domestic-drawer .fix-cny-currency {
+    position: absolute;
+    left: 364px;
+    top: 3px;
+}
+.domestic-drawer .son-all-float > div {
+    float: left;
+}
+.domestic-drawer .ant-form-item .ant-form-item-control-wrapper {
+    width: 210px;
+}
+.domestic-drawer .cal-ways {
+    padding-left: 50px;
+}
+.domestic-drawer .cal-ways > div + div {
+    padding-top: 10px;
+}
+.drawer-rule-btns {
+    width: 100%;
+    padding: 20px 16px 10px 16px;
+    text-align: right;
+    background: rgb(242, 242, 245);
+    border-radius: 0 0 4px 4px;
+}
+.view-rule-drawer .rule-view-label {
+    text-align: right;
+}
+.view-rule-drawer .rule-view-label::after {
+    content: "：";
+}
+.view-rule-drawer .rule-view-label.view-isRequired::before {
+    content: "*";
+    color: red;
+    padding-right: 3px;
+}
+.computedrule-logs-pagination {
+    padding-top: 15px;
+    float: right;
+}

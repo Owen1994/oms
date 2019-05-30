@@ -1,0 +1,21 @@
+.platform-site .anticon-plus-circle-o,
+.platform-site .anticon-minus-circle-o{
+    font-size: 16px;
+    margin-top: 12px;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+.common-sensitive-platform-site .disable-container {
+    position: relative;
+}
+
+.common-sensitive-platform-site .ant-col-19 .platform-site:nth-child(n+3) {
+    position: relative;
+    left: 120px;
+}
+
+.disabled {
+    /* pointer-events: none; */
+    cursor: not-allowed!important;
+    opacity: 0.6;
+}

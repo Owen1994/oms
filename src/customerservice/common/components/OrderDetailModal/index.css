@@ -1,0 +1,26 @@
+.order-detail-modal {
+    padding: 0 20px;
+}
+.order-detail-modal .order-detail-content.order-item-red {
+    color: red;
+}
+.order-detail-modal .order-detail-content.order-item-theme {
+    color: #4D7BFE;
+    cursor: pointer;
+}
+.order-detail-modal .seperate-line {
+    height: 1px;
+    width: 100%;
+    background-color: #EAE9E9;
+    margin: 20px 0;
+}
+.order-detail-modal .order-detail-label {
+    float: left;
+    color: #333;
+}
+.order-detail-modal .order-detail-content {
+    color: #333;
+}
+.order-detail-modal .order-item {
+    padding: 3px 0;
+}

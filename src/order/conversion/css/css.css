@@ -1,0 +1,88 @@
+.top8{padding-top: 8px;}
+.newCluenk .ant-row.ant-form-item{margin-bottom: 0px;}
+.term .ant-form-item-label{
+    text-align: left;
+}
+.term .ant-form-item .ant-col-8{
+    width: auto;
+}
+.wfull .max163 {
+    max-width: 200px
+}
+
+.wfullhaha { width: 181px }
+
+.order-conversion-log .ant-table-bordered .ant-table-body > table {
+    table-layout: fixed;
+}
+.content .ant-row.ant-form-item{
+    margin-bottom: 18px;
+}
+.content .ant-row.ant-form-item:last-child{
+    margin-bottom: 0;
+}
+
+/* Search begin */
+.conversion-search{
+    overflow: hidden;
+    background-color: #ffffff;
+    position: relative;
+}
+.conversion-defaultSearch{
+    overflow: hidden;
+}
+.conversion-searchBtn{
+    margin: 10px 0;
+    width: 330px;
+    text-align: right
+}
+.conversion-searchBtn button{
+    margin-left: 10px;
+}
+.conversion-searchTab{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+.conversion-searchTab .ant-radio-button-wrapper-checked{
+    background-color: #4D7BFE !important;
+    color: #ffffff !important;
+}
+.conversion-textSearch{
+    background: #fafafa;
+    border-top: 1px #EAE9E9 solid;
+    border-bottom: 1px #EAE9E9 solid;
+}
+.conversion-textSearch > .ant-row.ant-form-item{
+    margin: 10px 0;
+}
+/* search end */
+
+.conversion-modal-content .ant-radio-checked .ant-radio-inner{
+    border-color: #4d7bfe;
+}
+.conversion-modal-content .ant-radio-checked .ant-radio-inner:after{
+    background-color: #4d7bfe;
+}
+.conversion-modal-title{
+    margin-bottom: 20px;
+}
+
+.conversion-modal-title > h3{
+    font-weight: bold;
+    color: rgba(51,51,51,1);
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.oms-conversion-optionBtn {
+    padding: 0 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pad_top_15 {
+    padding-top: 15px;
+}

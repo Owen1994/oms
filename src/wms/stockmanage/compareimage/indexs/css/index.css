@@ -1,0 +1,27 @@
+.wms-compareimage .wms-tablelist-span {
+    display: inline-block;
+    width: 65px;
+    text-align: right;
+}
+
+.wms-compareimage .wms-tablelist-span2 {
+    display: inline-block;
+    width: 85px;
+    text-align: right;
+}
+
+.wms-compareimage .priority-row {
+    background-color: #FFBCBC;
+}
+
+.wms-compareimage .table-item {
+    display: flex;
+}
+/*已对图完成的*/
+.wms-compareimage .quality-row td {
+    background-color: #51ee86 ;
+}
+
+.wms-compareimage .quality-row th {
+    background-color: #51ee86 !important;;
+}

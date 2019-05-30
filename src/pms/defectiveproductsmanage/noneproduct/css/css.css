@@ -1,0 +1,31 @@
+.buliang_warehouse_div {
+    max-width: 220px;
+    margin: 0 auto;
+}
+
+.buliang_warehouse_div p {
+    text-align: left;
+    padding: 2px 4px;
+}
+
+.buliang_warehouse_div .info-span {
+    display: inline-block;
+    width: 85px;
+    text-align: right;
+}
+
+.buliang_handle_people_div {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.buliang_handle_people_div p {
+    text-align: left;
+    padding: 2px 4px;
+}
+
+.buliang_handle_people_div .info-span {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}

@@ -1,0 +1,48 @@
+
+.wms-scandelivery .search-col {
+    overflow: hidden;
+    text-align: -webkit-center;
+}
+
+.wms-scandelivery .search-step-div {
+    position: relative;
+}
+
+.wms-scandelivery .search-step-text {
+    background: #999999;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    z-index: 10;
+}
+
+.wms-scandelivery .search-step-line-right {
+    width: 100%;
+    height: 1px;
+    background: #e8e8e8;
+    top: 50%;
+    right: 0;
+    margin-right: 25%;
+    position: absolute;
+}
+
+.wms-scandelivery .search-step-line-left {
+    width: 100%;
+    height: 1px;
+    left: 0;
+    margin-left: 25%;
+    background: #e8e8e8;
+    top: 50%;
+    position: absolute;
+}
+
+.wms-scandelivery .table-foot-div span {
+    color: red;
+    font-size: 16px;
+    margin-left: 3px;
+    margin-right: 3px;
+}

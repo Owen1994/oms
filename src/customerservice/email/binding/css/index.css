@@ -1,0 +1,59 @@
+.email-binding .ant-modal-body {
+    padding: 10px;
+}
+.email-binding-height-search{
+    overflow: hidden;
+    clear: both;
+}
+.email-binding-height-search .standard-form-row{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.email-binding-height-search .common-standard-form-row .ant-form-item-control .ant-select  {
+    width: 344px;
+}
+.email-binding-height-search .common-standard-form-row {
+    overflow: hidden;
+    margin-top: 10px;
+}
+.email-binding-log .ant-modal-body {
+    padding: 10px;
+}
+/* 邮箱绑定 */
+.binding-edit-modal .ant-modal-body {
+    padding: 12px 20px 20px 20px;
+}
+
+/* 绑定详情页 */
+.email-binding-detail .email-prefix{
+    width: 180px;
+}
+.email-binding-detail .email-at{
+    padding: 10px 5px;
+}
+.email-binding-detail .email-suffix{
+    width: 150px;
+}
+.email-binding-detail .email-binding-question{
+    padding: 8px 5px;
+    cursor: pointer;
+}
+.email-binding-detail .email-validate-code{
+    float: left;
+}
+.email-binding-detail .email-validate-code .ant-form-item-control-wrapper{
+    width: 260px;
+}
+.email-binding-detail .email-validate-code-btn{
+    float: right;
+    margin-top: 4px;
+}
+.email-binding-detail .email-validate-code-btn .ant-btn{
+    width: 110px;
+}
+.email-binding-detail .mt12 {
+    margin-top: 12px;
+}
+.email-binding-detail .mt6 {
+    margin-top: 6px;
+}

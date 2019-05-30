@@ -1,0 +1,47 @@
+.npd-sku .list-filter-item {
+    position: relative;
+    padding-left: 115px;
+    line-height: 22px;
+}
+.npd-sku .list-filter-item-title{
+    width: 110px;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 700;
+}
+.npd-sku {
+    position: relative;
+}
+.npd-sku .search-tab{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+}
+.npd-sku  .ant-radio-button-wrapper-checked {
+    background-color: #4D7BFE;
+    color: #fff;
+}
+.border-bottom {
+    border-bottom: 1px solid #EAE9E9;
+}
+.bisection-classify p{
+    padding-left: 40px;
+}
+.bisection-classify span{
+    width: 40px;
+}
+
+.bisection-product p{
+    padding-left: 38px;
+}
+.bisection-product span{
+    width: 38px;
+}
+
+.npd-sku .text-search button{
+    margin-left: -5px;
+}

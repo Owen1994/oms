@@ -1,0 +1,28 @@
+.text-search {
+    clear: both;
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    background: #fafafa;
+}
+.text-search .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.text-search .ant-radio-group-small .ant-radio-button-wrapper{
+    font-size: 12px;
+}
+.sensitive .text-search{
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    background: #fafafa;
+
+}

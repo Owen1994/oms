@@ -1,0 +1,214 @@
+
+.pr {
+    position: relative;
+}
+.pa {
+    position: absolute;
+}
+.select-all {
+    top: 15px;
+    left: 10px;
+}
+.exc-control-btn {
+    text-align: right;
+
+}
+.hover-btn button {
+    margin-left: 10px;
+}
+.exc-somehandle {
+    width: 100%;
+    height: 100%;
+    white-space:nowrap;
+
+}
+.exc-somehandle botton {
+    display: inline-block;
+}
+.exc-somehandle a {
+    display: inline-block;
+}
+.exc-somehandle .verticallinea{
+    line-height: 18px;
+    height: 18px;
+    color:#4D7BFE;
+    margin: 0 10px ;
+}
+.exc-content .ant-table-thead > tr > th.ant-table-selection-column,
+.exc-content .ant-table-tbody > tr > td.ant-table-selection-column {
+    min-width: 30px;
+    width: 30px;
+}
+.exc-autoScroll {
+    max-width: 180px;
+    max-height: 65px;
+    overflow-y: auto;
+    margin: 0 auto;
+    overflow-x: hidden;
+    word-break: break-all;
+}
+.newClue .newCluenk .exc-searchlist {
+    padding: 10px;
+}
+.exc-searchlist .basicsstyle{
+    vertical-align: middle;
+    text-align: right;
+    line-height: 39px;
+    font-size: 14px;
+    padding-right: 10px;
+    color: rgba(0, 0, 0, 0.85);
+    display: block;
+}
+.newClueTitle .ant-table table {
+    /* border-collapse: collapse; */
+    border-radius: 4px;
+}
+.newClue .accurateBox{
+    border: none;
+    margin-bottom: 0px;
+}
+.newClue .content .accurateFormItem{
+    width: 100%;
+    padding-right: 10px;
+}
+.newClue .content .textArea400{
+    width: 400px;
+}
+.pad-top-bottom8{padding: 8px 0px;}
+.pad-top-bottom8 .marginLeft20{
+    margin-left: 20px;
+}
+.newClue .content .widthAll{
+    width: 100% !important;
+}
+.newClue .content .widthAll45{
+    width: 45% !important;
+}
+.newClue .content .paddingTB5{
+    padding: 5px 0px;
+}
+.newClue .content .textRight{
+    text-align: right;
+}
+.newClue .content .formItemSpan{
+    display:inline-block;
+    text-align: center;
+    width: 10%;
+}
+.newClueTitle .newCluewk .tabsCard{
+    background-color: #fff;
+    margin-bottom: 15px;
+    border: 1px solid #e6eaee;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+/* .oms-order-saleaccount .ant-select-selection--multiple{
+    height: 32px;
+    overflow-y: scroll;
+} */
+
+.exceptionorderlist-search .ctageSearch .ant-form-item-label,
+.exceptionorderlist-search .ctageSearch .ant-form-item-control-wrapper{
+    margin: 0;
+}
+
+.exceptionorderlist-exportbtn{
+    float: right;
+    margin-right: 10px;
+}
+
+.exceptionorderlist-margin-md-right{
+    margin-right: 10px;
+}
+.order-search-labelSelect .ant-select-selection-selected-value{
+    padding-right: 0;
+}
+.order-search-labelSelect .ant-select-arrow{
+    right: 4px !important;
+}
+
+.exceptionorderlist-money-separate {
+    display: inline-block;
+    line-height: 39px;
+    margin: 0 10px;
+    color:#ddd;
+}
+
+.order-tablelist-span2{
+    display: inline-block;
+    width: 84px;
+    text-align: right;
+    padding-right: 4px;
+}
+
+.order-tablelist-div{
+    text-align: left;
+    margin: 0 auto;
+}
+.order-tablelist-div2 > p span:first-child, .order-tablelist-span1{
+    display: inline-block;
+    width: 40%;
+    padding-right: 4px;
+    text-align: right;
+}
+.order-tablelist-div2 > p span:last-child, .order-tablelist-span3{
+    display: inline-flex;
+    word-break: break-word;
+    width: 55%;
+}
+
+.order-search-saleAccountId {
+    height: 39px;
+}
+.order-search-saleAccountId .ant-form-item-children {
+    display: flex;
+    align-items: center;
+    height: 39px;
+}
+.order-search-saleAccountId .ant-form-item-children > div,
+.order-search-saleAccountId .ant-form-item-children > Input{
+    width: 230px;
+    display: inline-block;
+    margin-right: 12px;
+}
+.order-search-saleAccountId .order-cselect{
+    max-height: 46px;
+    overflow-y: auto;
+    position: relative;
+    top: 8px;
+}
+
+.auditmodal-p{
+    padding: 0 30px;
+    color: red;
+}
+.auditmodal-result{
+    margin: 20px 0 !important;
+    display: flex;
+    align-items: center;
+}
+.auditmodal-result .ant-form-item-children{
+    display: flex;
+}
+.auditmodal-result #auditResult{
+    min-width: 150px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.auditmodal-div{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+.auditmodal-span{
+    display: inline-block;
+}
+.auditmodal-span::before{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    content: '*';
+    color: red;
+}

@@ -1,0 +1,17 @@
+.pms-otherset .ant-form-item-children>div{
+    width:330px;
+} 
+.pms-otherset .btn-modify{
+    width:330px;
+    text-align: right;
+    margin-top: 20px;
+}
+.pms-otherset .btn-save{
+    width: 330px;
+    text-align: right;
+    display: inline-block;
+    margin-top: 20px;
+}
+.pms-otherset .btn-save button:first-child{
+    margin-right: 20px;
+}

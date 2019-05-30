@@ -1,0 +1,91 @@
+.customer-service-main{
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.customer-service-main-right{
+    width: 100%;
+    height: 100%;
+    height: calc(100% - 58px);
+    overflow-y: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    margin-top: 58px;
+}
+/* .customer-service-main-right .main-height{
+    height: 58px;
+    background: #edf1f5;
+} */
+.templatelists-language .ant-btn > .anticon + span  {
+    margin-left: 0;
+}
+.main-right{
+    margin-left: 320px;
+}
+.main-right .temp-name {
+    color: #4D7BFE;
+    cursor: pointer;
+}
+.add-temp-modal {
+    padding: 0 20px;
+}
+.temp-detail .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab + .ant-tabs-tab,
+.add-temp-modal .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab + .ant-tabs-tab {
+    border-left: none;
+}
+.temp-detail .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active,
+.add-temp-modal .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    color: #fff;
+    background-color: #4d7bfe !important;
+}
+.add-temp-modal .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab[input-complete] {
+    color: #fff;
+    background-color: #f3b5b5;
+}
+.temp-detail .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab,
+.add-temp-modal .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    border-radius: 0;
+}
+.temp-detail .ant-tabs.add-temp-tabs,
+.add-temp-modal .ant-tabs.add-temp-tabs {
+    margin-top: 10px;
+}
+.add-temp-modal .ant-tabs > .ant-tabs-bar {
+    margin-bottom: 0;
+}
+.add-temp-modal .ant-tabs-content {
+    border: 1px solid #ddd;
+    border-top: none;
+}
+.add-temp-modal .word-left {
+    position: absolute;
+    right: 16px;
+    bottom: -15px;
+    font-size: 12px;
+}
+.add-temp-modal .mt12 {
+    margin-top: 12px;
+}
+.add-temp-modal .mt6 {
+    margin-top: 6px;
+}
+.language-control-modal .ant-modal-body {
+    padding: 10px;
+}
+.msg-title-label .ant-form-item-label > label {
+    position: relative;
+}
+.msg-title-label .ant-form-item-label > label::before, 
+.msg-content-label .ant-form-item-label > label::before {
+    content: '*';
+    color: red;
+    position: absolute;
+    left: -12px;
+    font-size: 18px;
+    top: -10px;
+}
+.add-edit-modal .ant-modal-body {
+    padding-top: 12px;
+}

@@ -1,0 +1,57 @@
+.wj-shunt {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.wj-shunt-left {
+    text-align: right;
+    min-width: 80px;
+}
+
+.wj-shunt-right {
+    text-align-last: left;
+    max-width: 300px;
+}
+
+.yks-erp-search_order .select-type.amazon-followselling-search .ant-form-item-label {
+    width: 110px;
+}
+
+.amazon-listing-edit-save {
+    position: absolute;
+    top: 7px;
+    right: 4px;
+}
+
+.amazon-listing-edit-save span {
+    cursor: pointer;
+}
+
+.amazon-followselling-wentdutch-search .ant-select {
+    vertical-align: middle;
+}
+
+.amazon-followselling-monitorsetting-search .ant-select {
+    vertical-align: middle;
+}
+
+.amazon-followselling-wentdutched-btn {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 4px;
+    color: #52C41A;
+    border: 1px solid #52C41A;
+}
+
+.amazon-followselling-paused-btn {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 4px;
+    color: #FF3747;
+    border: 1px solid #FF3747;
+}
+
+.table-text-center .ant-table-body table {
+    text-align: center;
+}

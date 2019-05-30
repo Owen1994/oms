@@ -1,0 +1,25 @@
+.gallery-listing_container  .table-operations{
+    overflow:hidden;
+}
+.gly-modal .standard-form-row .label span{
+    position: relative;
+}
+.gly-modal .standard-form-row .label span:after{
+    content: "*";
+    color:red;
+    position:absolute;
+    top:-10px;
+    left:-10px;
+}
+.gly-modal .gly-modal-saleaccount{
+    line-height: 40px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.line-height{
+    line-height: 40px;
+}
+.gallery-listing_container .lgt-customs_set_btns span{
+    cursor: pointer;
+    color:#4D7BFE;
+}

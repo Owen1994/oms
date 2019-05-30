@@ -1,0 +1,118 @@
+.publish-batch-list {
+    padding: 16px 10px;
+    position: relative;
+
+}
+.publish-batch-list .search-tab {
+    position: absolute;
+    top: 17px;
+    right: 10px;
+    z-index: 1000;
+}
+.top7 {
+    top:7px;
+}
+/* .publish-batch .tweb-list-filter-item-title {
+    top:7px;
+} */
+.publish-batch-create-info {
+    background-color: #fff;
+    padding: 20px;
+    font-size: 12px;
+}
+.publish-batch .ant-radio-button-wrapper-checked {
+    background-color: #4D7BFE;
+    color:#fff;
+}
+.publish-batch-tablewrap {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+.publish-batch-table-account {
+    margin: 0 auto;
+    width: 200px;
+    text-align: left;
+}
+.publish-batch-table-info {
+    margin: 0 auto;
+    width: 180px;
+    text-align: left;
+}
+.publish-batch-table-dispose {
+    margin: 0 auto;
+    width: 200px;
+    text-align: left;
+}
+.publish-batch-table-result {
+    margin: 0 auto;
+    width: 130px;
+    text-align: left;
+}
+.publish-batch table {
+    table-layout: fixed;
+}
+.publish-batch-import .ant-steps-item-content{
+    padding-left: 30px;
+    text-align: left;
+}
+.publish-batch-import .ant-steps-item-title{
+    font-size: 12px;
+}
+/* .publish-batch-import .tweb-list-filter-item-title {
+    top: 7px;
+} */
+.publish-batch-import .red{
+    color:red;
+}
+.publish-batch-upload-com {
+    padding-left:117px;
+}
+.publish-batch-upload-com-btn {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color:#fff;
+    background-color: #4D7BFE;
+    border-radius:4px;
+    position: relative;
+    cursor: pointer;
+}
+.publish-batch-upload-com-btn input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    cursor: pointer;
+}
+.tweb-list-filter-item {
+    position: relative;
+    padding-left: 115px;
+    line-height: 24px;
+}
+.tweb-list-filter-item-title {
+    width: 110px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 700;
+}
+.top {
+    top:7px;
+}
+.tweb-choice-select {
+    margin-bottom: 10px;
+}
+.publish-batch-buttons {
+    width: 459px;
+    text-align: right;
+}
+.publish-batch-advanced .tweb-list-filter-item-title {
+    top:7px;
+}

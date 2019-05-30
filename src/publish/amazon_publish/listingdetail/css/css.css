@@ -1,0 +1,137 @@
+.amazon-listing-detail {
+    padding-right: 170px;
+}
+
+.amazon-listing-detail-title {
+    font-size: 14px;
+    line-height: 14px;
+    position: relative;
+    margin-bottom: 10px;
+    text-indent: 1em;
+    font-weight: 700;
+}
+
+.amazon-listing-detail-title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 14px;
+    background-color: #4D7BFE;
+    border-radius: 2px;
+}
+
+
+.import-input-btn {
+    width: 120px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    background-color: #4D7BFE;
+    border-radius: 2px;
+    position: relative;
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 7px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.import-input-btn input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+    font-size: 0;
+}
+
+.oms_inx .amazon-listing-detail-right {
+    position: fixed;
+    top: 110px;
+    right: 20px;
+    padding: 70px 35px 50px;
+    width: 150px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.amazon-listing-detail-right>span {
+    position: absolute;
+    top: 30px;
+    left: 27px;
+    color: #507FFA;
+    font-size: 18px;
+}
+
+.amazon-listing-detail-right ul li {
+    border-left: 1px dotted #8FACF7;
+    line-height: 14px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.amazon-listing-detail-right ul li.active {
+    color: #507FFA;
+}
+
+.amazon-listing-detail-right ul li:last-child {
+    border-left: none;
+}
+
+.amazon-listing-detail-right ul li.active span {
+    background-color: #507FFA;
+}
+
+.amazon-listing-detail-right ul li span {
+    position: absolute;
+    top: 0;
+    left: -8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #507FFA;
+}
+
+.amazon-listing-detail-right .anticon:hover {
+    color: #507FFA;
+}
+
+.amazon-listing-detail-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: right;
+    padding-right: 35px;
+    border-top: 1px solid #edf1f5;
+    box-shadow: 2px 1px 5px #edf1f5;
+}
+
+.amazon-categoryName {
+    line-height: 20px;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.mt8 {
+    margin-top: 8px;
+}
+
+.amazon-listing-upload-close-btn {
+    margin-left: 10px;
+    padding: 2px 4px;
+    color: #333;
+    cursor: pointer;
+}
+
+.main {
+    overflow-y: auto;
+}

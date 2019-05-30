@@ -1,0 +1,1353 @@
+{
+  "operator": "renmaohua",
+  "pwd": "com.yks.urc",
+  "ticket": "21ae8f8f36cd257cb69d3b72cfa049c2",
+  "funcVersion": "163e9850d56c65df7e79ff3d22fcbe08",
+  "data": [
+    {
+      "apiUrlPrefix": [
+        "/oms/order/manage/motan/",
+        "/oms/order/grab/motan/",
+        "/api/oms/",
+        "/api/grab/"
+      ],
+      "system": {
+        "key": "001",
+        "name": "订单",
+        "url": "/order/"
+      },
+      "menu": [
+        {
+          "key": "001-000006",
+          "name": "业绩看板",
+          "url": "/order/",
+          "module": [
+            {
+              "key": "001-000006-000001",
+              "name": "订单分析",
+              "url": "/order/analysis/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000006-000001-001",
+                  "name": "查看",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "001-000006-000002",
+              "name": "SKU分析",
+              "url": "/order/analysissku/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000006-000002-001",
+                  "name": "查看",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "001-000006-000003",
+              "name": "ItemID分析",
+              "url": "/order/analysisitemid/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000006-000003-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "001-000006-000003-002",
+                  "name": "数据导出",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "001-000006-000004",
+              "name": "时效分析",
+              "url": "/order/analysisaging/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000006-000004-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "001-000006-000004-002",
+                  "name": "数据导出",
+                  "url": []
+                }
+              ],
+              "module": []
+            }
+          ]
+        },
+        {
+          "key": "001-000001",
+          "name": "平台订单",
+          "url": "/order/",
+          "module": [
+            {
+              "key": "001-000001-000009",
+              "name": "订单定位",
+              "url": "/order/platformorder/orderlocation/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000001-000009-001",
+                  "name": "查看",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "001-000001-000001",
+              "name": "AliExpress订单",
+              "url": "/order/platformorder/smt/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000001-000001-001",
+                  "name": "查看",
+                  "url": [
+                    "/oms/order/grab/motan/OrderGrabApi/getOrderList"
+                  ]
+                },
+                {
+                  "key": "001-000001-000001-006",
+                  "name": "查看详情",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000001-002",
+                  "name": "批量标记",
+                  "url": [
+                    "/oms/order/grab/motan/OrderBadgeApi/batchMarkingBadgeChannel"
+                  ]
+                },
+                {
+                  "key": "001-000001-000001-003",
+                  "name": "订单抓取",
+                  "url": [
+                    "/oms/order/grab/motan/OrderGrabApi/orderManualGrab"
+                  ]
+                },
+                {
+                  "key": "001-000001-000001-004",
+                  "name": "标记跟踪号",
+                  "url": [
+                    "/oms/order/grab/motan/OrderBadgeApi/manualBadge"
+                  ]
+                },
+                {
+                  "key": "001-000001-000001-005",
+                  "name": "同步订单",
+                  "url": [
+                    "/oms/order/grab/motan/OrderGrabApi/syncSingleOrder"
+                  ]
+                },
+                {
+                  "key": "001-000001-000001-007",
+                  "name": "订单导出",
+                  "url": []
+                }
+              ],
+              "module": [
+                {
+                  "key": "001-000001-000001-000001",
+                  "name": "速卖通订单详情",
+                  "url": "/order/platformorder/smt/smtorderdetail/",
+                  "show": 0,
+                  "function": [
+                    {
+                      "key": "001-000001-000001-000001-001",
+                      "name": "查看",
+                      "url": [
+                        "/oms/order/grab/motan/OrderGrabApi/getOrderDetail"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "001-000001-000003",
+              "name": "Wish订单",
+              "url": "/order/platformorder/wish/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000001-000003-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000003-002",
+                  "name": "批量标记",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000003-003",
+                  "name": "订单抓取",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000003-004",
+                  "name": "订单导出",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000003-005",
+                  "name": "标记跟踪号",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000003-006",
+                  "name": "同步订单",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "001-000001-000004",
+              "name": "Ebay订单",
+              "url": "/order/platformorder/ebay/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000001-000004-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000004-002",
+                  "name": "订单抓取",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000004-003",
+                  "name": "订单导出",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000004-004",
+                  "name": "标记跟踪号",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000004-005",
+                  "name": "同步订单",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000004-006",
+                  "name": "查看详情",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000004-007",
+                  "name": "批量标记",
+                  "url": []
+                }
+              ],
+              "module": [
+                {
+                  "key": "001-000001-000004-000001",
+                  "name": "Ebay订单详情",
+                  "url": "/order/platformorder/ebay/detail/",
+                  "show": 0,
+                  "function": [
+                    {
+                      "key": "001-000001-000004-000001-001",
+                      "name": "查看",
+                      "url": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "001-000001-000005",
+              "name": "Joom订单",
+              "url": "/order/platformorder/joom/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000001-000005-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000005-006",
+                  "name": "查看详情",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000005-002",
+                  "name": "批量标记",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000005-003",
+                  "name": "订单抓取",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000005-004",
+                  "name": "标记跟踪号",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000005-005",
+                  "name": "同步订单",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000005-007",
+                  "name": "订单导出",
+                  "url": []
+                }
+              ],
+              "module": [
+                {
+                  "key": "001-000001-000005-000001",
+                  "name": "Joom订单详情",
+                  "url": "/order/platformorder/joom/detail/",
+                  "show": 0,
+                  "function": [
+                    {
+                      "key": "001-000001-000005-000001-001",
+                      "name": "查看",
+                      "url": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "001-000001-000006",
+              "name": "Amazon订单",
+              "url": "/order/platformorder/amazon/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000001-000006-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000006-006",
+                  "name": "查看详情",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000006-002",
+                  "name": "批量标记",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000006-003",
+                  "name": "订单抓取",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000006-004",
+                  "name": "标记跟踪号",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000006-005",
+                  "name": "同步订单",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000006-007",
+                  "name": "订单导出",
+                  "url": []
+                }
+              ],
+              "module": [
+                {
+                  "key": "001-000001-000006-000001",
+                  "name": "Amazon订单详情",
+                  "url": "/order/platformorder/amazon/detail/",
+                  "show": 0,
+                  "function": [
+                    {
+                      "key": "001-000001-000006-000001-001",
+                      "name": "查看",
+                      "url": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "001-000001-000008",
+              "name": "Mymall订单",
+              "url": "/order/platformorder/mymall/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000001-000008-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000008-002",
+                  "name": "查看详情",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000008-003",
+                  "name": "订单抓取",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000008-004",
+                  "name": "标记跟踪号",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000008-005",
+                  "name": "同步订单",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000008-006",
+                  "name": "订单导出",
+                  "url": []
+                }
+              ],
+              "module": [
+                {
+                  "key": "001-000001-000008-000001",
+                  "name": "Mymall订单详情",
+                  "url": "/order/platformorder/mymall/detail/",
+                  "show": 0,
+                  "function": [
+                    {
+                      "key": "001-000001-000008-000001-001",
+                      "name": "查看",
+                      "url": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "001-000001-000007",
+              "name": "Shopee订单",
+              "url": "/order/platformorder/shopee/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000001-000007-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000007-002",
+                  "name": "查看详情",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000007-003",
+                  "name": "订单抓取",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000007-004",
+                  "name": "标记跟踪号",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000007-005",
+                  "name": "同步订单",
+                  "url": []
+                },
+                {
+                  "key": "001-000001-000007-006",
+                  "name": "订单导出",
+                  "url": []
+                }
+              ],
+              "module": [
+                {
+                  "key": "001-000001-000007-000001",
+                  "name": "Shopee订单详情",
+                  "url": "/order/platformorder/shopee/detail/",
+                  "show": 0,
+                  "function": [
+                    {
+                      "key": "001-000001-000007-000001-001",
+                      "name": "查看",
+                      "url": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "001-000001-000002",
+              "name": "订单导入",
+              "url": "/order/platformorder/orderimport/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000001-000002-001",
+                  "name": "导入",
+                  "url": []
+                }
+              ],
+              "module": []
+            }
+          ]
+        },
+        {
+          "key": "001-000002",
+          "name": "订单管理",
+          "url": "/order/",
+          "module": [
+            {
+              "key": "001-000002-000001",
+              "name": "全部订单",
+              "url": "/order/orderlist/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000002-000001-001",
+                  "name": "查看",
+                  "url": [
+                    "/oms/order/manage/motan/ICompanyOrderManageApi/getOrderList"
+                  ]
+                },
+                {
+                  "key": "001-000002-000001-002",
+                  "name": "查看详情",
+                  "url": []
+                },
+                {
+                  "key": "001-000002-000001-003",
+                  "name": "导出订单列表",
+                  "url": [
+                    "/oms/order/manage/motan/ICompanyOrderManageApi/exportOrder"
+                  ]
+                }
+              ],
+              "module": [
+                {
+                  "key": "001-000002-000001-000001",
+                  "name": "全部订单详情",
+                  "url": "/order/orderlist/orderdetail/",
+                  "show": 0,
+                  "function": [
+                    {
+                      "key": "001-000002-000001-000001-001",
+                      "name": "查看",
+                      "url": [
+                        "/oms/order/manage/motan/ICompanyOrderManageApi/getOrderDetail"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "001-000002-000002",
+              "name": "异常订单",
+              "url": "/order/exceptionorderlist/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000002-000002-001",
+                  "name": "查看",
+                  "url": [
+                    "/oms/order/manage/motan/ICompanyOrderManageApi/getOrderExceptionType"
+                  ]
+                },
+                {
+                  "key": "001-000002-000002-002",
+                  "name": "编辑",
+                  "url": []
+                },
+                {
+                  "key": "001-000002-000002-003",
+                  "name": "订单导出",
+                  "url": [
+                    "/oms/order/manage/motan/ICompanyOrderManageApi/exportOrder"
+                  ]
+                }
+              ],
+              "module": [
+                {
+                  "key": "001-000002-000002-000001",
+                  "name": "异常订单详情",
+                  "url": "/order/exceptionorderlist/exceptionorderdetail/",
+                  "show": 0,
+                  "function": [
+                    {
+                      "key": "001-000002-000002-000001-001",
+                      "name": "查看",
+                      "url": [
+                        "/oms/order/manage/motan/ICompanyOrderManageApi/getOrderDetail"
+                      ]
+                    },
+                    {
+                      "key": "001-000002-000002-000001-002",
+                      "name": "撤单",
+                      "url": [
+                        "/oms/order/manage/motan/ICompanyOrderManageApi/examineOrder"
+                      ]
+                    },
+                    {
+                      "key": "001-000002-000002-000001-003",
+                      "name": "修改收货地址",
+                      "url": []
+                    },
+                    {
+                      "key": "001-000002-000002-000001-004",
+                      "name": "我要留言",
+                      "url": [
+                        "/oms/order/manage/motan/ICompanyOrderManageApi/addOrderRemarks"
+                      ]
+                    },
+                    {
+                      "key": "001-000002-000002-000001-005",
+                      "name": "新增商品",
+                      "url": [
+                        "/oms/order/manage/motan/ICompanyOrderManageApi/updateGoodsForOrder"
+                      ]
+                    },
+                    {
+                      "key": "001-000002-000002-000001-006",
+                      "name": "编辑商品",
+                      "url": [
+                        "/oms/order/manage/motan/ICompanyOrderManageApi/updateGoodsForOrder"
+                      ]
+                    },
+                    {
+                      "key": "001-000002-000002-000001-007",
+                      "name": "手工分仓",
+                      "url": [
+                        "/oms/order/manage/motan/ICompanyOrderManageApi/splitOrderToPackage"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "001-000003",
+          "name": "包裹订单",
+          "url": "/order/",
+          "module": [
+            {
+              "key": "001-000003-000001",
+              "name": "全部包裹",
+              "url": "/order/deliveryparcellist/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000003-000001-001",
+                  "name": "查看",
+                  "url": [
+                    "/oms/order/manage/motan/IPackageApi/getPackageList"
+                  ]
+                },
+                {
+                  "key": "001-000003-000001-002",
+                  "name": "查看详情",
+                  "url": []
+                },
+                {
+                  "key": "001-000003-000001-003",
+                  "name": "订单导出",
+                  "url": [
+                    "/oms/order/manage/motan/IPackageApi/exportOrder"
+                  ]
+                },
+                {
+                  "key": "001-000003-000001-004",
+                  "name": "批量撤单",
+                  "url": [
+                    "/oms/order/manage/motan/IPackageApi/batchCancelPackage"
+                  ]
+                },
+                {
+                  "key": "001-000003-000001-005",
+                  "name": "批量恢复",
+                  "url": [
+                    "/oms/order/manage/motan/IPackageApi/batchRecoverPackage"
+                  ]
+                },
+                {
+                  "key": "001-000003-000001-006",
+                  "name": "转仓/修改渠道",
+                  "url": [
+                    "/oms/order/manage/motan/IPackageApi/batchRooloverPackage"
+                  ]
+                }
+              ],
+              "module": [
+                {
+                  "key": "001-000003-000001-000001",
+                  "name": "包裹详情",
+                  "url": "/order/deliveryparcellist/deliveryparceldetail/",
+                  "show": 0,
+                  "function": [
+                    {
+                      "key": "001-000003-000001-000001-001",
+                      "name": "查看",
+                      "url": [
+                        "/oms/order/manage/motan/IPackageApi/getPackageDetail"
+                      ]
+                    },
+                    {
+                      "key": "001-000003-000001-000001-002",
+                      "name": "物流面单",
+                      "url": []
+                    },
+                    {
+                      "key": "001-000003-000001-000001-003",
+                      "name": "审核",
+                      "url": [
+                        "/oms/order/manage/motan/IPackageApi/examineDeficitPackage",
+                        "/oms/order/manage/motan/IPackageApi/cancelPackage"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "001-000003-000002",
+              "name": "待审包裹",
+              "url": "/order/negativeprofitauditlist/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000003-000002-001",
+                  "name": "查看",
+                  "url": [
+                    "/oms/order/manage/motan/IPackageApi/getDeficitPackageList"
+                  ]
+                },
+                {
+                  "key": "001-000003-000002-002",
+                  "name": "查看详情",
+                  "url": []
+                },
+                {
+                  "key": "001-000003-000002-003",
+                  "name": "批量审核",
+                  "url": [
+                    "/oms/order/manage/motan/IPackageApi/examineDeficitPackage"
+                  ]
+                },
+                {
+                  "key": "001-000003-000002-004",
+                  "name": "批量撤单",
+                  "url": [
+                    "/oms/order/manage/motan/IPackageApi/examineDeficitPackage"
+                  ]
+                },
+                {
+                  "key": "001-000003-000002-005",
+                  "name": "审核/撤单",
+                  "url": [
+                    "/oms/order/manage/motan/IPackageApi/examineDeficitPackage"
+                  ]
+                },
+                {
+                  "key": "001-000003-000002-006",
+                  "name": "转仓/修改渠道",
+                  "url": [
+                    "/oms/order/manage/motan/IPackageApi/batchRooloverPackage"
+                  ]
+                }
+              ],
+              "module": [
+                {
+                  "key": "001-000003-000002-000001",
+                  "name": "包裹详情",
+                  "url": "/order/negativeprofitauditlist/negativeprofitauditdetailfail/",
+                  "show": 0,
+                  "function": [
+                    {
+                      "key": "001-000003-000002-000001-001",
+                      "name": "查看",
+                      "url": [
+                        "/oms/order/manage/motan/IPackageApi/getPackageDetail"
+                      ]
+                    },
+                    {
+                      "key": "001-000003-000002-000001-002",
+                      "name": "审核",
+                      "url": [
+                        "/oms/order/manage/motan/IPackageApi/examineDeficitPackage"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "001-000003-000003",
+              "name": "渠道异常",
+              "url": "/order/packageorder/channelexception/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000003-000003-001",
+                  "name": "查看",
+                  "url": [
+                    "/oms/order/manage/motan/service/api/IOrderManageService/getChannelExceptionPackageList"
+                  ]
+                },
+                {
+                  "key": "001-000003-000003-002",
+                  "name": "查看详情",
+                  "url": []
+                },
+                {
+                  "key": "001-000003-000003-003",
+                  "name": "修改地址信息",
+                  "url": [
+                    "/oms/order/manage/motan/IPackageApi/updatePackageReceiverInfo"
+                  ]
+                },
+                {
+                  "key": "001-000003-000003-004",
+                  "name": "转仓/修改渠道",
+                  "url": [
+                    "/oms/order/manage/motan/IPackageApi/rolloverPackage"
+                  ]
+                },
+                {
+                  "key": "001-000003-000003-005",
+                  "name": "撤单",
+                  "url": [
+                    "/oms/order/manage/motan/IPackageApi/cancelPackage"
+                  ]
+                },
+                {
+                  "key": "001-000003-000003-006",
+                  "name": "批量撤单",
+                  "url": [
+                    "/oms/order/manage/motan/IPackageApi/batchCancelPackage"
+                  ]
+                },
+                {
+                  "key": "001-000003-000003-007",
+                  "name": "(批量)重新创建",
+                  "url": [
+                    "/oms/order/manage/motan/service/api/IOrderManageService/regetPackageChannel"
+                  ]
+                },
+                {
+                  "key": "001-000003-000003-008",
+                  "name": "数据导出",
+                  "url": [
+                    "/oms/order/manage/motan/service/api/IOrderManageService/exportChannelExceptionPackage"
+                  ]
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "001-000003-000004",
+              "name": "缺货包裹",
+              "url": "/order/packageorder/stockoutpackage/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000003-000004-001",
+                  "name": "查看",
+                  "url": [
+                    "/oms/order/manage/motan/service/api/IOrderManageService/getStockoutPackageList"
+                  ]
+                },
+                {
+                  "key": "001-000003-000004-002",
+                  "name": "查看详情",
+                  "url": []
+                },
+                {
+                  "key": "001-000003-000004-003",
+                  "name": "修改地址信息",
+                  "url": [
+                    "/oms/order/manage/motan/IPackageApi/updatePackageReceiverInfo"
+                  ]
+                },
+                {
+                  "key": "001-000003-000004-004",
+                  "name": "转仓/修改渠道",
+                  "url": [
+                    "/oms/order/manage/motan/IPackageApi/rolloverPackage"
+                  ]
+                },
+                {
+                  "key": "001-000003-000004-005",
+                  "name": "撤单",
+                  "url": [
+                    "/oms/order/manage/motan/IPackageApi/cancelPackage"
+                  ]
+                },
+                {
+                  "key": "001-000003-000004-006",
+                  "name": "批量撤单",
+                  "url": [
+                    "/oms/order/manage/motan/IPackageApi/batchCancelPackage"
+                  ]
+                },
+                {
+                  "key": "001-000003-000004-007",
+                  "name": "数据导出",
+                  "url": [
+                    "/oms/order/manage/motan/service/api/IOrderManageService/exportStockoutPackageList"
+                  ]
+                },
+                {
+                  "key": "001-000003-000004-008",
+                  "name": "修改发货优先级",
+                  "url": [
+                    "/oms/order/manage/motan/service/api/IOrderManageService/updatePackageDeliveryPriority"
+                  ]
+                },
+                {
+                  "key": "001-000003-000004-009",
+                  "name": "查看库存状态",
+                  "url": [
+                    "/oms/order/manage/motan/service/api/IOrderManageService/getPackageStock"
+                  ]
+                }
+              ],
+              "module": []
+            }
+          ]
+        },
+        {
+          "key": "001-000004",
+          "name": "订单配置",
+          "url": "/order/",
+          "module": [
+            {
+              "key": "001-000004-000001",
+              "name": "抓单转换规则",
+              "url": "/order/conversion/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000004-000001-001",
+                  "name": "查看",
+                  "url": [
+                    "/oms/order/grab/motan/OrderGrabConfigApi/findRuleOrderGrabConfigList"
+                  ]
+                },
+                {
+                  "key": "001-000004-000001-002",
+                  "name": "字段配置",
+                  "url": [
+                    "/oms/order/grab/motan/OrderGrabConfigApi/addAndUpdateFieldConfig",
+                    "/oms/order/grab/motan/OrderGrabConfigApi/getFieldConfigDetail"
+                  ]
+                },
+                {
+                  "key": "001-000004-000001-003",
+                  "name": "SKU解析配置",
+                  "url": [
+                    "/oms/order/grab/motan/OrderGrabConfigApi/getOrderGrabConfigAllSkuConfig",
+                    "/oms/order/grab/motan/OrderGrabConfigApi/addOrUpdateRuleSkuConvert",
+                    "/oms/order/grab/motan/OrderGrabConfigApi/addOrUpdateRuleSkuCharacter",
+                    "/oms/order/grab/motan/OrderGrabConfigApi/deleteRuleSkuConvert",
+                    "/oms/order/grab/motan/OrderGrabConfigApi/deleteRuleSkuCharacter"
+                  ]
+                },
+                {
+                  "key": "001-000004-000001-004",
+                  "name": "新增条件配置",
+                  "url": [
+                    "/oms/order/grab/motan/OrderGrabConfigApi/saveConditionConfig"
+                  ]
+                },
+                {
+                  "key": "001-000004-000001-005",
+                  "name": "编辑条件配置",
+                  "url": [
+                    "/oms/order/grab/motan/OrderGrabConfigApi/getConditionDetail",
+                    "/oms/order/grab/motan/OrderGrabConfigApi/saveConditionConfig"
+                  ]
+                },
+                {
+                  "key": "001-000004-000001-006",
+                  "name": "删除条件配置",
+                  "url": [
+                    "/oms/order/grab/motan/OrderGrabConfigApi/deleteRuleOrderGrabConfig"
+                  ]
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "001-000004-000003",
+              "name": "指定仓规则",
+              "url": "/order/warehouselist/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000004-000003-001",
+                  "name": "查看",
+                  "url": [
+                    "/oms/order/manage/motan/IOrderManageConfigApi/queryConfigRuleWarehouse"
+                  ]
+                },
+                {
+                  "key": "001-000004-000003-002",
+                  "name": "查看详情",
+                  "url": [
+                    "/oms/order/manage/motan/IOrderManageConfigApi/getConfigRuleWarehouseDetail"
+                  ]
+                },
+                {
+                  "key": "001-000004-000003-003",
+                  "name": "新增",
+                  "url": []
+                },
+                {
+                  "key": "001-000004-000003-004",
+                  "name": "编辑/删除",
+                  "url": [
+                    "/oms/order/manage/motan/IOrderManageConfigApi/getConfigRuleWarehouseDetail",
+                    "/oms/order/manage/motan/IOrderManageConfigApi/updateConfigRuleWarehouse",
+                    "/oms/order/manage/motan/IOrderManageConfigApi/deleteConfigRuleWarehouse"
+                  ]
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "001-000004-000004",
+              "name": "收货人信息拦截",
+              "url": "/order/orderconsignee/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000004-000004-001",
+                  "name": "查看",
+                  "url": [
+                    "/oms/order/manage/motan/IOrderManageConfigApi/queryConfigRuleAddressee"
+                  ]
+                },
+                {
+                  "key": "001-000004-000004-002",
+                  "name": "查看详情",
+                  "url": [
+                    "/oms/order/manage/motan/IOrderManageConfigApi/getConfigRuleAddresseeDetail"
+                  ]
+                },
+                {
+                  "key": "001-000004-000004-003",
+                  "name": "新增",
+                  "url": []
+                },
+                {
+                  "key": "001-000004-000004-004",
+                  "name": "编辑/删除",
+                  "url": [
+                    "/oms/order/manage/motan/IOrderManageConfigApi/getConfigRuleAddresseeDetail",
+                    "/oms/order/manage/motan/IOrderManageConfigApi/updateConfigRuleAddressee",
+                    "/oms/order/manage/motan/IOrderManageConfigApi/deleteConfigRuleAddressee"
+                  ]
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "001-000004-000006",
+              "name": "指定SKU替换规则",
+              "url": "/order/skureplacementrules/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000004-000006-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "001-000004-000006-002",
+                  "name": "新增",
+                  "url": []
+                },
+                {
+                  "key": "001-000004-000006-003",
+                  "name": "编辑",
+                  "url": []
+                },
+                {
+                  "key": "001-000004-000006-004",
+                  "name": "删除",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "001-000004-000005",
+              "name": "订单标记规则",
+              "url": "/order/markrules/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000004-000005-004",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "001-000004-000005-001",
+                  "name": "新增",
+                  "url": []
+                },
+                {
+                  "key": "001-000004-000005-002",
+                  "name": "编辑",
+                  "url": []
+                },
+                {
+                  "key": "001-000004-000005-003",
+                  "name": "删除",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "001-000004-000007",
+              "name": "渠道异常规则",
+              "url": "/order/orderconfig/channelexceptionrule/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000004-000007-001",
+                  "name": "查看",
+                  "url": [
+                    "/oms/order/manage/motan/service/api/IOrderManageService/getChannelExceptionRuleList"
+                  ]
+                },
+                {
+                  "key": "001-000004-000007-002",
+                  "name": "新增",
+                  "url": [
+                    "/oms/order/manage/motan/service/api/IOrderManageService/addOrUpdateChannelExceptionRule"
+                  ]
+                },
+                {
+                  "key": "001-000004-000007-003",
+                  "name": "编辑",
+                  "url": [
+                    "/oms/order/manage/motan/service/api/IOrderManageService/addOrUpdateChannelExceptionRule"
+                  ]
+                },
+                {
+                  "key": "001-000004-000007-004",
+                  "name": "删除",
+                  "url": [
+                    "/oms/order/manage/motan/service/api/IOrderManageService/deleteChannelExceptionRule"
+                  ]
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "001-000004-000008",
+              "name": "发货优选配置",
+              "url": "/order/orderconfig/deliverypriorityconfig/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000004-000008-001",
+                  "name": "查看",
+                  "url": [
+                    "/oms/order/manage/motan/service/api/IOrderManageService/getDeliveryPriorityRuleList"
+                  ]
+                },
+                {
+                  "key": "001-000004-000008-002",
+                  "name": "新增",
+                  "url": [
+                    "/oms/order/manage/motan/service/api/IOrderManageService/addOrUpdateDeliveryPriorityRule"
+                  ]
+                },
+                {
+                  "key": "001-000004-000008-003",
+                  "name": "编辑",
+                  "url": [
+                    "/oms/order/manage/motan/service/api/IOrderManageService/addOrUpdateDeliveryPriorityRule"
+                  ]
+                },
+                {
+                  "key": "001-000004-000008-004",
+                  "name": "删除",
+                  "url": [
+                    "/oms/order/manage/motan/service/api/IOrderManageService/deleteDeliveryPriorityRule"
+                  ]
+                }
+              ],
+              "module": []
+            }
+          ]
+        },
+        {
+          "key": "001-000005",
+          "name": "基础数据",
+          "url": "/order/",
+          "module": [
+            {
+              "key": "001-000005-000001",
+              "name": "跟踪号管理",
+              "url": "/order/basicdata/tracknumbermanage/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000005-000001-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "001-000005-000001-002",
+                  "name": "导出",
+                  "url": []
+                },
+                {
+                  "key": "001-000005-000001-003",
+                  "name": "导入",
+                  "url": []
+                },
+                {
+                  "key": "001-000005-000001-004",
+                  "name": "跟踪号抓取配置",
+                  "url": []
+                }
+              ]
+            },
+            {
+              "key": "001-000005-000002",
+              "name": "渠道管理",
+              "url": "/order/basicdata/channellist/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000005-000002-001",
+                  "name": "查看",
+                  "url": [
+                    "/oms/order/manage/motan/IOrderManageConfigApi/queryConfigRuleChannel"
+                  ]
+                },
+                {
+                  "key": "001-000005-000002-002",
+                  "name": "查看详情",
+                  "url": []
+                },
+                {
+                  "key": "001-000005-000002-003",
+                  "name": "新增",
+                  "url": []
+                },
+                {
+                  "key": "001-000005-000002-004",
+                  "name": "编辑",
+                  "url": []
+                },
+                {
+                  "key": "001-000005-000002-005",
+                  "name": "删除",
+                  "url": [
+                    "/oms/order/manage/motan/IOrderManageConfigApi/deleteConfigRuleChannel"
+                  ]
+                }
+              ],
+              "module": [
+                {
+                  "key": "001-000005-000002-000001",
+                  "name": "渠道管理详情",
+                  "url": "/order/basicdata/channellist/channelsignall/",
+                  "show": 0,
+                  "function": [
+                    {
+                      "key": "001-000005-000002-000001-001",
+                      "name": "查看",
+                      "url": [
+                        "/oms/order/manage/motan/IOrderManageConfigApi/getConfigRuleChannelMappingDetail"
+                      ]
+                    },
+                    {
+                      "key": "001-000005-000002-000001-002",
+                      "name": "编辑渠道信息",
+                      "url": [
+                        "/oms/order/manage/motan/IOrderManageConfigApi/saveChanneDetail"
+                      ]
+                    },
+                    {
+                      "key": "001-000005-000002-000001-003",
+                      "name": "编辑仓库信息",
+                      "url": [
+                        "/oms/order/manage/motan/IOrderManageConfigApi/saveChannelDetailWarehouse"
+                      ]
+                    },
+                    {
+                      "key": "001-000005-000002-000001-004",
+                      "name": "编辑第三方信息",
+                      "url": [
+                        "/oms/order/manage/motan/IOrderManageConfigApi/saveChannelDetailMapping"
+                      ]
+                    },
+                    {
+                      "key": "001-000005-000002-000001-005",
+                      "name": "编辑标记信息",
+                      "url": [
+                        "/oms/order/manage/motan/IOrderManageConfigApi/saveChannelDetailSign"
+                      ]
+                    },
+                    {
+                      "key": "001-000005-000002-000001-006",
+                      "name": "删除",
+                      "url": [
+                        "/oms/order/manage/motan/IOrderManageConfigApi/deleteChannelDetailSign"
+                      ]
+                    }
+                  ],
+                  "module": []
+                }
+              ]
+            },
+            {
+              "key": "001-000005-000003",
+              "name": "导入导出记录",
+              "url": "/order/basicdata/importexportrecords/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "001-000005-000003-001",
+                  "name": "查看",
+                  "url": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

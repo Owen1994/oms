@@ -1,0 +1,8 @@
+.common-editable-cell{
+    position: relative;
+}
+.common-editable-cell .editable-cell-icon{
+    position: absolute;
+    top: 5px;
+    right: 14px;
+}

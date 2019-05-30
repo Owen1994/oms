@@ -1,0 +1,35 @@
+.addauthorize{border-bottom: 1px solid #ccc;}
+.gutter-example{
+    position: relative;
+}
+.gutter-right{position: absolute;top:0px; bottom: 0px; right: 0px}
+
+.gutter-right .gutter-box{height: 100%}
+.gutter-example .ant-row > div {
+    background: #edf1f5;
+    border: 0;
+  }
+  .gutter-box {
+    background: #ffffff !important;
+    padding: 5px 0;
+  }
+
+.tit-icon{float:left;margin-left:-5px;}
+.tit-txt{float:left;margin-left:5px;}
+.mt5{ margin-top:5px;}
+.mt20{margin-top:20px;}
+.ml25{margin-left:25px;}
+.gutter-box{padding: 15px 0px}
+.overhiden{overflow: hidden}
+.echarts_all{width: 100%; height: 519px;}
+.echarts_tab{ position: absolute; right: 25px; top:15px; width: 210px; height: 32px; }
+.echarts_tab span{padding:5px 8px; cursor: pointer; color: #999;}
+.echarts_lis{ width: 100%; height: 352px; }
+.rt_tab{height: 35px;}
+.rt_tab .sp1{text-align: center; height: 32px; line-height: 32px; display: block; cursor: pointer;border-radius: 2px; border: 1px solid #ccc;  background: #ECECED;}
+.rt_tit{ color: #333; font-size: 16px; height: 22px; line-height: 22px; margin-top:20px; text-align: center;}
+.rt_txt{ width: 95%; margin: auto; margin-top:20px;}
+.order-index-tit{font-size: 16px; padding-left:20px; color: #333; font-family: "Microsoft YaHei";}
+.tabsku{padding: 0px 20px;width: 100%; height:30px; line-height: 30px; text-align: center; border:1px solid #ccc}
+.ant-tag-checkable-checked{
+    border: 0px;}

@@ -1,0 +1,168 @@
+.lazadaaccountconf-list {
+    padding: 16px 10px;
+    position: relative;
+
+}
+
+.lazadaaccountconf-list .search-tab {
+    position: absolute;
+    top: 17px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.top7 {
+    top: 7px;
+}
+
+/* .lazadaaccountconf .tweb-list-filter-item-title {
+    top:7px;
+} */
+.lazadaaccountconf-create-info {
+    background-color: #fff;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.lazadaaccountconf .ant-radio-button-wrapper-checked {
+    background-color: #4D7BFE;
+    color: #fff;
+}
+
+.lazadaaccountconf-tablewrap {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.lazadaaccountconf-table-account {
+    margin: 0 auto;
+    width: 200px;
+    text-align: left;
+}
+
+.lazadaaccountconf-table-info {
+    margin: 0 auto;
+    width: 180px;
+    text-align: left;
+}
+
+.lazadaaccountconf-table-dispose {
+    margin: 0 auto;
+    width: 200px;
+    text-align: left;
+}
+
+.lazadaaccountconf-table-result {
+    margin: 0 auto;
+    width: 130px;
+    text-align: left;
+}
+
+.lazadaaccountconf table {
+    table-layout: fixed;
+}
+
+.lazadaaccountconf-import .ant-steps-item-content {
+    padding-left: 30px;
+    text-align: left;
+}
+
+.lazadaaccountconf-import .ant-steps-item-title {
+    font-size: 12px;
+}
+
+/* .lazadaaccountconf-import .tweb-list-filter-item-title {
+    top: 7px;
+} */
+.lazadaaccountconf-import .red {
+    color: red;
+}
+
+.lazadaaccountconf-upload-com {
+    padding-left: 117px;
+}
+
+.lazadaaccountconf-upload-com-btn {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #4D7BFE;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+}
+
+.lazadaaccountconf-upload-com-btn input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.tweb-list-filter-item {
+    position: relative;
+    padding-left: 115px;
+    line-height: 24px;
+}
+
+.tweb-list-filter-item-title {
+    width: 110px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.tweb-list-filter-item-title.top7 {
+    top: 7px;
+}
+
+.tweb-choice-select {
+    margin-bottom: 10px;
+}
+
+.lazadaaccountconf-buttons {
+    width: 459px;
+    text-align: right;
+}
+
+.lazadaaccountconf-tablewrap-btns {
+    height: 42px;
+    padding-bottom: 10px;
+}
+
+.yugou {
+    height: 32px;
+    position: relative;
+}
+
+.yugou .ant-input-number {
+    position: absolute;
+    top: 0;
+    left: 58px;
+}
+
+.yugou-user-defined {
+    position: relative;
+}
+
+.yugou-user-defined .prefix {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.yugou-user-defined .suffix {
+    position: absolute;
+    top: 0;
+    left: 170px;
+}

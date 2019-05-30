@@ -1,0 +1,62 @@
+.templateDescribe-wrap:hover .templateDescribe-wrap-icon {
+    display: block;
+}
+
+.templateDescribe-wrap .templateDescribe-wrap-icon {
+    display: none;
+}
+
+.template-describe-footer {
+    min-height: 200px;
+    padding: 10px;
+}
+.template-describe-footer img {
+    max-width: 100% !important;
+}
+.template-describe-footer table {
+    width: 100%;
+    padding: 16px;
+    line-height: 30px;
+    /* borderBottom: 1px solid #EAE9E9; */
+    border-collapse: collapse;
+}
+.template-describe-footer table td{
+    padding:0 10px ;
+    border: 1px solid #EAE9E9;
+}
+.tamplet-banner-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.tamplet-banner-btn-upload {
+    text-align: center;
+    /* margin: 0 auto; */
+    position: relative;
+    width: 240px;
+    height: 100px;
+    padding: 20px 0 ;
+    border: 1px dashed #dddddd;
+    border-radius:5px;
+    color:#4d7bfe;
+}
+.tamplet-banner-btn-upload i {
+    line-height: 45px;
+    font-size: 40px;
+}
+.tamplet-banner-btn-upload input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity:0;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+.template-main-left .templateDescribe-wrap {
+    margin-top: 20px;
+}
+.template-main-left .templateDescribe-wrap:first-child {
+    margin-top: 0;
+}

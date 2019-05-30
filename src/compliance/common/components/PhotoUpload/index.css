@@ -1,0 +1,21 @@
+.photo-upload .ant-upload-list-item {
+    width: 105px;
+    height: 92px;
+    margin: 0 8px 8px 0;
+    padding: 4px;
+    transition: width 0.4s;
+}
+
+.photo-upload .ant-upload {
+    width: 105px;
+    height: 92px;
+} 
+
+.photo-upload .ant-upload-list-picture-card div .ant-upload-list-item-info:before{
+    background: rgba(0,0,0,.5);
+    left: 0;
+}
+.photo-upload .ant-upload-list-picture-card .ant-upload-list-item-actions i.anticon-delete{
+    display: inline-block
+}
+  

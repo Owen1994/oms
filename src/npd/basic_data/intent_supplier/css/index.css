@@ -1,0 +1,174 @@
+/* containers index */
+.npd-supplier-tablelist{
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+/* component Search */
+.npd-supplier-search-area{
+    overflow: hidden;
+    padding-bottom: 4px;
+    background-color: #ffffff;
+}
+
+/* component DefaultSearch */
+.npd-supplier-defaultSearch{
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    /* margin-top: 10px; */
+    padding-top: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    background: #fafafa;
+}
+.npd-supplier-defaultSearch .standard-form-row:last-child{
+    margin-top: 10px;
+}
+.npd-supplier-defaultSearch .ant-radio-button-wrapper-checked{
+    /* margin-right: 0; */
+    background-color: #4d7bfe;
+    color: #ffffff;
+}
+/* .npd-supplier-defaultSearch .ant-tag-checkable:first-of-type{
+    border-radius: 5px 0 0 5px;
+}
+.npd-supplier-defaultSearch .ant-tag-checkable:last-of-type{
+    border-radius: 0 5px 5px 0;
+} */
+
+
+/* component Options */
+.npd-supplier-options .npd-inline-block{
+    display: inline-block;
+}
+
+/* component Tablelist */
+.npd-supplier-table-col .npd-clear{
+    clear: both;
+}
+.npd-supplier-table-col .npd-title{
+    float: left;
+    width: 60px;
+    text-align: right;
+}
+.npd-supplier-table-col .npd-title2{
+    float: left;
+    width: 36px;
+    text-align: right;
+}
+.npd-supplier-table-col .npd-content{
+    float: left;
+    width: 54%;
+    display: inline-flex;
+    text-align: left;
+}
+.npd-supplier-table-col .npd-content2{
+    float: left;
+    max-width: 74px;
+    display: inline-flex;
+    text-align: left;
+}
+.npd-supplier-table{
+    padding: 10px 10px 0;
+}
+.npd-supplier-img{
+    position: relative;
+}
+.npd-supplier-img img{
+    width: 40px;
+    height: 40px;
+}
+.npd-supplier-attachment1{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+.npd-supplier-eye{
+    position: absolute;
+    left: 26%;
+    top: 26%;
+    cursor: pointer;
+    z-index: -1;
+    display: none;
+}
+.npd-supplier-attachment1:hover .npd-supplier-eye{
+    display: inline-block !important;
+    z-index: 99;
+}
+.npd-supplier-table-col .npd-supplier-url{
+    display: inline-block;
+    width: 60px;
+}
+
+/* component TableOption */
+.npd-supplier-table-option{
+    /* border-bottom: 1px solid #EAE9E9; */
+    overflow: hidden;
+    padding: 10px 10px 0;
+} 
+
+/* component BtnSearch */
+.npd-supplier-btn-search{
+    margin-top: 4px;
+    overflow: hidden;
+}
+.npd-supplier-btn-search button{
+    margin-left: 20px;
+    min-width: 80px;
+}
+.npd-supplier-btn-search2{
+    padding-left: 96px;
+    margin-bottom: 4px;
+}
+.npd-supplier-heightBtn{
+    padding-left: 194px;
+}
+.npd-supplier-btnSearch{
+    /* padding-left: 223px; */
+    /* margin-top: 15px; */
+    width: 504px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+.npd-supplier-btnSearch button{
+    margin-left: 10px;
+}
+
+/* component HeightSearch */
+.npd-supplier-heightSearch{
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+/* component TextSearch */
+.npd-supplier-textSearch{
+    overflow: hidden;
+    float: left;
+}
+.npd-supplier-textSearch .ant-input{
+    width: 330px !important;
+    height: 30px;
+}
+
+/* component Adddetail */
+.npd-supplier-adddetail  .ant-form-item-control{
+    line-height: 0;
+    width: 240px !important;
+}
+.npd-supplier-adddetail  .ant-form-item-label{
+    line-height: 0;
+}
+.npd-supplier-adddetail  .ant-form-item-label > label {
+    line-height: 32px;
+}
+.npd-supplier-adddetail  .ant-row.ant-form-item{
+    margin-bottom: 20px;
+}
+.npd-supplier-adddetail  .ant-row.ant-form-item:last-child{
+    margin-bottom: 0;
+}

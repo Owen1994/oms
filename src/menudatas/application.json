@@ -1,0 +1,156 @@
+{
+  "operator": "renmaohua",
+  "pwd": "com.yks.urc.",
+  "ticket": "27b609c46dcac659ad0d4ab8e40c6d58",
+  "funcVersion": "b34618f96201a590a90346d69d42e090",
+  "data": [
+    {
+      "system": {
+        "key": "006",
+        "name": "亚马逊索赔",
+        "url": "/application/"
+      },
+      "menu": [
+        {
+          "key": "006-000001",
+          "name": "亚马逊索赔",
+          "url": "/application/",
+          "module": [
+            {
+              "key": "006-000001-000001",
+              "name": "索赔报告",
+              "url": "/application/claimreport/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "006-000001-000001-001",
+                  "name": "查看页面",
+                  "url": [
+                    "/arm/motan/service/api/IArmService/getReimReportList"
+                  ]
+                },
+                {
+                  "key": "006-000001-000001-002",
+                  "name": "明细",
+                  "url": []
+                }
+              ],
+              "module": [
+                {
+                  "key": "006-000001-000001-000001",
+                  "name": "索赔明细",
+                  "url": "/application/claimreport/claimreportdetail",
+                  "show": 0,
+                  "function": [
+                    {
+                      "key": "006-000001-000001-000001-001",
+                      "name": "查看页面",
+                      "url": [
+                        "/arm/motan/service/api/IArmService/getReimReportDetailList"
+                      ]
+                    },
+                    {
+                      "key": "006-000001-000001-000001-002",
+                      "name": "编辑",
+                      "url": [
+                        "/arm/motan/service/api/IArmService/updateReimReportDetailRslt"
+                      ]
+                    },
+                    {
+                      "key": "006-000001-000001-000001-003",
+                      "name": "索赔信",
+                      "url": [
+                        "/arm/motan/service/api/IArmService/getReimLetter"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "006-000001-000002",
+              "name": "已获赔偿",
+              "url": "/application/Indemnified/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "006-000001-000002-001",
+                  "name": "查看页面",
+                  "url": [
+                    "/arm/motan/service/api/IArmService/getReimedReportList"
+                  ]
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "006-000001-000003",
+              "name": "基础设置",
+              "url": "/application/basicsettings/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "006-000001-000003-001",
+                  "name": "查看页面",
+                  "url": [
+                    "/arm/motan/service/api/IArmService/getShopAccountSettingList"
+                  ]
+                },
+                {
+                  "key": "006-000001-000003-002",
+                  "name": "状态启用/关闭/批量",
+                  "url": []
+                },
+                {
+                  "key": "006-000001-000003-003",
+                  "name": "分析/批量",
+                  "url": []
+                },
+                {
+                  "key": "006-000001-000003-004",
+                  "name": "查看报告",
+                  "url": []
+                },
+                {
+                  "key": "006-000001-000003-005",
+                  "name": "金额阈值设置-查看页面",
+                  "url": []
+                },
+                {
+                  "key": "006-000001-000003-006",
+                  "name": "金额阈值设置-编辑/添加",
+                  "url": []
+                },
+                {
+                  "key": "006-000001-000003-007",
+                  "name": "盘点报告设置-查看页面",
+                  "url": []
+                },
+                {
+                  "key": "006-000001-000003-008",
+                  "name": "是否可申请赔偿",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "006-000001-000004",
+              "name": "统计分析",
+              "url": "/application/statisticalanalysis/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "006-000001-000004-001",
+                  "name": "查看页面",
+                  "url": []
+                }
+              ],
+              "module": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

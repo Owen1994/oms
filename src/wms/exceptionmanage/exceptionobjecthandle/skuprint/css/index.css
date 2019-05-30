@@ -1,0 +1,62 @@
+.wms-compareimage-print-sku {
+    width: 100%;
+    height: 238px;
+    border: #EAE9E9 solid 1px;
+    border-radius: 3px;
+    display: flex;
+    padding-right: 10px;
+    padding-left: 16px;
+}
+
+.wms-compareimage-print-sku p {
+    word-break: break-all;
+}
+
+.wms-compareimage-print-sku .label-p1 {
+    font-size: 28px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+
+
+.wms-compareimage-print-sku .label-p2 {
+    font-size: 24px;
+    color: #333333;
+    margin-top: 8px;
+}
+
+.wms-compareimage-print-sku .label-p3 {
+    font-size: 28px;
+    color: #333333;
+    margin-left: 16px;
+    text-align: left;
+}
+
+.wms-compareimage-print-bottom {
+    background-color: white;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    text-align: right;
+    position: fixed;
+    z-index: 99;
+}
+
+.wms-compareimage-print-bottom div {
+    display: inline;
+}
+
+.wms-compareimage-print-bottom .ant-btn {
+    height: 32px;
+    width: auto;
+    margin-left: 10px;
+}
+
+.wms-compareimage-print-content{
+    width: 1260px;
+}
+.wms-compareimage-print-content .print-col {
+    text-align: -webkit-center;
+}

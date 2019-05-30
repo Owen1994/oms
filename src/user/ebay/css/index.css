@@ -1,0 +1,122 @@
+/* Search begin */
+.authorization-search{
+    overflow: hidden;
+    background-color: #ffffff;
+    position: relative;
+}
+.authorization-defaultSearch{
+    overflow: hidden;
+}
+.authorization-heightSearch{
+    overflow: hidden;
+}
+.authorization-searchBtn{
+    margin: 10px 0;
+    width: 330px;
+    text-align: right
+}
+.authorization-searchBtn button{
+    margin-left: 10px;
+}
+.authorization-searchTab{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+.authorization-searchTab .ant-radio-button-wrapper-checked{
+    background-color: #4D7BFE !important;
+    color: #ffffff !important;
+}
+.authorization-textSearch{
+    background: #fafafa;
+    border-top: 1px #EAE9E9 solid;
+    border-bottom: 1px #EAE9E9 solid;
+}
+.authorization-textSearch > .ant-row.ant-form-item{
+    margin: 10px 0;
+}
+/* search end */
+
+
+.authorization-tablelist{
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+}
+.authorization-tablelist .ant-switch-checked{
+    background-color: #4d7bfe;
+}
+.authorization-addBtn{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.authorization-addBtn button{
+    margin-left: 20px;
+}
+
+.authorization-modal-form .ant-row.ant-form-item{
+    margin-bottom: 18px;
+}
+.authorization-modal-form .ant-row.ant-form-item:last-of-type{
+    margin-bottom: 8px !important;
+}
+.authorization-modal-form p{
+    font-size:12px;
+    color: #FF0000;
+    line-height:20px;
+    text-align: center;
+}
+.authorization-modal-form button{
+    width: 260px;
+}
+/*.authorization-submitBtn{*/
+    /*text-align: right;*/
+    /*padding-top: 15px;*/
+    /*margin-top: 15px;*/
+    /*border-top: 1px solid #EAE9E9;*/
+/*}*/
+/*.authorization-submitBtn button{*/
+    /*margin-left: 20px;*/
+/*}*/
+
+
+.authorization-clear{
+    overflow: hidden;
+    clear: both;
+    margin: 0 auto;
+}
+.authorization-ebayClassify{
+    margin: 0 auto;
+}
+.authorization-title{
+    float: left;
+    /*display: inline-flex;*/
+    text-align: right;
+    width: 62px;
+    /*max-width: 90px;*/
+    /*margin-left: 24%;*/
+}
+.authorization-content{
+    float: left;
+    /* width: 60px; */
+    display: inline-flex;
+    text-align: left;
+}
+.authorization-content2{
+    float: left;
+    max-width: 80%;
+    display: inline-flex;
+    text-align: left;
+    word-break: break-all;
+}
+
+.detail-modal .ant-modal-body > .ant-row{
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: rgba(51,51,51,1);
+}
+.detail-modal .ant-modal-body > .ant-row:last-of-type{
+    margin-bottom: 0;
+}

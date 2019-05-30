@@ -1,0 +1,40 @@
+.message-intercept-height-search{
+    overflow: hidden;
+    clear: both;
+}
+.message-intercept-height-search .standard-form-row{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.message-intercept-height-search .ant-cascader-picker {
+    width: 344px;
+}
+.message-intercept-list-filter-item {
+    position: relative;
+    padding-left: 115px;
+    line-height: 39px;
+}
+.message-intercept-list-filter-item > .message-intercept-list-filter-input {
+    width: 200px;
+    margin-left: -30px
+}
+.message-intercept-list-filter-item > .message-intercept-list-filter-textarea  {
+    width: 350px;
+    margin-left: -30px
+}
+.message-list-select-item {
+    width: 150px !important;
+    margin-bottom: 10px;
+}
+.message-intercept-list-filter-item-title{
+    margin-left: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 700;
+}
+.mt12 {
+    margin-top: 12px;
+}

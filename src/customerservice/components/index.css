@@ -1,0 +1,51 @@
+.submit-btn-pd {
+    padding-right: 60px;
+}
+.ptb-5 {
+    padding: 5px 0;
+}
+.modal-mb10.ant-row.ant-form-item {
+    margin-bottom: 10px;
+}
+.customer-red {
+    color: red;
+}
+.customer-gray {
+    color: #999;
+}
+.customer-submit-btns {
+    position: absolute;
+    left: 302px;
+    top: 4px;
+    width: 160px;
+}
+.customer-submit-btns.customer-submit-sm-btns {
+    left: 140px;
+    top: 2px;
+}
+.customer-submit-btns.customer-submit-md-btns {
+    left: 222px;
+    top: 2px;
+}
+.customer-submit-btns .customer-reset-btn {
+    margin-left: 10px;
+}
+.yks-erp-search_order .select-type.pdt-none {
+    padding-top: 0;
+}
+.ant-row.ant-form-item.customer-mb12 {
+    margin-bottom: 12px;
+}
+.tablelist-expand-all-btn {
+    position: absolute;
+    top: 11px;
+    left: 17px;
+    z-index: 1;
+}
+.preview-selected-file {
+    font-size: 12px;
+}
+.preview-selected-file span:hover {
+    color:#4D7BFE;
+    cursor:pointer;
+}

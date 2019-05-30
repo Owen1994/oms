@@ -1,0 +1,41 @@
+.customer-combinatorial-search {
+    overflow: hidden;
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background: #fafafa;
+}
+.customer-combinatorial-search > .label {
+    float: left;
+    min-width: 160px;
+    line-height: 40px;
+    text-align: right;
+    font-weight: bold;
+    color: #666;
+}
+.customer-combinatorial-search > .items {
+    padding-top: 40px; 
+    padding-left: 90px;
+}
+.customer-combinatorial-search .items-list {
+    overflow: hidden;
+}
+.customer-combinatorial-search .items-list+.items-list {
+    padding-top: 15px;
+}
+.customer-combinatorial-search .items-list > div {
+    float: left;
+}
+.customer-combinatorial-search .items-list > .items-title {
+    line-height: 40px;
+    min-width: 75px;
+    text-align: right;
+}
+.customer-combinatorial-search .items-list input {
+    width: 278px;
+}
+.customer-combinatorial-search .items-list .ant-select > div {
+    margin-top: 4px;
+}

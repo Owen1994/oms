@@ -1,0 +1,559 @@
+.complaintlist-red {
+    color: red;
+}
+.complaintlist-dark {
+    color: #333;
+}
+.complaintlist-theme {
+    color: #4D7BFE;
+    cursor: pointer;
+}
+.complaint-tabs {
+    background-color: #fff;
+}
+.complaintlist-mgt15 {
+    margin-top: 15px;
+}
+.pd-ssm {
+    padding: 3px;
+}
+.complaintlist-main .table-item {
+    padding-top: 6px;
+}
+.complaint-tabs .breadcrumb {
+    box-shadow: none;
+}
+.complaint-tabs .ant-tabs-bar {
+    margin-bottom: 8px;
+}
+.complaint-tabs .complaint-platform-tabs {
+    position: static;
+}
+.complaint-tabs .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    border-radius: 0;
+    margin-right: 0;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.complaint-tabs .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab + .ant-tabs-tab {
+    border-left: 0;
+}
+.complaint-tabs .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    position: relative;
+}
+.complaint-tabs .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active::after {
+    width: 100%;
+    height: 2px;
+    background-color: #4D7BFE;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.complaint-platform-tabs {
+    background-color: #fff;
+    padding: 0 15px;
+}
+.complaint-tabs-search .breadcrumb {
+    box-shadow: none;
+}
+.complaint-tabs-search .list-filter-item-title {
+    min-width: 160px;
+}
+.complaint-tabs-search .list-filter-item {
+    padding-left: 170px;
+}
+.complaint-tabs-search .oms-container > .ant-tag-checkable {
+    margin-right: 15px;
+    margin-left: 0;
+    padding: 0 10px;
+    min-width: 90px;
+    width: auto;
+}
+.complaint-tabs-search .search-tab {
+    z-index: 1;
+}
+.dispute-comment-tablist .ant-table-bordered .ant-table-body > table .ant-table-body > table {
+    border: none;
+}
+.dispute-detail-modal {
+    position: relative;
+}
+.dispute-detail-modal .ant-row > .detail-person {
+    text-align: center;
+    color: #fff;
+}
+.dispute-detail-modal .ant-row > .detail-person:nth-of-type(1) {
+    padding: 0 30px 0 0;
+}
+.dispute-detail-modal .ant-row > .detail-person:nth-of-type(2) {
+    padding: 0 0 0 30px;
+}
+.dispute-detail-modal .detail-person p {
+    background-color: #999;
+    padding: 3px 0;
+}
+.dispute-detail-modal::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 100%;
+    background-color: #EAEAEA;
+}
+.dispute-detail-modal .detail-common {
+    width: 46%;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 0;
+    position: relative;
+}
+.dispute-detail-modal .detail-common::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    z-index: 2;
+}
+.dispute-detail-modal .detail-common::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+}
+.dispute-detail-modal .detail-common .detail-date {
+    position: absolute;
+    color: #999;
+}
+.dispute-detail-modal .buyer-detail {
+    border: 1px solid #E2CE48;
+    background: #FFFBE0;
+}
+.dispute-detail-modal .seller-detail {
+    float: right;
+    border: 1px solid #94D5FD;
+    background: #E6F7FF;
+}
+.dispute-detail-modal .buyer-detail::after {
+    background: #FFFBE0;
+    border: 1px solid #E2CE48;
+    border-bottom: none;
+    border-left: none;
+    top: 20px;
+    right: -11px;
+}
+.dispute-detail-modal .seller-detail::after {
+    background: #E6F7FF;
+    border: 1px solid #94D5FD;
+    border-top: none;
+    border-right: none;
+    top: 20px;
+    left: -11px;
+}
+.dispute-detail-modal .buyer-detail::before {
+    top: 23px;
+    right: -38px;
+    background: #E2CE48;
+}
+.dispute-detail-modal .seller-detail::before {
+    top: 23px;
+    left: -38px;
+    background: #94D5FD;
+}
+.dispute-detail-modal .buyer-detail .detail-date {
+    min-width: 130px;
+    right: -180px;
+    top: 20px;
+}
+.dispute-detail-modal .seller-detail .detail-date {
+    left: -181px;
+    top: 19px;
+}
+.dispute-detail-modal .detail-title {
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
+.dispute-detail-modal .view-more-detail {
+    float: right;
+    padding-top: 10px;
+    cursor: pointer;
+    color: #4D7BFE;
+}
+.dispute-detail-modal .customer-person {
+    color: #fff;
+    background-color: #4D7BFE;
+    position: absolute;
+    top: 13px;
+    right: 14px;
+    padding: 0px 3px;
+    border-radius: 2px;
+}
+.dispute-comment-tablist .comment-info .complaintlist-evaluation {
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+}
+.dispute-comment-tablist .comment-info .complaintlist-evaluation > div {
+    float: left;
+}
+.complaintlist-evaluation .complaintlist-my-reply {
+    padding-right: 93px;
+}
+.comment-info .comment-box {
+    background-color: #E3E3E3;
+    border-radius: 4px;
+    padding: 10px 10px 20px 10px;
+    min-height: 65px;
+    width: 250px;
+    margin-left: 15px;
+    position: relative;
+}
+.comment-info .evaluation-customer-name {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #4D7BFE;
+    color: #fff;
+    padding: 1px 3px;
+    border-radius: 3px;
+}
+.dispute-comment-tablist .comment-product-name {
+    padding: 7px 15px;
+}
+.comment-all-modal .comment-all-stars .ant-form-item-label {
+    line-height: 18px;
+}
+.comment-all-modal .ant-form-item-control {
+    padding-left: 10px;
+}
+.account-seller-account .ant-form-item-control {
+    width: 334px;
+}
+.account-search .account-search-submit {
+    position: absolute;
+    top: 14px;
+    left: 530px;
+    width: 72px;
+}
+.account-tips {
+    color: #FF0000;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.account-behaviour-item {
+    border: 1px solid #DDDDDD;
+    position: relative;
+    padding: 26px 22px 21px 25px;
+    margin-top: 30px;
+    color: #333;
+}
+.account-behaviour-item .yellow-theme {
+    color: #FFBF00;
+}
+.account-behaviour-item .gray-text {
+    color: #999;
+    font-size: 12px;
+}
+.account-behaviour-item .add-label {
+    position: absolute;
+    font-size: 14px;
+    left: 11px;
+    top: -12px;
+    background: #fff;
+    padding: 0 10px;
+}
+.account-info-main .month-level-words {
+    color: #999;
+    overflow: hidden;
+    padding: 5px 0 15px 0;
+}
+.account-info-main .month-level-words .month-level-label {
+    color: #333;
+}
+.account-info-main .next-month-predict {
+    margin-left: 50px;
+}
+.account-info-main .month-level-chart {
+    display: flex;
+    margin-bottom: 15px;
+}
+.account-info-main .month-level-chart > div {
+    flex: 1;
+    background-color: #999999;
+    border-radius: 4px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
+.account-info-main .month-level-chart > div.active {
+    background-color: #FFBF00;
+    transform: scale(1.1);
+}
+.account-info-main .month-level-chart > div + div {
+    margin-left: 30px;
+}
+.account-info-main .score-mark {
+    overflow: hidden;
+}
+.account-info-main .score-mark > div {
+    position: relative;
+    padding-left: 28px;
+    float: left;
+}
+.account-info-main .score-mark > div::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+}
+.account-info-main .score-mark > div + div {
+    margin-left: 60px;
+}
+.account-info-main .score-mark .high-mark::before {
+    background-color: #43B598;
+}
+.account-info-main .score-mark .low-mark::before {
+    background-color: #FDAE45;
+}
+.account-info-main .score-mark .negative-mark::before {
+    background-color: #FC0D1B;
+}
+.account-info-main .score-high {
+    color: #43B598;
+}
+.account-info-main .score-low {
+    color: #FFBF00;
+}
+.account-info-main .score-negative {
+    color: #FC0D1B;
+}
+.account-info-main .daily-slider {
+    padding: 150px 100px 75px;
+}
+.account-info-main .daily-slider .comment-slider-popover  {
+    min-width: 180px;
+}
+.calc-expression-container {
+    display: flex;
+    justify-content: center;
+}
+.account-info-main .calc-expression {
+    text-align: center;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+.account-info-main .calc-expression > div {
+    float: left;
+}
+.account-info-main .calc-expression-total{
+    content: '=';
+    position: relative;
+}
+.account-info-main .calc-expression-total > div:nth-of-type(1) {
+    font-size: 30px;
+    font-weight: bold;
+}
+.account-info-main .calc-expression-total > div:nth-of-type(2) {
+    padding-top: 5px;
+}
+.account-info-main .calc-expression-total::after,
+.account-info-main .calc-expression-item::after {
+    position: absolute;
+    right: -23px;
+    top: 14px;
+}
+.account-info-main .calc-expression-total::after {
+    content: '=';
+}
+.account-info-main .calc-expression-item::after {
+    content: '+';
+}
+.account-info-main .calc-expression > .calc-expression-dsr::after {
+    content: '';
+}
+.account-info-main .calc-expression .calc-expression-item {
+    margin-left: 40px;
+    position: relative;
+}
+.account-info-main .calc-expression .calc-expression-item > div:nth-of-type(1) {
+    font-size: 18px;
+    padding: 8px 22px;
+    border: 1px solid #ddd;
+    min-width: 80px;
+    font-weight: bold;
+}
+.account-info-main .calc-expression .calc-expression-item > div:nth-of-type(2) {
+    width: 80px;
+    position: absolute;
+    height: 40px;
+    bottom: -44px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.account-chart .gray-text {
+    color: #999;
+}
+.account-info-main .account-chart {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.account-chart .comment-slider {
+    bottom: -50%;
+    text-align: left;
+}
+.account-chart .comment-slider .comment-slider-popover,
+.account-chart .comment-slider .comment-slider-popover-aver {
+    min-width: 112px;
+    text-align: left;
+    padding: 8px 10px;
+}
+.account-chart .comment-slider .comment-slider-popover {
+    top: -80px;
+}
+.account-chart .comment-slider .comment-slider-popover-aver {
+    position: relative;
+    bottom: -80px;
+}
+.account-chart .comment-slider .comment-slider-popover-aver {
+    position: absolute;
+    border: 1px solid #DDDDDD;
+    transform: translateX(-50%);
+}
+.account-chart .comment-slider .comment-slider-popover-aver::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    transform: translateX(-50%) rotate(45deg);
+    background: #fff;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-bottom: none;
+    z-index: -1;
+}
+.account-chart .comment-slider .comment-slider-popover-aver::before,
+.account-chart .comment-slider .comment-slider-popover::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+}
+.account-chart .comment-slider .comment-slider-popover-aver::before {
+    top: -46px;
+    background-color: #4D7BFE;
+}
+.account-chart .comment-slider .comment-slider-popover::before {
+    bottom: -46px;
+    background-color: #fff;
+}
+.chart-score-high .comment-slider .comment-slider-track {
+    background-color: #43B598;
+}
+.chart-score-low .comment-slider .comment-slider-track {
+    background-color: #FFBF00;
+}
+.chart-score-negative .comment-slider .comment-slider-track {
+    background-color: #FC0D1B;
+}
+.chart-score-high .comment-slider .comment-slider-popover::before {
+    border: 3px solid #43B598;
+}
+.chart-score-low .comment-slider .comment-slider-popover::before {
+    border: 3px solid #FFBF00;
+}
+.chart-score-negative .comment-slider .comment-slider-popover::before {
+    border: 3px solid #FC0D1B;
+}
+.account-chart .comment-slider .comment-slider-popover::after {
+    z-index: -1;
+}
+.account-chart .comment-slider .comment-slider-popover > div:nth-of-type(2),
+.account-chart .comment-slider .comment-slider-popover-aver > div:nth-of-type(2) {
+    color: #999;
+}
+.account-chart .comment-slider .comment-slider-mark-text {
+    top: 0;
+}
+.account-chart .account-chart-left {
+    width: 240px;
+    flex: 1;
+    position: relative;
+    padding: 40px 10px;
+    text-align: center;
+}
+.account-chart .account-chart-left::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: #ddd;
+    right: 0;
+    top: 0;
+}
+.account-chart .account-chart-right {
+    flex: 5;
+    padding: 0 80px 0 150px;
+    position: relative;
+}
+.account-chart .account-chart-right::after {
+    content: '服务分';
+    position: absolute;
+    left: 76px;
+    top: 50%;
+}
+.account-chart .account-chart-left > div:nth-of-type(1) {
+    font-size: 30px;
+    font-weight: bold;
+}
+.account-info-main .low-score {
+    color: #4D7BFE;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.account-score-modal .mgt-5 {
+    margin-top: 5px;
+}
+.account-score-modal .product-download {
+   margin-bottom: 10px;
+}
+.account-behaviour-item #account-chart-container {
+    width: 100%;
+    height: 500px;
+    padding: 40px 0px;
+}
+.account-behaviour-item .account-seperate {
+    margin: 0 10px;
+}
+.comment-info .anticon:hover {
+    color: inherit;
+}
+.complaintlist-evaluation-time {
+    position: absolute;
+    bottom: 2px;
+    right: 10px;
+    color: #999;
+}
+.complain-export-btn {
+    position: absolute;
+    right: 20px;
+    top: 14px;
+}
+/* 撼动此处的!import */
+.complain-common-search .yks-erp-search_order .typeSearch .typeSearch-l .typeSearch-r .ant-input-lg {
+    margin-top: 0px !important;
+}

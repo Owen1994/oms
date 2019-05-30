@@ -1,0 +1,100 @@
+.pms-editrule .ant-form{
+    display: flex;
+} 
+.pms-editrule .ant-form .ant-row{
+    width:33.3%;
+    padding: 20px 0px;
+}
+.pms-pce-content{
+    width:100%;
+    padding:20px;
+}
+.pms-pce-content .pms-pce-content-left{
+    float: left;
+    width:48%;
+    border:1px #F2F2F5 solid; 
+    height: 380px;
+}
+.pms-pce-content .pms-pce-content-left .ant-checkbox-group{
+    width:100%;
+}
+.pms-pce-content .pms-pce-content-left .ant-checkbox-group-item{
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    border-bottom:1px #F2F2F5 solid;
+    padding-left: 20px;
+}
+.pms-pce-content .pms-pce-content-left .pms-pce-content-left-h,
+.pms-pce-content .pms-pce-content-right .pms-pce-content-right-h{
+    background-color: #F9FAFD;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+.pms-pce-content .pms-pce-content-right{
+    float: right;
+    width:48%;
+    border:1px #F2F2F5 solid;
+    height: auto;
+}
+.pms-pce-content .pms-pce-content-right>div>p{
+    /* height: 35px; */
+    line-height: 35px;
+    padding-left: 20px;
+    border-bottom:1px #F2F2F5 solid;
+    position:relative;
+}
+.pms-pce-content .pms-pce-content-right>div>p .pms-position{
+    position: absolute;
+    left:40%;
+}
+.pms-editrule .pms-purchasecheckruleseteditrule-tab{
+    padding: 0px 10px 20px;
+    background-color:#fff;
+    margin-top: 20px;
+}
+.pms-editrule .pms-purchasecheckruleseteditrule-tab .pms-rule{
+    line-height: 30px;
+}
+.pms-editrule .pms-purchasecheckruleseteditrule-tab .ant-form-horizontal>div {
+    width:100%;
+}
+
+/* 弹窗样式 */
+.addeditModal-flex{
+    display: flex;
+}
+.addeditModal-flex select{
+    width: 150px;
+}
+.addeditModal-flex input{
+    margin-left: 20px;
+    width: 330px;
+}
+
+.pcchecked:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    border: 1px solid #1890ff;
+    content: '';
+    -webkit-animation: antCheckboxEffect 0.36s ease-in-out;
+    animation: antCheckboxEffect 0.36s ease-in-out;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    visibility: hidden;
+}
+.pms-purchasecheckruleseteditrule-modal{
+    width:645px !important;
+}
+.pms-purchasecheckruleseteditrule-modal .paymentMethod{
+    margin-left: 5px;
+}
+.pms-purchasecheckruleseteditrule-modal .paymentMethod .ant-checkbox-wrapper{
+    margin-bottom: 20px;
+    width:30%;
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <meta name="theme-color" content="#000000">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <script src="//libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+  <script src="//s3.pstatp.com/cdn/expire-1-M/lodash.js/4.17.4/lodash.min.js" type="application/javascript"></script>
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    .loadEffectWrap {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .loadEffect {
+      width: 100px;
+      height: 100px;
+      position: relative;
+    }
+
+    .loadEffect span {
+      position: absolute;
+      left: 50%;
+      top: 80%;
+      margin-left: -20px;
+      color: #1890ff;
+      width: 20px;
+      height: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div class="loadEffectWrap">
+
+    <div class="loadEffect">
+      <img src="https://erp.youkeshu.com/download/static/img/loading1.5s.gif" />
+      <span>loading...</span>
+    </div>
+  </div>
+  <div id="root"></div>
+</body>
+
+</html>

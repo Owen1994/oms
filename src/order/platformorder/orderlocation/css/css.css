@@ -1,0 +1,200 @@
+.prderlocation-search{
+    padding: 10px;
+}
+.prderlocation-search .content_right .ant-form-item-control-wrapper{
+    width: 330px;
+}
+
+.orderlocation-table{
+    margin-top: 20px;
+    min-height: 700px;
+    background-color: #ffffff;
+    padding-left: 30px;
+    overflow: hidden;
+}
+.orderlocation-table-cell{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.orderlocation-flex{
+    display: inline-flex;
+    width: 220px;
+    word-break: break-word;
+}
+
+/* 字体 */
+.orderlocation-word{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #BFC5DE;
+    border-radius: 5px;
+}
+.old-word-color{
+    color: #BFC5DE;
+}
+.new-word-color{
+    color: #333333;
+}
+/* 字体 */
+
+/* 图片 */
+.orderlocation-plat-img{
+    background-image: url('../constants/imgs/plat1.png');
+}
+.orderlocation-plat-img2{
+    background-image: url('../constants/imgs/plat2.png');
+}
+
+.orderlocation-order-img{
+    background-image: url('../constants/imgs/order1.png');
+}
+.orderlocation-order-img2{
+    background-image: url('../constants/imgs/order2.png');
+}
+
+.orderlocation-manage-img{
+    background-image: url('../constants/imgs/manage1.png');
+}
+.orderlocation-manage-img2{
+    background-image: url('../constants/imgs/manage2.png');
+}
+
+.orderlocation-hwimport-img{
+    background-image: url('../constants/imgs/import1.png');
+}
+.orderlocation-hwimport-img2{
+    background-image: url('../constants/imgs/import2.png');
+}
+
+.orderlocation-package-img{
+    background-image: url('../constants/imgs/package1.png');
+}
+.orderlocation-package-img2{
+    background-image: url('../constants/imgs/package2.png');
+}
+/* 图片 */
+
+/* 箭头 */
+.orderlocation-img{
+    width: 50px;
+    height: 50px;
+    background-position: 5px;
+    margin-bottom: 4px;
+    background-repeat: no-repeat;
+}
+.orderlocation-arrow{
+    width: 80px;
+    height: 80px;
+    background-position: 32px 20px;
+    background-repeat: no-repeat;
+}
+.orderlocation-arrow1, .orderlocation-arrow2, .orderlocation-arrow3, .orderlocation-arrow4{
+    background-image: url('../constants/imgs/arrow1.png');
+}
+.orderlocation-arrow-color{
+    background-image: url('../constants/imgs/arrow2.png');
+}
+.orderlocation-arrow-right{
+    transform: rotate(-90deg)
+}
+/* 箭头 */
+
+/* 结束状态 */
+.orderlocation-end-cell{
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.orderlocation-endPoint{
+    width: 90px;
+    height: 60px;
+    float: left;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.4;
+    border-radius: 5px;
+}
+.orderlocation-warehouse{
+    position: relative;
+    top: -50px;
+}
+.orderlocation-wms{
+    position: relative;
+    top: 50px;
+}
+/* 结束状态 */
+
+/* 线条 */
+.orderlocation-line{
+    float: left;
+    height: 0;
+    width: 150px;
+    border: 1px solid #BFC5DE;
+    margin-right: 20px;
+}
+.orderlocation-line-color{
+    border: 1px solid #4D7BFE;
+}
+.orderlocation-line2{
+    position: relative;
+    top: -49px;
+}
+.orderlocation-line3{
+    position: relative;
+    top: 49px;
+}
+.orderlocation-lefttop-border{
+    border-left: 2px solid #BFC5DE;
+    border-top: 2px solid #BFC5DE;
+}
+.orderlocation-bottomleft-border{
+    border-bottom: 2px solid #BFC5DE;
+    border-left: 2px solid #BFC5DE;
+}
+.orderlocation-lefttop-border-color{
+    border-left: 2px solid #4D7BFE;
+    border-top: 2px solid #4D7BFE;
+}
+.orderlocation-bottomleft-border-color{
+    border-bottom: 2px solid #4D7BFE;
+    border-left: 2px solid #4D7BFE;
+}
+.old-endpoint-bordercolor{
+    border: 1px solid #BFC5DE;
+}
+.new-endpoint-bordercolor{
+    border: 1px solid #4D7BFE;
+}
+/* 线条 */
+
+/* 提示信息 */
+.orderlocation-msg{
+    position: absolute;
+    width: 300px;
+    z-index: 100;
+    color: #333333;
+    visibility: hidden;
+}
+.orderlocation-msg span{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+.orderlocation-visible{
+    visibility: visible;
+}
+.orderlocation-left20{
+    left: -20px;
+}
+.orderlocation-left40{
+    left: -40px;
+}
+/* 提示信息 */

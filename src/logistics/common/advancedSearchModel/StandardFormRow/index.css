@@ -1,0 +1,28 @@
+.standard-form-row{
+    clear: both;
+}
+.standard-form-row .label{
+    float: left;
+    width: 160px;
+    line-height: 22px;
+    text-align: right;
+    /*font-weight: bold;*/
+    color: #333
+}
+.standard-form-row .items{
+    float: left;
+}
+.standard-form-row .items .paved-selected{
+    font-size: 0px;
+
+}
+.default-search .items .ant-row{
+    height: 22px;
+}
+.standard-form-row .items .ant-form-item-control{
+    line-height: 22px;
+}
+.standard-form-row .ant-radio-button-wrapper{
+    width: 92px;
+    text-align: center;
+}

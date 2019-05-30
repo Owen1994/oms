@@ -1,0 +1,10 @@
+.yks-erp-search_order .pr_width {
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+}
+
+.statement-order-list-text p {
+    padding: 2px 1px;
+}

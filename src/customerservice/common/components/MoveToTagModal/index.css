@@ -1,0 +1,9 @@
+.move-to-tag .ant-tree {
+    border: 1px solid #e8e8e8;
+    margin-top: 15px;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+.move-to-tag .ant-input-search {
+    width: 50%;
+}

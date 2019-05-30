@@ -1,0 +1,13 @@
+.wms-returnmanage .ant-table-expanded-row > td {
+    padding: 0 !important;
+}
+.wms-returnmanage .ant-table-expanded-row table {
+    border: none;
+    margin: 0 !important;
+}
+.wms-returnmanage .ant-table-expanded-row td {
+    background: #fff;
+}
+.wms-returnmanage .ant-table-expanded-row .ant-table-small {
+    border: none;
+}

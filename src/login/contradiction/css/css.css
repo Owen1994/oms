@@ -1,0 +1,64 @@
+#root{
+    height: 100%;
+}
+.yks-contradiction{
+    background-color: #fff;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex;
+    position: relative;
+    height: 100%;
+}
+
+.yks-contradiction .yks-contradiction-text{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.yks-contradiction .yks-contradiction-text .yks-contradiction-text-top{
+    background-image:url("../img/background_contradiction.png");
+    background-size:100%;
+    background-repeat:no-repeat;
+    width: 600px;
+    height: 230px;
+}
+.yks-contradiction .yks-contradiction-text .yks-contradiction-text-bottom{
+    height: 238px;
+    width:500px;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex;
+    margin: 0 auto;
+    word-break: break-all;
+}
+.yks-contradiction .yks-contradiction-text .yks-contradiction-text-bottom .yks-contradiction-text-bottom-font{
+    color:#8394A5;
+    line-height: 34px;
+}
+.yks-contradiction .yks-contradiction-text .yks-contradiction-text-bottom .yks-contradiction-text-bottom-font p{
+    font-size:18px;
+}
+.yks-contradiction .yks-contradiction-text .yks-contradiction-text-bottom .yks-contradiction-text-bottom-font button{
+    margin-top: 20px;
+    position: relative;
+    width:100px;
+    height: 32px;
+}
+.yks-contradiction .yks-contradiction-text .yks-contradiction-text-bottom .yks-contradiction-text-bottom-font button span{
+    padding-left: 3px;
+    font-size: 16px;
+}
+
+.yks-contradiction .yks-contradiction-text .yks-contradiction-text-bottom .yks-contradiction-text-bottom-font button .relogin{
+    width:13px;
+    height:13px;
+    background-image: url("../img/overtime_icon.png");
+    background-size:100%;
+    background-repeat:no-repeat;
+    display: inline-block;
+    margin-left: -5px;
+}
+

@@ -1,0 +1,28 @@
+.add_all{
+    padding:10px 0px;
+    text-align:left;
+    border-top:1px solid #ccc;
+}
+.add_all .add_tilis{
+    height: 35px
+}
+.add_all .add_tilis .tilis_lef{
+    width:60%;
+    float:left;
+    height: 35px;
+    line-height:35px;
+}
+.add_all .add_tilis .tilis_rit{
+    width:40%;
+    float:left;
+}
+.add_all .add_tilis .tilis_rit .rit_btn{
+    margin-right:0px;
+    float:right
+}
+.consigneeadd_table{
+    margin:10px 0px;
+}
+.orderconsignee-margintop20{
+    margin-top: 20px;
+}

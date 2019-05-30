@@ -1,0 +1,22 @@
+.yks-common-crumb {
+    font-size: 13px;
+    color: #999;
+    padding: 15px 0px;
+    overflow: hidden;
+}
+
+.yks-common-crumb .ant-breadcrumb {
+    float: left;
+    font-size: 13px;
+}
+
+.yks-common-crumb .ant-breadcrumb > span:last-child {
+    color: #999;
+}
+
+.yks-common-crumb .ant-breadcrumb a {
+    color: #333;
+}
+.yks-common-crumb .ant-breadcrumb a:hover {
+    color: #4d7bfe;
+}

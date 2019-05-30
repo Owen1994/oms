@@ -1,0 +1,7 @@
+.wms-threenoproductmanage .border-bottom-line {
+    border-bottom: 1px solid #EAEDF3;
+}
+
+.wms-threenoproductmanage  .ant-form-item {
+    display: flex;
+}

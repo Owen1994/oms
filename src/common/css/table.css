@@ -1,0 +1,47 @@
+.yks-erp-table {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+.yks-erp-table .top-left-wrap {
+    float: left;
+}
+
+.yks-erp-table .top-right-wrap {
+    float: right;
+}
+
+.yks-erp-table .top-container {
+    margin-bottom: 10px;
+}
+
+.yks-erp-table .top-container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content-key-value>div {
+    text-align: center;
+}
+
+.yks-erp-column-label-wrap,
+.yks-erp-table .column-label-wrap {
+    display: flex;
+    padding: 0 10px;
+}
+
+.yks-erp-column-label-wrap .column-label-wrap_left,
+.yks-erp-table .column-label-wrap .column-label-wrap_left {
+    width: 100px;
+    display: block;
+    text-align: right;
+}
+
+.yks-erp-column-label-wrap .column-label-wrap_right,
+.yks-erp-table .column-label-wrap .column-label-wrap_right {
+    flex: 1;
+    margin-left: 10px;
+    text-align: left;
+}

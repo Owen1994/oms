@@ -1,0 +1,57 @@
+/* 搜索 */
+.pbh-qee-list_container .search{
+    position: relative;
+}
+.pbh-qee-list_container .search-tab{
+    position: absolute;
+    width: 120px;
+    top: 15px;
+    right: 10px;
+    z-index: 0;
+}
+.pbh-qee-list_container .search-tab .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.pbh-qee-list_container .text-search .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.pbh-qee-list_container .pbh-qee-list_container .default-search{
+    overflow: hidden;
+}
+.pbh-qee-list_container .text-search{
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    margin-top: 4px;
+    padding-top: 4px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    background: #fafafa;
+}
+.pbh-qee-list_container .btn-search{
+    width: 504px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+.pbh-qee-list_container .btn-search button{
+    margin-left: 10px;
+}
+.pbh-qee-list_container .height-search{
+    overflow: hidden;
+}
+.pbh-qee-list_container .height-search .standard-form-row{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.pbh-qee-list_container .height-search .ant-form-item-control-wrapper, .pbh-qee-list_container .height-search .ant-calendar-picker{
+    width: 344px;
+}
+
+.cwc-queue-text-search .standard-form-row:first-child{
+    margin-bottom: 10px !important;
+}

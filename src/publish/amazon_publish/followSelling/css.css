@@ -1,0 +1,24 @@
+/* 选项卡样式复写 */
+.pricing-system_card-container .ant-tabs.ant-tabs-card > .ant-tabs-bar{
+    background-color: #fff;
+    margin-bottom: 0;
+}
+.pricing-system_card-container .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    border-left: 0;
+    border-radius: 0;
+}
+.pricing-system_card-container .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    border-top: 2px solid #4D7BFE;
+    margin-top: -2px;
+    position: relative;
+    top: 1px;
+}
+
+
+.is-drag-modal .ant-modal-header {
+    cursor: pointer;
+}
+
+.is-drag-modal .ant-modal-header:hover {
+    background-color: #f1f1f1;
+}

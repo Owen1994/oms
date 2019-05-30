@@ -1,0 +1,150 @@
+/* 搜索 */
+.sensitive .search{
+    position: relative;
+}
+.sensitive .search-tab{
+    position: absolute;
+    width: 120px;
+    top: 10px;
+    right: 10px;
+    z-index: 0;
+}
+.sensitive .search-tab .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.sensitive .text-search .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.sensitive .sensitive .default-search{
+    overflow: hidden;
+}
+.sensitive .text-search{
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    background: #fafafa;
+}
+.sensitive .btn-search{
+    width: 504px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    text-align: right;
+}
+.sensitive .btn-search button{
+    margin-left: 10px;
+}
+.sensitive .height-search{
+    overflow: hidden;
+}
+.sensitive .height-search .standard-form-row{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.sensitive .height-search .ant-form-item-control-wrapper, .sensitive .height-search .ant-calendar-picker{
+    width: 344px;
+}
+
+/* 操作列 */
+.sensitive .options-style .inline-block{
+    display: inline-block;
+    margin-left: 10px;
+}
+.sensitive .options-style .ant-dropdown-trigger{
+    cursor: pointer;
+    color: #4d7bfe;
+}
+.btn-name{
+    color: #4d7bfe;
+    cursor: pointer;
+}
+
+/* 详情页 */
+.sensitive-detail .ant-form-item{
+    margin-bottom: 10px;
+}
+
+.tcloud-export .ant-checkbox-wrapper{
+    width: 104px;
+    margin-bottom: 5px;
+}
+
+.sensitive-detail .standard-item-row .label{
+width: 84px;
+}
+.sensitive-detail .common-sensitive-platform-site .ant-form-item {
+    margin-bottom: 0!important;
+}
+.sensitive-detail .ant-form:last-of-type>.ant-form-item:last-of-type {
+    margin-bottom: 0;
+}
+.sensitive-detail2 {
+    padding: 0 50px;
+ }
+ .sensitive-detail2 .title{
+    padding-left: 0!important;
+    padding-right: 0!important;
+    margin-bottom: 10px;
+ }
+ .sensitive-detail2 .title:last-of-type {
+    margin-top: 20px;
+ }
+ .sensitive-detail2 .ant-table-body td {
+    text-align: center;
+ }
+ .sensitive-detail2 .separate-line {
+    display: inline-block;
+    width:4px;
+    height:16px;
+    line-height: 30px;
+    background:rgba(77,123,254,1);
+    border-radius:2px;
+    vertical-align: middle;
+ }
+ .sensitive-detail2 .separate-header {
+    margin: 8px;
+    height:17px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    vertical-align: middle;
+ }
+
+.sensitive-detail2 .ant-form-item-control-wrapper {
+    /* overflow: hidden; */
+}
+.sensitive-detail2 .ant-form-text {
+    display: inline;
+}
+.sensitive-detail2 .ant-row .ant-form-item-control {
+    line-height: 20px;
+    font-size: 12px;
+}
+.sensitive-detail2 .ant-row .ant-form-item-label {
+    line-height: 20px;
+}
+
+.sensitive-detail .mb15 {
+    margin-bottom: 0;
+}
+.separate p {
+    text-align: left;
+    min-height: 20px;
+    position: relative;
+    padding-left: 80px;
+}
+.separate p span{
+    text-align: right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+}

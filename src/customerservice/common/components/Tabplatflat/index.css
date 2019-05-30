@@ -1,0 +1,20 @@
+.customer-service-tab-platform{
+    width: 100%;
+    height: 43px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+.customer-service-tab-platform .ant-tabs-bar {
+    margin: 0px;
+    border: 0px;
+}
+.customer-service-tab-platform .ant-tabs-ink-bar{
+    height: 0px;
+}
+.customer-service-tab-platform .ant-tabs-nav .ant-tabs-tab-active{
+    background: #4D7BFE;
+    color: #fff;
+}

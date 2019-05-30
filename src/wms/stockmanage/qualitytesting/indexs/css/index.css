@@ -1,0 +1,57 @@
+/*紧急通道*/
+.wms-qualitytesting .priority-row td {
+    background-color: #FFBCBC;
+}
+
+.wms-qualitytesting .priority-row th {
+    background-color: #FFBCBC;;
+}
+
+/*已质检完成的*/
+.wms-qualitytesting .quality-row td {
+    background-color: #51ee86;
+}
+
+.wms-qualitytesting .quality-row th {
+    background-color: #51ee86;;
+}
+
+/*已质检完成并且打印完成的*/
+.wms-qualitytesting .print-over-row td {
+    background-color: #ffcf60;
+}
+
+.wms-qualitytesting .print-over-row th {
+    background-color: #ffcf60;;
+}
+
+/*默认背景*/
+.wms-qualitytesting .table-item-bg1 td {
+    background-color: #fff;
+}
+
+.wms-qualitytesting .table-item-bg1 th {
+    background-color: #fff;;
+}
+
+/*隔行背景*/
+.wms-qualitytesting .table-item-bg2 td {
+    background-color: #fff;
+}
+
+.wms-qualitytesting .table-item-bg2 th {
+    background-color: #fff;
+}
+
+/*.wms-qualitytesting .ant-table-expanded-row .ant-table-tbody > tr > td {*/
+    /*!*border-bottom: none;*!*/
+/*}*/
+
+.wms-qualitytesting .ant-table-tbody .ant-table-row-level-0 {
+    border-top: 10px solid #e8e8e8;
+}
+
+.wms-qualitytesting .ant-table-tbody  tr:first-child{
+    border-top: none;
+}
+

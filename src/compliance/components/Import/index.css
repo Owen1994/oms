@@ -1,0 +1,124 @@
+/* tablelist步骤条样式覆写 */
+.ant-steps-small .ant-steps-item-icon{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    background-color: #999;
+    border: 1px solid #DDE0FF;
+}
+.ant-steps-item-finish .ant-steps-item-icon{
+    background-color: #4D7BFE;
+    border: 1px solid #DDE0FF;
+}
+.ant-steps-item{
+    padding: 0 45px 20px;
+}
+.ant-steps-item > .ant-steps-item-content{
+    position: relative;
+}
+
+.ant-steps-item > .ant-steps-item-content > .ant-steps-item-title{
+    font-size: 12px;
+    position: absolute;
+    top: 20px;
+    left: -75px;
+    color: #999;
+    width: 120px;
+    text-align: center;
+}
+.ant-steps-item > .ant-steps-item-content >.ant-steps-item-title:after{
+    height: 5px;
+    left: 80px;
+    top: -13px;
+}
+.ant-steps-item-finish > .ant-steps-item-content > .ant-steps-item-title{
+    color: #4D7BFE;
+}
+.ant-steps-item-finish > .ant-steps-item-content > .ant-steps-item-title:after{
+    background-color: #4D7BFE;
+}
+.ant-steps-small .ant-steps-item-title:after{
+    top: 10px;
+    background-color: #5658B9;
+}
+.ant-steps-item-process > .ant-steps-item-content > .ant-steps-item-title:after{
+    background-color: #ddd;
+}
+.ant-steps-item .ant-steps-item-icon > .ant-steps-icon{
+    color: #fff;
+}
+.ant-steps-small.ant-steps-horizontal:not(.ant-steps-label-vertical) .ant-steps-item {
+    margin-right: -30px;
+}
+.tweb-upload .export-type{
+    font-size: 12px;
+}
+.tweb-upload .export-type .padding-md-left{
+    margin-bottom: 10px;
+    color: #999;
+}
+
+.tweb-upload{
+    color: #333;
+}
+.tweb-upload .temp_download,
+.tweb-upload .files_type{
+    padding-left: 12px;
+}
+.tweb-upload .temp_download i{
+    margin-right: 5px;
+}
+.tweb-upload .temp_upload{
+    padding-left: 12px;
+}
+.tweb-upload .temp_upload .ant-upload,
+.tweb-upload .temp_upload .ant-upload-list-item{
+    float: left;
+}
+.tweb-upload .temp_upload .ant-upload-list-item{
+    margin-top: 4px;
+}
+.tweb-upload .temp_upload .ant-upload .ant-btn{
+    height: 30px;
+    line-height: 30px;
+    background-color: #4D7BFE;
+    color: #fff;
+}
+.tweb-upload_success,
+.tweb-upload_failed{
+    text-align: center;
+}
+.tweb-upload_success .tweb-upload_success_icon,
+.tweb-upload_failed .tweb-upload_failed_icon{
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: #4D7BFE;
+}
+.tweb-upload_failed .tweb-upload_failed_icon{
+    background-color: #F56A00;
+}
+.tweb-upload_success .tweb-upload_success_icon .anticon-check:before,
+.tweb-upload_failed .tweb-upload_failed_icon .anticon-close:before {
+    color: #fff;
+    line-height: 78px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.tweb-upload_success .tweb-upload_success_text,
+.tweb-upload_failed .tweb-upload_failed_text{
+    font-size: 24px;
+    color: #4D7BFE;
+}
+.tweb-upload_failed .tweb-upload_failed_text{
+    color: #F56A00;
+}
+.tweb-upload_failed_btns .ant-btn-primary{
+    background-color: #F56A00;
+    border-color: #F56A00;
+}
+.temp_upload .next_btn{
+    margin-top: 20px;
+}

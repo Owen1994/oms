@@ -1,0 +1,12 @@
+.search-tab{
+    position: absolute;
+    width: 120px;
+    top: 14px;
+    right: 10px;
+    z-index: 0;
+}
+.search-tab .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}

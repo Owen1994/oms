@@ -1,0 +1,189 @@
+.margin-top {
+    margin-top: 20px;
+}
+
+/* tabs begin */
+.mymallorder-tabs{
+    background-color: #ffffff;
+}
+.mymallorder-tabs .ant-tabs-bar{
+    margin-bottom: 0;
+}
+.mymallorder-tabs .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active{
+    position: relative;
+    top: 1px !important;
+    border-top: 2px solid #4D7BFE;
+}
+.mymallorder-tabs .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab{
+    top: -1px;
+    margin-right: 0;
+    border-left: none;
+    border-radius: 0;
+}
+/* tabs end */
+
+/* tablelist begin */
+.mymallorder-tablelist{
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.mymallorder-addBtn{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.mymallorder-addBtn button{
+    margin-left: 20px;
+}
+.mymallorder-tablelist-orderdetail{
+    float: right;
+    width: 65px;
+    height: 70px;
+    margin-top: 10px;
+}
+.mymallorder-tablelist-orderdetail img{
+    width: 100%;
+    height: 100%;
+}
+.mymallorder-tablelist-span{
+    display: inline-block;
+    width: 75px;
+    text-align: right;
+}
+.mymallorder-tablelist-span2{
+    display: inline-block;
+    width: 66px;
+    text-align: right;
+}
+.mymallorder-tablelist-span3{
+    display: inline-block;
+    width: 85px;
+    text-align: right;
+}
+.mymallorder-tablelist-info{
+    min-width: 230px;
+    margin-left: 10%;
+    word-break: break-all;
+}
+.mymallorder-tablelist-info p{
+    text-align: left;
+}
+.mymallorder-span-bg{
+    background:rgba(236,241,254,1);
+    color: #4D7BFE;
+    display: inline-block;
+    padding: 2px 10px;
+}
+.mymallorder-tablelist-ellipsis{
+    display: inline-block;
+    width: 75px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    top: 3px;
+}
+/* tablelist end */
+
+/* modal begin */
+.mymallorder-modal-form .ant-row.ant-form-item{
+    margin-bottom: 10px;
+}
+.mymallorder-modal-form .ant-row.ant-form-item:last-of-type{
+    margin-bottom: 0;
+}
+.mymallorder-modal-form .ant-form-item-control{
+    width: 260px;
+}
+.mymallorder-modal-form p{
+    font-size:12px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+    line-height:33px;
+}
+.mymallorder-modal-form button{
+    width: 260px;
+}
+.mymallorder-modal-cselect .ant-form-item-control{
+    width: 260px !important;
+}
+/* modal end */
+
+
+.mymallorder-span-4{
+    display: inline-block;
+    font-weight:400;
+    color: #333333;
+    width: 52px;
+    text-align: right;
+}
+.mymallorder-span-6{
+    display: inline-block;
+    font-weight:400;
+    color: #333333;
+    width: 72px;
+    text-align: right;
+}
+.mymallorder-span-content{
+    display: inline-flex;
+    width: 66%;
+    text-align: left;
+    font-weight:400;
+    color: #333333;
+    word-break: break-all;
+}
+.mymallorder-modal-content h3{
+    font-weight: bold;
+    color: rgba(51,51,51,1);
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.mymallorder-span-before{
+    display: inline-block;
+    width: 3px;
+    height: 12px;
+    background: rgba(77,123,254,1);
+    border-radius: 1px;
+    margin-right: 3px;
+}
+.mymallorder-modal-content > div{
+    margin-bottom: 20px;
+}
+.mymallorder-modal-productInfo .ant-row,
+.mymallorder-modal-refundInformation .ant-row,
+.mymallorder-modal-receiptAddress .ant-row{
+    margin-bottom: 10px;
+}
+.mymallorder-modal-paymentInfo > .ant-row > .ant-col-8 > div,
+.mymallorder-modal-receiptAddress > .ant-row > .ant-col-8 > div{
+    margin-bottom: 10px;
+}
+.mymallorder-modal-paymentInfo > .ant-row > .ant-col-8 > div:last-child,
+.mymallorder-modal-receiptAddress > .ant-row > .ant-col-8 > div:last-child{
+    margin-bottom: 0;
+}
+
+/* .mymallorder-tablelist-goodsdetail{
+    max-width: 260px;
+    margin: 0 auto;
+} */
+.mymallorder-tablelist-goodsdetail > .ant-row{
+    border-bottom: 1px solid #EAE9E9;
+    padding: 8px 0;
+}
+.mymallorder-tablelist-goodsdetail > .ant-row:last-of-type{
+    border-bottom: none;
+}
+.mymallorder-flex {
+    display: inline-flex;
+    width: 50%;
+    word-break: break-word;
+}
+.mymallorder-td{
+    padding: 0 !important;
+}
+.mymallorder-tablelist .ant-table table{
+    text-align: left
+}

@@ -1,0 +1,18 @@
+.amazonqueue{position: relative}
+.amazonqueue .search-tab{width:120px; position: absolute; top:4px; right:20px;}
+.amazonqueue .search-tab .ant-radio-button-wrapper-checked{ background-color:#4D7BFE; color: #fff;}
+.amazonqueue .detail-btn{margin-left:185px; margin-bottom: 20px;}
+.amazonqueue .margin-15-top{margin-top:13px;}
+
+.amazonqueue-table .rightbtn{text-align: right; line-height: normal; padding:10px ;}
+.amazonqueue-table .queuetablecen{padding: 10px 10px 10px 10px;}
+.amazonsetting-table .rightbtn{text-align: right; line-height: normal; padding:10px ;}
+.amazonsetting-table .settingtablecen{padding: 0px 10px 10px 10px;}
+/* .setting-tan{} */
+.setting-tan .setting-fen{ text-align: right; margin-bottom: 12px;}
+.setting-tan .setting-tanall{height:36px; line-height: 36px;}
+.setting-tan .setting-tanall .setting-order{float:left; text-align: left; max-width: 424px;}
+.setting-tan .setting-tanall .setting-order2{float:left; width: 86px;}
+.setting-tan .setting-tanall .setting-tanbtn{float:right; margin-left: 20px;}
+.setting-tan .setting-tanall .down-btn{float:right;}
+.setting-tan .setting-tanall .setting-tanbtn .let-btn{margin-left:20px;}

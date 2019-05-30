@@ -1,0 +1,157 @@
+{
+  "operator": "renmaohua",
+  "pwd": "com.yks.urc.",
+  "ticket": "0b8cca4e71066097d6c0f8e9bd77c1f2",
+  "funcVersion": "37ff8928384a8b8fc0f753f18d03267a",
+  "data": [
+    {
+      "apiUrlPrefix": [
+        "/oms/order/"
+      ],
+      "system": {
+        "key": "003",
+        "name": "系统配置",
+        "url": "/systemconfig/"
+      },
+      "menu": [
+        {
+          "key": "003-000001",
+          "name": "平台授权",
+          "url": "/systemconfig/",
+          "module": [
+            {
+              "key": "003-000001-000001",
+              "name": "AliExpress授权",
+              "url": "/systemconfig/platformauthorization/smt/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "003-000001-000001-001",
+                  "name": "查看",
+                  "url": [
+                    "/oms/order/grab/motan/SellStoreAccountApi/findStoreList"
+                  ]
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "003-000001-000002",
+              "name": "Wish授权",
+              "url": "/systemconfig/platformauthorization/wish/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "003-000001-000002-001",
+                  "name": "查看",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "003-000001-000003",
+              "name": "Ebay授权",
+              "url": "/systemconfig/platformauthorization/ebay/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "003-000001-000003-001",
+                  "name": "查看",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "003-000001-000004",
+              "name": "Joom授权",
+              "url": "/systemconfig/platformauthorization/joom/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "003-000001-000004-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "003-000001-000004-002",
+                  "name": "新增授权",
+                  "url": []
+                },
+                {
+                  "key": "003-000001-000004-003",
+                  "name": "重新授权",
+                  "url": []
+                },
+                {
+                  "key": "003-000001-000004-004",
+                  "name": "删除",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "003-000001-000005",
+              "name": "Amazon授权",
+              "url": "/systemconfig/platformauthorization/amazon/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "003-000001-000005-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "003-000001-000005-002",
+                  "name": "新增授权",
+                  "url": []
+                },
+                {
+                  "key": "003-000001-000005-003",
+                  "name": "修改",
+                  "url": []
+                },
+                {
+                  "key": "003-000001-000005-004",
+                  "name": "删除",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "003-000001-000006",
+              "name": "Mymall授权",
+              "url": "/systemconfig/platformauthorization/mymall/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "003-000001-000006-001",
+                  "name": "查看",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "003-000001-000007",
+              "name": "Shopee授权",
+              "url": "/systemconfig/platformauthorization/shopee/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "003-000001-000007-001",
+                  "name": "查看",
+                  "url": []
+                }
+              ],
+              "module": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+.data-risk-code .table-item .items {
+    width: 240px!important;
+}
+
+.data-riskcode-detail .ant-row .ant-form-item {
+    margin-bottom: 12px;
+}
+.data-riskcode-detail .ant-row .common-sensitive-platform-site .ant-form-item {
+    margin-bottom: 0;
+}
+
+.data-riskcode-detail .ant-form:last-of-type .ant-col-24 .ant-col-24:last-of-type .ant-form-item {
+    margin-bottom: 0;
+}

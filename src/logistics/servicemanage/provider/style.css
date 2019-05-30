@@ -1,0 +1,11 @@
+.lgt-container .modal-container .three-split-label {
+    display: flex;
+}
+
+.lgt-container .modal-container .three-split-label:first-child {
+    flex: 1;
+}
+
+.lgt-container .modal-container .three-split-label:last-child {
+    width: 100px;
+}

@@ -1,0 +1,40 @@
+.customer-service-tree-class{
+    width: 305px;
+    height: calc(100% - 58px);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    margin-top: 58px;
+    overflow-y: scroll;
+}
+/* .customer-service-tree-class .tree-height{
+    height: 58px;
+    background: #edf1f5;
+} */
+.customer-service-tree li{
+    position: relative;
+}
+.customer-service-tree li .ant-tree-node-content-wrapper{
+    display: block !important;
+    width: 100%;
+    position: absolute;
+    top: 7px;
+    left: 0px;
+}
+.customer-service-tree li .ant-tree-node-content-wrapper .ant-tree-title{
+    margin-left: 20px;
+}
+.customer-service-tree li .ant-tree-switcher{
+    position: relative;
+    z-index: 9;
+}
+.customer-service-tree li .ant-tree-node-content-wrapper:hover{
+    background: #f5f5f5 ;
+}
+.customer-service-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected{
+    background: #eee ;
+}
+.customer-tree-search {
+    margin-bottom: 8px;
+}

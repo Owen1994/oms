@@ -1,0 +1,22 @@
+.tcloud-popconfirm .btn-name {
+    color: #4d7bfe;
+    cursor: pointer;
+}
+/* .ant-popover-inner-content{
+    background-color: #ffffff;
+    overflow: hidden;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.ant-popover-open{
+    background-color: rgba(255, 255, 255, 0) !important;
+}*/
+.ant-popover-arrow{
+    /* background-color: #ffffff; */
+} 
+.ant-popover-message-title{
+    color: #ffffff;
+}
+.ant-popover-buttons .ant-btn-sm{
+    margin-bottom: 8px;
+}

@@ -1,0 +1,24 @@
+.data-figure-category .ant-table-tbody .ant-table-row-level-1 td:nth-of-type(1) .separate-indexSize::before {
+    content:'|—';
+    color: #ccc;
+}
+.data-figure-category .ant-table-tbody .ant-table-row-level-2 td:nth-of-type(1) .separate-indexSize::before {
+    content:'|——';
+    color: #ccc;
+}
+.data-figure-category .ant-table-tbody .ant-table-row-level-3 td:nth-of-type(1) .separate-indexSize::before {
+    content:'|———';
+    color: #ccc;
+}
+.data-figure-category .ant-table-tbody .ant-table-row-level-4 td:nth-of-type(1) .separate-indexSize::before {
+    content:'|————';
+    color: #ccc;
+}
+.separate-indexSize {
+    display: inline-block;
+    width: 210px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+}

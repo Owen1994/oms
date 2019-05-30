@@ -1,0 +1,187 @@
+/* containers index */
+.npd-audit-tablelist{
+    background-color: #ffffff;
+    margin-top: 20px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+/* component Options */
+.npd-audit-options .npd-inline-block{
+    display: inline-block;
+    color: #4D7BFE;
+    cursor: pointer;
+}
+.npd-audit-options .npd-vertical-moulding{
+    margin: 0 10px;
+    vertical-align: text-bottom;
+    color: #4D7BFE;
+}
+
+/* component Tablelist */
+/* .npd-audit-info{
+    margin-left: 10%;
+} */
+.npd-audit-info .npd-clear{
+    clear: both;
+}
+.npd-audit-info .npd-title2{
+    float: left;
+    width: 54px;
+    text-align: right;
+}
+.npd-audit-info .npd-content2{
+    float: left;
+    width: 70%;
+    display: inline-flex;
+    text-align: left;
+}
+.npd-audit-info .npd-title4{
+    float: left;
+    width: 68px;
+    text-align: right;
+}
+.npd-audit-info .npd-content4{
+    float: left;
+    width: 64%;
+    display: inline-flex;
+    text-align: left;
+}
+.npd-audit-info .npd-title{
+    float: left;
+    width: 84px;
+    text-align: right;
+}
+.npd-audit-info .npd-content{
+    float: left;
+    width: 38px;
+    display: inline-flex;
+    text-align: left;
+}
+.npd-audit-info .npd-content-ellipsis{
+    float: left;
+    max-width: 110px;
+    /* display: inline-flex; */
+    text-align: left;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.npd-audit-table{
+    padding: 10px 10px 0;
+}
+.npd-audit-table .ant-table-small > .ant-table-content > .ant-table-scroll > .ant-table-body > table > .ant-table-thead > tr > th{
+    background: #f9fafd!important;
+    color: #666 !important;
+}
+
+/* component TableOption */
+.npd-audit-table-option{
+    overflow: hidden;
+    padding: 10px 10px 0 0;
+    /* border-bottom: 1px solid #EAE9E9; */
+}
+
+/* component BtnSearch */
+.npd-audit-btn-search{
+    overflow: hidden;
+    margin-top: 44px;
+    clear: both;
+    margin: 90px 0 0px 220px;
+}
+.npd-audit-btn-search button{
+    margin-left: 10px;
+    min-width: 80px;
+}
+
+/* component DefaultSearch */
+.npd-audit-defaultSearch{
+    overflow: hidden;
+    padding: 10px 0;
+}
+.npd-audit-defaultSearch .ant-tag-checkable-checked {
+    background-color: #4D7BFE;
+}
+/* tabSearch begin */
+.npd-audit-search{
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    /* padding: 14px 0 0 0; */
+}
+.npd-audit-search .npd-audit-tabSearch{
+    position: absolute;
+    width: 120px;
+    top: 14px;
+    right: 10px;
+    z-index: 0;
+}
+
+/* component Search */
+.npd-audit-search .npd-audit-textSearch{
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+.npd-audit-search .npd-radioButton{
+    width: 92px;
+    text-align: center;
+}
+.npd-audit-search .npd-audit-textSearch .ant-radio-button-wrapper-checked, .npd-audit-search .npd-audit-tabSearch .ant-radio-button-wrapper-checked{
+    background-color: #4D7BFE !important;
+    color: #ffffff !important;
+}
+.npd-audit-moreSearch{
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    background: #fafafa;
+}
+.npd-audit-moreSearch .standard-form-row{
+    overflow: hidden;
+}
+.npd-audit-moreSearch .standard-form-row:last-child{
+    margin-top: 10px;
+}
+.npd-audit-btnSearch{
+    width: 504px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: right;
+}
+.npd-audit-btnSearch button{
+    margin-left: 10px;
+}
+.npd-audit-heightSearch{
+    overflow: hidden;
+}
+.npd-audit-heightSearch .standard-form-row{
+    overflow: hidden;
+    margin-top: 14px;
+}
+
+.npd-audit-search .standard-form-row .ant-form-item-control .ant-select{
+    width: 344px !important;
+}
+
+/* component Adddetail */
+.npd-audit-adddetail  .ant-form-item-control{
+    line-height: 0;
+}
+.npd-audit-adddetail  .ant-form-item-label{
+    line-height: 0;
+}
+.npd-audit-adddetail  .ant-form-item-label > label {
+    line-height: 32px;
+}
+.npd-audit-adddetail  .ant-row.ant-form-item{
+    margin-bottom: 20px;
+}
+.npd-audit-adddetail  .ant-row.ant-form-item:last-child{
+    margin-bottom: 0;
+}
+
+/* .ant-table td { white-space: nowrap; } */

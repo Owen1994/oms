@@ -1,0 +1,138 @@
+/* container index */
+.npd-depot-tablelist{
+    background-color: #ffffff;
+    margin-top: 20px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+/* component Search */
+.npd-depot-search-area{
+    position: relative;
+}
+.npd-depot-defaultSearch{
+    overflow: hidden;
+}
+.npd-depot-defaultSearch .standard-form-row{
+    overflow: hidden;
+}
+/* 仓库设置状态标签的字体 */
+.npd-depot-defaultSearch .oms-radiotags > .ant-radio-group > .ant-radio-button-wrapper > span{
+    font-size: 12px;
+}
+.npd-depot-defaultSearch .standard-form-row .label{
+    font-size: 14px;
+}
+.npd-depot-textSearch{
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    background: #fafafa;
+}
+.npd-depot-btnSearch{
+    width: 466px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+.npd-depot-btnSearch button{
+    margin-left: 10px;
+}
+.npd-depot-tabSearch{
+    position: absolute;
+    width: 120px;
+    top: 15px;
+    right: 10px;
+    z-index: 0;
+}
+.npd-depot-tabSearch .ant-radio-button-wrapper-checked{
+    background-color: #4d7bfe !important;
+    color: #ffffff !important;
+}
+
+/* component Options */
+.npd-depot-option .npd-inline-block{
+    display: inline-block;
+    color: #4D7BFE;
+    cursor: pointer;
+}
+.npd-depot-option .npd-vertical-moulding{
+    color: #4D7BFE;
+    vertical-align: text-bottom;
+    margin: 0 9px;
+}
+
+
+/* component TableOptions */
+.npd-depot-table-option{
+    /* border-bottom: 1px solid #EAE9E9; */
+    overflow: hidden;
+    padding: 10px 10px 0;
+}
+
+/* component Tablelist */
+.npd-depot-table{
+    padding: 10px 10px 0;
+}
+.npd-depot-table-col{
+    width: 100%;
+}
+.npd-depot-table-col .npd-clear{
+    clear: both;
+}
+.npd-depot-table-col .npd-title{
+    float: left;
+    width: 60px;
+    text-align: right;
+}
+.npd-depot-table-col .npd-content{
+    float: left;
+    /* width: 70%; */
+    min-height: 18px;
+    display: inline-flex;
+    text-align: left;
+}.npd-depot-table-col .npd-title2{
+    float: left;
+    width: 20%;
+    text-align: right;
+}
+.npd-depot-table-col .npd-content2{
+    float: left;
+    width: 100px;
+    min-height: 18px;
+    display: inline-flex;
+    text-align: left;
+}
+.npd-depot-table-col .npd-content3{
+    float: left;
+    width: 50px;    
+    min-height: 18px;
+    display: inline-flex;
+    text-align: left;
+}
+
+/* component Adddetail */
+.npd-depot-adddetail .ant-form-item-control{
+    line-height: 0;
+    width: 240px !important;
+}
+.npd-depot-adddetail .ant-form-item-label{
+    line-height: 0;
+}
+.npd-depot-adddetail .ant-form-item-label > label {
+    line-height: 32px;
+}
+.npd-depot-adddetail .ant-row.ant-form-item{
+    margin-bottom: 20px;
+}
+.npd-depot-adddetail .ant-row.ant-form-item:last-child{
+    margin-bottom: 0;
+}
+
+.ant-form-item-label label{
+    color: #666 !important;
+}

@@ -1,0 +1,29 @@
+.joom-detail-warp {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.joom-detail-title {
+    position: relative;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.joom-detail-title::before {
+    content:"";
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 4px;
+    height: 14px;
+    border-radius: 4px;
+    background-color: #4D7BFE;
+}
+.joom-detail-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    color:#4D7BFE;
+}

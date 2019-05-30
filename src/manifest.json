@@ -1,0 +1,60 @@
+{
+  "scope": "/",
+  "name": "Tcloud-有棵树",
+  "short_name": "Tcloud",
+  "start_url": "/",
+  "display": "standalone",
+  "description": "Tcloud-有棵树",
+  "dir": "ltr",
+  "lang": "cn",
+  "orientation": "portrait",
+  "theme_color": "#3f51b5",
+  "background_color": "#3f51b5",
+  "related_applications": [
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "offline/images/32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "offline/images/48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "offline/images/72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "offline/images/96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "offline/images/144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "offline/images/168.png",
+      "sizes": "168x168",
+      "type": "image/png"
+    },
+    {
+      "src": "offline/images/192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "offline/images/256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "gcm_sender_id": "",
+  "applicationServerKey": ""
+}

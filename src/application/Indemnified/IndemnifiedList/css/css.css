@@ -1,0 +1,80 @@
+.tabTitle{
+    padding: 10px;
+}
+.newCluenk .tabTitle .ant-link:hover{
+    color: #fff;
+}
+
+/* 搜索 */
+.IndemnifiedSearch{
+    position: relative;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+}
+.IndemnifiedSearch .ARM-form-row{
+    margin-bottom: 10px;
+}
+.IndemnifiedSearch .ARM-form-row:last-child{
+    margin-bottom: 0px;
+}
+.IndemnifiedSearch .ARM-form-row:last-child .items{
+    padding-top: 6px;
+}
+.IndemnifiedSearch .ant-tag-checkable-checked{
+    background-color: #4D7BFE
+}
+.IndemnifiedSearch .ant-select-selection--multiple .ant-select-selection__choice{
+    border-radius: 12px;
+    background-color: rgba(77,123,254,0.3);
+}
+.IndemnifiedSearch .ant-select-selection__choice__content{
+    color: #4D7BFE;
+}
+.IndemnifiedSearch .ant-select-selection--multiple .ant-select-selection__choice__remove:before{
+    color: white;
+}
+.IndemnifiedSearch .ant-radio-button-wrapper-checked{
+    background-color: #4D7BFE;
+    color: white;
+}
+.IndemnifiedSearch .ant-input{
+    width: 238px;
+}
+.IndemnifiedSearch .searchBtn{
+   position: absolute;
+   right: 10px;
+   bottom: 8px;
+}
+
+/* tipBox 提示框  */ 
+.tipBox .ant-tooltip-arrow{
+    margin-top: 6px;
+    border-bottom-color: #fff;
+}
+.tipBox .ant-tooltip-inner{
+    margin-top: 6px;
+    color: #333;
+    word-wrap:break-word;
+    background-color: #fff;
+}
+
+/* 列表 */
+.IndemnifiedTablist .Indemnified-info1 .info-span .span-name{
+    width: 35%;
+    display: inline-block;
+    text-align: right;
+}
+.IndemnifiedTablist .Indemnified-info2 .info-span .span-name{
+    width: 45%;
+    display: inline-block;
+    text-align: right;
+}
+.IndemnifiedTablist .Indemnified-info3 .info-span .span-name{
+    min-width: 55%;
+    display: inline-block;
+    text-align: right;
+}
+.IndemnifiedTablist .info-span .span-value{
+    display: inline-block;
+}

@@ -1,0 +1,80 @@
+.ordermanage-search {
+    position: relative;
+}
+
+.ordermanage-search .mt8 {
+    margin-top: 8px;
+}
+
+.ordermanage-search .fsz12 {
+    font-size: 12px;
+}
+
+.ordermanage-search .search-bgc {
+    margin-top: 10px;
+    padding: 3px 0 15px;
+    border-top: 1px solid #EAE9E9;
+    border-bottom: 1px solid #EAE9E9;
+    background-color: #fafafa;
+}
+
+.ordermanage-search-filters>div {
+    width: 100%;
+}
+
+.ordermanage-search .search-tab {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    z-index: 10;
+}
+
+.ordermanage-search .ant-radio-button-wrapper-checked {
+    background-color: #4D7BFE;
+    color: #fff;
+}
+
+.ordermanage .ant-tabs.ant-tabs-card>.ant-tabs-bar .ant-tabs-nav-container {
+    height: 39px;
+}
+
+.ordermanage .ant-tabs-nav .ant-tabs-tab-active {
+    border-bottom: 2px solid #ffffff !important;
+    margin-top: 0px !important;
+    top: 1px !important;
+}
+
+.ordermanage .ant-tabs.ant-tabs-card>.ant-tabs-bar .ant-tabs-tab {
+    border-radius: 0 !important;
+    top: -1px;
+}
+
+.unordered-purchase-tablewrap {
+    padding-top: 10px;
+}
+
+/* .abnormal-order-tablewrap {
+    padding-top: 10px;
+} */
+.left-sides {
+    line-height: 30px;
+    font-size: 12px;
+    text-align: right;
+}
+.download-template {
+    padding-left: 135px;
+    padding-top: 15px;
+}
+
+
+.orderException .span-4{
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+.orderException .span-content {
+    /* width: 110px; */
+    display: inline-flex;
+    word-break: break-all;
+    text-align: left;
+}

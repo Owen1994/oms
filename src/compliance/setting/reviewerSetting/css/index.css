@@ -1,0 +1,25 @@
+.data-review-setting .search{
+    position: relative;
+}
+.data-review-setting .height-search{
+    overflow: hidden;
+}
+.data-review-setting .screen-tags  {
+    overflow: hidden;
+}
+
+ .data-review-setting-cascader {
+     width: 240px;
+ }
+.data-review-setting-detail .ant-row .ant-form-item {
+     margin-bottom: 12px;
+ }
+ 
+ .data-review-setting-detail .ant-row .common-sensitive-platform-site .ant-form-item {
+    margin-bottom: 0;
+}
+
+.data-review-setting-detail .ant-table-small > .ant-table-content > .ant-table-scroll > .ant-table-body > table > .ant-table-thead > tr > th{
+    background-color: #f9fafd!important;
+    color: #666;
+}

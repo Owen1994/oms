@@ -1,0 +1,170 @@
+.lgt-dlt-order_cotainer {
+    background-color: #fff;
+}
+.tag-info::after {
+    content: "*";
+    display: inline-block;
+    color: red;
+}
+i.normal {
+    font-style: normal;
+}
+.tag-content {
+    margin-left: 12px;
+}
+.editable-cell {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    min-height: 21px;
+}
+.editable-content {
+    flex: 1;
+    width: 158px;
+    margin-left: 12px;
+}
+.lgt-dlt-order_cotainer .ant-tabs {
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+.lgt-dlt-order_cotainer .ant-table-tbody > .ant-table-row:last-child {
+    cursor: text !important;
+}
+.lgt-dlt-order_cotainer .ant-table-tbody > .ant-table-row:last-child > td:first-child .ant-checkbox-inner {
+    display: none;
+}
+
+.lgt-dlt-order_list .ant-table-row:last-child > td:first-child > span::before {
+    content: "合计";
+}
+.lgt-dlt-order_document_container {
+    padding: 20px 12px;
+}
+
+.lgt-dlt-order_document_container > div {
+    margin-top: 18px;
+}
+.lgt-dlt-order_document_container > div:first-child{
+    margin-top: 0;
+}
+
+.lgt-dlt-order_cotainer .ant-table-tbody > tr > td:nth-child(8) > div,
+.lgt-dlt-order_cotainer .ant-table-tbody > tr > td:nth-child(4) > div,
+.lgt-dlt-order_cotainer .ant-table-tbody > tr > td:nth-child(5) > div,
+.lgt-dlt-order_cotainer .ant-table-tbody > tr > td:nth-child(6) > div,
+.lgt-dlt-order_cotainer .ant-table-tbody > tr > td:nth-child(7) > div{
+    cursor: pointer;
+}
+.lgt-dlt-order_model_wrap {
+    width: 906px;
+}
+.lgt-dlt-order_label_wrap > .ant-checkbox-group  {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.lgt-dlt-order_label_wrap > .ant-checkbox-group > label {
+    width: 120px;
+    margin-top: 12px;
+}
+.lgt-dlt-order_cotainer .editable-cell {
+    position: relative;
+}
+.lgt-dlt-order_cotainer .editable-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    text-align: right;
+    line-height: 21px;
+}
+.lgt-dlt-order_cotainer .editable-content{
+    padding-left: 120px;
+}
+.lgt-dlt-order_cotainer .editable-cell-icon{
+    position: absolute;
+    top: 3px;
+    right: 5px;
+}
+.lgt-dlt-order_cotainer .edit-input{
+    position: relative;
+}
+.lgt-dlt-order_cotainer .edit-input textarea {
+    padding-right: 30px;
+}
+.lgt-dlt-order_cotainer .edit-input i {
+    position: absolute;
+    top: 7px;
+    right: 8px;
+}
+.lgt-dlt-order_cotainer .showpanel {
+    padding-right: 24px;
+    position: relative;
+    word-break: break-all;
+}
+.lgt-dlt-order_list_item_info > div > div:first-of-type {
+    text-align: right;
+}
+.lgt-dlt-order_list_item_info > div > div:last-of-type {
+    text-align: left;
+    padding-left: 8px;
+}
+.lgt-dlt-order_footer_inner {
+    display: flex;
+    justify-content: flex-end;
+}
+.lgt-dlt-order_cotainer  .ant-tabs-bar{
+    margin: 0;
+}
+/*报关管理>>报关单>>制单切换*/
+.lgt-dlt-order_cotainer .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    color: #333;
+    border-bottom: 1px solid #fff;
+    border-top: 2px solid #4D7BFE;
+    height: 40px;
+    position: relative;
+    top: 1px;
+}
+.lgt-dlt-order_cotainer .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    margin-right: -1px;
+    padding: 0 20px;
+    border-radius: 0;
+    border: 1px solid #EAE9E9;
+    height: 40px;
+    margin-top: -1px;
+}
+.lgt-dlt-order_cotainer .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    color: #333;
+    border-bottom: 1px solid #fff;
+    border-top: 2px solid #4D7BFE;
+    height: 40px;
+    position: relative;
+    top: 1px;
+}
+/*Popover气泡*/
+.ant-popover-placement-topLeft .ant-popover-inner-content, 
+.ant-popover-placement-topLeft .ant-popover-arrow {
+    background-color: #fff;
+}
+.ant-popover-placement-topLeft .ant-popover-title{
+    font-size:12px;
+    font-weight: normal;
+    padding: 5px 10px 4px;
+    color:#333;
+}
+.ant-popover-placement-topLeft .ant-popover-inner-content {
+    cursor: pointer;
+    padding: 10px 10px;
+    font-size:12px;
+}
+.lgt-dlt-order_list .ant-table-row:last-child > td:nth-child(2){
+    visibility: hidden;
+    border-left:1px #e8e8e8 solid;
+}
+.lgt-dlt-order_list .ant-table-row:last-child > td:nth-child(3){
+    border-left:1px #e8e8e8 solid;
+}
+.lgt-dlt-order_list  td{
+    border-bottom: 1px #e8e8e8 solid;
+}

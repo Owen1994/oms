@@ -1,0 +1,28 @@
+.al-group-img {
+    margin-left: 6px;
+    margin-bottom: 1px;
+}
+
+.al-group-label {
+    padding-left: 4px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #333 !important;
+}
+
+
+.al-grid-list-item {
+    font-size: 12px;
+    color: #666666;
+}
+
+.al-Order-Info {
+    background-color: white;
+    margin: 0px 0px 20px 0px;
+    padding: 15px;
+}
+
+.al-info-list .ant-steps-item-content {
+    max-width: 1300px !important;
+    width: auto !important;
+}

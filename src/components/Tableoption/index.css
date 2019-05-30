@@ -1,0 +1,9 @@
+.table-list-option .option-span{
+    color: #4d7bfe;
+    cursor: pointer;
+    padding: 0 5px;
+}
+.table-list-option-menu{
+    color: #4d7bfe;
+    font-size: 12px;
+}

@@ -1,0 +1,10 @@
+.btn-search{
+    width: 504px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    text-align: right;
+}
+.btn-search button{
+    margin-left: 10px;
+}

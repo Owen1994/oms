@@ -1,0 +1,55 @@
+/*404*/
+.yks-error-box{
+    justify-content: center; 
+    align-items: center; 
+    display: -webkit-flex;
+    height: 100%;
+    width: 100%;
+}
+.yks-error-404{
+    width: 766px;
+    height: 415px;
+    background: url("./img/background.png") no-repeat center;
+    position: relative;
+}
+.yks-error-404 p{
+    float: right;
+    font-size: 14px;
+    color: #707070;
+}
+.yks-error-text{
+    width: 306px;
+    height: 215px;
+    position: absolute;
+    top: 38px;
+    right: 30px;
+}
+.yks-error-404 .yks-error-text .yks-error-text-404{
+    float: right;
+    width: 215px;
+    height: 88px;
+    margin-bottom: 16px;
+    background: url("./img/404.png") no-repeat center;
+}
+.yks-error-404 .yks-error-text .yks-error-text-error{
+    float: right;
+    width: 295px;
+    height: 38px;
+    margin-bottom: 4px;
+    background: url("./img/text.png") no-repeat center;
+}
+.yks-error-404 .yks-error-text .yks-error-text-link{
+    float: right;
+    margin-top: 8px;
+}
+.yks-error-404 p .text-logo{
+    color:#4D7BFE;
+    font-size:28px
+}
+.yks-error-404 p span{
+    font-size: 28px;
+    color: #51EE86;
+}
+.yks-error-404 p a{
+    color: #4D7BFE;
+}

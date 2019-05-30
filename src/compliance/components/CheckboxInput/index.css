@@ -1,0 +1,11 @@
+.checkbox-input{
+    overflow: hidden;
+}
+.checkbox-input .checkbox{
+    width: 100px;
+    float: left;
+}
+.checkbox-input .input{
+    width: 318px;
+    float: left;
+}

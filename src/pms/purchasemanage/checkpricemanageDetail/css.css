@@ -1,0 +1,44 @@
+.checkpricemanage-detail-title {
+    line-height: 16px;
+    font-size: 14px;
+    height: 16px;
+    padding-left: 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.checkpricemanage-detail-title::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 14px;
+    background-color: #4D7BFE;
+    border-radius: 2px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
+
+.checkpricemanage-detail {
+    margin-bottom: 52px;
+}
+/*下架申请弹窗样式*/
+.pms-lowerShelf .ant-form-item-label{
+    height: 30px;
+    line-height: 30px;
+}
+.pms-lowerShelf label{
+    height: 30px;
+    line-height: 30px;
+}
+.pms-lowerShelf .ant-form-item-control{
+    height: 30px;
+    line-height: 30px;
+}
+.pms-lowerShelf .ant-form-item{
+    margin-bottom: 20px;
+}
+
+.pms-lowerShelf_span {
+    font-size: 12px;
+}

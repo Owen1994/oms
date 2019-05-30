@@ -1,0 +1,445 @@
+/* 搜索 */
+.yks-erp-search {
+    position: relative;
+    padding: 10px 0px 5px 0px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.yks-erp-search .search-tab{
+    position: absolute;
+    width: 120px;
+    top: 15px;
+    right: 10px;
+    z-index: 1;
+}
+
+.yks-erp-search .ant-input {
+    margin: 7px 0px;
+}
+
+.yks-erp-search .ant-select {
+    margin: 7px 0px;
+}
+
+.yks-erp-search .search-top {
+    margin-top: 2px;
+    margin-bottom: 7px;
+}
+
+.yks-erp-search .search-middle {
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    overflow: hidden;
+    background: #fafafa;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.yks-erp-search .search-bottom {
+    padding-top: 7px;
+}
+
+.yks-erp-search .ant-radio-button-wrapper-checked {
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+
+.yks-erp-search .btn-search {
+    width: 330px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.yks-erp-search .btn-search button {
+    margin-left: 10px;
+}
+
+.yks-erp-search .ant-input {
+    width: 330px;
+}
+
+.yks-erp-search .ant-select {
+    width: 330px !important;
+}
+
+.yks-erp-search .ant-calendar-picker {
+    width: 330px;
+}
+
+.yks-erp-search .search-other-tab{
+    position: absolute;
+    width: 120px;
+    float: none;
+    bottom: 20px;
+    z-index: 1;
+}
+@media screen and (max-width: 1300px) {
+    .yks-erp-search_horizontal .btn-search {
+        position: absolute;
+        bottom: 10px;
+        left: 430px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+    .yks-erp-search_horizontal .btn-search {
+        position: absolute;
+        bottom: 10px;
+        left: 438px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1600px) {
+    .yks-erp-search_horizontal .btn-search {
+        position: absolute;
+        bottom: 10px;
+        left: 446px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1700px) {
+    .yks-erp-search_horizontal .btn-search {
+        position: absolute;
+        bottom: 10px;
+        left: 454px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1800px) {
+    .yks-erp-search_horizontal .btn-search {
+        position: absolute;
+        bottom: 10px;
+        left: 462px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 1900px) {
+    .yks-erp-search_horizontal .btn-search {
+        position: absolute;
+        bottom: 10px;
+        left: 470px;
+        width: auto;
+    }
+}
+
+
+@media screen and (min-width: 1900px) and (max-width: 2000px) {
+    .yks-erp-search_horizontal .btn-search {
+        position: absolute;
+        bottom: 10px;
+        left: 478px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2500px) {
+    .yks-erp-search_horizontal .btn-search {
+        position: absolute;
+        bottom: 10px;
+        left: 500px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 2500px) and (max-width: 3000px) {
+    .yks-erp-search_horizontal .btn-search {
+        position: absolute;
+        bottom: 10px;
+        left: 560px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 3000px) {
+    .yks-erp-search_horizontal .btn-search {
+        position: absolute;
+        bottom: 10px;
+        left: 620px;
+        width: auto;
+    }
+}
+
+/*订单搜索*/
+.yks-erp-search_order .select-type{
+    padding: 5px 0 10px;
+    border-bottom: 1px solid #e6eaee;
+}
+.yks-erp-search_order .select-type .multiple{
+    height: 32px;
+    overflow: hidden
+}
+.yks-erp-search_order .select-type .ant-form-item .ant-form-item-children .ant-select-selection--multiple{
+    overflow-y: scroll;
+    height: 32px;
+}
+.yks-erp-search_order .select-type .ant-row-flex{
+    margin-top: 10px;
+}
+.yks-erp-search_order .select-type .ant-form-item:after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.yks-erp-search_order .select-type .ant-form-item-label,
+.yks-erp-search_order .ctageSearch .ant-form-item-label{
+    float: left;
+    width: 90px;
+    text-align: right;
+}
+.yks-erp-search_order .select-type .ant-form-item-label  label,
+.yks-erp-search_order .ctageSearch .ant-form-item-label  label{
+    color: #666 !important;
+}
+.yks-erp-search_order .select-type .ant-form-item-control-wrapper .ant-radio-wrapper{
+    color:#333;
+}
+.yks-erp-search_order .select-type .ant-form-item-control-wrapper,
+.yks-erp-search_order.ctageSearch .ant-form-item-control-wrapper{
+    float: left;
+    width: 270px;
+}
+.yks-erp-search_order .select-type .ant-form-item-control-wrapper .ant-select-selection__placeholder,
+.yks-erp-search_order .ctageSearch .ant-form-item-control-wrapper .ant-select-selection__placeholder{
+    font-size:12px;
+    color:#999;
+}
+.yks-erp-search_order .select-type .ant-form-item-control-wrapper .ant-calendar-range-picker-input::-webkit-input-placeholder,
+.yks-erp-search_order .select-type .ant-form-item-control-wrapper .ant-calendar-range-picker-input::-moz-placeholder,
+.yks-erp-search_order .select-type .ant-form-item-control-wrapper .ant-calendar-range-picker-input::placeholder
+{
+    color:#666;
+    font-size:12px;
+}
+.yks-erp-search_order .select-type .typeSearch-l .ant-form-item-control-wrapper {
+    width: auto;
+}
+.yks-erp-search_order .typeSearch{
+    margin-top: 10px;
+}
+.yks-erp-search_order .typeSearch .typeSearch-l{
+    position: relative;
+    color:#333;
+    display: flex;
+}
+/* .yks-erp-search_order .typeSearch .typeSearch-r{
+   position: absolute;
+   top: 0px;
+} */
+.typeSearch-r .ant-input-suffix > i.ant-input-clear-icon, .content_right .ant-input-suffix > i.ant-input-clear-icon{
+    padding-right: 6px;
+    color: rgba(0, 0, 0, 0.25);
+}
+.typeSearch-r .ant-input-suffix > i.ant-input-clear-icon:hover, .content_right .ant-input-suffix > i.ant-input-clear-icon:hover{
+    color: rgba(0, 0, 0, 0.45);
+}
+.yks-erp-search_order .typeSearch  .typeSearch-l .ant-input-lg
+{
+    line-height: 30px !important;
+    height: 32px !important;
+    margin-top: 5px !important;
+    padding-left: 10px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-right: 0 !important;
+}
+.yks-erp-search_order .typeSearch .typeSearch-l button.ant-btn {
+    line-height: 32px !important;
+    height: 32px !important;
+    /*padding-left: 13px !important;*/
+    margin-top: 2px;
+}
+
+.yks-erp-search_order .typeSearch .typeSearch-l button.ant-btn-default {
+    margin-left: 10px;
+}
+
+.yks-erp-search_order .typeSearch .ant-input-lg::-moz-placeholder,
+.yks-erp-search_order .typeSearch .ant-input-lg::-webkit-input-placeholder,
+.yks-erp-search_order .typeSearch .ant-input-lg::placeholder{
+    color: #999 !important;
+    border:1px red solid;
+}
+.yks-erp-search_order .select-type .ctageSearch{
+    padding: 10px 0;
+}
+.yks-erp-search_order .select-type .ant-btn-primary{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-left: 0 !important;
+}
+/* .yks-erp-search_order .select-type .ant-btn-default{
+    color: #333;
+} */
+.yks-erp-search_order .select-type .ant-radio-inner:after {
+    background-color:#4D7BFE;
+}
+.yks-erp-search_order .select-type .ant-radio-checked .ant-radio-inner{
+    border-color:#4D7BFE;
+}
+.yks-erp-search_tab .ant-tabs {
+    overflow: inherit!important;
+}
+.yks-erp-search-lg_tab {
+    position: relative;
+    margin-top: 130px;
+}
+.yks-erp-search-lg_tab .search {
+    position: absolute;
+    width: 100%;
+    top: -130px;
+}
+
+.yks-erp-search-llg_tab {
+    position: relative;
+    margin-top: 190px;
+}
+.yks-erp-search-llg_tab .search {
+    position: absolute;
+    width: 100%;
+    top: -190px;
+}
+.yks-erp-search-md_tab {
+    position: relative;
+    margin-top: 80px;
+}
+.yks-erp-search-md_tab .search {
+    position: absolute;
+    width: 100%;
+    top: -80px;
+}
+
+/*订单管理*/
+.yks-erp-search_order .select-type .widthAll .ant-form-item-children #paymentMin{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: none;
+    width: 120px;
+}
+.yks-erp-search_order .select-type .widthAll .ant-form-item-children #paymentMax{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: none;
+    width: 120px;
+}
+.yks-erp-search_order .select-type .widthAll .ant-form-item-children .ant-input-disabled{
+    border-radius: 0px;
+    border-left: none;
+    border-right: none;
+    width: 30px;
+    border-left: 0px;
+    pointer-events: none;
+    background-color: rgb(255, 255, 255);
+}
+
+/*刊登搜索*/
+.yks-erp-search_order .select-type .widthAll .ant-form-item-children .paymentMin{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: none;
+    width: 120px;
+}
+.yks-erp-search_order .select-type .widthAll .ant-form-item-children .paymentMax{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: none;
+    width: 120px;
+}
+
+
+/*************新版 搜索栏 CSS 样式*************/
+.erp-search {
+    background-color: #fff;
+    box-shadow: 0 5px 3px -5px #ddd;
+    padding: 10px 10px 0 10px;
+}
+
+.erp-search .ant-form-item {
+    display: flex;
+    align-items: center;
+}
+
+.erp-search .search_select .ant-row-flex {
+    padding-bottom: 7px;
+}
+
+.erp-search .search_select .ant-form-item-label {
+    float: left;
+    width: 95px;
+    text-align: right;
+}
+
+.erp-search .search_select .ant-form-item-control-wrapper {
+    float: left;
+    width: 270px;
+}
+
+.erp-search .search_select .ant-calendar-picker {
+    width: 270px !important;
+}
+
+.erp-search .search_select .ant-form-item-control-wrapper .ant-select-selection__placeholder {
+    font-size:12px;
+    color:#999;
+}
+
+
+.erp-search .search_content {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.erp-search .search_content .ant-form-item {
+    display: flex;
+}
+
+.erp-search .search_content .ant-form-item-label {
+    float: left;
+    width: 95px;
+    text-align: right;
+}
+
+.erp-search .search_content .ant-form-item-control-wrapper .ant-radio-wrapper {
+    font-size: 12px;
+}
+
+.erp-search .search_content .content_right {
+    padding-top: 3px;
+}
+
+.erp-search .search_content .content_right .ant-input-search {
+    width: 280px;
+}
+
+.erp-search .content_right .ant-form-item-children {
+    display: flex;
+}
+
+.erp-search .content_right .ant-btn-default {
+    margin-left: 15px;
+}
+
+.erp-search .search_tag {
+    border-top: 1px solid #dddddd;
+    padding-bottom: 8px;
+    padding-top: 5px;
+}
+
+.erp-search .search_tag .ant-form-item {
+    display: flex;
+}
+
+.erp-search .search_tag .ant-form-item-label {
+    width: 95px;
+    text-align: right;
+}
+

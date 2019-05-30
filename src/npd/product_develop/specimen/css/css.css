@@ -1,0 +1,33 @@
+.npd-specimen .list-filter-item {
+    position: relative;
+    padding-left: 115px;
+    line-height: 22px;
+}
+.npd-specimen .list-filter-item-title{
+    width: 110px;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 700;
+}
+.npd-specimen .ant-calendar-picker{
+    width: 344px;
+}
+.npd-specimen {
+    position: relative;
+}
+.npd-specimen .text-search button, .npd-specimen .btn-search button{
+    margin-left: -5px;
+}
+.npd-specimen .search-tab{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+}
+.npd-specimen  .ant-radio-button-wrapper-checked {
+    background-color: #4D7BFE;
+    color: #fff;
+}

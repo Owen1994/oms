@@ -1,0 +1,35 @@
+.roletop{background: #fff;padding:17px 20px; box-shadow: 0 0 5px #ddd;}
+.roletop .typetit{color: #333; font-size: 12px; float:left; width: 60px; height:24px; line-height:24px;}
+.roletop .typenr{width:286px;  float:left;}
+.roletop .typenr .ant-form-item-control-wrapper{width: 100%}
+.roletop .typebtn{margin-left:20px; float: left;}
+.rolemanagetable{margin-top: 20px; background: #fff;}
+
+.roletabletop{padding: 10px 10px 0px 10px; overflow: hidden;}
+.roletabletop .leftbtn{text-align: left; line-height: normal; float:left; width: 50%}
+.roletabletop .rightbtn{text-align: right; line-height: normal; float:right;width: 50%}
+/*.roletabletop .rightbtn.mgt16{margin-right:16px;}*/
+.roletablecen{padding: 10px 10px 10px 10px;}
+
+.copydataalll{margin:50px 30px; overflow: hidden}
+.copydataalll .copytopleft{float:left; width: 90px; line-height: 39px; height: 32px;}
+.copydataalll .copytopleft em{color: red}
+.copydataalll .copytopright{float:left; width: 286px;}
+.copydataalll .copytopright .copyinputwih{width: 286px;}
+.copydataalll .copytxt{ font-size: 12px;margin-top:10px; text-align: left}
+.ant-dropdown .antdown-mglef{margin-left:0px;}
+.mt5 {
+    margin-top: 5px;
+}
+.roletop .ant-radio-button-wrapper-checked {
+    background-color: #4D7BFE;
+    color:#fff;
+}
+.erp-user-cell-wrap {
+    width: 200px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.rolemanagetable .newCluenk{box-shadow: 0 0 5px #ddd;}
+

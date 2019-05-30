@@ -1,0 +1,112 @@
+.ordermanage-detail-list {
+    margin-bottom: 52px;
+}
+.documentarymanage-search {
+    position: relative;
+}
+
+.mt8 {
+    margin-top: 8px;
+}
+
+.documentarymanage-search .fsz12 {
+    font-size: 12px;
+}
+
+.documentarymanage-search .search-bgc {
+    margin-top: 8px;
+    padding: 3px 0 13px;
+    border-top: 1px solid #EAE9E9;
+    border-bottom: 1px solid #EAE9E9;
+    background-color: #fafafa;
+}
+
+.documentarymanage-search-filters>div {
+    width: 100%;
+}
+
+.documentarymanage-search .search-tab {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+}
+
+.documentarymanage-search .ant-radio-button-wrapper-checked {
+    background-color: #4D7BFE;
+    color: #fff;
+}
+
+.documentarymanage .ant-tabs.ant-tabs-card>.ant-tabs-bar .ant-tabs-nav-container {
+    height: 39px;
+}
+
+.documentarymanage .ant-tabs-nav .ant-tabs-tab-active {
+    border-bottom: 2px solid #ffffff !important;
+    margin-top: 0px !important;
+    top: 1px !important;
+}
+
+.documentarymanage .ant-tabs.ant-tabs-card>.ant-tabs-bar .ant-tabs-tab {
+    border-radius: 0 !important;
+    top: -1px;
+}
+
+.unordered-purchase-tablewrap {
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.abnormal-order-tablewrap {
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.dm-sku-style {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-align-middle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.table-align-middle p {
+    position: relative;
+    min-height: 18px;
+    padding-left: 4em;
+    text-align: left;
+}
+
+.table-align-middle p span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: right;
+}
+
+.table-align-middle.time p {
+    padding-left: 6em;
+}
+.documentarymanage-detail-sku-title {
+    padding-left: 10px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+.documentarymanage-detail-sku-info .ant-pagination {
+    text-align: right;
+}
+
+.documentarymanage-detail-span-red {
+    color: red;
+}
+.supplierRemak-ellipsis{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    width: 150px;
+}

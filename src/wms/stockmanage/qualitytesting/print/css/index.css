@@ -1,0 +1,53 @@
+.wms-qualitytesting-print-box {
+    padding: 20px;
+    border: #000 solid 2px;
+    width: 460px;
+    height: 460px;
+}
+
+.wms-qualitytesting-print-box .text-label {
+    color: #333333;
+    font-size: 18px;
+    text-align: right;
+    line-height: 29px;
+    padding-right: 10px;
+}
+
+.wms-qualitytesting-print-box .text-content {
+    color: #333333;
+    font-size: 18px;
+    text-align: left;
+    line-height: 29px;
+    padding-left: 10px;
+}
+
+.wms-qualitytesting-print-box .title {
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: #EAE9E9 solid 1px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.wms-qualitytesting-bottom {
+    background-color: white;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    text-align: right;
+    position: fixed;
+    z-index: 99;
+}
+
+.wms-qualitytesting-bottom div {
+    display: inline;
+}
+
+.wms-qualitytesting-bottom .ant-btn {
+    height: 32px;
+    width: auto;
+    margin-left: 10px;
+}

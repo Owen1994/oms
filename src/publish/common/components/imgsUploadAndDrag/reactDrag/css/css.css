@@ -1,0 +1,35 @@
+.custom_head_label_wrap .img-drag-container{
+    overflow: hidden;
+    width: 722px;
+}
+.custom_head_label_wrap .img-drag-box{
+    position: relative;
+    float: left;
+    margin-right: 14px;
+    margin-top: 15px;
+    width: 106px;
+    height: 92px;
+}
+.img-drag-box .anticon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none!important;
+}
+.img-drag-box .ant-checkbox-wrapper{
+    position: absolute;
+    top: 0;
+    right: 3px;
+    background-color: transparent;
+}
+.img-drag-box .img-drag-box-item{
+    display: inline-block;
+    cursor: move;
+    width: 106px;
+    height: 92px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-drag-box .img-drag-box-item img{
+    border: 1px solid #ddd;
+}

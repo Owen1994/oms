@@ -1,0 +1,170 @@
+.tracknumbermanage-list {
+    padding: 16px 10px;
+    position: relative;
+
+}
+.tracknumbermanage-list .search-tab {
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    z-index: 1000;
+}
+.tracknumbermanage-list-searchtype {
+    padding:3px 0 13px;
+    border-top:1px solid #EAE9E9;
+    border-bottom:1px solid #EAE9E9;
+    background-color: #fafafa;
+}
+.tracknumbermanage-list-searchtype .ant-radio-button-wrapper{
+    width: 90px;
+    text-align: center;
+}
+.tracknumbermanage-list-searchtype .ant-radio-button-wrapper-checked{
+    background-color: #4D7BFE;
+    color:#fff;
+}
+.tracknumbermanage-tablewrap {
+    background-color: #fff;
+    font-size: 14px;
+}
+.tracknumbermanage-tablewrap-btns {
+    height: 50px;
+    padding: 10px;
+}
+.tracknumbermanage-tablewrap-code {
+    width: 175px;
+    margin: 0 auto;
+    text-align: left;
+}
+.tracknumbermanage-tablewrap-code label{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+.tracknumbermanage-tablewrap-time {
+    width: 160px;
+    margin: 0 auto;
+    text-align: left;
+}
+.tracknumbermanage-tablewrap-time label{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+.tracknumbermanage-tablewrap-info {
+    padding-left: 80px;
+    min-height: 70px;
+    position: relative;
+    text-align: left;
+}
+.tracknumbermanage-tablewrap-info-img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.tracknumbermanage-tablewrap-info-img img {
+    width: 100%;
+    display: block;
+}
+
+.tracknumbermanage-list .ant-radio-button-wrapper-checked {
+    background-color: #4D7BFE;
+    color:#fff;
+}
+.tracknumbermanage-list-searchtype .list-filter-item-title {
+    top: 7px;
+}
+.tracknumbermanage-advanced {
+    padding-top: 10px;
+}
+.tracknumbermanage-advanced .list-filter-item-title {
+    top: 7px;
+}
+.tracknumbermanage-list-filter {
+    padding-bottom: 10px;
+    padding-right: 130px;
+}
+.tracknumbermanage-text {
+    font-size: 16px;
+    text-align: center;
+}
+.tracknumbermanage-buttons {
+    width: 460px;
+    text-align: right;
+}
+.tracknumbermanage-buttons button{
+    margin-left: -5px;
+}
+.tracknumbermanage-tablewrap .ant-table-content .ant-table-thead > tr > th.ant-table-selection-column,
+.tracknumbermanage-tablewrap .ant-table-content .ant-table-tbody > tr > td.ant-table-selection-column{
+    min-width: 30px;
+    width: 30px;
+}
+.bisection-hotcode {
+    width: 165px;
+}
+.bisection-hotcode p{
+    padding-left: 75px;
+}
+.bisection-hotcode span {
+    width: 75px;
+}
+
+.bisection-time {
+    width: 120px;
+}
+.bisection-time p{
+    padding-left: 60px;
+}
+.bisection-time span {
+    width: 60px;
+}
+.tracknumbermanage-batch-btns {
+    display: inline-block;
+}
+.bisection-state {
+    width: 165px;
+}
+.bisection-state p{
+    padding-left: 75px;
+}
+.bisection-state span {
+    width: 75px;
+}
+.tweb-list-filter-item-title.top7 {
+    top: 7px;
+}
+
+.publish-batch-upload-com-btn {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color:#fff;
+    background-color: #4D7BFE;
+    border-radius:4px;
+    position: relative;
+    cursor: pointer;
+}
+.publish-batch-upload-com-btn input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    cursor: pointer;
+}
+.tracknumbermanage-comment {
+    color:#666;
+    padding: 10px;
+    margin-top: 15px;
+    border-top: 1px solid #e8e8e8;
+}
+
+.main .ant-table .grayb2 {
+    color: #b2b2b2;
+}

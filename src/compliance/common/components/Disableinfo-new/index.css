@@ -1,0 +1,10 @@
+.disableinfo-title {
+    line-height: 39px;
+    text-align: right;
+}
+.disableinfo-platform-icon span{
+    cursor:pointer;
+    display: inline-block;
+    padding: 5px;
+    font-size: 16px;
+}

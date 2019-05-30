@@ -1,0 +1,78 @@
+.tweb-ant-tree-leaf_node {
+    display: flex !important;
+    align-items: center;
+    justify-content: start;
+}
+.tweb-tree{
+    background-color:#f2f2f5;
+    border:1px #ddd solid;
+    border-top:none;
+}
+.tweb-tree .ant-tree-show-line > li{
+    border-top:1px #ddd solid;
+}
+.tweb-tree .ant-tree.ant-tree-show-line li span.ant-tree-switcher {
+    background-color:#f2f2f5;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.tweb-tree  .ant-tree.ant-tree-show-line li:not(:first-child):before {
+    content: ' ';
+    width: 1px;
+    border-left: none;
+    height: 100%;
+    position: absolute;
+    left: 12px;
+    margin: 22px 0;
+}
+.tweb-background-color .tweb-ant-tree-leaf_node .ant-tree.ant-tree-show-line li:not(:last-child):before {
+    border-left:none !important;
+}
+.tweb-background-color .ant-tree-child-tree-open li:last-child:before{
+    border-left:none !important;
+}
+.tweb-tree ul.ant-tree-child-tree-open > li > ul.ant-tree-child-tree-open > li > span.ant-tree-switcher-noop::after{
+    content:"" !important;
+}
+.tweb-background-color{
+    background-color: #fff;
+}
+.tweb-ant-tree-leaf_node li{
+    width:200px;
+}
+.tweb-background-color .ant-tree-switcher_close,
+.tweb-background-color .ant-tree-switcher-noop,
+.tweb-background-color .ant-tree-switcher_open{
+    background-color: #fff !important;
+}
+.tweb-tree .ant-tree li .ant-tree-node-content-wrapper:hover,
+.tweb-tree .ant-tree li .ant-tree-node-content-wrapper:focus,
+.tweb-tree .ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected
+{
+    background-color:transparent;
+}
+.tweb-tree .ant-tree.ant-tree-show-line li{
+    overflow: hidden;
+}
+.tweb-tree .ant-tree.ant-tree-show-line li:before{
+    height: 80% !important;
+}
+.tweb-tree .ant-tree.ant-tree-show-line li:nth-child(1):before{
+    border-left:none;
+}
+.tweb-tree .tweb-background-color:before{
+    content: ' ';
+    width: 1px;
+    border-left: 1px solid #d9d9d9 !important;
+    height: 80% !important;
+    position: absolute;
+    left: 12px;
+    margin: 22px 0;
+}
+.tweb-tree .ant-collapse > .ant-collapse-item > .ant-collapse-header .arrow{
+    position:absolute;
+    right:16px !important;
+}
+.tweb-container {
+    width: 100%;
+}

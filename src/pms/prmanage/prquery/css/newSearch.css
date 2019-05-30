@@ -1,0 +1,74 @@
+/* 搜索 */
+.pms-prmanage .search{
+    position: relative;
+}
+.pms-prmanage .search-tab{
+    position: absolute;
+    width: 120px;
+    top: 15px;
+    right: 10px;
+    z-index: 1;
+}
+.pms-prmanage .search-tab .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.pms-prmanage .text-search .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.pms-prmanage .pms-prmanage .default-search{
+    overflow: hidden;
+}
+.pms-prmanage .text-search{
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    overflow: hidden;
+    background: #fafafa;
+}
+.pms-prmanage .btn-search{
+    width: 330px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+.pms-prmanage .btn-search button{
+    margin-left: 10px;
+}
+.pms-prmanage .height-search{
+    overflow: hidden;
+}
+.pms-prmanage .height-search .standard-form-row{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.pms-prmanage .height-search .ant-form-item-control-wrapper, .pms-prmanage .height-search .ant-calendar-picker{
+    width: 344px;
+}
+.pms-prmanage .height-search .ant-form-item-control-wrapper,
+.pms-prmanage .height-search .ant-calendar-picker{
+    width: 344px;
+}
+.span-4{
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+}
+.span-content {
+    /* width: 110px; */
+    display: inline-flex;
+    word-break: break-all;
+    text-align: left;
+}
+.pms-prmanage-remark{
+    width:100px;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}

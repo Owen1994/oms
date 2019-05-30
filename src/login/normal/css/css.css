@@ -1,0 +1,131 @@
+#root {
+    height: 100%
+}
+
+.yks-login {
+    background-image: url("../img/bac1.png");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex;
+    position: relative;
+}
+
+.yks-login-text {
+    position: absolute;
+    width: 26%;
+    height: 56%;
+    min-width: 356px;
+    min-height: 358px;
+    max-width: 444px;
+    max-height: 470px;
+    top: 58%;
+    right: 17%;
+    margin-top: -16.6666%;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 1);
+    padding: 0 3%
+}
+
+.yks-login-logo {
+    width: 48%;
+    height: 12%;
+    background: url("../img/loginsymbol.png") no-repeat center 9%;
+    background-size: 100% 100%;
+    margin: 12% auto;
+}
+
+.yks-login-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.yks-login-text .login-form {
+    width: 100%;;
+    height: 100%;
+}
+
+.yks-login-text .login-form .ant-input, .yks-login-text .login-form .ant-btn {
+    width: 100%;
+    height: 42px;
+    border-radius: 4px;
+    display: block;
+    margin: 2% auto;
+    font-size: 16px;
+    color: #FFF;
+}
+
+.yks-login-text .login-form .ant-input {
+    padding-left: 49px;
+    color: #333;
+}
+
+.yks-login-text .login-form .user-rememb {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+}
+
+.yks-login-text .login-form .user-name {
+    background: transparent url("../img/username.png") no-repeat 15px center;
+    margin-bottom: 20px;
+}
+
+.yks-login-text .login-form .user-password {
+    margin-bottom: 20px;
+    background: transparent url("../img/password.png") no-repeat 15px center;
+}
+
+.yks-login-text .login-form .ant-btn {
+    background-color: rgba(69, 122, 255, 1);
+    font-size: 19px;
+    margin-top: 3%;
+    border: none;
+}
+
+.yks-login-text .login-form .ant-form-explain {
+    margin-top: -21px;
+}
+
+.yks-login-text .login-form .login-form-last {
+    margin-top: -4px;
+}
+
+.yks-login-text .login-form .user-rememb {
+    font-size: 14px;
+    color: #9EA2A7;
+}
+
+.yks-login-text .login-form .user-action {
+    display: inline;
+    overflow: hidden;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+.yks-login-text .login-form .user-action a {
+    float: right;
+    color: #6c92ff;
+}
+
+.yks-login-text .login-form .user-action a:hover {
+    color: #4d7bfe;
+}
+
+.yks-login-text .login-form-button {
+    width: 100%;
+    height: 56px;
+}
+
+.yks-login-text .login-form-button .ant-btn-primary:hover {
+    background-color: #4d7bfe !important;
+}
+
+.yks-login-text .has-error .ant-form-explain,
+.yks-login-text .has-error .ant-form-split {
+    padding-left: 52px;
+}

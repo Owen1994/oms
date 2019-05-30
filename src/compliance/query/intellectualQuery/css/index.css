@@ -1,0 +1,40 @@
+.data-intellctual-query .ant-tabs-bar {
+    border-bottom: 1px #EAE9E9 solid !important;
+    background: white;
+    margin-bottom: 0!important;
+}
+.data-intellctual-query .ant-tabs-nav-container .ant-tabs-tab{
+    margin-right: 0!important;
+    background: #F9FAFD!important;
+    border-radius: 0 0!important;
+    top: -1px; 
+}
+.data-intellctual-query .ant-tabs-nav-container .ant-tabs-tab-active {
+    background: white!important;
+    border-top: 2px solid #4D7BFE!important;
+    color: #4D7BFE!important;
+    top: 1px !important;
+    border-bottom: 2px solid white!important;
+}
+.data-intellctual-query .text-search {
+    background: white;
+    border-top: 0px white solid;
+    border-bottom: 0px #eee solid;
+    margin-top: 0px;
+}
+
+.data-intellctual-query .breadcrumb {
+    position: relative;
+    box-shadow: none;
+}
+.data-intellctual-query .btn-search {
+    position: absolute;
+    bottom: 15px;
+    margin: 0 0;
+    left: 515px;
+    width:auto;
+}
+
+.data-intellctual-query .data-decorate-sku-colum .table-item .label span:after {
+    content: "";
+}

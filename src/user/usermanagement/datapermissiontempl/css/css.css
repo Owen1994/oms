@@ -1,0 +1,20 @@
+.tabTitle{
+    padding: 10px;
+}
+
+.caseSearch{margin-bottom: 15px;padding: 10px;background-color: #fff;}
+.caseSearch .organtop{background: #fff;}
+.caseSearch .organtop .organtype{ padding:15px 0px 0px 20px;  overflow: hidden;width: 100%; text-align: left;}
+.caseSearch .organtop .organtype .typetit{color: #333; font-size: 12px; float:left; width: 60px; height:24px; line-height:24px;}
+.caseSearch .organtop .organtype .typetab{ float:left; width: 92px; height:24px; padding: 0px; border-radius: 0px; font-size: 12px; margin-right:0px; line-height:22px; text-align: center; border: 1px solid #ddd;}
+.caseSearch .organtop .organtype .ant-form-item-control-wrapper{
+    width: auto;
+}
+.caseSearch .organtop .organcenter{ overflow: hidden; padding:7px 0px 7px 18px;}
+.caseSearch .organtop .organcenter .typetit{color: #333; font-size: 12px; float:left; width: 60px; height:24px; line-height:24px;}
+.caseSearch .organtop .organcenter .typenr{width:286px; float:left;}
+.caseSearch .organtop .organcenter .typebtn{margin-left:20px; float: left;}
+.caseSearch .organtop .searchBtn{
+    margin: 3px 0px 0px 30px;
+}
+.caseSearch .ant-tag-checkable-checked{background-color: #4D7BFE}

@@ -1,0 +1,124 @@
+.audited-task-search {
+    position: relative;
+}
+
+.audited-task-search .mt8 {
+    margin-top: 8px;
+}
+
+.audited-task-search .fsz12 {
+    font-size: 12px;
+}
+
+.audited-task-search .search-bgc {
+    padding: 3px 0 13px;
+    border-top: 1px solid #EAE9E9;
+    border-bottom: 1px solid #EAE9E9;
+    background-color: #fafafa;
+}
+
+.audited-task-search-filters>div {
+    width: 100%;
+}
+
+.audited-task-search-bottom {
+    padding-bottom: 10px !important;
+}
+
+.audited-task-search .search-tab {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+}
+
+.audited-task-search .ant-radio-button-wrapper-checked {
+    background-color: #4D7BFE;
+    color: #fff;
+}
+
+.audited-task .ant-tabs.ant-tabs-card>.ant-tabs-bar .ant-tabs-nav-container {
+    height: 39px;
+}
+
+.audited-task .ant-tabs-nav .ant-tabs-tab-active {
+    border-bottom: 2px solid #ffffff !important;
+    margin-top: 0px !important;
+    top: 1px !important;
+}
+
+.audited-task .ant-tabs.ant-tabs-card>.ant-tabs-bar .ant-tabs-tab {
+    border-radius: 0 !important;
+    top: -1px;
+}
+
+.unordered-purchase-tablewrap {
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.abnormal-order-tablewrap {
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.audited-task-order-table-btn-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.sides-wrap {
+    box-sizing: border-box;
+    padding: 3px 0 4px;
+    height: 39px;
+}
+
+.left-sides {
+    line-height: 30px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.add-file-btn {
+    position: relative;
+    display: inline-block;
+}
+
+.add-file-btn input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+}
+.file-itme {
+    line-height: 22px;
+    padding: 5px;
+    background-color: #fafafa;
+    border: 1px solid #e8e8e8;
+}
+.file-close {
+    margin-left: 5px;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 4px 8px;
+}
+.checkpricemanage-task .ant-pagination {
+    text-align: right;
+    padding: 10px 0;
+}
+
+.english-or-number-line-feed {
+    white-space:normal;
+    word-wrap : break-word;
+    word-break:break-all;
+}
+
+.download-template {
+    padding-left: 135px;
+    padding-top: 15px;
+}

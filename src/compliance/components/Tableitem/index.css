@@ -1,0 +1,19 @@
+.table-item {
+    overflow: hidden;
+    text-align: left;
+}
+.table-item .label{
+    float: left;
+    text-align: right;
+}
+.table-item .label span:after {
+    content: ":";
+    margin: 0 8px 0 2px;
+}
+.table-item .items {
+    float: left;
+}
+
+.ant-tooltip-placement-bottomLeft .ant-tooltip-arrow{
+    border-bottom-color: #FFE89C;
+}

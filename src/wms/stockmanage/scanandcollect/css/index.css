@@ -1,0 +1,45 @@
+.wms-scanandcollect .upload {
+    padding: 40px;
+    background-color: #fff;
+    border: 1px #ddd solid;
+    border-top: 0;
+}
+
+.wms-scanandcollect .border-top-1-ddd {
+    border-top: #DDDDDD solid 1px;
+    padding-top: 10px;
+    margin-top: 6px;
+}
+
+.wms-scanandcollect .hidden-Table-cell {
+    display: none;
+}
+
+.wms-scanandcollect .search-radio-group span{
+    font-size: 12px ;
+    padding-right: 0 ;
+}
+
+/**
+优先级为缺货的tablelist条目背景颜色
+ */
+.wms-tablelist-outofstock-row {
+    background-color: #FFBCBC;
+}
+
+.wms-scanandcollect-print-modal .print-item-content {
+    width: 460px;
+    height: 460px;
+    padding: 20px;
+    border: #E9E9E9 solid 1px;
+    text-align: center;
+}
+
+.wms-scanandcollect-print-modal .print-item-content .title {
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: #EAE9E9 solid 1px;
+    padding-bottom: 10px;
+}

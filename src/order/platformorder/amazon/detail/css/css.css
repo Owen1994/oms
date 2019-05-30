@@ -1,0 +1,122 @@
+.amazon-detail-order-info {
+    background-color: white;
+    padding: 10px;
+}
+
+.amazon-detail-head-img {
+    margin-left: 6px;
+    margin-bottom: 1px;
+}
+
+.amazon-detail-head-label {
+    padding-left: 4px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #333 !important;
+}
+
+.amazon-detail-title {
+    font-size: 12px;
+}
+
+.amazon-detail-order-progress {
+    height: 60px;
+}
+
+.amazon-detail-order-progress-title {
+    height: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.amazon-detail-order-progress-title .span-true {
+    color: #4D7BFE;
+}
+
+.amazon-detail-order-progress-title .span-false {
+    color: #999999;
+}
+
+.progress-circle {
+    display:flex;
+    justify-content: center;/*水平居中*/
+    align-items: flex-end;
+}
+
+.amazon-detail-order-progress .circle-true {
+    width: 28px;
+    height: 28px;
+    background-color:#4D7BFE;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display:flex;
+    align-items:center;/*垂直居中*/
+    justify-content: center;/*水平居中*/
+}
+
+.amazon-detail-order-progress .circle-false {
+    width: 28px;
+    height: 28px;
+    background-color:#999999;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display:flex;
+    align-items:center;/*垂直居中*/
+    justify-content: center;/*水平居中*/
+}
+
+.amazon-detail-order-progress .circle-false span,
+.amazon-detail-order-progress .circle-true span {
+    font-size: 14px;
+    color: white;
+}
+
+.line-true {
+     background-color:#4D7BFE;
+     height: 4px;
+     border-radius: 2px;
+     margin-top: 44px;
+ }
+
+.line-false {
+    background-color:#999999;
+    height: 4px;
+    border-radius: 2px;
+    margin-top: 44px;
+}
+
+.amazon-detail-buyers-info {
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.amazon-detail-log-info {
+    background-color: white;
+    padding: 10px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.amazon-detail-address-info {
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.amazon-detail-buyers-message-div {
+    padding: 10px;
+}
+
+.amazon-detail-goods-info-table {
+    margin-top: 10px;
+}
+
+.amazon-detail-time-info {
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

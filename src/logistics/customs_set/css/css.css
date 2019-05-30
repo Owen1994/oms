@@ -1,0 +1,81 @@
+.lgt-customs_set_tablelist .ant-tabs-bar{
+    margin-bottom: 0;
+    background-color: #fff;
+}
+.lgt-dlt-list_search_condition .ant-form-item-label label{
+    color: #333;
+    font-weight: 700;
+}
+.lgt-dlt-list_search_condition .ant-form-item-label label:after{
+    content: "：";
+}
+.lgt-dlt-list_search_condition .ant-row .ant-input{
+    width: 320px
+}
+.lgt-customs_set_container,
+.lgt-customs_set_container .breadcrumb{
+    background-color: #fff;
+    box-shadow: none;
+}
+.lgt-customs_set_container .list-filter-serach_btns{
+    float: right;
+}
+.lgt-customs_set_container {}
+/* 高级搜索样式调整 */
+.lgt-customs_set_container .text-search,
+.lgt-customs_set_container .height-search{
+    margin-top: 0;
+    padding-top: 0;
+}
+/*.lgt-customs_set_container .btn-search{
+    margin-top: -32px;
+    width: auto;
+}*/
+/* 新增sku税率模态框样式 */
+.lgt-customs_set_addTaxRate .col_label{
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    color: #333;
+}
+.lgt-customs_set_addTaxRate .col_label em{
+    color: red;
+    vertical-align: middle;
+}
+.lgt-customs_set_addTaxRate .ant-select{
+    margin-left: 10px;
+}
+/* 表格操作按钮样式 */
+.lgt-customs_set_btns{
+    color: #4D7BFE;
+}
+.lgt-customs_set_btns span{
+    vertical-align: middle;
+    display: inline-block;
+    cursor: pointer;
+}
+/*报关管理/报关设置/tab切换*/
+.lgt-customs_set_tablelist .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    color: #333;
+    border-bottom: 1px solid #fff;
+    border-top: 2px solid #4d7bfe;
+    height: 40px;
+    position: relative;
+    top: 1px;
+}
+.lgt-customs_set_tablelist .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    margin-right: -1px;
+    padding: 0 20px;
+    border-radius: 0;
+    border: 1px solid #EAE9E9;
+    height: 40px;
+    margin-top: -1px;
+}
+.lgt-customs_set_tablelist .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    color: #333;
+    border-bottom: 1px solid #fff;
+    border-top: 2px solid #4d7bfe;
+    height: 40px;
+    position: relative;
+    top: 1px;
+}

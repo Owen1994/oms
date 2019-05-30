@@ -1,0 +1,12 @@
+.wms-batchmanage .border-top-1 {
+    border-top: 1px solid #EAEDF3;
+}
+
+.wms-batchmanage .ant-radio-button-wrapper-checked {
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.wms-batchmanage .table-item{
+    display: flex;
+}

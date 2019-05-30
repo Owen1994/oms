@@ -1,0 +1,82 @@
+/* Search begin */
+.auto-search{
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.auto-search .standard-form-row{
+    overflow: hidden;
+    padding: 10px 0;
+}
+.auto-search .standard-form-row .label, .auto-search .standard-form-row .ant-form-item-control{
+    overflow: hidden;
+    line-height: 33px !important;
+}
+.auto-defaultSearch{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.auto-defaultSearch .standard-form-row .ant-row{
+    width: 330px;
+}
+.auto-heightSearch{
+    overflow: hidden;
+    border-top: 1px solid #EAE9E9;
+}
+.auto-searchBtn{
+    margin: 10px 0;
+    width: 504px;
+    text-align: right
+}
+.auto-searchBtn button{
+    margin-left: 10px;
+}
+.auto-heightSearch .standard-form-row .ant-form-item-control .ant-select{
+    width: 330px !important;
+}
+/* search end */
+
+.auto-tablelist{
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+}
+.auto-addBtn{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.auto-modal-baseInfo .ant-form-item-control .ant-select{
+    width: 330px !important;
+}
+.auto-modal-baseInfo .ant-form-item-label, .auto-modal-baseInfo .ant-form-item-control{
+    overflow: hidden;
+    line-height: 33px !important;
+}
+.auto-modal-form{
+    margin-bottom: 20px !important;
+}
+
+.auto-modal-ruleCondition, .auto-modal-ruleResult{
+    border-top: 1px solid #EAE9E9;
+    padding-top: 20px;
+}
+.auto-modal-ruleResult p{
+    font-size:12px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+    line-height:33px;
+}
+.auto-modal-ruleCondition .ant-checkbox-group{
+    line-height: 2.5;
+}
+.auto-submitBtn{
+    text-align: right;
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 1px solid #EAE9E9;
+}
+
+.auto-submitBtn button{
+    margin-left: 20px;
+}

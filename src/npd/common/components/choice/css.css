@@ -1,0 +1,21 @@
+.tweb-choice-select {
+    margin-bottom: 10px;
+}
+.tweb-choice-select-n.ant-select {
+    width: 100px;
+    margin-right: 20px;
+}
+.tweb-choice-select-v.ant-select {
+    width: 344px;
+}
+.tweb-choice-list-add {
+    color:#4D7BFE;
+    font-size: 12px;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+.tweb-choice-select-del {
+    padding: 10px;
+    cursor:pointer;
+}

@@ -1,0 +1,296 @@
+{
+  "operator": "yangbo1",
+  "pwd": "com.yks.urc.",
+  "ticket": "25b74cc62f070210816bdab3cd0fcb19",
+  "funcVersion": "aecea743d410bae666b7043bf91a4ff5",
+  "data": [
+    {
+      "apiUrlPrefix": [
+        "/pdm/motan/service/api/"
+      ],
+      "system": {
+        "key": "011",
+        "name": "报表",
+        "url": "/basicdata/"
+      },
+      "menu": [
+        {
+          "key": "011-000001",
+          "name": "统表",
+          "url": "/basicdata/",
+          "module": [
+            {
+              "key": "011-000001-000001",
+              "name": "国内仓",
+              "url": "/basicdata/statistictable/domesticdepot/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "011-000001-000001-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "011-000001-000001-002",
+                  "name": "导出",
+                  "url": []
+                },
+                {
+                  "key": "011-000001-000001-003",
+                  "name": "导入统表",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "011-000001-000002",
+              "name": "海外仓",
+              "url": "/basicdata/statistictable/overseasdepot/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "011-000001-000002-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "011-000001-000002-002",
+                  "name": "导出",
+                  "url": []
+                },
+                {
+                  "key": "011-000001-000002-003",
+                  "name": "导入统表",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "011-000001-000003",
+              "name": "国内覆盖海外仓",
+              "url": "/basicdata/statistictable/domestictooverseasdepot/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "011-000001-000003-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "011-000001-000003-002",
+                  "name": "导出",
+                  "url": []
+                },
+                {
+                  "key": "011-000001-000003-003",
+                  "name": "导入统表",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "011-000001-000004",
+              "name": "备用仓库1",
+              "url": "/basicdata/statistictable/sparedepot1/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "011-000001-000004-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "011-000001-000004-002",
+                  "name": "导出",
+                  "url": []
+                },
+                {
+                  "key": "011-000001-000004-003",
+                  "name": "导入统表",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "011-000001-000005",
+              "name": "备用仓库2",
+              "url": "/basicdata/statistictable/sparedepot2/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "011-000001-000005-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "011-000001-000005-002",
+                  "name": "导出",
+                  "url": []
+                },
+                {
+                  "key": "011-000001-000005-003",
+                  "name": "导入统表",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "011-000001-000007",
+              "name": "操作日志",
+              "url": "/basicdata/statistictable/operationlog/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "011-000001-000007-001",
+                  "name": "查看",
+                  "url": []
+                }
+              ],
+              "module": []
+            }
+          ]
+        },
+        {
+          "key": "011-000002",
+          "name": "海外仓库存",
+          "url": "/basicdata/",
+          "module": [
+            {
+              "key": "011-000002-000001",
+              "name": "基础资料表",
+              "url": "/basicdata/overseasStock/basicTable/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "011-000002-000001-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "011-000002-000001-002",
+                  "name": "数据导出",
+                  "url": []
+                },
+                {
+                  "key": "011-000002-000001-003",
+                  "name": "数据导入",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "011-000002-000002",
+              "name": "库存跟进表",
+              "url": "/basicdata/overseasStock/stockFollowUpTable/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "011-000002-000002-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "011-000002-000002-002",
+                  "name": "数据导出",
+                  "url": []
+                },
+                {
+                  "key": "011-000002-000002-003",
+                  "name": "数据导入",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "011-000002-000003",
+              "name": "业务角色配置",
+              "url": "/basicdata/overseasStock/roleConfiguration/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "011-000002-000003-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "011-000002-000003-002",
+                  "name": "数据导入",
+                  "url": []
+                },
+                {
+                  "key": "011-000002-000003-003",
+                  "name": "新增角色",
+                  "url": []
+                },
+                {
+                  "key": "011-000002-000003-004",
+                  "name": "删除/批量",
+                  "url": []
+                },
+                {
+                  "key": "011-000002-000003-005",
+                  "name": "数据权限",
+                  "url": []
+                }
+              ],
+              "module": [
+                {
+                  "key": "011-000002-000003-000001",
+                  "name": "数据权限",
+                  "url": "/basicdata/overseasStock/roleConfiguration/permissions/",
+                  "show": 1,
+                  "function": [
+                    {
+                      "key": "011-000002-000003-000001-001",
+                      "name": "查看",
+                      "url": []
+                    },
+                    {
+                      "key": "011-000002-000003-000001-002",
+                      "name": "删除/批量",
+                      "url": []
+                    },
+                    {
+                      "key": "011-000002-000003-000001-003",
+                      "name": "新增角色",
+                      "url": []
+                    }
+                  ],
+                  "module": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "011-000003",
+          "name": "异步队列",
+          "url": "/basicdata/",
+          "module": [
+            {
+              "key": "011-000003-000001",
+              "name": "异步队列",
+              "url": "/basicdata/syncqueue/syncqueue/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "011-000003-000001-001",
+                  "name": "查看",
+                  "url": []
+                }
+              ],
+              "module": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+/**
+     * 作者: 陈林
+     * 描述: tab页签
+     * 时间: 2018/6/8 0008 上午 10:44
+     * @param
+     **/
+.lgt-dlt-cd_container{
+    background-color:#fff ;
+    font-size:12px;
+}
+/*tab页签*/
+.lgt-dlt-cd_container .margin-lg-left{
+    margin-left: 50px;
+}
+.lgt-dlt-cd_container .tweb-tabs-cl .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    margin-right: -1px;
+    width:86px;
+    border-radius: 0;
+    height: 45px;
+    text-align: center;
+    margin-top: -1px;
+    word-break:break-all;
+    line-height: 45px;
+}
+.lgt-dlt-cd_container .tweb-tabs-cl .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    color: #333;
+    border-bottom: 1px solid #fff !important;
+    border-top: 2px solid #4D7BFE;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    top: 1px;
+}
+.lgt-dlt-cd_container .tweb-tabs-cl .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-nav-container{
+    height: 45px;
+}
+.lgt-dlt-cd_container .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab{
+    border-bottom:1px solid #e8e8e8 !important;
+}
+.lgt-dlt-cd_container .tweb-tabs-cl .tweb-tabs_word_break{
+    display: inline-block;
+    position: relative;
+}
+.lgt-dlt-cd_container .tweb-tabs-cl .tweb-tabs_word_break i{
+    position: relative;
+    top:-10px;
+    font-weight: normal;
+}
+.lgt-dlt-cd_container .tweb-tabs-cl .tweb-tabs_word_break strong{
+    position: absolute;
+    top:8px;
+    left:10px;
+    font-weight: normal;
+}
+.lgt-dlt-cd_container .tweb-tabs_word_break_left{
+    left: 4px !important;
+}
+.lgt-dlt-cd_container .tweb-tabs-cl .tweb-button{
+    width:80px;
+    height:30px;
+    font-size:12px;
+    color:#666666;
+}
+.lgt-dlt-cd_container .infomation-input .print-title{
+    width:100%;
+}
+.lgt-dlt-cd_container .infomation-input .print-title h4{
+    font-size:19px;
+    color:#333;
+    font-weight: bold;
+    text-align: center;
+}
+.lgt-dlt-cd_container .infomation-input .print-title p{
+    font-size:12px;
+    color:#333;
+}
+.lgt-dlt-cd_container .infomation-input .table{
+    width:100%;
+}
+.yks-w666{
+    color:#666;
+}
+.yks-w333{
+    color:#333;
+}
+
+/*合同*/
+.lgt-dlt-cd_container .tweb-tabs-cl .container .tab-conter .tweb-contract_title{
+    overflow:hidden;
+    color:#555;
+}
+.lgt-dlt-cd_container .yks-lh15{
+    line-height: 1.5
+}
+.lgt-dlt-cd_container .yks-ti{
+    text-indent: 24px
+}
+.lgt-dlt-cd_container .tweb-padding-lg-top{
+    padding-top: 50px;
+}
+.lgt-dlt-cd_container .inscribe{
+    width: 50%;
+    float: left;
+}
+.lgt-dlt-cd_container .salesContract .table tr td span{
+    margin-left: 10px;
+}
+/*装箱单*/
+.lgt-dlt-packingList{
+    border-top:1px #777 solid;
+}
+.lgt-dlt-packingList  .ant-table-thead > tr > th,
+.lgt-dlt-packingList  .ant-table-thead  .ant-table-tbody > tr > td{
+    padding: 0;
+    height: 34px;
+}
+.lgt-dlt-packingList .ant-table-bordered .ant-table-header > table,
+.lgt-dlt-packingList .ant-table-bordered .ant-table-body > table,
+.lgt-dlt-packingList .ant-table-bordered .ant-table-fixed-left table,
+.lgt-dlt-packingList .ant-table-bordered .ant-table-fixed-right table{
+    border-color: #777;
+    border-top:none;
+}
+.lgt-dlt-packingList  .ant-table-thead > tr > th{
+    border-color:#777;
+    background: #fff;
+    color:#666;
+}
+.lgt-dlt-packingList .ant-table-bordered .ant-table-thead > tr > th,
+.lgt-dlt-packingList .ant-table-bordered .ant-table-tbody > tr > td{
+    border-color:#777;
+}
+.lgt-dlt-cd_container .ant-table-bordered .ant-table-thead > tr > th,
+.lgt-dlt-cd_container .ant-table-bordered .ant-table-tbody > tr > td{
+    border-left-color:#777;
+}
+.lgt-dlt-cd_container .table-top{
+    margin-top: 21px;
+}
+.lgt-dlt-cd_container .clearfix:after {
+    content:"";
+    display: block;
+    clear:both;
+}
+/*载货清单(海外仓)和载货清单（FBA）*/
+.lgt-dlt-cd_container .container .ManifestOverseasWarehouse{
+    width: 100%;
+    padding: 47px 10px 0;
+}
+.lgt-dlt-cd_container .container .ManifestOverseasWarehouse table{
+    width:100%;
+}
+.lgt-dlt-cd_container .container .ManifestOverseasWarehouse .customs-dec .com-title{
+    margin-bottom: 22px;
+}
+.lgt-dlt-cd_container  .com-title{
+    font-size: 19px;
+}
+.lgt-dlt-cd_container .ManifestOverseasWarehouse .ant-spin-container .ant-table-thead{
+    height: 54px;
+}
+.lgt-dlt-cd_container .ManifestOverseasWarehouse .ant-spin-container .ant-table-thead tr th{
+    height: 54px;
+    background: #F6F6F7;
+    color:#666;
+}
+.lgt-dlt-cd_container .ManifestOverseasWarehouse .ant-spin-container .ant-table-tbody tr{
+    height: 45px;
+}
+.lgt-dlt-cd_container .ManifestOverseasWarehouse .ant-spin-container .ant-table-tbody tr td{
+    height: 45px;
+    background: #fff;
+}

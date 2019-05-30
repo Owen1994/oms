@@ -1,0 +1,95 @@
+.deliveryparcellist-search  .ctageSearch .ant-form-item-label,
+.deliveryparcellist-search  .ctageSearch .ant-form-item-control-wrapper{
+    margin: 0;
+}
+.deliveryparcelist-optionBtn{
+    overflow: hidden;
+}
+.order-search-labelSelect .ant-select-selection-selected-value{
+    padding-right: 0;
+}
+.order-search-labelSelect .ant-select-arrow{
+    right: 4px !important;
+}
+.order-tablelist-span2{
+    display: inline-block;
+    width: 84px;
+    text-align: right;
+    padding-right: 4px;
+}
+.order-tablelist-div{
+    text-align: left;
+    margin: 0 auto;
+}
+.order-tablelist-div2 > p span:first-child, .order-tablelist-span1{
+    display: inline-block;
+    width: 40%;
+    padding-right: 4px;
+    text-align: right;
+}
+.order-tablelist-div2 > p span:last-child, .order-tablelist-span3{
+    display: inline-flex;
+    word-break: break-word;
+    width: 55%;
+}
+.order-tablelist-div3 > p span:first-child{
+    min-width: 56px;
+}
+.order-tablelist-div3 > p span:last-child{
+    width: 52%;
+}
+
+.order-search-saleAccountId {
+    height: 39px;
+}
+.order-search-saleAccountId .ant-form-item-children {
+    display: flex;
+    align-items: center;
+    height: 39px;
+}
+.order-search-saleAccountId .ant-form-item-children > div,
+.order-search-saleAccountId .ant-form-item-children > Input{
+    width: 230px;
+    display: inline-block;
+    margin-right: 12px;
+}
+.order-search-saleAccountId .order-cselect{
+    max-height: 46px;
+    overflow-y: auto;
+    position: relative;
+    top: 8px;
+}
+
+.auditmodal-p{
+    padding: 0 30px;
+    color: red;
+}
+.auditmodal-result{
+    margin: 20px 0 !important;
+    display: flex;
+    align-items: center;
+}
+.auditmodal-result .ant-form-item-children{
+    display: flex;
+}
+.auditmodal-result #auditStatus{
+    min-width: 150px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.auditmodal-div{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+.auditmodal-span{
+    display: inline-block;
+}
+.auditmodal-span::before{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    content: '*';
+    color: red;
+}

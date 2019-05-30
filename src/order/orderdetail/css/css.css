@@ -1,0 +1,102 @@
+.deliveryParcel .ant-form-item-children .ant-input {
+    border: none;
+    outline: none;
+}
+.deliveryParcel .ant-form-item-children .ant-input-group-addon {
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.deliveryParcel  .ant-form-item-children .ant-input:focus{
+    box-shadow: none;
+}
+.deliveryParcel  .ant-form-item-children .ant-input[disabled]{
+    background-color: #fff;
+}
+.deliveryParcel .ant-table-row:hover  .ant-form-item-children .ant-input[disabled]{
+    background-color: #e6f7ff;
+    cursor: default;
+}
+.remarks .buyerMessage {
+    padding: 5px 20px;
+    line-height: 24px;
+    text-indent: 2em;
+}
+.pointer {
+    cursor: pointer;
+}
+.exc-clue {
+    padding-bottom: 25px;
+}
+.newClue .newCluenk .title {
+    line-height: 44px;
+}
+.exc-clue .ant-table table {
+    border-collapse: collapse;
+}
+.newCluenk.padTop10 .content{
+    padding: 10px 20px;
+}
+
+.exc-clue .explain p{
+    position: relative;
+    padding-left: 90px;
+    min-height: 18px;
+    line-height: 18px;
+}
+.exc-clue .explain p span{
+    position: absolute;
+    width: 90px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    text-align: right;
+}
+.exc-clue .ant-select-selection.ant-select-selection--single{
+    height: 30px;
+}
+
+.exc-clue.newClue .ant-select-selection__rendered{
+    margin: 0;
+}
+.exc-clue.newClue .ant-select-selection-selected-value{
+    color:#333;
+}
+.exc-clue.newClue .ant-input {
+    color:#333;
+    padding: 4px 0;
+}
+.newCluenk .content .widthAll{
+    width: 100% !important;
+}
+.newClue .newCluewk .textRight{
+    text-align: right;
+}
+.oms-order-log{
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.orderlist-add-btn{
+    float: right;
+    margin: 8px 10px 0 0;
+    /* z-index: 1; */
+}
+
+.exc-tip-text {
+    font-size: 12px;
+    color:#4D7BFE;
+    text-indent: 8em;
+}
+
+.exc-padding-8, .paddingTB8 {
+    padding: 8px 0;
+}
+.orderlist-img {
+    width: 100px;
+    height: 80px;
+}
+
+.orderdetail-remark-btn{
+    float: right;
+    margin: 6px 10px 0 0;
+}

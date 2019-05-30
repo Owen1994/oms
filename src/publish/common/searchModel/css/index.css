@@ -1,0 +1,47 @@
+/* .search{
+    position: relative;
+}
+.search-tab{
+    position: absolute;
+    width: 120px;
+    top: 10px;
+    right: 10px;
+    z-index: 0;
+}
+
+.option{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.default-search{
+    overflow: hidden;
+}
+.text-search{
+    border-top: 1px #ddd solid;
+    margin-top: 10px;
+    padding-top: 10px;
+    overflow: hidden
+}
+.btn-search{
+    width: 504px;
+    overflow: hidden;
+    margin-top: 15px;
+    text-align: right;
+}
+.btn-search button{
+    margin-left: 10px;
+}
+.height-search{
+    overflow: hidden;
+    margin-top: 14px;
+    border-top: 1px #ddd solid;
+}
+.height-search .ARM-form-row{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.height-search .ant-form-item-control-wrapper, .height-search .ant-calendar-picker{
+    width: 344px;
+} */
+
+

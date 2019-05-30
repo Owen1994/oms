@@ -1,0 +1,52 @@
+
+.pms-order-query .list-table {
+    background-color: #fff;
+}
+
+.pms-order-query .list-top-button {
+    text-align: left;
+}
+
+.pms-order-print-color {
+    color: #999999;
+}
+
+.pms-order_form_item_title {
+    float: left;
+    width: 160px;
+    line-height: 40px;
+    text-align: right;
+    font-size: 12px;
+}
+.pms-order-query .pms-order_form_item_title{
+    width:100px;
+}
+
+.orderquery-search {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.orderquery-table-note .ant-tooltip-arrow{
+    border-style: none !important;
+}
+
+.orderquery-racquet-form .ant-form-item {
+    margin-bottom: 10px;
+}
+
+.orderquery-racquet-span {
+    color: red;
+    margin-left: 90px;
+}
+
+.left-sides {
+    line-height: 30px;
+    font-size: 12px;
+    text-align: right;
+}
+.download-template {
+    padding-left: 135px;
+    padding-top: 15px;
+}

@@ -1,0 +1,53 @@
+/* 搜索 */
+.lgt-operation_log_container .search{
+    position: relative;
+}
+.lgt-operation_log_container .search-tab{
+    position: absolute;
+    width: 120px;
+    top: 15px;
+    right: 10px;
+    z-index: 0;
+}
+.lgt-operation_log_container .search-tab .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.lgt-operation_log_container .text-search .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.lgt-operation_log_container .lgt-operation_log_container .default-search{
+    overflow: hidden;
+}
+.lgt-operation_log_container .text-search{
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    background: #fafafa;
+}
+.lgt-operation_log_container .btn-search{
+    width: 504px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+.lgt-operation_log_container .btn-search button{
+    margin-left: 10px;
+}
+.lgt-operation_log_container .height-search{
+    overflow: hidden;
+}
+.lgt-operation_log_container .height-search .standard-form-row{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.lgt-operation_log_container .height-search .ant-form-item-control-wrapper, .lgt-operation_log_container .height-search .ant-calendar-picker{
+    width: 344px;
+}

@@ -1,0 +1,430 @@
+{
+  "operator": "yangbo1",
+  "pwd": "com.yks.urc.",
+  "ticket": "0b8cca4e71066097d6c0f8e9bd77c1f2",
+  "funcVersion": "37ff8928384a8b8fc0f753f18d03267a",
+  "data": [
+    {
+      "apiUrlPrefix": [
+        "/urc/motan/service/",
+        "/oms/order/"
+      ],
+      "system": {
+        "key": "004",
+        "name": "设置",
+        "url": "/user/"
+      },
+      "menu": [
+        {
+          "key": "004-000001",
+          "name": "用户中心",
+          "url": "/user/",
+          "module": [
+            {
+              "key": "004-000001-000001",
+              "name": "组织架构",
+              "url": "/user/organization/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "004-000001-000001-001",
+                  "name": "查看页面",
+                  "url": [
+                    "/urc/motan/service/api/IUrcService/getAllOrgTree",
+                    "/urc/motan/service/api/IUrcService/getUserByDingOrgId"
+                  ]
+                },
+                {
+                  "key": "004-000001-000001-002",
+                  "name": "同步数据",
+                  "url": [
+                    "/urc/motan/service/api/IUrcService/syncDingOrgAndUser"
+                  ]
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "004-000001-000002",
+              "name": "用户管理",
+              "url": "/user/usermanagementlist/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "004-000001-000002-001",
+                  "name": "查看页面",
+                  "url": [
+                    "/urc/motan/service/api/IUrcService/getUsersByUserInfo"
+                  ]
+                },
+                {
+                  "key": "004-000001-000002-002",
+                  "name": "同步数据",
+                  "url": [
+                    "/urc/motan/service/api/IUrcService/syncUserInfo"
+                  ]
+                },
+                {
+                  "key": "004-000001-000002-003",
+                  "name": "管理数据权限摸模板",
+                  "url": []
+                },
+                {
+                  "key": "004-000001-000002-004",
+                  "name": "查看操作权限",
+                  "url": []
+                },
+                {
+                  "key": "004-000001-000002-005",
+                  "name": "数据授权",
+                  "url": []
+                }
+              ],
+              "module": [
+                {
+                  "key": "004-000001-000002-000001",
+                  "name": "数据权限模板",
+                  "url": "/user/usermanagementlist/datapermissiontempl/",
+                  "show": 1,
+                  "function": [
+                    {
+                      "key": "004-000001-000002-000001-001",
+                      "name": "查看页面",
+                      "url": [
+                        "/urc/motan/service/api/IUrcService/getDataRuleTempl"
+                      ]
+                    },
+                    {
+                      "key": "004-000001-000002-000001-002",
+                      "name": "查看方案",
+                      "url": []
+                    },
+                    {
+                      "key": "004-000001-000002-000001-003",
+                      "name": "新增方案",
+                      "url": []
+                    },
+                    {
+                      "key": "004-000001-000002-000001-004",
+                      "name": "编辑方案",
+                      "url": []
+                    },
+                    {
+                      "key": "004-000001-000002-000001-005",
+                      "name": "删除方案",
+                      "url": []
+                    }
+                  ],
+                  "module": [
+                    {
+                      "key": "004-000001-000002-000001-000001",
+                      "name": "查看方案",
+                      "url": "/user/usermanagementlist/datapermissiontempl/viewplan/",
+                      "show": 0,
+                      "function": [
+                        {
+                          "key": "004-000001-000002-000001-000001-001",
+                          "name": "查看页面",
+                          "url": [
+                            "/urc/motan/service/api/IUrcService/getDataRuleTemplByTemplId"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key": "004-000001-000002-000001-000002",
+                      "name": "新增/编辑方案",
+                      "url": "/user/usermanagementlist/datapermissiontempl/compileplan/",
+                      "show": 0,
+                      "function": [
+                        {
+                          "key": "004-000001-000002-000001-000002-001",
+                          "name": "查看页面",
+                          "url": [
+                            "/urc/motan/service/api/IUrcService/getDataRuleTemplByTemplId"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "004-000001-000002-000002",
+                  "name": "数据授权",
+                  "url": "/user/usermanagementlist/datapauthorization/",
+                  "show": 1,
+                  "function": [
+                    {
+                      "key": "004-000001-000002-000002-001",
+                      "name": "查看页面",
+                      "url": [
+                        "/urc/motan/service/api/IUrcService/getMyAuthWay",
+                        "/urc/motan/service/api/IUrcService/getDataRuleByUser"
+                      ]
+                    }
+                  ],
+                  "module": []
+                },
+                {
+                  "key": "004-000001-000002-000003",
+                  "name": "操作权限列表",
+                  "url": "/user/usermanagementlist/functionalpermissionlist/",
+                  "show": 1,
+                  "function": [
+                    {
+                      "key": "004-000001-000002-000003-001",
+                      "name": "查看页面",
+                      "url": [
+                        "/urc/motan/service/api/IUrcService/getUserPermissionList"
+                      ]
+                    }
+                  ],
+                  "module": []
+                }
+              ]
+            },
+            {
+              "key": "004-000001-000003",
+              "name": "角色管理",
+              "url": "/user/rolemanagement/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "004-000001-000003-001",
+                  "name": "查看页面",
+                  "url": [
+                    "/urc/motan/service/api/IUrcService/getRolesByInfo"
+                  ]
+                },
+                {
+                  "key": "004-000001-000003-002",
+                  "name": "新增",
+                  "url": []
+                },
+                {
+                  "key": "004-000001-000003-003",
+                  "name": "编辑",
+                  "url": []
+                },
+                {
+                  "key": "004-000001-000003-004",
+                  "name": "分配权限",
+                  "url": []
+                },
+                {
+                  "key": "004-000001-000003-005",
+                  "name": "分配用户",
+                  "url": []
+                },
+                {
+                  "key": "004-000001-000003-006",
+                  "name": "复制角色",
+                  "url": [
+                    "/urc/motan/service/api/IUrcService/copyRole"
+                  ]
+                },
+                {
+                  "key": "004-000001-000003-007",
+                  "name": "删除",
+                  "url": [
+                    "/urc/motan/service/api/IUrcService/deleteRoles"
+                  ]
+                }
+              ],
+              "module": [
+                {
+                  "key": "004-000001-000003-000001",
+                  "name": "新增修改",
+                  "url": "/user/rolemanagement/addupdaterole/",
+                  "show": 0,
+                  "function": [
+                    {
+                      "key": "004-000001-000003-000001-001",
+                      "name": "查看页面",
+                      "url": [
+                        "/urc/motan/service/api/IUrcService/getUserAuthorizablePermission",
+                        "/urc/motan/service/api/IUrcService/getUserByRoleId",
+                        "/urc/motan/service/api/IUrcService/getRolePermission",
+                        "/urc/motan/service/api/IUrcService/checkDuplicateRoleName"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "004-000001-000003-000002",
+                  "name": "角色授权",
+                  "url": "/user/rolemanagement/operatingAuthorization/",
+                  "show": 0,
+                  "function": [
+                    {
+                      "key": "004-000001-000003-000002-001",
+                      "name": "查看页面",
+                      "url": [
+                        "/urc/motan/service/api/IUrcService/getRolePermission",
+                        "/urc/motan/service/api/IUrcService/getUserAuthorizablePermission",
+                        "/urc/motan/service/api/IUrcService/updateRolePermission"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "004-000001-000003-000003",
+                  "name": "分配用户",
+                  "url": "/user/rolemanagement/allocUser/",
+                  "show": 0,
+                  "function": [
+                    {
+                      "key": "004-000001-000003-000003-001",
+                      "name": "查看页面",
+                      "url": [
+                        "/urc/motan/service/api/IUrcService/getRoleUser",
+                        "/urc/motan/service/api/IUrcService/updateUsersOfRole"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "004-000002",
+          "name": "平台授权",
+          "url": "/user/",
+          "module": [
+            {
+              "key": "004-000002-000001",
+              "name": "AliExpress授权",
+              "url": "/user/platformauthorization/smt/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "004-000002-000001-001",
+                  "name": "查看",
+                  "url": [
+                    "/oms/order/grab/motan/SellStoreAccountApi/findStoreList"
+                  ]
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "004-000002-000002",
+              "name": "Wish授权",
+              "url": "/user/platformauthorization/wish/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "004-000002-000002-001",
+                  "name": "查看",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "004-000002-000003",
+              "name": "Ebay授权",
+              "url": "/user/platformauthorization/ebay/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "004-000002-000003-001",
+                  "name": "查看",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "004-000002-000004",
+              "name": "Joom授权",
+              "url": "/user/platformauthorization/joom/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "004-000002-000004-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "004-000002-000004-002",
+                  "name": "新增授权",
+                  "url": []
+                },
+                {
+                  "key": "004-000002-000004-003",
+                  "name": "重新授权",
+                  "url": []
+                },
+                {
+                  "key": "004-000002-000004-004",
+                  "name": "删除",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "004-000002-000005",
+              "name": "Amazon授权",
+              "url": "/user/platformauthorization/amazon/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "004-000002-000005-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "004-000002-000005-002",
+                  "name": "新增授权",
+                  "url": []
+                },
+                {
+                  "key": "004-000002-000005-003",
+                  "name": "修改",
+                  "url": []
+                },
+                {
+                  "key": "004-000002-000005-004",
+                  "name": "删除",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "004-000002-000006",
+              "name": "Mymall授权",
+              "url": "/user/platformauthorization/mymall/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "004-000002-000006-001",
+                  "name": "查看",
+                  "url": []
+                }
+              ],
+              "module": []
+            },
+            {
+              "key": "004-000002-000007",
+              "name": "Shopee授权",
+              "url": "/user/platformauthorization/shopee/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "004-000002-000007-001",
+                  "name": "查看",
+                  "url": []
+                }
+              ],
+              "module": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

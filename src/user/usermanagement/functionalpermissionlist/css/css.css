@@ -1,0 +1,26 @@
+/* .textArea400{
+    width: 400px;
+}
+.title{
+    padding-right: 10px;
+}
+.newClue .newCluenk{overflow: hidden; border: 0px;}
+
+.organallright{margin-bottom: 15px;}
+.organallright .organtop{background: #fff; height: 105px;}
+.organallright .organtop .organtype{ padding:15px 0px 0px 20px;  overflow: hidden;}
+.organallright .organtop .organtype .typetit{color: #333; font-size: 12px; float:left; width: 60px; height:24px; line-height:24px;}
+.organallright .organtop .organtype .typetab{ float:left; width: 92px; height:24px; border-radius: 0px; font-size: 12px; line-height:22px; text-align: center; border: 1px solid #ddd; margin-left:20px;}
+.organallright .organtop .organtype .mglf0{margin-left:0px;}
+
+.organallright .organtop .organcenter{ overflow: hidden; padding:15px 0px 0px 20px;}
+.organallright .organtop .organcenter .typetit{color: #333; font-size: 12px; float:left; width: 60px; height:24px; line-height:24px;}
+.organallright .organtop .organcenter .typenr{width:286px; height:50px; float:left;}
+.organallright .organtop .organcenter .typebtn{margin-left:20px; float: left;}
+
+.ant-tag-checkable-checked{background-color: #4D7BFE}
+.ant-tag-checkable:active, .ant-tag-checkable-checked{ color: #fff;} */
+
+.tabTitle{
+    padding-right: 10px;
+}

@@ -1,0 +1,16 @@
+.wj-shunt {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.wj-shunt-left {
+    text-align: right;
+    min-width: 80px;
+}
+
+.wj-shunt-right {
+    text-align: left;
+
+    /* max-width: 300px; */
+}

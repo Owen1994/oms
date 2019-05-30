@@ -1,0 +1,100 @@
+.user-role-select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .user-role-select-container .user-border {
+    border: 1px solid #aaa;
+} */
+.user-role-select-container .user-left-wrap {
+    width: 400px;
+    height: 472px;
+    margin-right: 10px;
+    border: 1px solid #F2F2F5;
+}
+
+.user-role-select-container .user-right-wrap {
+    width: 400px;
+    height: 472px;
+    margin-left: 10px;
+    border: 1px solid #F2F2F5;
+}
+
+/* .user-role-select-container .user-role-depart {
+    margin-top: 10px;
+} */
+
+.user-role-select-container .user-role-depart-tree {
+    height: 470px;
+    overflow-y: auto;
+}
+
+.user-role-select-container .user-role-title {
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    padding: 4px 6px;
+}
+.cl-user-border .ant-table-thead > tr > th, 
+.cl-user-border .ant-table-tbody > tr > td {
+    padding: 6px 8px !important;
+}
+.cl-user-border .ant-table-thead > tr > th{
+    background-color: #fff !important;
+}
+.cl-user-role-Icon{
+    margin-left: 10px;
+    position: relative;
+}
+.cl-user-role-Icon::before{
+    content: "";
+    position: absolute;
+    top: 8px;
+    height: 14px;
+    background: #4D7BFE;
+    left: -2px;
+    width: 4px;
+    border-radius: 2px
+}
+.cl-user-role-cselect {
+    position: relative;
+}
+
+.cl-user-role-cselect .ant-select-selection{
+    margin: 0 15px 0 6px;
+}
+.cl-user-role-cselect .cl-user-search{
+    position: absolute;
+    cursor: pointer;
+    top: 36px;
+    right: 30px;
+    z-index: 0;
+}
+.cl-user-role-cselect .cl-user-search::before {
+    font-size: 20px;
+}
+.cl-user-role-title-already {
+    background: #F9FAFD !important;
+    height: 35px;
+    line-height: 25px;
+}
+.user-checkbox-container {
+    display: flex;
+}
+.user-checkbox__left {
+    flex: 1;
+}
+.user-checkbox__right {
+    width: 160px;
+    margin-left: 10px;
+}
+
+.user-checkbox__right .ant-checkbox-group-item { 
+    margin-top: 10px;
+}
+
+.user-checkbox__wrap .ant-checkbox-group-item {
+    width: 30%;
+    margin-top: 10px;
+}

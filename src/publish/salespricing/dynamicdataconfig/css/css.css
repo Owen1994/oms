@@ -1,0 +1,102 @@
+/* 选项卡样式复写 */
+.pricing-system_card-container .ant-tabs.ant-tabs-card > .ant-tabs-bar{
+    background-color: #fff;
+    margin-bottom: 0;
+}
+.pricing-system_card-container .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    border-left: 0;
+    border-radius: 0;
+}
+.pricing-system_card-container .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    border-top: 2px solid #4D7BFE;
+    margin-top: -2px;
+    position: relative;
+    top: 1px;
+}
+/* 搜索条件 */
+.dynamic-data-config_container .search_conditions{
+    background-color: #fff;
+    padding: 14px 0 16px;
+}
+.dynamic-data-config_container .table_list{
+    padding: 10px 10px 15px;
+    background-color: #fff;
+}
+
+/* 表格按钮样式 */
+/* 表格操作按钮样式 */
+.table-list_btns span,
+.table-list_btns a{
+    /*vertical-align: middle;*/
+    display: inline-block;
+    cursor: pointer;
+    color: #4D7BFE;
+}
+.ant-dropdown-menu .ant-dropdown-menu-item a,
+.ant-dropdown-menu .ant-dropdown-menu-item span
+{
+    color: #4D7BFE;
+    font-size: 12px;
+}
+/* edit-modal */
+.edit-modal .edit-row .ant-form-item-label{
+    white-space: normal;
+    padding-top: 4px;
+    padding-right: 10px;
+    line-height: 1.2;
+    text-align: left;
+}
+.edit-modal .edit-row .ant-input-number,
+.edit-modal .ant-row .ant-input-number {
+    width: 100%;
+}
+.edit-table{
+    overflow: hidden;
+    border: 1px solid #e8e8e8;
+    width: 320px;
+}
+.edit-table .ant-row,
+.edit-table .ant-row.ant-form-item{
+    float: left;
+    color: #333;
+}
+.edit-table .ant-row .ant-form-item-label{
+    width: 90px;
+}
+.edit-table .ant-row .ant-form-item-label{
+    padding-top: 0;
+    line-height: 39px;
+    text-align: right;
+    padding-right: 0;
+    border-right: 1px solid #ddd;
+    margin-right: 10px;
+}
+.edit-table .ant-row .ant-form-item-label label:after{
+    content: "";
+}
+/* tablelist冒号对齐 */
+.span-3{
+    display: inline-block;
+    width: 38px;
+    text-align: right;
+}
+.span-4{
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+}
+.span-5{
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+.span-6{
+    display: inline-block;
+    width: 74px;
+    text-align: right;
+}
+.span-7{
+    display: inline-block;
+    width: 84px;
+    text-align: right;
+}

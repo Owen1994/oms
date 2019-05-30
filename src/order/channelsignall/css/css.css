@@ -1,0 +1,99 @@
+.pad-top-bottom8{padding: 8px 0px;}
+.modify .newCluenk{
+    border-top: 0px; 
+}
+.ant-btn-primary[disabled]{
+    color: white;
+}
+.newClue .modifyTab .ant-tabs-nav{
+    padding-left: 0px;
+}
+.newClue .modifyTab .channelall{
+    padding-top: 10px;
+}
+.newClue .modifyTab .ant-btn-primary[disabled]{
+    color: #666;
+}
+.channel-title .ant-col-14,.channel-title .ant-form-item-childre{
+   float: right;
+}
+.channel-title .ant-radio-group{
+    float: right;
+    padding-right: 5px;
+}
+
+
+/* 详情 */
+.ant-radio-state .ant-radio-checked .ant-radio-inner{
+    border-color: red;
+}
+.ant-radio-state .ant-radio-inner:after{
+    background-color: red;
+}
+.channel-detail .ant-form-item-children .ant-input {
+    border: none;
+    outline: none;
+}
+.channel-detail .ant-form-item-children .ant-input-group-addon {
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.channel-detail  .ant-form-item-children .ant-input:focus{
+    box-shadow: none;
+}
+.channel-detail .ant-form-item-control .ant-select-selection--single{
+    cursor: default;
+    background-color: white;
+}
+.channel-detail .ant-form-item-control .ant-select-selection{
+    border: none;
+    outline: none;
+}
+.channel-detail .ant-form-item-control .ant-select-arrow:before{
+    content: none;
+}
+.channel-detail .ant-form-item-control .ant-select-disabled .ant-select-selection{
+    background-color: white;
+    cursor: text;
+    color: rgba(0, 0, 0, 0.65);
+}
+.channel-detail textarea{
+    resize: none;
+}
+.detail .detailTab .ant-tabs-nav{
+    padding-left: 0px;
+}
+.detail .detailTab .table-border{
+    border-bottom: 0;
+}
+.detail .detailTab .ant-table-bordered .ant-table-body > table{
+    border-top: 0px solid transparent;
+}
+.detail .detailTab .table-border .ant-table-body > table{
+    border-top: 1px solid #e8e8e8;
+}
+.detail .detailTab .ant-table-thead > tr > th{
+    padding: 8px 8px;
+}
+.detail .detailTab .typeCard{
+    background-color: #fff;
+    padding: 10px 10px;
+}
+.channel-detail-col span{
+    display: inline-block;
+    font-size: 12px;
+    color: #333;
+    margin-right: 8px;
+}
+.channel-detail-col .col-label{
+    width: 100px;
+    text-align: right;
+}
+
+.channel-log{
+    overflow: hidden;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 10px;
+}

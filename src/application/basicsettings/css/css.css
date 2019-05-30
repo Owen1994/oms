@@ -1,0 +1,132 @@
+.tabTitle{
+    padding: 10px;
+}
+.newCluenk .tabTitle .ant-link:hover{
+    color: #fff;
+}
+
+/* 搜索 */
+.storeListSearch{
+    position: relative;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e8e8;
+}
+.storeListSearch .ARM-form-row{
+    margin-bottom: 10px;
+}
+.storeListSearch .ARM-form-row:last-child{
+    margin-bottom: 0px;
+}
+.storeListSearch .ant-tag-checkable-checked{
+    background-color: #4D7BFE
+}
+.storeListSearch .ant-select-selection--multiple .ant-select-selection__choice{
+    border-radius: 12px;
+    background-color: rgba(77,123,254,0.3);
+}
+.storeListSearch .ant-select-selection__choice__content{
+    color: #4D7BFE;
+}
+.storeListSearch .ant-select-selection--multiple .ant-select-selection__choice__remove:before{
+    color: white;
+}
+.storeListSearch .ant-radio-button-wrapper-checked{
+    background-color: #4D7BFE;
+    color: white;
+}
+.storeListSearch .ant-input{
+    width: 238px;
+}
+.storeListSearch .searchBtn{
+    position: absolute;
+    bottom: 8px;
+    right: -6px;
+}
+
+
+
+.basicSetting .ant-tabs-bar{
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+/*tab切换*/
+.basicSetting .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    color: #333;
+    border-bottom: 1px solid #fff;
+    border-top: 2px solid #4d7bfe;
+    height: 40px;
+    position: relative;
+    top: 1px;
+}
+.basicSetting .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    margin-right: -1px;
+    padding: 0 20px;
+    border-radius: 0;
+    border: 1px solid #EAE9E9;
+    height: 40px;
+    margin-top: -1px;
+}
+.basicSetting .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    color: #333;
+    border-bottom: 1px solid #fff;
+    border-top: 2px solid #4d7bfe;
+    height: 40px;
+    position: relative;
+    top: 1px;
+}
+
+.basicSetting .basicSetting_container,
+.basicSetting .basicSetting_container .breadcrumb{
+    background-color: #fff;
+}
+
+.basicSetting .basicSetting_table{
+    padding: 10px 10px;
+}
+.basicSetting .btnTitle{
+    margin-bottom: 10px;
+}
+
+.ant-dropdown .selectMenu{
+    margin-left: 0px;
+}
+
+/* editThreshold 弹窗 */
+.editThreshold .ARM-form-row{
+    margin-bottom: 15px;
+}
+.editThreshold .ARM-form-row .label{
+    width: 40px;
+}
+.editThreshold .mgT10{
+    margin-top: 10px;
+}
+.editThreshold .ant-form-item-children .antInput {
+    border: none;
+    outline: none;
+    cursor: default;
+    background-color: white;
+}
+.editThreshold .ant-form-item-children .ant-input-group-addon {
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.editThreshold .ant-select{
+    min-width: 120px;
+}
+
+/* tipBox 提示框  */ 
+.tipBox .ant-tooltip-arrow{
+    margin-top: 6px;
+    border-bottom-color: #fff;
+}
+.tipBox .ant-tooltip-inner{
+    margin-top: 6px;
+    color: #333;
+    word-wrap:break-word;
+    background-color: #fff;
+}

@@ -1,0 +1,101 @@
+/* component SearchTab */
+.npd-usermanagement-tab{
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+ .npd-usermanagement-tab .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab{  /*切换 */
+    border-left: none;
+    color: #666666;
+    margin-right: 0px ;
+    border-radius: 0;
+    bottom: 1px;
+    padding: 0 37px 0 38px;
+}
+.npd-usermanagement-tab .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active{
+    border-top: 2px solid #1890ff;
+    color: #333333;
+    bottom: 0px;
+}
+.npd-usermanagement-tab .standard-form-row{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.npd-usermanagement-tab .standard-form-row:last-child .ant-form-item-control{
+    width: 286px;
+}
+/*.npd-usermanagement-tab .npd-tab .label,.npd-usermanagement-tab .items{
+    position: relative;
+    bottom: 6px;
+} */
+.npd-usermanagement-tablelist{
+    background-color: #ffffff;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.npd-usermanagement-btnSearch{
+    width: 200px;
+    margin-top: -6px;
+}
+
+/* conponent Options */
+.npd-usermanagement-options .npd-inline-block, .npd-usermanagement-options2 .npd-inline-block, .npd-usermanagement-options3 .npd-inline-block{
+    display: inline-block;
+    color: #4D7BFE;
+    cursor: pointer;
+}
+.npd-usermanagement-options .npd-vertical-moulding{
+    margin: 0 10px;
+    vertical-align: text-bottom;
+    color: #4D7BFE;
+}
+
+/* component Tablelist_* */
+.npd-usermanagement-info .npd-clear{
+    clear: both;
+}
+.npd-usermanagement-info .npd-title{
+    float: left;
+    width: 35%;
+    text-align: right;
+}
+.npd-usermanagement-info .npd-content{
+    float: left;
+    width: 50%;
+    display: inline-flex;
+    text-align: left;
+}
+.npd-user_manage_table{
+    padding: 10px 10px 0;
+}
+
+/* component TableOption TableOption2  */
+.npd-usermanagement-table-option{
+    overflow: hidden;
+    padding: 10px 10px 0 0;
+    /* border-bottom: 1px solid #EAE9E9; */
+}
+
+/* component Adddetail */
+.npd-usermanagement-adddetail  .ant-form-item-control{
+    line-height: 0;
+    width: 240px !important;
+}
+.npd-usermanagement-adddetail  .ant-form-item-label{
+    line-height: 0;
+}
+.npd-usermanagement-adddetail  .ant-form-item-label > label {
+    line-height: 32px;
+}
+.npd-usermanagement-adddetail  .ant-row.ant-form-item{
+    margin-bottom: 20px;
+}
+.npd-usermanagement-adddetail  .ant-row.ant-form-item:last-child{
+    margin-bottom: 0;
+}
+
+/* 用户组业务线标签的字体 */
+.npd-usermanagement-tab .oms-radiotags > .ant-radio-group > .ant-radio-button-wrapper > span{
+    font-size: 12px;
+}

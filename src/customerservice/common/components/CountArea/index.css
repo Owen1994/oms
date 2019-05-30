@@ -1,0 +1,11 @@
+
+.count-area .word-left {
+    position: absolute;
+    right: 12px;
+    bottom: 27px;
+    font-size: 12px;
+}
+.count-area .ant-form-explain {
+    position: absolute;
+    bottom: -22px;
+}

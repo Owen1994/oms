@@ -1,0 +1,257 @@
+.ebay-listing_container .breadcrumb{
+    box-shadow: none;
+}
+.ebay-listing_container .cut-off-line{
+    border-bottom: 1px #EAE9E9 solid;
+    position: relative !important;
+    background: #fff;
+    top: 0;
+    padding-bottom: 40px;
+}
+.ebay-listing_container .ebay-listing_table{
+    background-color: #fff;
+}
+.ebay-listing_container .ant-form-item-label label{
+    color: #333;
+    font-weight: 700;
+}
+.ebay-listing_container .ant-form-item-label label:after{
+    content: "：";
+}
+/* .ebay-listing_container .ant-row .ant-input{
+    width: 330px
+} */
+.cl-ant-input-number .ant-input-number{
+    width: 320px;
+    margin-left: 10px;
+}
+.ebay-listing_container .range-stock .ant-form-item{
+    margin-right: 0;
+}
+.ebay-listing_container .range-stock .ant-form-item-control-wrapper,
+.ebay-listing_container .range-stock .ant-form-item-control-wrapper .ant-input{
+    width: 150px;
+    text-align: center;
+}
+.ebay-listing_container .range-stock .wave-line{
+    width: 30px;
+    border-left: 0;
+    pointer-events: none;
+    background-color: #fff;
+    border-radius: 0;
+    margin-top: 4px;
+    border-right: 0
+}
+.ebay-listing_container .range-stock .min{
+    border-radius: 4px 0 0 4px;
+    border-right: 0px;
+}
+.ebay-listing_container .range-stock .max{
+    border-radius: 0 4px 4px 0;
+    border-left: 0px;
+}
+.publish-state{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*justify-content: center;*/
+    overflow: hidden;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    border-right:1px #EAE9E9 solid;
+}
+.publish-state .ant-tag{
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    border: 1px solid #EAE9E9;
+    color: #666;
+    border-radius: 0;
+    margin-right: -1px;
+    padding: 0;
+    background-color: #F9FAFD;
+}
+
+.publish-state .active{
+    border-top: 2px solid #4D7BFE;
+    border-bottom-color: #fff;
+    background-color: #fff;
+    height: 41px;
+}
+.publish-state .ant-tag span:hover ,.publish-state .active span{
+    color: #333;
+}
+.publish-state .ant-tag span{
+    display: block;
+    padding: 0 20px;
+}
+
+/* 表格操作按钮样式 */
+.pls-table_btns span,
+.pls-table_btns a{
+    /*vertical-align: middle;*/
+    display: inline-block;
+    cursor: pointer;
+    color: #4D7BFE;
+}
+.ant-dropdown-menu .ant-dropdown-menu-item a,
+.ant-dropdown-menu .ant-dropdown-menu-item span
+{
+    color: #4D7BFE;
+    font-size: 12px;
+}
+/* 日志样式 */
+.ebay-listing_log .ant-modal-body{
+    padding: 10px;
+}
+.listing-log_edit-content span{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+.ebay-listing_log .ant-table-tbody .ant-table-row p{
+    color:#333;
+}
+.list-filter-item2 {
+    position: relative;
+    padding-left: 150px;
+    line-height: 39px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.height-search .list-filter-item2:last-child{
+    margin-bottom: 0;
+}
+.list-filter-item-title2{
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #666;
+}
+.list-filter-item2 > .list-filter-input2 {
+    width: 330px !important;
+    /* margin: 12px 0; */
+}
+
+
+/*标签页样式控制begin*/
+.ebay-listing_container .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-nav-container{
+    height: 39px;
+}
+.ebay-listing_container .tweb-tab .ant-tabs-bar{
+    /* border-bottom: 0px #EAE9E9 solid !important; */
+}
+.ebay-listing_container .tweb-tab .ant-tabs-nav .ant-tabs-tab-active{
+    border-bottom: 2px solid #ffffff !important;
+    margin-top: 0px !important;
+    top: 1px !important;
+}
+.ebay-listing_container .ant-tabs.ant-tabs-card>.ant-tabs-bar .ant-tabs-tab{
+    border-radius: 0 !important;
+    top: -1px;
+}
+/*标签页样式控制end*/
+
+.btn-search{
+    z-index: 99;
+}
+
+/*正在销售可编辑表格*/
+.cwc-selling-editable-input .ant-input-affix-wrapper .ant-input:not(:last-child){
+    padding-right: 50px;
+}
+
+.cwc-inputNumber{
+    width: 100% !important;
+}
+
+/* tablelist冒号对齐 */
+.span-auto {
+    width: 59px;
+    display: inline-block;
+    text-align: right;
+}
+.span-3{
+    display: inline-block;
+    width: 38px;
+    text-align: right;
+}
+.span-4{
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+}
+.span-5{
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+.span-6{
+    display: inline-block;
+    width: 74px;
+    text-align: right;
+}
+.span-7{
+    display: inline-block;
+    width: 84px;
+    text-align: right;
+}
+.span-content{
+    width: 210px;
+    display: inline-flex;
+    word-break: break-all;
+    text-align: left;
+}
+.queue-batch-upload-com {
+    padding-top:5px;
+}
+.queue-batch-upload-com-btn {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color:#fff;
+    background-color: #4D7BFE;
+    border-radius:4px;
+    position: relative;
+    cursor: pointer;
+}
+.queue-batch-upload-com-btn input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    cursor: pointer;
+}
+.queue-batch-upload-info {
+    line-height: 24px;
+    font-size: 12px;
+    color:gray;
+}
+
+
+.search_adjustment .ant-form-item-control-wrapper {
+     padding-top: 5px;
+}
+
+.search_adjustment .ant-form-item-control-wrapper .ant-form-item-control {
+    height: 39px !important;
+}
+
+.search_adjustment_button {
+    bottom: 1px;
+}
+
+.table-row-select {
+    background-color: rgb(237, 253, 243);
+}

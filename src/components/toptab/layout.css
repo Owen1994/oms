@@ -1,0 +1,332 @@
+.top-tool {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 0px 5px #ddd;
+    z-index: 99;
+}
+
+.toptaball {
+    width: 900px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    z-index: 2
+}
+
+.toptaball ul.ant-menu-horizontal {
+    line-height: 50px;
+    border-bottom: 0px;
+}
+
+.ant-menu-horizontal > .ant-menu-submenu-open {
+    border-bottom: none
+}
+
+.toptaball .ant-menu-horizontal > .ant-menu-item, .ant-menu-horizontal > .ant-menu-submenu {
+    border-bottom: none
+}
+
+.topmenufixed .ant-menu-vertical .ant-menu-item{
+    margin-bottom:0px; margin-top: 0px;
+}
+.topmenufixed .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background: none; color: #fff;
+}
+.toptaball .ant-menu-horizontal > .ant-menu-item-selected > a{
+    color: #4D7BFE;
+}
+.ant-menu-horizontal > .ant-menu-submenu-selected{
+    color: #4D7BFE;
+}
+.ant-menu-item-selected > a, .ant-menu-item-selected > a:hover{
+    color: #4D7BFE;
+}
+.toptaball .topicon {
+    font-size: 10px;
+    vertical-align: text-bottom
+}
+
+.toptaball .ant-menu-horizontal > .ant-menu-submenu:hover{
+    border-bottom: none;
+}
+
+.toptaball ul.ant-menu-horizontal li.ant-menu-item {
+    line-height: 58px;
+    padding: 0px 20px;
+    float: left;
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+.toptaball ul.ant-menu-horizontal li.ant-menu-item-selected{
+    border-bottom: 2px  #4d7bfe solid;
+}
+.toptaball ul.ant-menu-horizontal li.ant-menu-item-selected a{
+    color: #4d7bfe;
+}
+
+.toptaball .ant-menu-submenu-title {
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.toptaball ul li a {
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+}
+
+.toptaball ul li:hover a {
+    color: #4D7BFE;
+}
+
+/*.toptaball ul li:hover {*/
+/*background-color: #5658B9;*/
+/*}*/
+
+/*.toptaball ul li.actived {*/
+/*background-color: #5658B9;*/
+/*}*/
+
+.toptaball ul li.actived a {
+    color: #4D7BFE;
+}
+
+.toptaball ul li .index {
+    background: url('./img/1-1.png') 0 18px no-repeat;
+}
+
+.toptaball ul li:hover .index, .toptaball ul li.actived .index {
+    background: url('./img/2-1.png') 0 18px no-repeat;
+}
+
+.toptaball ul li .supplier {
+    background: url('./img/1-2.png') 0 18px no-repeat;
+}
+
+.toptaball ul li:hover .supplier, .toptaball ul li.actived .supplier {
+    background: url('./img/2-2.png') 0 18px no-repeat;
+}
+
+.toptaball ul li .purchase {
+    background: url('./img/1-3.png') 0 18px no-repeat;
+}
+
+.toptaball ul li:hover .purchase, .toptaball ul li.actived .purchase {
+    background: url('./img/2-3.png') 0 18px no-repeat;
+}
+
+.toptaball ul li .daily {
+    background: url('./img/1-5.png') 0 18px no-repeat;
+}
+
+.toptaball ul li:hover .daily, .toptaball ul li.actived .daily {
+    background: url('./img/2-5.png') 0 18px no-repeat;
+}
+
+.topwidget {
+    height: 61px;
+    line-height: 60px;
+    background-color: #fff;
+    /*box-shadow: 2px 1px 2px #ddd;*/
+    position: relative;
+    border-bottom: 1px solid #edf1f5;
+    z-index: 9;
+}
+
+.topwidget .toplf {
+    width: 70px;
+    height: 100%;
+    float: left
+}
+
+.topwidget .topgt {
+    position: absolute;
+    right: 200px;
+    top: 0px;
+    min-width: 230px;
+    height: 100%;
+    font-size: 14px
+}
+
+.topwidget .toplf .icft20 {
+    font-size: 20px;
+    width: 70px;
+    float: left;
+    text-align: center;
+    position: relative;
+    cursor: pointer
+}
+
+.topwidget .toplf .cur {
+    background-color: #e5e5e5;
+}
+
+.ico {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #f33155;
+    text-align: center;
+    top: 15px;
+    left: 40px;
+    border-radius: 7px;
+    color: #fff;
+    line-height: 14px;
+    font-size: 10px;
+}
+
+.pd_l30 {
+    padding-left: 30px;
+}
+
+.pd_l50 {
+    padding-left: 50px;
+}
+
+.pd-r15 {
+    padding-right: 15px;
+}
+
+.pd-r20 {
+    padding-right: 20px;
+}
+
+.erp-wh300 {
+    width: 300px;
+}
+
+.erp-fllt {
+    float: left;
+}
+
+.erp-flrt {
+    float: right;
+}
+
+.top_user {
+    margin-top: 10px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.top_user a {
+    color: #686868;
+}
+
+.anticon:hover {
+    color: #000;
+
+}
+
+.curs {
+    clear: both
+}
+
+.topwidget .normal {
+    background-color: #6699cc;
+    border-color: #6699cc;
+    border-radius: 0
+}
+
+.topwidget-submit {
+    text-align: center;
+}
+
+/* 顶部选项卡添加图标 */
+.toptaball .topicon1 {
+    /*background-image: url('./img/topicon1.png') ;*/
+}
+
+.toptaball .topicon2 {
+    /*background-image: url('./img/topicon2.png');*/
+}
+
+.toptaball .topicon3 {
+    /*background-image: url('./img/topicon3.png');*/
+}
+
+.toptaball li:hover .topicon1, .toptaball li.actived .topicon1 {
+    /*background-image: url('./img/hovericon1.png') ;*/
+}
+
+.toptaball li:hover .topicon2, .toptaball li.actived .topicon2 {
+    /*background-image: url('./img/hovericon2.png') ;*/
+}
+
+.toptaball li:hover .topicon3, .toptaball li.actived .topicon3 {
+    /*background-image: url('./img/hovericon3.png') ;*/
+}
+
+.tabcrumbs {
+    background: #fff;
+    padding-left: 1px;
+    border-bottom: 1px solid #EAE9E9;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.tabcrumbs .ant-tag {
+    line-height: 40px;
+    height: 40px;
+    color: #666;
+    border-radius: 0px;
+    position: relative;
+    margin-right: 0px;
+    padding: 0px 20px;
+    font-size: 12px;
+    border: 1px solid #EAE9E9;
+    margin-left: -1px;
+    margin-bottom: -1px;
+    background: #fff;
+}
+
+.tabcrumbs .ant-tag a {
+    display: inline-block;
+    text-decoration: none;
+    color: #666;
+}
+
+.tabcrumbs .ant-tag.active {
+    background: rgba(242, 242, 245, 1);
+}
+
+.tabcrumbs .ant-tag.active a {
+    color: #333;
+}
+
+.tabcrumbs .anticon-cross {
+    color: #888;
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    font-weight: normal;
+    margin-left: 0px;
+    top: 0px;
+    width: 17px;
+    text-align: center;
+    vertical-align: middle;;
+    height: 17px;
+    line-height: 17px;
+    cursor: default;
+    font-size: 10px;
+}
+
+.tabcrumbs .btboder {
+    line-height: 1px;
+    height: 1px;
+    border-top: 1px solid #EAE9E9;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}

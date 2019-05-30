@@ -1,0 +1,191 @@
+/**
+ * 搜索Css样式
+ */
+.amazon-this-search {
+    position: relative;
+    padding: 10px 0px 5px 0px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.amazon-this-search .search-tab {
+    position: absolute;
+    width: 120px;
+    top: 15px;
+    right: 10px;
+    z-index: 1;
+}
+
+.amazon-this-search .ant-input {
+    margin: 7px 0px;
+}
+
+.amazon-this-search .ant-select {
+    margin: 7px 0px;
+}
+
+.amazon-this-search .search-top {
+    margin-top: 2px;
+    margin-bottom: 7px;
+}
+
+.amazon-this-search .search-middle {
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    overflow: hidden;
+    background: #fafafa;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.amazon-this-search .search-bottom {
+    padding-top: 7px;
+}
+
+.amazon-this-search .ant-radio-button-wrapper-checked {
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+
+.amazon-this-search .btn-search {
+    width: 330px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.amazon-this-search .btn-search button {
+    margin-left: 10px;
+}
+
+.amazon-this-search .ant-input {
+    width: 330px;
+}
+
+.amazon-this-search .ant-select {
+    width: 330px !important;
+}
+
+.amazon-this-search .ant-calendar-picker {
+    width: 330px;
+}
+
+.amazon-this-search .search-other-tab{
+    position: absolute;
+    width: 120px;
+    float: none;
+    bottom: 20px;
+    z-index: 1;
+}
+
+/**
+ * Tabs Css样式
+ */
+.amazon-this-tabs{
+    background-color: #ffffff;
+}
+.amazon-this-tabs .ant-tabs-bar{
+    margin-bottom: 0;
+}
+.amazon-this-tabs .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active{
+    position: relative;
+    top: 1px !important;
+    border-top: 2px solid #4D7BFE;
+}
+.amazon-this-tabs .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab{
+    top: -1px;
+    margin-right: 0;
+    border-left: none;
+    border-radius: 0;
+}
+
+/**
+ * Table Css样式
+ */
+.amazon-this-table {
+    padding: 10px;
+    background-color: white;
+}
+
+.amazon-this-table .top-left-wrap {
+    float: left;
+}
+
+.amazon-this-table .top-right-wrap {
+    float: right;
+}
+
+.amazon-this-table .top-container {
+    margin-bottom: 10px;
+}
+
+.amazon-this-table .top-container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content-key-value>div {
+    text-align: center;
+}
+
+.amazon-this-table .column-label-wrap {
+    display: flex;
+    padding: 0 10px;
+}
+
+.amazon-this-table .column-label-wrap .column-label-wrap_left {
+    width: 100px;
+    display: block;
+    text-align: right;
+}
+
+.amazon-this-table .column-label-wrap .column-label-wrap_right {
+    flex: 1;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.amazon-table-red-span span {
+    color: red;
+    float: right;
+}
+
+.amazon-table-grab .ant-form-item {
+    margin-bottom: 10px;
+}
+
+.amazon-table-orderinfo-div {
+    max-width: 240px;
+    margin: 0 auto;
+}
+
+.amazon-table-orderinfo-div p {
+    text-align: left;
+}
+
+.amazon-table-orderinfo-div .orderinfo-span {
+    display: inline-block;
+    width: 75px;
+    text-align: right;
+}
+
+.amazon-table-timeinfo-div {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.amazon-table-timeinfo-div p {
+    text-align: left;
+}
+
+.amazon-table-timeinfo-div .timeinfo-span {
+    display: inline-block;
+    width: 110px;
+    text-align: right;
+}
+
+
+
+

@@ -1,0 +1,86 @@
+/* 搜索 */
+.sensitive-setting .text-search {
+    clear: both;
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    background: #fafafa;
+}
+.sensitive-setting .search{
+    position: relative;
+}
+.sensitive-setting .search-tab{
+    position: absolute;
+    width: 120px;
+    top: 10px;
+    right: 10px;
+    z-index: 0;
+}
+.sensitive-setting .search-tab .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.sensitive-setting .text-search .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.sensitive-setting .sensitive .default-search{
+    overflow: hidden;
+}
+.sensitive-setting .text-search{
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    background: #fafafa;
+}
+.sensitive-setting .btn-search{
+    width: 504px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    text-align: right;
+}
+.sensitive-setting .btn-search button{
+    margin-left: 10px;
+}
+.sensitive-setting .height-search{
+    overflow: hidden;
+}
+.sensitive-setting .height-search .standard-form-row{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.sensitive-setting .height-search .ant-form-item-control-wrapper,
+.sensitive-setting .height-search .ant-calendar-picker{
+    width: 344px;
+}
+
+/* 操作列 */
+.sensitive-setting .options-style .inline-block{
+    display: inline-block;
+    margin-left: 10px;
+}
+.sensitive-setting .options-style .ant-dropdown-trigger{
+    cursor: pointer;
+    color: #4d7bfe;
+}
+
+/* 基础资料分类 */
+.basic-add2 .ant-col-18 .ant-form-item{
+    float: left !important;
+    margin-bottom: 0px;
+}
+.basic-add2 .dynamic-delete-button{
+    position: absolute;
+    top: 12px;
+    right: 6px;
+    cursor: pointer;
+}

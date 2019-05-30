@@ -1,0 +1,21 @@
+.lgt-operation_log_container{
+    background-color: #fff
+}
+.lgt-operation_log .ant-form-item-label label{
+    color: #333;
+    /*font-weight: 700;*/
+}
+.lgt-operation_log .ant-form-item-label label:after{
+    content: "：";
+}
+
+/* 高级搜索样式调整 */
+.lgt-operation_log_container .text-search,
+.lgt-operation_log_container .height-search{
+    margin-top: 0;
+    padding-top: 0;
+}
+.lgt-operation_log_container .btn-search{
+    margin-bottom: 10px;
+}
+

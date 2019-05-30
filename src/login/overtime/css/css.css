@@ -1,0 +1,61 @@
+#root{
+    height: 100%;
+}
+.yks-overtime{
+    background-color: #fff;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex;
+    position: relative;
+    height: 100%;
+}
+
+.yks-overtime .yks-overtime-text{
+    padding: 5%;
+    display: flex;
+}
+.yks-overtime .yks-overtime-text .yks-overtime-text-left{
+    background-image:url("../img/backgroud_overtime.png");
+    background-size:100%;
+    background-repeat:no-repeat;
+    width:300px;
+    height: 238px;
+}
+.yks-overtime .yks-overtime-text .yks-overtime-text-right{
+    height: 238px;
+    width:300px;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex;
+}
+.yks-overtime .yks-overtime-text .yks-overtime-text-right .yks-overtime-text-right-font{
+    color:#8394A5;
+    line-height: 34px;
+}
+.yks-overtime .yks-overtime-text .yks-overtime-text-right .yks-overtime-text-right-font p{
+    font-size:18px;
+}
+.yks-overtime .yks-overtime-text .yks-overtime-text-right .yks-overtime-text-right-font button{
+    margin-top: 20px;
+    position: relative;
+    width:100px;
+    height: 32px;
+}
+.yks-overtime .yks-overtime-text .yks-overtime-text-right .yks-overtime-text-right-font button span{
+    padding-left: 3px;
+    font-size: 16px;
+}
+
+.yks-overtime .yks-overtime-text .yks-overtime-text-right .yks-overtime-text-right-font button .relogin{
+    width:13px;
+    height:13px;
+    background-image: url("../img/overtime_icon.png");
+    background-size:100%;
+    background-repeat:no-repeat;
+    display: inline-block;
+    margin-left: -5px;
+}
+

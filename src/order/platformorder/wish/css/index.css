@@ -1,0 +1,196 @@
+/* tabs begin */
+.wishorder-tabs{
+    background-color: #ffffff;
+}
+.wishorder-tabs .ant-tabs-bar{
+    margin-bottom: 0;
+}
+.wishorder-tabs .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active{
+    position: relative;
+    top: 1px !important;
+    border-top: 2px solid #4D7BFE;
+}
+.wishorder-tabs .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab{
+    top: -1px;
+    margin-right: 0;
+    border-left: none;
+    border-radius: 0;
+}
+/* tabs end */
+
+/* Search begin */
+.wishorder-search{
+    overflow: hidden;
+    background-color: #ffffff;
+    position: relative;
+}
+.wishorder-defaultSearch{
+    overflow: hidden;
+}
+.wishorder-heightSearch{
+    overflow: hidden;
+}
+.wishorder-searchBtn{
+    margin: 10px 0;
+    width: 330px;
+    text-align: right
+}
+.wishorder-searchBtn button{
+    margin-left: 10px;
+}
+.wishorder-searchTab{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+.wishorder-searchTab .ant-radio-button-wrapper-checked{
+    background-color: #4D7BFE !important;
+    color: #ffffff !important;
+}
+.wishorder-textSearch{
+    background: #fafafa;
+    border-top: 1px #EAE9E9 solid;
+    border-bottom: 1px #EAE9E9 solid;
+}
+.wishorder-textSearch > .ant-row.ant-form-item, .wishorder-heightSearch > .ant-row.ant-form-item{
+    margin: 4px 0 10px 0;
+}
+.wishorder-textSearch .ant-radio-button-wrapper-checked{
+    color: #ffffff;
+    background-color: #4d7bfe;
+}
+/* search end */
+
+/* tablelist begin */
+.wishorder-tablelist{
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 10px;
+    /* margin-top: 20px; */
+}
+.wishorder-addBtn{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.wishorder-addBtn button{
+    margin-left: 20px;
+}
+.wishorder-tablelist-orderdetail{
+    float: left;
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+}
+.wishorder-tablelist-orderdetail img{
+    width: 100%;
+    height: 100%;
+}
+.wishorder-tablelist-span{
+    display: inline-block;
+    width: 65px;
+    text-align: right;
+}
+.wishorder-tablelist-info{
+    max-width: 240px;
+    margin: 0 auto;
+}
+.wishorder-tablelist-info p{
+    text-align: left;
+}
+.wishorder-span-bg{
+    background:rgba(236,241,254,1);
+    color: #4D7BFE;
+    display: inline-block;
+    padding: 2px 10px;
+}
+/* tablelist end */
+
+/* modal begin */
+.wishorder-modal-form .ant-row.ant-form-item{
+    margin-bottom: 10px;
+}
+.wishorder-modal-form .ant-row.ant-form-item:last-of-type{
+    margin-bottom: 0;
+}
+.wishorder-modal-form .ant-form-item-control{
+    width: 260px;
+}
+.wishorder-modal-form p{
+    font-size:12px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+    line-height:33px;
+}
+.wishorder-modal-form button{
+    width: 260px;
+}
+/*.wishorder-submitBtn{*/
+    /*text-align: right;*/
+    /*padding-top: 15px;*/
+    /*margin-top: 15px;*/
+    /*border-top: 1px solid #EAE9E9;*/
+/*}*/
+/*.wishorder-submitBtn button{*/
+    /*margin-left: 20px;*/
+/*}*/
+.wishorder-modal-cselect .ant-form-item-control{
+    width: 260px !important;
+}
+/* modal end */
+
+
+.wishorder-span-4{
+    display: inline-block;
+    font-weight:400;
+    color: #333333;
+    width: 52px;
+    text-align: right;
+}
+.wishorder-span-6{
+    display: inline-block;
+    font-weight:400;
+    color: #333333;
+    width: 72px;
+    text-align: right;
+}
+.wishorder-span-content{
+    display: inline-flex;
+    width: 66%;
+    text-align: left;
+    font-weight:400;
+    color: #333333;
+    word-break: break-all;
+}
+.wishorder-modal-content h3{
+    font-weight: bold;
+    color: rgba(51,51,51,1);
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.wishorder-span-before{
+    display: inline-block;
+    width: 3px;
+    height: 12px;
+    background: rgba(77,123,254,1);
+    border-radius: 1px;
+    margin-right: 3px;
+}
+.wishorder-modal-content > div{
+    margin-bottom: 20px;
+}
+.wishorder-modal-productInfo .ant-row,
+.wishorder-modal-refundInformation .ant-row,
+.wishorder-modal-receiptAddress .ant-row{
+    margin-bottom: 10px;
+}
+.wishorder-modal-paymentInfo > .ant-row > .ant-col-8 > div,
+.wishorder-modal-receiptAddress > .ant-row > .ant-col-8 > div{
+    margin-bottom: 10px;
+}
+.wishorder-modal-paymentInfo > .ant-row > .ant-col-8 > div:last-child,
+.wishorder-modal-receiptAddress > .ant-row > .ant-col-8 > div:last-child{
+    margin-bottom: 0;
+}

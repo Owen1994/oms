@@ -1,0 +1,86 @@
+import {
+    RECEIVE_TABLE_LIST,
+    LOADING_TABLE_LIST,
+    RECEIVE_CHANNEL_STATE,
+    RECEIVE_EXCEPTION_TYPE,
+    CHANGE_SELECTED,
+} from '../constants';
+import {
+    GET_LIST,
+    GET_STATE,
+    GET_EXCEPTION_TYPE,
+} from '../constants/Api';
+import { fetchPost } from '@/util/fetch';
+
+/**
+ * 列表选中项
+ */
+const changeSelectedAction = value => (dispatch) => {
+    dispatch({
+        type: CHANGE_SELECTED,
+        payload: value,
+    })
+}
+
+/**
+ * 获取列表数据
+ * @param {*} params 搜索参数
+ */
+const queryTableList = params => (dispatch) => {
+    dispatch({
+        type: LOADING_TABLE_LIST,
+        state: true,
+    });
+    fetchPost(GET_LIST, params, 2)
+        .then((result) => {
+            dispatch({
+                type: LOADING_TABLE_LIST,
+                state: false,
+            });
+            if (result.state === '000001') {
+                dispatch({
+                    type: RECEIVE_TABLE_LIST,
+                    data: result.data,
+                });
+            }
+        });
+};
+
+/**
+ * 获取渠道获取状态及数量
+ * @param {*} params 搜索参数
+ */
+const queryChannelObtainState = params => (dispatch) => {
+    fetchPost(GET_STATE, params || {}, 2)
+        .then((result) => {
+            if (result.state === '000001') {
+                dispatch({
+                    type: RECEIVE_CHANNEL_STATE,
+                    data: result.data.data,
+                });
+            }
+        });
+};
+
+/**
+ * 获取渠道异常类型及数量
+ * @param {*} params 搜索参数
+ */
+const queryExceptionType = params => (dispatch) => {
+    fetchPost(GET_EXCEPTION_TYPE, params || {}, 2)
+        .then((result) => {
+            if (result.state === '000001') {
+                dispatch({
+                    type: RECEIVE_EXCEPTION_TYPE,
+                    data: result.data.data,
+                });
+            }
+        });
+};
+
+export default {
+    queryTableList,
+    queryChannelObtainState,
+    queryExceptionType,
+    changeSelectedAction,
+};

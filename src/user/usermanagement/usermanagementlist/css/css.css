@@ -1,0 +1,35 @@
+.userTabelist .tabTitle{
+    line-height: 0px !important;
+    padding: 10px 10px 0px 10px;
+}
+.userTabelist .tabTitle .ant-link:hover{
+    color: #fff;
+}
+.userSearch{margin-bottom: 15px;padding: 10px;background-color: #fff; box-shadow: 0 0 5px #ddd;}
+.userSearch .organtop{background: #fff;}
+.userSearch .organtop .organtype{ padding:15px 0px 0px 20px;  overflow: hidden;width: 100%; text-align: left;}
+.userSearch .organtop .organtype .typetit{
+    color: #333; 
+    font-size: 12px; 
+    width: 60px; 
+    height:24px; 
+    line-height:24px; 
+}
+.userSearch .organtop .organtype .typetab{ float:left; width: 92px; height:24px; padding: 0px; border-radius: 0px; font-size: 12px; margin-right:0px; line-height:22px; text-align: center; border: 1px solid #ddd;}
+.userSearch .organtop .organtype .ant-form-item-control-wrapper{
+    width: auto;
+}
+.userSearch .organtop .organcenter{ overflow: hidden; padding:7px 0px 7px 18px;}
+.userSearch .organtop .organcenter .typetit{color: #333; font-size: 12px; float:left; width: 60px; height:24px; line-height:24px;}
+.userSearch .organtop .organcenter .typenr{width:286px; float:left;}
+.userSearch .organtop .organcenter .typebtn{margin-left:20px; float: left;}
+.userSearch .organtop .searchBtn{
+    margin: 3px 0px 0px 30px;
+}
+
+.userSearch .ant-tag-checkable-checked{background-color: #4D7BFE}
+.newCluenk.userTabelist{box-shadow: 0 0 5px #ddd;}
+
+.newClue .newCluenk .title {
+    border-bottom: none;
+}

@@ -1,0 +1,17 @@
+.claimreportdetailall{ position: relative}
+.claimreportdetailall .search-tab{width:120px; position: absolute; top:10px; right:20px;}
+.claimreportdetailall .search-tab .ant-radio-button-wrapper-checked{background-color:#4D7BFE; color: #fff;}
+.detail-search{border-top:1px solid #cdcdcd; margin-top:10px; padding-top:10px; position: relative}
+.detail-search .detail-btn{position: absolute; left:466px;top:66px;}
+
+.detailtablelisall{width:160px; margin: auto; text-align: right;}
+.detailtablelisall .detailtit{width:67px; display: inline-block;}
+.detailtablelisall .detailtit2{width:84px; display: inline-block;}
+.detailtablelisall .detailtxt{text-align: left; width: 93px; display: inline-flex}
+.detailtablelisall .detailtxt2{text-align: left; width: 76px; display: inline-flex}
+.detailtablelisall2{width:200px; margin: auto; text-align: right;}
+.detailtablelisall2 .detailtit2{width:84px; display: inline-block;}
+.detailtablelisall2 .detailtxt2{text-align: left; width: 116px; display: inline-flex}
+
+.asinleft{ text-align: left}
+.detailpd10{padding:10px;}

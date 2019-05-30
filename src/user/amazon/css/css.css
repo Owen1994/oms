@@ -1,0 +1,142 @@
+/**
+ * 搜索Css样式
+ */
+.amazon-authorization-search {
+    position: relative;
+    padding: 10px 0px 5px 0px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.amazon-authorization-search .search-tab {
+    position: absolute;
+    width: 120px;
+    top: 15px;
+    right: 10px;
+    z-index: 1;
+}
+
+.amazon-authorization-search .ant-input {
+    margin: 7px 0px;
+}
+
+.amazon-authorization-search .ant-select {
+    margin: 7px 0px;
+}
+
+.amazon-authorization-search .search-top {
+    margin-top: 2px;
+    margin-bottom: 7px;
+}
+
+.amazon-authorization-search .search-middle {
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    overflow: hidden;
+    background: #fafafa;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.amazon-authorization-search .search-bottom {
+    padding-top: 7px;
+}
+
+.amazon-authorization-search .ant-radio-button-wrapper-checked {
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+
+.amazon-authorization-search .btn-search {
+    width: 330px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.amazon-authorization-search .btn-search button {
+    margin-left: 10px;
+}
+
+.amazon-authorization-search .ant-input {
+    width: 330px;
+}
+
+.amazon-authorization-search .ant-select {
+    width: 330px !important;
+}
+
+.amazon-authorization-search .ant-calendar-picker {
+    width: 330px;
+}
+
+.amazon-authorization-search .search-other-tab{
+    position: absolute;
+    width: 120px;
+    float: none;
+    bottom: 20px;
+    z-index: 1;
+}
+
+/**
+ * Table Css样式
+ */
+.amazon-authorization-table {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+.amazon-authorization-table .top-left-wrap {
+    float: left;
+}
+
+.amazon-authorization-table .top-right-wrap {
+    float: right;
+}
+
+.amazon-authorization-table .top-container {
+    margin-bottom: 10px;
+}
+
+.amazon-authorization-table .top-container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content-key-value>div {
+    text-align: center;
+}
+
+.amazon-authorization-table .column-label-wrap {
+    display: flex;
+    padding: 0 10px;
+}
+
+.amazon-authorization-table .column-label-wrap .column-label-wrap_left {
+    width: 100px;
+    display: block;
+    text-align: right;
+}
+
+.amazon-authorization-table .column-label-wrap .column-label-wrap_right {
+    flex: 1;
+    margin-left: 10px;
+    text-align: left;
+}
+
+
+.amazon-authorization-grab .ant-form-item {
+    margin-bottom: 10px;
+}
+
+.amazon-authorization-will-due-span {
+    color: #FF3747;
+    border: 1px solid #FF3747;
+    font-size: 12px;
+    padding: 3px 5px;
+    border-radius: 4px;
+    margin-left: 10px;
+}

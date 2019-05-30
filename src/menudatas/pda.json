@@ -1,0 +1,283 @@
+{
+    "operator": "yangbo",
+    "pwd": "com.yks.urc.",
+    "ticket": "21ae8f8f36cd257cb69d3b72cfa049c2",
+    "funcVersion": "163e9850d56c65df7e79ff3d22fcbe08",
+    "data": [
+      {
+        "apiUrlPrefix": [
+          "/wmsservice/api/"
+        ],
+        "system": {
+          "key": "013",
+          "name": "PDA_APP",
+          "url": "/pda/"
+        },
+        "menu": [
+          {
+            "key": "013-000001",
+            "name": "库存",
+            "url": "/pda/",
+            "module": [
+              {
+                "key": "013-000001-000001",
+                "name": "库存查询",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              }
+            ]
+          },
+          {
+            "key": "013-000002",
+            "name": "入库",
+            "url": "/pda/",
+            "module": [
+              {
+                "key": "013-000002-000001",
+                "name": "扫描收货",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              },
+              {
+                "key": "013-000002-000002",
+                "name": "采购入库",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              },
+              {
+                "key": "013-000002-000003",
+                "name": "三无产品登记",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              },
+              {
+                "key": "013-000002-000004",
+                "name": "三无产品处理",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              },
+              {
+                "key": "013-000002-000005",
+                "name": "补单收货",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              },
+              {
+                "key": "013-000002-000006",
+                "name": "不良拍照",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              }
+            ]
+          },
+          {
+            "key": "013-000003",
+            "name": "出库",
+            "url": "/pda/",
+            "module": [
+              {
+                "key": "013-000003-000001",
+                "name": "领取任务",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              },
+              {
+                "key": "013-000003-000002",
+                "name": "拣货交付",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              },
+              {
+                "key": "013-000003-000003",
+                "name": "货代交接",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              },
+              {
+                "key": "013-000003-000004",
+                "name": "良-不良出库",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              },
+              {
+                "key": "013-000003-000004",
+                "name": "异常处理",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              },
+              {
+                "key": "013-000003-000005",
+                "name": "容器绑定",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              }
+            ]
+          },
+          {
+            "key": "013-000004",
+            "name": "不良品",
+            "url": "/pda/",
+            "module": [
+              {
+                "key": "013-000004-000001",
+                "name": "不良品入库",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              },
+              {
+                "key": "013-000004-000002",
+                "name": "不良品出库",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              }
+            ]
+          },
+          {
+            "key": "013-000005",
+            "name": "盘点",
+            "url": "/pda/",
+            "module": [
+              {
+                "key": "013-000005-000001",
+                "name": "循环盘点",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              },
+              {
+                "key": "013-000005-000002",
+                "name": "紧急盘点",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              }
+            ]
+          },
+          {
+            "key": "013-000006",
+            "name": "退货",
+            "url": "/pda/",
+            "module": [
+              {
+                "key": "013-000006-000001",
+                "name": "销售退货",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              },
+              {
+                "key": "013-000006-000002",
+                "name": "扫描回库",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              }
+            ]
+          },
+          {
+            "key": "013-000007",
+            "name": "样品",
+            "url": "/pda/",
+            "module": [
+              {
+                "key": "013-000007-000001",
+                "name": "样品入库",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              },
+              {
+                "key": "013-000007-000002",
+                "name": "样品出库",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              }
+            ]
+          },
+          {
+            "key": "013-000008",
+            "name": "包材",
+            "url": "/pda/",
+            "module": [
+              {
+                "key": "013-000008-000001",
+                "name": "包材入库",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              },
+              {
+                "key": "013-000008-000002",
+                "name": "包材出库",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              }
+            ]
+          },
+          {
+            "key": "013-000009",
+            "name": "移位",
+            "url": "/pda/",
+            "module": [
+              {
+                "key": "013-000009-000001",
+                "name": "创建移位",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              },
+              {
+                "key": "013-000009-000002",
+                "name": "移位操作",
+                "url": "/pda/",
+                "show": 1,
+                "function": [],
+                "module": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,11 @@
+.organization-tree .ant-tree-treenode-switcher-close .ant-tree-switcher-noop {
+    visibility: hidden;
+}
+
+.organization-tree .ant-tree-treenode-switcher-close::before {
+    display: none;
+}
+
+.organization-tree .ant-tree-treenode-switcher-open::before {
+    display: none;
+}

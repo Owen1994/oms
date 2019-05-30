@@ -1,0 +1,127 @@
+#root{
+    height: 100%;
+}
+.yks-forget{
+    background-image: url("../img/background_forget.png");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex;
+    position: relative;
+}
+.yks-forget .has-error .ant-form-explain, .yks-forget .has-error .ant-form-split{
+    margin-top: -7px;
+}
+.yks-forget-text{
+    width: 65%;
+    background-color:#fff;
+    padding: 20px 3% 3% ;
+    margin-top: 3%;
+}
+.yks-forget-text .login-form {
+    width: 100%;;
+    height: 100%;
+}
+.yks-forget-text .login-form .user-name{
+    background: url("../img/username.png") no-repeat 15px center;
+}
+.yks-forget-text .login-form .user-mobile{
+    background: url("../img/phone.png") no-repeat 15px center;
+}
+.yks-forget-text .login-form .user-name,.yks-forget-text .login-form .user-mobile{
+     padding-left: 49px;
+}
+
+.yks-forget-text .ant-row, .yks-forget-text .yks-login-logo-forget-login {
+    width:35%;
+    height: 45px;
+    margin: 0  auto;
+}
+.yks-forget-text .yks-login-logo-forget-login{
+    display: block;
+}
+.yks-forget-text  .ant-form .ant-form-item-control{
+    height: 45px !important;
+}
+.yks-forget-text .ant-form .ant-form-item-control .ant-input{
+    height: 45px !important;
+    vertical-align: top;
+}
+.yks-login-logo-forget-code{
+    width:35%;
+    margin: 25px  auto 0;
+}
+.yks-login-logo-forget-code .ant-row{
+    width:60%;
+    height: 45px;
+    float: left;
+}
+.clearfix:after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+.yks-login-logo-forget-code button{
+    width:35%;
+    height:45px;
+    float: right;
+    background-color: #4D7BFE;
+    color:#fff;
+}
+.yks-login-logo-forget{
+    /*width: 15%;*/
+    width:201px;
+    height: 67px;
+    /*height: 11%;*/
+    background: url("../img/loginsymbol.png") no-repeat center;
+    background-size: 100% 100%;
+    margin: 10px auto;
+}
+
+
+@media screen and (min-width:1200px) and (max-width:1600px) {
+    .yks-forget-text{
+        padding: 10px 1% 3% ;
+        margin-top: 6%;
+    }
+    .yks-login-logo-forget{
+        width:101px;
+        height: 37px;
+    }
+
+    .yks-login-logo-forget-code{
+        width:35%;
+    }
+    .yks-forget-text .ant-row, .yks-forget-text .yks-login-logo-forget-login {
+        width:35%;
+        height: 30px;
+    }
+    .yks-forget-text  .ant-form .ant-form-item-control{
+        height: 30px !important;
+    }
+    .yks-forget-text .ant-form .ant-form-item-control .ant-input{
+        height: 30px !important;
+        vertical-align: top;
+    }
+    .yks-login-logo-forget-code .ant-row{
+        width:60%;
+        height: 30px;
+    }
+    .yks-login-logo-forget-code button{
+        width:35%;
+        height:30px;
+    }
+
+    .yks-login-logo-forget-code button span{
+        margin-left: -4px;
+    }
+    .margin-md-top{
+        margin-top: 22px;
+    }
+}

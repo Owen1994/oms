@@ -1,0 +1,67 @@
+.addupdatetop{background: #fff; overflow: hidden; margin-bottom: 67px;}
+.addupdatetop .addupdatetit{ overflow: hidden;}
+.addupdatetop .addupdatetit .addupdatetitlf{ float:left; width: 4px; height: 14px; line-height: 14px; background: #4D7BFE; border-radius:2px; }
+.addupdatetop .addupdatetit .addupdatetittxt{ float:left; height: 14px; line-height: 14px; font-size: 14px; padding-left:5px;}
+.addupdatetop .ant-collapse > .ant-collapse-item{box-shadow: 0 0 5px #ddd;}
+.addupdatetop .ant-collapse > .ant-collapse-item > .ant-collapse-header{padding:20px 0px 20px 20px;}
+.addupdatetop .ant-collapse > .ant-collapse-item > .ant-collapse-header .arrow{right:-95% !important;}
+.addupdatetop .mglf10{margin-left:10px;}
+.addupdatetop .mgbt20{padding: 10px 0px 0px 0px;}
+.addupdatetop .ant-form-inline .ant-form-item{display: list-item}
+.addupdateuserall .addupdateusercen .ant-transfer .ant-transfer-list:last-child .ant-transfer-list-body-search-wrapper{
+    display: none;
+}
+.addupdateuserall .addupdateusercen .ant-transfer .ant-transfer-list:last-child .ant-transfer-list-body-with-search{
+    padding-top: 0px;
+}
+.addupdatetop .ant-form-inline .has-feedback{display:initial}
+.addupdateuserall{margin:auto}
+.addupdateuserall .addupdateusertit{width: 636px; height: 40px; line-height: 40px;margin:auto;}
+.addupdateuserall .addupdateusertit .sp1{width:318px;display:inline-block;}
+.addupdateuserall .addupdateusertit .sp2{width:318px;display:inline-block;padding-left:40px}
+.addupdateuserall .addupdateusercen{width:636px;margin:auto}
+.addupdatetop .addupdatetoplist{padding:0px;overflow:hidden;}
+.addupdatetop .addupdatetoplist .margin-ss-top{margin-top:0px;}
+.addupdatetop .addupdatetoplist .ant-collapse{border:0px; background:#f2f2f5}
+.addupdatetop .addupdatetoplist .ant-collapse-header{background: #fff;}
+.addupdatetop .addupdatetoplist .ant-collapse-content{border-top:0px;}
+.addupdatetop .addupdatetoplist .ant-collapse > .ant-collapse-item{margin-bottom: 20px; border:0px}
+.addupdatetop .addupdatetoplist .ant-collapse > .ant-collapse-item:last-child{margin-bottom:0px;}
+.addupdatetop .addupdatetoplist .ant-collapse-content > .ant-collapse-content-box{padding-top:0px;padding-bottom:20px;}
+.addupdatetop .addupdatetoplist .ant-collapse > .ant-collapse-item> .ant-collapse-header .arrow{line-height:54px;}
+
+.addupdatafootbtn{
+    transition: all 0.3s;
+    position:fixed;
+    height: 52px;
+    background: #fff;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    padding:0 15px 0 0px;
+    z-index: 100;
+    box-shadow: 0 0 5px #ddd;
+}
+.addupdatafootbtntwo{
+    width: 100%;
+    z-index: 100;
+}
+.addupdatafootbtn .exc-detail-footer-content{
+    transition: all 0.3s;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #fff;
+}
+
+
+.addupdatafootbtntwo .exc-detail-footer-content{
+    transition: all 0.3s;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(237, 241, 245);}
+
+.transfer-disabled input,
+.transfer-disabled button {
+    pointer-events: none;
+    opacity: 0.5;
+}

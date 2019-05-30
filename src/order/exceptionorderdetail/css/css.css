@@ -1,0 +1,247 @@
+.exc-clue {
+    padding-bottom: 25px;
+}
+.newClue .newCluenk .content.maxh{ max-height:200px; overflow: auto }
+
+.remarkstable{ width: 800px;}
+.remarks{ line-height: 30px;font-size: 14px;}
+.remarks .p1{ font-weight: bold}
+
+.content .ant-form-item-children .ant-input {
+    padding-left: 5px;
+}
+.deliveryParcel .ant-form-item-children .ant-input {
+    border: none;
+    outline: none;
+    padding-left: 0px;
+}
+
+.deliveryParcel .ant-form-item-children .ant-input[disabled] {
+    background-color: #fff;
+    cursor: default;
+    overflow:hidden; 
+    text-overflow:ellipsis;
+    white-space:nowrap; 
+}
+.deliveryParcel .ant-form-item-children .ant-input-group-addon {
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.deliveryParcel  .ant-form-item-children .ant-input:focus{
+    box-shadow: none;
+}
+.deliveryParcel .ant-select-disabled .ant-select-selection {
+    cursor: default;
+    background-color: #fff;
+    border: none;
+}
+.deliveryParcel .ant-select-disabled .ant-select-selection .ant-select-arrow{
+    display: none;
+}
+.pr {
+    position: relative;
+}
+.remarks .title {
+    position: relative;
+}
+.remarks .editable-add-btn,
+.deliveryParcel .editable-add-btn,
+.exc-address .editable-add-btn,
+.exc-product .editable-add-btn{
+    position: absolute;
+    top: 7px;
+    right: 20px;
+}
+.remarks .buyerMessage {
+    padding: 5px 20px;
+    line-height: 24px;
+    text-indent: 2em;
+}
+.remarks .ant-table-body {
+    border-top: 1px solid #e8e8e8;
+}
+.flex-btn {
+    position: absolute;
+    top: 7px;
+    right: 20px;
+    font-size: 12px;
+}
+.exc-isHide {
+    display: none;
+}
+.exc-flexWrap {
+    transition: all .5s;
+    overflow: hidden;
+}
+.exc-splitOrder .ant-table-thead > tr > th,.exc-splitOrder .ant-table-tbody > tr > td {
+    text-align: center;
+    padding: 8px;
+}
+.exc-splitOrder .tablece-flex .ant-table-tbody > tr > td{
+    padding: 8px 0;
+}
+.exc-padding-8 {
+    padding: 8px 0;
+}
+.exc-tip-text {
+    font-size: 12px;
+    color:#4D7BFE;
+    text-indent: 8em;
+}
+.pointer {
+    cursor: pointer;
+}
+.exc-clue,
+.exc-clue .ant-form{
+    color:#333;
+}
+.exc-clue .newCluenk .title {
+    line-height: 44px;
+    font-size: 14px;
+}
+.exc-clue .ant-input{
+    padding: 4px 0;
+}
+.exc-clue .ant-table table {
+    border-collapse: collapse;
+} 
+.exc-splitOrder .ant-table table  {
+    border-collapse: collapse;
+}
+.exc-clue.newClue .ant-select-selection__rendered{
+    margin: 0;
+}
+.exc-clue.newClue .ant-select-selection-selected-value{
+    color:#333;
+}
+.exc-clue.newClue .ant-input {
+    color:#333;
+}
+.exc-clue.newClue .ant-input.border {
+    border: 1px solid #d9d9d9;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.exc-clue.newClue .ant-input.border2 {
+    border: 1px solid #d9d9d9;
+    padding-left: 5px;
+}
+.newCluenk.padTop10 .content{
+    padding: 10px 20px;
+}
+.exc-splitOrder {
+    position: relative;
+}
+.exc-splitOrder-mask { 
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:transparent;
+    z-index: 2000;
+}
+.exc-clue .explain p{
+    position: relative;
+    padding-left: 90px;
+    min-height: 18px;
+    line-height: 18px;
+}
+.exc-clue .explain p span{
+    position: absolute;
+    width: 90px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    text-align: right;
+}
+.exc-clue .ant-select-selection.ant-select-selection--single{
+    height: 30px;
+}
+.newCluenk .content .widthAll{
+    width: 100% !important;
+}
+.widthAll2{
+    width: 100% !important;
+}
+.newClue .addproductBox{
+    width: 100%;
+    padding-right: 10px;
+    text-align: left;
+}
+.newClue .cluekBox{
+    border: none;
+    margin-bottom: 0px;
+    text-align: left;
+}
+.newCluenk .content .textRight{
+    text-align: right;
+}
+.newCluenk .content .colStyle{
+    display: block;
+    vertical-align: middle;
+    text-align: right;
+    line-height: 39px;
+    font-size: 12px;
+    padding-right: 8px;
+}
+.newCluenk .content .paddingR5{
+    padding-right: 5px;
+}
+.newCluenk .content .paddingTB8{
+    padding: 8px 0px;
+}
+/* 表格内容弹性布局方案 */
+.tablecell-flex{
+    display: flex;
+    flex-direction: column;
+}
+.tablecell-flex p{
+    flex: 1;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.tablecell-flex p:last-child{
+    border-bottom: none;
+}
+.oms-order-log{
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.auditmodal-p{
+    padding: 0 30px;
+    color: red;
+}
+.auditmodal-result{
+    margin: 20px 0 !important;
+    display: flex;
+    align-items: center;
+}
+.auditmodal-result .ant-form-item-children{
+    display: flex;
+}
+.auditmodal-result #auditResult{
+    min-width: 150px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.auditmodal-div{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+.auditmodal-span{
+    display: inline-block;
+}
+.auditmodal-span::before{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    content: '*';
+    color: red;
+}

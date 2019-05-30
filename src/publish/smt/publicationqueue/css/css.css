@@ -1,0 +1,35 @@
+.amazonqueue{position: relative}
+.amazonqueue .search-tab{position: absolute; top:13px; right:10px;}
+.amazonqueue .search-tab .ant-radio-button-wrapper-checked{ background-color:#4D7BFE; color: #fff;}
+.amazonqueue .detail-btn{margin-left:185px; margin-bottom: 20px;}
+.amazonqueue .detail-btn2{margin-left:160px; margin-bottom: 20px;}
+.amazonqueue .margin-15-top{margin-top:13px;}
+
+.amazonqueue-table .rightbtn{text-align: right; line-height: normal; padding:10px 10px 0 ;}
+.amazonqueue-table .queuetablecen{padding: 10px;}
+
+.amazonqueue-defaultSearch{
+    overflow: hidden;
+}
+.amazonqueue .standard-form-row{
+    overflow: hidden;
+    margin: 8px 0;
+}
+.amazonqueue-textSearch{
+    background: #fafafa;
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    padding-bottom: 8px;
+}
+.amazonqueue .ant-tag-checkable-checked{
+    background-color: #4d7bfe !important;
+    color: #ffffff !important;
+}
+.amazonqueue-searchBtn{
+    width: 504px;
+    text-align: right;
+    margin: 15px 0;
+}
+.amazonqueue-heightSearch .ant-input{
+    width: 344px !important;
+}

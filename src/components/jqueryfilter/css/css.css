@@ -1,0 +1,15 @@
+.top8{padding-top: 8px;}
+.newCluenk .ant-row.ant-form-item{margin-bottom: 0px;}
+.term .ant-form-item-label{
+    text-align: left;
+}
+.term .ant-form-item .ant-col-8{
+    width: auto;
+}
+.wfull.max163{max-width: 163px}
+
+#txtGroup
+{
+    height: 182px;
+    width: 463px;
+}

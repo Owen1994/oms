@@ -1,0 +1,87 @@
+.refund-application .refund-appl-theme {
+    color: #4D7BFE;
+    cursor: pointer;
+}
+.refund-application .refund-appl-red {
+    color: red;
+}
+.refundapp-tabs-search .list-filter-item-title {
+    min-width: 160px;
+}
+.refundapp-tabs-search .list-filter-item {
+    padding-left: 170px;
+}
+.refundapp-tabs-search .list-filter-item.refundappl-search-input .ant-form-item-control input {
+    width: 334px;
+}
+.refundapp-tabs-search .list-filter-item .ant-cascader-input.ant-input {
+    width: 334px;
+}
+.refundapp-tabs-search .refund-appl-search {
+    padding-top: 15px;
+}
+.refundapp-tabs-search .refund-appl-search .search-tab {
+    top: 108px;
+    right: 28px;
+    z-index: 1;
+}
+.refundapp-tabs-search .refund-text-search {
+    clear: both;
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    background: #fafafa;
+}
+.refundapp-tabs-search .refund-text-search .ant-radio-button-wrapper-checked {
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.refundapp-tabs-search .refund-text-search .ant-radio-group-small .ant-radio-button-wrapper {
+    font-size: 12px;
+}
+.refundapp-tabs-search .sensitive .refund-text-search {
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    background: #fafafa;
+
+}
+.refundapp-tabs-search .refund-text-search .text-search-refundnum {
+    width: 200px;
+}
+.refund-application .refund-appl-return .table-item,
+.refund-application .refund-appl-status .table-item {
+    padding: 3px 0;
+}
+/* .refund-application .refund-appl-status .operate-status {
+    color:#419D19;
+} */
+.refund-appl-search .refund-appl-search-submit {
+    width: 504px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    text-align: right;
+}
+.refund-money-field > div {
+    float: left;
+    line-height: 39px;
+}
+.yks-erp-search_order .select-type .refund-money-field {
+    margin-top: -10px;
+}
+.yks-erp-search_order .select-type .refund-money-field .ant-form-item-control-wrapper {
+    width: 120px;
+}
+.yks-erp-search_order .select-type .refund-account-field .ant-form-item .ant-form-item-children .ant-select-selection--multiple {
+    max-height: 50px;
+    margin-top: 3px;
+    height: auto;
+}

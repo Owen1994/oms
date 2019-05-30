@@ -1,0 +1,32 @@
+
+/* Search begin */
+.wms-newHeightSearch{
+    overflow: hidden;
+    border-top: 1px #EAE9E9 solid;
+    padding-top: 8px;
+}
+.wms-newHeightSearch .ant-form-item-control{
+    width: 330px;
+}
+.wms-inventory-search .ant-row{
+    margin: 10px 0;
+}
+/* search end */
+
+/*!*标签页样式控制begin*!*/
+/*.wms-icmanage-container .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-nav-container{*/
+    /*height: 39px;*/
+/*}*/
+/* .wms-icmanage-container .tweb-tab .ant-tabs-bar{ */
+    /* border-bottom: 0px #EAE9E9 solid !important; */
+/* } */
+/*.wms-icmanage-container .tweb-tab .ant-tabs-nav .ant-tabs-tab-active{*/
+    /*border-bottom: 2px solid #ffffff !important;*/
+    /*margin-top: 0px !important;*/
+    /*top: 1px !important;*/
+/*}*/
+/*.wms-icmanage-container .ant-tabs.ant-tabs-card>.ant-tabs-bar .ant-tabs-tab{*/
+    /*border-radius: 0 !important;*/
+    /*top: -1px;*/
+/*}*/
+/*标签页样式控制end*/

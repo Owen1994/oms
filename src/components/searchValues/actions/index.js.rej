@@ -1,0 +1,9 @@
+diff a/src/components/searchValues/actions/index.js b/src/components/searchValues/actions/index.js	(rejected hunks)
+@@ -34,6 +34,7 @@
+     dispatch(searchVluesaction({loading: true}))
+     value.pageData = value.pageData ? value.pageData : 20
+     value.pageNumber = value.pageNumber ? value.pageNumber : 1
++    value.name = value.name ? value.name : ''
+     return axios.post(`${config.api_url}${url}`, value)
+         .then(response => {
+             if (response.status == 200) {

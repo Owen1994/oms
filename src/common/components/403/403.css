@@ -1,0 +1,65 @@
+/*404*/
+.yks-error-box{
+    justify-content: center; 
+    align-items: center; 
+    display: -webkit-flex;
+    height: 100%;
+    width: 100%;
+}
+.yks-error-403{
+    width: 764px;
+    height: 421px;
+    background: url("./img/stop@3x.png") no-repeat center;
+    position: relative;
+    margin-top: 60px;
+}
+.yks-error-text-403{
+    width: 306px;
+    height: 215px;
+    position: absolute;
+    bottom: 38px;
+    right: 30px;
+}
+.yks-error-text-403>p.yks-error-text-info{
+    font-size:15px;
+    font-family:Adobe Heiti Std R;
+    color: #707070;
+    margin: 40px 0 20px 10px;
+}
+.yks-error-text-403 .yks-error-text-btn{
+    margin-left: 0px;
+}
+.yks-error-text-403 .yks-error-text-btn button{
+    height:34px;
+}
+
+/* 
+.yks-error .yks-error-text .yks-error-text-404{
+    float: right;
+    width: 215px;
+    height: 88px;
+    margin-bottom: 16px;
+    background: url("./img/404.png") no-repeat center;
+}
+.yks-error .yks-error-text .yks-error-text-error{
+    float: right;
+    width: 295px;
+    height: 38px;
+    margin-bottom: 4px;
+    background: url("./img/text.png") no-repeat center;
+}
+.yks-error .yks-error-text .yks-error-text-link{
+    float: right;
+    margin-top: 8px;
+}
+.yks-error p .text-logo{
+    color:#4D7BFE;
+    font-size:28px
+}
+.yks-error p span{
+    font-size: 28px;
+    color: #51EE86;
+}
+.yks-error p a{
+    color: #4D7BFE;
+} */

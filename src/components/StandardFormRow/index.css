@@ -1,0 +1,22 @@
+.common-standard-form-row{
+    clear: both;
+}
+.common-standard-form-row .label{
+    float: left;
+    min-width: 160px;
+    line-height: 40px;
+    text-align: right;
+    font-weight: bold;
+    color: #666;
+}
+.common-standard-form-row .items{
+    float: left;
+    display: inline-flex;
+    width: 65%;
+}
+.common-standard-form-row .label span:after{
+    content: ":";
+    margin: 0 8px 0 2px;
+    position: relative;
+    top: -0.5px;
+}

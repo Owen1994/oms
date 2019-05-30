@@ -1,0 +1,19 @@
+.trackingCode-class{
+    display: flex;
+}
+
+.selectSearch .trackingCode-class .ant-form-item-control-wrapper{
+    float: left;
+    width: 140px !important;
+}
+.trackingCode-class #trackingCode{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.trackingCode-class button:nth-child(2){
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.trackingCode-class button{
+    margin-top: 4px;
+}

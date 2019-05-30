@@ -1,0 +1,58 @@
+/* 搜索 */
+.ebay-listing_container .search{
+    position: relative;
+}
+.ebay-listing_container .search-tab{
+    position: absolute;
+    width: 120px;
+    top: 15px;
+    right: 10px;
+    z-index: 0;
+}
+.ebay-listing_container .search-tab .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.ebay-listing_container .text-search .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.ebay-listing_container .ebay-listing_container .default-search{
+    overflow: hidden;
+}
+.ebay-listing_container .text-search{
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    /* margin-top: 10px; */
+    /* padding-top: 10px;
+    padding-bottom: 15px; */
+    overflow: hidden;
+    background: #fafafa;
+}
+.ebay-listing_container .btn-search{
+    width: 480px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+.ebay-listing_container .btn-search button{
+    margin-left: 10px;
+}
+.ebay-listing_container .height-search{
+    overflow: hidden;
+}
+.ebay-listing_container .height-search .standard-form-row{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.ebay-listing_container .height-search .ant-form-item-control-wrapper, .ebay-listing_container .height-search .ant-calendar-picker{
+    width: 344px;
+}
+.ebay-listing_container .height-search .ant-form-item-control-wrapper,
+.ebay-listing_container .height-search .ant-calendar-picker{
+    width: 344px;
+}
+

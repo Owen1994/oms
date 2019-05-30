@@ -1,0 +1,651 @@
+{
+  "operator": "yangbo",
+  "pwd": "com.yks.urc.",
+  "ticket": "3e4708434d21374bfcca20b3a6870bf9",
+  "funcVersion": "718f4d07a1b07fb497250c3f1dc5a4a6",
+  "data": [
+    {
+      "apiUrlPrefix": ["/customerServiceSystem/index/api/"],
+      "system": {
+        "key": "009",
+        "name": "客服",
+        "url": "/customerservice/"
+      },
+      "menu": [
+        {
+          "key": "009-000001",
+          "name": "邮箱管理",
+          "url": "/customerservice/",
+          "module": [
+            {
+              "key": "009-000001-000001",
+              "name": "邮箱绑定",
+              "url": "/customerservice/email/binding/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "009-000001-000001-001",
+                  "name": "查看",
+                  "url": [
+                    "/customerServiceSystem/index/api/EmailBind/GetEmailBindingList/getEmailBindingList"
+                  ]
+                },{
+                  "key": "009-000001-000001-002",
+                  "name": "编辑",
+                  "url": [
+                    "/customerServiceSystem/index/api/EmailBind/BindingEmail/bindingEmail"
+                  ]
+                },{
+                  "key": "009-000001-000001-003",
+                  "name": "绑定/新增绑定",
+                  "url": [
+                    "/customerServiceSystem/index/api/EmailBind/BindingEmail/bindingEmail"
+                  ]
+                },{
+                  "key": "009-000001-000001-004",
+                  "name": "审核",
+                  "url": [
+                    "/customerServiceSystem/index/api/EmailBind/SetEmailToExamine/setEmailToExamine"
+                  ]
+                },{
+                  "key": "009-000001-000001-005",
+                  "name": "绑定记录",
+                  "url": [
+                    "/customerServiceSystem/index/api/EmailBind/GetEmailBindingLogList/getEmailBindingLogList",
+                    "/customerServiceSystem/index/api/EmailBind/SetEmailUse/setEmailUse"
+                  ]
+                }
+              ],
+              "module": []
+            }, {
+              "key": "009-000001-000002",
+              "name": "标签管理",
+              "url": "/customerservice/email/label/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "009-000001-000002-001",
+                  "name": "查看",
+                  "url": [
+                    "/customerServiceSystem/index/api/Tag/GetTagClassList/getTagClassList"
+                  ]
+                },{
+                  "key": "009-000001-000002-002",
+                  "name": "一级分类新增/编辑",
+                  "url": [
+                    "/customerServiceSystem/index/api/Tag/TagClassAddOrEdit/tagClassAddOrEdit"
+                  ]
+                },{
+                  "key": "009-000001-000002-003",
+                  "name": "子分类新增/编辑",
+                  "url": [
+                    "/customerServiceSystem/index/api/Tag/SubTagClassAddOrEdit/subTagClassAddOrEdit"
+                  ]
+                },{
+                  "key": "009-000001-000002-004",
+                  "name": "删除",
+                  "url": [
+                    "/customerServiceSystem/index/api/Tag/TagClassDelete/tagClassDelete"
+                  ]
+                },{
+                  "key": "009-000001-000002-005",
+                  "name": "启用/停用",
+                  "url": [
+                    "/customerServiceSystem/index/api/Tag/TagClassUpOrDown/tagClassUpOrDown"
+                  ]
+                },{
+                  "key": "009-000001-000002-006",
+                  "name": "规则",
+                  "url": [
+                    "/customerServiceSystem/index/api/Tag/GetSubTagClassRuleList/getSubTagClassRuleList",
+                    "/customerServiceSystem/index/api/Tag/SubmitSubTagClassRule/submitSubTagClassRule"
+                  ]
+                }
+              ],
+              "module": []
+            }, {
+              "key": "009-000001-000003",
+              "name": "邮件管理",
+              "url": "/customerservice/email/list/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "009-000001-000003-001",
+                  "name": "查看",
+                  "url": [
+                    "/customerServiceSystem/index/api/Email/GetEmailList/getEmailList",
+                    "/customerServiceSystem/index/api/Email/GetEmailDetail/getEmailDetail"
+                  ]
+                },{
+                  "key": "009-000001-000003-002",
+                  "name": "移动/批量",
+                  "url": [
+                    "/customerServiceSystem/index/api/EmailMoveOrBatch/emailMoveOrBatch"
+                  ]
+                },{
+                  "key": "009-000001-000003-003",
+                  "name": "处理/批量",
+                  "url": [
+                    "/customerServiceSystem/index/api/Email/EmailHandleOrBatch/emailHandleOrBatch"
+                  ]
+                },{
+                  "key": "009-000001-000003-004",
+                  "name": "同步邮件",
+                  "url": [
+                    "/customerServiceSystem/index/api/Email/syncEmail"
+                  ]
+                },{
+                  "key": "009-000001-000003-005",
+                  "name": "回复邮件",
+                  "url": [
+                    "/customerServiceSystem/index/api/MessageList/getBuyerEmailRecord"
+                  ]
+                }
+              ],
+              "module": []
+            }
+          ]
+        }, {
+          "key": "009-000002",
+          "name": "消息管理",
+          "url": "/customerservice/",
+          "module": [
+            {
+              "key": "009-000002-000001",
+              "name": "消息拦截",
+              "url": "/customerservice/message/intercept/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "009-000002-000001-001",
+                  "name": "查看",
+                  "url": [
+                    "/customerServiceSystem/index/api/Message/GetMessageInterceptList/getMessageInterceptList"
+                  ]
+                },{
+                  "key": "009-000002-000001-002",
+                  "name": "新增/编辑",
+                  "url": [
+                    "/customerServiceSystem/index/api/Message/MessageInterceptAddOrEdit/messageInterceptAddOrEdit"
+                  ]
+                },{
+                  "key": "009-000002-000001-003",
+                  "name": "删除",
+                  "url": [
+                    "/customerServiceSystem/index/api/Message/MessageInterceptDelete/messageInterceptDelete"
+                  ]
+                }
+              ],
+              "module": []
+            }, {
+              "key": "009-000002-000002",
+              "name": "模板分类",
+              "url": "/customerservice/message/templateclass/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "009-000002-000002-001",
+                  "name": "查看",
+                  "url": [
+                    "/customerServiceSystem/index/api/TemplateClass/GetTemplateClassList/getTemplateClassList"
+                  ]
+                },{
+                  "key": "009-000002-000002-002",
+                  "name": "一级分类新增/编辑",
+                  "url": [
+                    "/customerServiceSystem/index/api/TemplateClass/TemplateClassAddOrEdit/templateClassAddOrEdit"
+                  ]
+                },{
+                  "key": "009-000002-000002-003",
+                  "name": "子分类新增/编辑",
+                  "url": [
+                    "/customerServiceSystem/index/api/TemplateClass/SubTemplateClassAddOrEdit/subTemplateClassAddOrEdit"
+                  ]
+                },{
+                  "key": "009-000002-000002-004",
+                  "name": "删除",
+                  "url": [
+                    "/customerServiceSystem/index/api/TemplateClass/TemplateClassDelete/templateClassDelete"
+                  ]
+                }
+              ],
+              "module": []
+            }, {
+              "key": "009-000002-000003",
+              "name": "模板管理",
+              "url": "/customerservice/message/templatelist/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "009-000002-000003-001",
+                  "name": "查看",
+                  "url": [
+                    "/customerServiceSystem/index/api/TemplateMessage/GetMessageTempList/getMessageTempList",
+                    "/customerServiceSystem/index/api/TemplateMessage/GetTemplateClassList2/getTemplateClassList"
+                  ]
+                },{
+                  "key": "009-000002-000003-002",
+                  "name": "新增/编辑",
+                  "url": [
+                    "/customerServiceSystem/index/api/TemplateMessage/MessageTempAddOrEdit/messageTempAddOrEdit"
+                  ]
+                },{
+                  "key": "009-000002-000003-003",
+                  "name": "语种管理",
+                  "url": [
+                    "/customerServiceSystem/index/api/TemplateLanguage/GetLanguagesList/getLanguagesList",
+                    "/customerServiceSystem/index/api/TemplateLanguage/LanguagesAddOrEdit/languagesAddOrEdit",
+                    "/customerServiceSystem/index/api/TemplateLanguage/LanguageDelete/languageDelete"
+                  ]
+                },{
+                  "key": "009-000002-000003-004",
+                  "name": "删除",
+                  "url": [
+                    "/customerServiceSystem/index/api/TemplateMessage/MessageTempDelete/messageTempDelete"
+                  ]
+                },{
+                  "key": "009-000002-000003-005",
+                  "name": "审核",
+                  "url": [
+                    "/customerServiceSystem/index/api/TemplateMessage/MessageTempToExamine/messageTempToExamine"
+                  ]
+                },{
+                  "key": "009-000002-000003-006",
+                  "name": "失效",
+                  "url": [
+                    "/customerServiceSystem/index/api/TemplateMessage/MessageTempSetInvalid/messageTempSetInvalid"
+                  ]
+                },{
+                  "key": "009-000002-000003-007",
+                  "name": "设置共有/私有",
+                  "url": [
+                    "/customerServiceSystem/index/api/TemplateMessage/MessageTempSetPublicOrPrivate/messageTempSetPublicOrPrivate"
+                  ]
+                }
+              ],
+              "module": []
+            }, {
+              "key": "009-000002-000004",
+              "name": "消息列表",
+              "url": "/customerservice/message/messagelist/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "009-000002-000004-001",
+                  "name": "存草稿",
+                  "url": [
+                    "/customerServiceSystem/index/api/Pub/saveDraft"
+                  ]
+                },{
+                  "key": "009-000002-000004-002",
+                  "name": "站内信-查看",
+                  "url": [
+                    "/customerServiceSystem/index/api/MessageList/getMessageList",
+                    "/customerServiceSystem/index/api/MessageList/getMessageRecord"
+                  ]
+                },{
+                  "key": "009-000002-000004-003",
+                  "name": "站内信-同步",
+                  "url": [
+                    "/customerServiceSystem/index/api/MessageList/syncMessage"
+                  ]
+                },{
+                  "key": "009-000002-000004-004",
+                  "name": "站内信-回复",
+                  "url": [
+                    "/customerServiceSystem/index/api/MessageList/replyMessage"
+                  ]
+                },{
+                  "key": "009-000002-000004-005",
+                  "name": "站内信-延迟收货",
+                  "url": [
+                    "/customerServiceSystem/index/api/CustomerComplaints/getDelayInfo",
+                    "/customerServiceSystem/index/api/CustomerComplaints/delayReceivingGoods"
+                  ]
+                },{
+                  "key": "009-000002-000004-006",
+                  "name": "站内信-纠纷处理",
+                  "url": [
+                    "/customerServiceSystem/index/api/CustomerComplaints/getDisputeDetail"
+                  ]
+                },{
+                  "key": "009-000002-000004-007",
+                  "name": "站内信-回复评价",
+                  "url": [
+                    "/customerServiceSystem/index/api/CustomerComplaints/replyEvaluation"
+                  ]
+                },{
+                  "key": "009-000002-000004-099",
+                  "name": "站内信-标记已处理",
+                  "url": [
+                    "/customerServiceSystem/index/api/CustomerComplaints/replyEvaluation"
+                  ]
+                },{
+                  "key": "009-000002-000004-008",
+                  "name": "买家邮件-查看",
+                  "url": [
+                    "/customerServiceSystem/index/api/MessageList/getBuyerEmailList",
+                    "/customerServiceSystem/index/api/MessageList/getBuyerEmailRecord"
+                  ]
+                },{
+                  "key": "009-000002-000004-009",
+                  "name": "买家邮件-同步",
+                  "url": [
+                    "/customerServiceSystem/index/api/Email/syncEmail"
+                  ]
+                },{
+                  "key": "009-000002-000004-010",
+                  "name": "买家邮件-回复",
+                  "url": [
+                    "/customerServiceSystem/index/api/MessageList/replyBuyerMail"
+                  ]
+                },{
+                  "key": "009-000002-000004-011",
+                  "name": "买家邮件-无需处理",
+                  "url": [
+                    "/customerServiceSystem/index/api/MessageList/setNoNeedToDeal"
+                  ]
+                },{
+                  "key": "009-000002-000004-012",
+                  "name": "买家邮件-标记已处理",
+                  "url": [
+                    "/customerServiceSystem/index/api/MessageList/setNoNeedToDeal"
+                  ]
+                },{
+                  "key": "009-000002-000004-013",
+                  "name": "取消发送",
+                  "url": [
+                    "/customerServiceSystem/index/api/MessageList/cancelDelaySend"
+                  ]
+                }
+              ],
+              "module": []
+            }
+          ]
+        }, {
+          "key": "009-000003",
+          "name": "客诉管理",
+          "url": "/customerservice/",
+          "module": [
+            {
+              "key": "009-000003-000001",
+              "name": "客诉列表",
+              "url": "/customerservice/complaint/complaintlist/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "009-000003-000001-001",
+                  "name": "纠纷-查看",
+                  "url": [
+                    "/customerServiceSystem/index/api/CustomerComplaints/getDisputeList"
+                  ]
+                },{
+                  "key": "009-000003-000001-002",
+                  "name": "纠纷-同步纠纷",
+                  "url": [
+                    "/customerServiceSystem/index/api/CustomerComplaints/syncDispute"
+                  ]
+                },{
+                  "key": "009-000003-000001-003",
+                  "name": "纠纷-同步卖家地址",
+                  "url": [
+                    "/customerServiceSystem/index/api/CustomerComplaints/syncSellerAddr"
+                  ]
+                },{
+                  "key": "009-000003-000001-004",
+                  "name": "纠纷-联系买家",
+                  "url": [
+                    "/customerServiceSystem/index/api/MessageList/getMessageRecord"
+                  ]
+                },{
+                  "key": "009-000003-000001-005",
+                  "name": "纠纷-纠纷处理",
+                  "url": [
+                    "/customerServiceSystem/index/api/CustomerComplaints/getDisputeDetail"
+                  ]
+                },{
+                  "key": "009-000003-000001-006",
+                  "name": "纠纷-纠纷详情",
+                  "url": [
+                    "/customerServiceSystem/index/api/CustomerComplaints/getDisputeDetail"
+                  ]
+                },{
+                  "key": "009-000003-000001-007",
+                  "name": "纠纷-延迟收货",
+                  "url": [
+                    "/customerServiceSystem/index/api/CustomerComplaints/getDelayInfo",
+                    "/customerServiceSystem/index/api/CustomerComplaints/delayReceivingGoods"
+                  ]
+                },{
+                  "key": "009-000003-000001-008",
+                  "name": "纠纷-标记为平台退款",
+                  "url": [
+                    "/customerServiceSystem/index/api/CustomerComplaints/markPlatformRefund"
+                  ]
+                },{
+                  "key": "009-000003-000001-009",
+                  "name": "纠纷-登记退款单",
+                  "url": [
+                    "/customerServiceSystem/index/api/CustomerComplaints/markPlatformRefund"
+                  ]
+                },{
+                  "key": "009-000003-000001-010",
+                  "name": "评价-查看",
+                  "url": [
+                    "/customerServiceSystem/index/api/CustomerComplaints/getEvaluationList"
+                  ]
+                },{
+                  "key": "009-000003-000001-011",
+                  "name": "评价-同步评价",
+                  "url": [
+                    "/customerServiceSystem/index/api/CustomerComplaints/syncComment"
+                  ]
+                },{
+                  "key": "009-000003-000001-012",
+                  "name": "评价-回复评价",
+                  "url": [
+                    "/customerServiceSystem/index/api/CustomerComplaints/replyEvaluation"
+                  ]
+                },{
+                  "key": "009-000003-000001-013",
+                  "name": "评价-卖家评价所有",
+                  "url": [
+                    "/customerServiceSystem/index/api/CustomerComplaints/replyAllEvaluation"
+                  ]
+                },{
+                  "key": "009-000003-000001-014",
+                  "name": "账号表现-查看",
+                  "url": [
+                    "/customerServiceSystem/index/api/CustomerComplaints/getAccountPerformanceInfo"
+                  ]
+                },{
+                  "key": "009-000003-000001-015",
+                  "name": "账号表现-导出报表",
+                  "url": [
+                    "/customerServiceSystem/index/api/CustomerComplaints/todayShowExcel"
+                  ]
+                }
+              ],
+              "module": []
+            }
+          ]
+        }, {
+          "key": "009-000004",
+          "name": "订单售后",
+          "url": "/customerservice/",
+          "module": [
+            {
+              "key": "009-000004-000001",
+              "name": "退款原因",
+              "url": "/customerservice/aftersale/refundreason/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "009-000004-000001-001",
+                  "name": "退款原因分类-查看",
+                  "url": [
+                    "/customerServiceSystem/index/api/AfterSale/getRefundReasonList"
+                  ]
+                },{
+                  "key": "009-000004-000001-002",
+                  "name": "退款原因分类-一级分类新增/编辑",
+                  "url": [
+                    "/customerServiceSystem/index/api/AfterSale/classAddOrEdit"
+                  ]
+                },{
+                  "key": "009-000004-000001-003",
+                  "name": "退款原因分类-子分类新增/编辑",
+                  "url": [
+                    "/customerServiceSystem/index/api/AfterSale/subClassAddOrEdit"
+                  ]
+                },{
+                  "key": "009-000004-000001-004",
+                  "name": "退款原因分类-删除分类",
+                  "url": [
+                    "/customerServiceSystem/index/api/AfterSale/classDelete"
+                  ]
+                },{
+                  "key": "009-000004-000001-005",
+                  "name": "退款原因自定义表单-查看",
+                  "url": [
+                    "/customerServiceSystem/index/api/AfterSale/getFormFieldList"
+                  ]
+                },{
+                  "key": "009-000004-000001-006",
+                  "name": "退款原因自定义表单-编辑/新增退款原因自定义表单",
+                  "url": [
+                    "/customerServiceSystem/index/api/AfterSale/addOrEditField"
+                  ]
+                },{
+                  "key": "009-000004-000001-007",
+                  "name": "退款原因自定义表单-删除自定义表单字段",
+                  "url": [
+                    "/customerServiceSystem/index/api/AfterSale/deleteField"
+                  ]
+                }
+              ],
+              "module": []
+            }, {
+              "key": "009-000004-000002",
+              "name": "退款列表",
+              "url": "/customerservice/aftersale/refundApplication/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "009-000004-000002-001",
+                  "name": "查看",
+                  "url": []
+                },{
+                  "key": "009-000004-000002-002",
+                  "name": "新增/编辑退款单",
+                  "url": []
+                },{
+                  "key": "009-000004-000002-003",
+                  "name": "同意/批量同意退款",
+                  "url": []
+                },{
+                  "key": "009-000004-000002-004",
+                  "name": "拒绝/批量拒绝退款",
+                  "url": []
+                },{
+                  "key": "009-000004-000002-005",
+                  "name": "下载待补充汇款/登记信息",
+                  "url": []
+                },{
+                  "key": "009-000004-000002-006",
+                  "name": "上传待补充汇款/登记信息",
+                  "url": []
+                },{
+                  "key": "009-000004-000002-007",
+                  "name": "重试退款",
+                  "url": []
+                }
+              ],
+              "module": []
+            }
+          ]
+        }, {
+          "key": "009-000005",
+          "name": "智能客服",
+          "url": "/customerservice/",
+          "module": [
+            {
+              "key": "009-000005-000001",
+              "name": "自动回复",
+              "url": "/customerservice/intelligentservice/autoreply/",
+              "show": 1,
+              "function": [
+                    {
+                      "key": "009-000005-000001-001",
+                      "name": "自动回复设置-查看",
+                      "url": []
+                    },{
+                      "key": "009-000005-000001-002",
+                      "name": "自动回复设置-新增/编辑",
+                      "url": []
+                    }, {
+                      "key": "009-000005-000001-004",
+                      "name": "自动回复设置-删除",
+                      "url": []
+                    },{
+                      "key": "009-000005-000001-006",
+                      "name": "自动回复详情-查看",
+                      "url": []
+                    },{
+                      "key": "009-000005-000001-007",
+                      "name": "自动回复详情-发送/批量",
+                      "url": []
+                    },{
+                      "key": "009-000005-000001-008",
+                      "name": "自动回复详情-规则状态切换",
+                      "url": []
+                    }
+              ],
+              "module": []
+            }
+          ]
+        }, {
+          "key": "009-000006",
+          "name": "基础设置",
+          "url": "/customerservice/",
+          "module": [
+            {
+              "key": "009-000006-000001",
+              "name": "paypal账号",
+              "url": "/customerservice/basicsetting/paypalaccount/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "009-000006-000001-001",
+                  "name": "查看",
+                  "url": []
+                },{
+                  "key": "009-000006-000001-002",
+                  "name": "新增/编辑账号",
+                  "url": []
+                },{
+                  "key": "009-000006-000001-003",
+                  "name": "上传账号",
+                  "url": []
+                },{
+                  "key": "009-000006-000001-004",
+                  "name": "重新授权",
+                  "url": []
+                },{
+                  "key": "009-000006-000001-005",
+                  "name": "查看操作记录",
+                  "url": []
+                },{
+                  "key": "009-000006-000001-006",
+                  "name": "状态启用/关闭",
+                  "url": []
+                }
+              ],
+              "module": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

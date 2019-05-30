@@ -1,0 +1,84 @@
+.search {
+    position: relative;
+}
+.label-control .common-standard-form-row {
+    overflow: hidden;
+}
+.label-control .common-standard-form-row .ant-form-item-control .ant-select,
+.label-control .common-standard-form-row .ant-form-item-control input  {
+    width: 344px !important;
+}
+.label-control .ant-table-row-level-1 .table-list-option {
+    margin-left: 35px;
+}
+.label-height-search {
+    margin-top: 10px;
+}
+.tablelist-item .sublabel-sign {
+    color: #ccc;
+}
+.add-content .mt12 {
+    margin-top: 12px;
+}
+.add-content .mt8 {
+    margin-top: 8px;
+}
+/* 规则modal */
+.set-rules {
+    padding: 0 55px;
+}
+.set-rules .rule-status {
+    padding-top: 5px;
+}
+.set-rules .form-caption {
+    position: relative;
+    padding: 5px 0 5px 9px;
+    font-size: 14px;
+    color: #333;
+}
+.set-rules .form-caption::before {
+    content: "";
+    width: 4px;
+    height: 14px;
+    position: absolute;
+    background-color: #4D7BFE;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 2px;
+}
+.set-rules .row-title {
+    text-align: right;
+}
+.set-rules .select-condition {
+    padding: 18px 0;
+    color: #666;
+}
+.set-rules .select-condition span {
+    font-size: 12px;
+}
+.set-rules .label-keyword, 
+.set-rules .label-email {
+    padding: 18px 22px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.label-keyword > div:nth-of-type(1),
+.label-email > div:nth-of-type(1) {
+    padding: 0 6px;
+    position: absolute;
+    transform: translateY(-50%);
+    z-index: 5;
+    background: #fff;
+    top: 0;
+    left: 14px;
+}
+.label-email {
+    margin-top: 25px;
+}
+.add-sub-label-modal .ant-modal-body {
+    padding: 12px 20px 20px;
+}
+.add-label-modal .ant-modal-body {
+    padding-top: 18px;
+}

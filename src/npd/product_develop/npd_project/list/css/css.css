@@ -1,0 +1,135 @@
+.npd-project-list {
+    padding: 16px 10px;
+    position: relative;
+
+}
+.npd-project-list .search-tab {
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    z-index: 1000;
+}
+.npd-project-list-searchtype {
+    padding:3px 0 13px;
+    border-top:1px solid #EAE9E9;
+    border-bottom:1px solid #EAE9E9;
+    background-color: #fafafa;
+}
+.npd-project-list-searchtype .ant-radio-button-wrapper{
+    width: 90px;
+    text-align: center;
+}
+.npd-project-list-searchtype .ant-radio-button-wrapper-checked{
+    background-color: #4D7BFE;
+    color:#fff;
+}
+.npd-project-tablewrap {
+    background-color: #fff;
+    font-size: 14px;
+}
+.npd-project-tablewrap-btns {
+    height: 50px;
+    padding: 10px;
+}
+.npd-project-tablewrap-code {
+    width: 175px;
+    margin: 0 auto;
+    text-align: left;
+}
+.npd-project-tablewrap-code label{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+.npd-project-tablewrap-time {
+    width: 160px;
+    margin: 0 auto;
+    text-align: left;
+}
+.npd-project-tablewrap-time label{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+.npd-project-tablewrap-info {
+    padding-left: 80px;
+    min-height: 70px;
+    position: relative;
+    text-align: left;
+}
+.npd-project-tablewrap-info-img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.npd-project-tablewrap-info-img img {
+    width: 100%;
+    display: block;
+}
+
+.npd-project-list .ant-radio-button-wrapper-checked {
+    background-color: #4D7BFE;
+    color:#fff;
+}
+.npd-project-list-searchtype .list-filter-item-title {
+    top: 7px;
+}
+.npd-project-advanced {
+    padding-top: 10px;
+}
+.npd-project-advanced .list-filter-item-title {
+    top: 7px;
+}
+.npd-project-list-filter {
+    padding-bottom: 10px;
+    padding-right: 130px;
+}
+.npd-project-text {
+    font-size: 16px;
+    text-align: center;
+}
+.npd-project-buttons {
+    width: 460px;
+    text-align: right;
+}
+.npd-project-buttons button{
+    margin-left: -5px;
+}
+.npd-project-tablewrap .ant-table-content .ant-table-thead > tr > th.ant-table-selection-column,
+.npd-project-tablewrap .ant-table-content .ant-table-tbody > tr > td.ant-table-selection-column{
+    min-width: 30px;
+    width: 30px;
+}
+.bisection-hotcode {
+    width: 165px;
+}
+.bisection-hotcode p{
+    padding-left: 75px;
+}
+.bisection-hotcode span {
+    width: 75px;
+}
+
+.bisection-time {
+    width: 120px;
+}
+.bisection-time p{
+    padding-left: 60px;
+}
+.bisection-time span {
+    width: 60px;
+}
+.npd-project-batch-btns {
+    display: inline-block;
+}
+.bisection-state {
+    width: 165px;
+}
+.bisection-state p{
+    padding-left: 75px;
+}
+.bisection-state span {
+    width: 75px;
+}

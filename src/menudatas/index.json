@@ -1,0 +1,43 @@
+{
+  "operator": "renmaohua",
+  "pwd": "com.yks.urc.",
+  "ticket": "0b8cca4e71066097d6c0f8e9bd77c1f2",
+  "funcVersion": "37ff8928384a8b8fc0f753f18d03267a",
+  "data": [
+    {
+      "apiUrlPrefix": [
+        "/urc/motan/service/"
+      ],
+      "system": {
+        "key": "000",
+        "name": "首页",
+        "url": "/"
+      },
+      "menu": [
+        {
+          "key": "000-000001",
+          "name": "首页",
+          "url": "/",
+          "module": [
+            {
+              "key": "000-000001-000001",
+              "name": "数据走势",
+              "url": "/",
+              "show": 1,
+              "function": [],
+              "module": [
+                  {
+                      "key": "000-000001-000001-000001",
+                      "name": "我的权限",
+                      "url": "/permissionlist/",
+                      "show": 0,
+                      "function": []
+                  }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

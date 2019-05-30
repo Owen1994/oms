@@ -1,0 +1,96 @@
+/* Search begin */
+.record-search{
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.record-search .standard-form-row{
+    overflow: hidden;
+    padding: 10px 0;
+}
+.record-search .standard-form-row .label, .record-search .standard-form-row .ant-form-item-control{
+    overflow: hidden;
+    line-height: 33px !important;
+}
+.record-defaultSearch{
+    overflow: hidden;
+    /* margin-top: 6px; */
+}
+.record-defaultSearch .standard-form-row .label{
+    font-size: 14px;
+}
+.record-defaultSearch .oms-radiotags > .ant-radio-group > .ant-radio-button-wrapper{
+    font-size: 12px;
+}
+.record-heightSearch{
+    overflow: hidden;
+}
+.record-searchBtn{
+    margin: 10px 0;
+    width: 504px;
+    text-align: right
+}
+.record-searchBtn button{
+    margin-left: 10px;
+}
+.record-heightSearch .standard-form-row .ant-form-item-control .ant-select{
+    width: 330px !important;
+}
+.record-textSearch .standard-form-row .ant-form-item-control .ant-select{
+    width: 330px !important;
+}
+.record-searchTab{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.record-searchTab .ant-radio-button-wrapper-checked{
+    background-color: #4D7BFE !important;
+    color: #ffffff !important;
+}
+.record-textSearch{
+    background: #fafafa;
+    border-top: 1px #EAE9E9 solid;
+    border-bottom: 1px #EAE9E9 solid;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+}
+/* search end */
+
+.record-tablelist{
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+}
+.record-flashBtn{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.record-clear{
+    clear: both;
+}
+.record-title{
+    float: left;
+    display: inline-flex;
+    text-align: right;
+    max-width: 90px;
+    /*margin-left: 24%;*/
+}
+.record-content{
+    float: left;
+    /* width: 60px; */
+    display: inline-flex;
+    text-align: left;
+}
+.search_adjustment .ant-form-item-control-wrapper {
+    padding-top: 5px;
+}
+
+.search_adjustment .ant-form-item-control-wrapper .ant-form-item-control {
+    height: 39px !important;
+}
+
+.search_adjustment_button {
+    bottom: 1px;
+}

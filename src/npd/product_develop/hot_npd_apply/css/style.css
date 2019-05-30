@@ -1,0 +1,75 @@
+.npd-pd-hna_search_container {
+    position: relative;
+}
+.npd-pd-hna_search_container .search-tab{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 1;
+}
+.npd-pd-hna_search_container .ant-radio-button-wrapper-checked {
+    background-color: #4D7BFE;
+    color: #fff;
+}
+.border-bottom {
+    border-bottom: 1px solid #EAE9E9;
+}
+.npd-modal_line {
+    display: flex;
+}
+
+.npd-modal_line > div {
+    flex: 1;
+}
+.npd-pd-hna_search_container .list-filter-item {
+    position: relative;
+    padding-left: 115px;
+    line-height: 22px;
+}
+.npd-pd-hna_search_container .list-filter-item-title{
+    width: 110px;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+.bisection-classify p{
+    padding-left: 40px;
+}
+.bisection-classify span{
+    width: 40px;
+}
+.bisection-salesman {
+    width: 122px;
+}
+.bisection-salesman p{
+    padding-left: 60px;
+}
+.bisection-salesman span{
+    width: 60px;
+}
+
+.bisection-developer {
+    width: 122px;
+}
+.bisection-developer p{
+    padding-left: 60px;
+}
+.bisection-developer span{
+    width: 60px;
+}
+.npd-pd-hna_container .ant-table-content .ant-table-thead > tr > th.ant-table-selection-column,
+.npd-pd-hna_container .ant-table-content .ant-table-tbody > tr > td.ant-table-selection-column{
+    min-width: 30px;
+    width: 30px;
+}
+.hot-npd-apply-addHPApplyModal .ant-row:first-child {
+    margin-top: 0;
+}
+.hot-npd-apply-addHPApplyModal .ant-row{
+    margin-top: 10px;
+}

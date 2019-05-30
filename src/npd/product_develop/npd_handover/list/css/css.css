@@ -1,0 +1,108 @@
+.npd-handover-list {
+    padding: 16px 10px;
+    position: relative;
+
+}
+.npd-handover-list .search-tab {
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    z-index: 1000;
+}
+.npd-handover-list-searchtype {
+    padding:3px 0 13px;
+    border-top:1px solid #EAE9E9;
+    border-bottom:1px solid #EAE9E9;
+    background-color: #fafafa;
+}
+.npd-handover-list-searchtype .ant-radio-button-wrapper{
+    width: 90px;
+    text-align: center;
+}
+.npd-handover-list-searchtype .ant-radio-button-wrapper-checked{
+    background-color: #4D7BFE;
+    color:#fff;
+}
+.npd-handover-tablewrap {
+    background-color: #fff;
+    font-size: 14px;
+}
+.npd-handover-tablewrap-btns {
+    height: 50px;
+    padding: 10px;
+}
+.npd-handover-tablewrap-code {
+    width: 150px;
+    margin: 0 auto;
+    text-align: left;
+}
+.npd-handover-tablewrap-code label{
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+}
+.npd-handover-tablewrap-developer {
+    width: 150px;
+    margin: 0 auto;
+    text-align: left;
+}
+.npd-handover-tablewrap-developer label{
+    display: inline-block;
+    width: 62px;
+    text-align: right;
+}
+.npd-handover-tablewrap-time {
+    width: 125px;
+    margin: 0 auto;
+    text-align: left;
+}
+.npd-handover-tablewrap-time label{
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+.npd-handover-tablewrap-info {
+    padding-left: 80px;
+    min-height: 70px;
+    position: relative;
+    text-align: left;
+}
+.npd-handover-tablewrap-info-img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.npd-handover-tablewrap-info-img img {
+    width: 100%;
+    display: block;
+}
+
+.npd-handover-list .ant-radio-button-wrapper-checked {
+    background-color: #4D7BFE;
+    color:#fff;
+}
+.npd-handover-list-searchtype .list-filter-item-title {
+    top: 7px;
+}
+.npd-handover-advanced {
+    padding-top: 10px;
+}
+.npd-handover-advanced .list-filter-item-title {
+    top: 7px;
+}
+.npd-handover-list-filter {
+    padding-bottom: 10px;
+    padding-right: 130px;
+}
+.npd-handover-buttons {
+    width: 460px;
+    text-align: right;
+}
+.npd-handover-buttons button{
+    margin-left: -5px;
+}
+.npd-handover-batch-btns {
+    display: inline-block;
+}

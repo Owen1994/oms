@@ -1,0 +1,95 @@
+.npd .ant-select-selection:active,
+.npd .ant-select-selection:hover,
+.npd .ant-input-number:active,
+.npd .ant-input-number:hover {
+    border-color: #4d7bfe;
+}
+.npd a {
+    color:#4d7bfe !important ;
+}
+.background-grey {
+    border-top: 1px solid #EAE9E9;
+    border-bottom: 1px solid #EAE9E9;
+    background-color: #fafafa;
+}
+.padding-nobottom-10 {
+    padding:10px 10px 0;
+}
+.padding-notop-10 {
+    padding:0 10px 10px;
+}
+.bisection {
+    margin: 0 auto;
+    text-align: left;
+}
+.bisection p{
+    position: relative;
+    line-height: 18px;
+    min-height:18px;
+}
+.bisection span {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    text-align: right;
+}
+.remark-nowarp {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 6em;
+}
+.npd .ant-table-body table {
+    table-layout: fixed
+}
+.npd i {
+    font-style: normal;
+}
+.npd-export .ant-steps-item-process .ant-steps-item-icon {
+    background: #4D7BFE;
+}
+.npd-export .ant-steps-item-finish .ant-steps-item-icon {
+    border-color: #4D7BFE;
+}
+.npd-export .temp_download a{
+    color:#4D7BFE;
+}
+.npd-export .ant-steps-item-finish > .ant-steps-item-content > .ant-steps-item-title:after {
+    background-color: #4D7BFE;
+}
+.npd-export .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+    color:#4D7BFE;
+}
+.npd-review-log .ant-modal-body {
+    padding: 10px;
+}
+.ant-tooltip-inner {
+    word-wrap: break-word;
+}
+.npd-mt10-pt5 {
+    margin-top: 10px;
+    padding-top: 5px;
+}
+/* .npd  .list-filter-item {
+    padding-left: 12.5%;
+}
+.npd .list-filter-item-title {
+    width: 12.5%;
+} */
+
+
+
+.limit-lineheight {
+    padding-top: 12px;
+    line-height: 18px;
+    display: inline-block;
+}
+.npd-img-wrap {
+    width: 100%;
+}
+.npd-img-wrap img {
+    display: block;
+    width: 100%;
+    
+}

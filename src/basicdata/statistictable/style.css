@@ -1,0 +1,89 @@
+.basicdata-btn__wrap {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.basicdata-table__wrap .ant-table td {
+    white-space: nowrap;
+}
+.basicdata-sync-info__wrap {
+    display: flex;
+}
+.basicdata-sync-info__left {
+    width: 120px;
+    text-align: right;
+}
+.basicdata-sync-info__right {
+    flex: 1;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.basicdata-log{
+    margin: 0px auto;
+    max-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:1;
+}
+/* 库存搜索 */
+.inventory-search{
+    position: relative;
+}
+.inventory-search .ant-select{
+    min-width:100px !important;
+    width:100px !important;
+}
+.inventory-search .inventory-search-input{
+    position: absolute;
+    top:7px;
+    left:250px;
+}
+
+.logistics_info .name,
+.process-info .name,
+.process-info .name1
+{
+    display: inline-block;
+    width: 115px;
+    text-align: right;
+}
+/* 国内仓*/
+.syncqueue-position {
+    position: relative;
+    top: 60px;
+}
+/* .syncqueue-position .ant-tabs-bar{
+    margin:20px 0 0 0 !important; 
+} */
+.syncqueue-position .basicdata-syncqueue .search {
+     position: absolute;
+     top:-60px;
+     width:100%;
+}
+.syncqueue-position .ant-tabs{
+    overflow: inherit !important;
+}
+
+.syncqueue-greey{
+    color: #52C41A;
+    border: 1px #52C41A solid;
+    padding: 0px 5px
+}
+.syncqueue-orange{
+    color: #FAAD14;
+    border: 1px #FAAD14 solid;
+    padding: 0px 5px
+}
+/*弹窗*/
+.pms-purchasecheckruleseteditrule-modal{
+    width:645px !important;
+}
+.pms-purchasecheckruleseteditrule-modal .paymentMethod{
+    margin-left: 5px;
+}
+.pms-purchasecheckruleseteditrule-modal .paymentMethod .ant-checkbox-wrapper{
+    margin-bottom: 20px;
+    width:30%;
+}

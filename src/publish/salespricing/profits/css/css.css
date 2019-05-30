@@ -1,0 +1,48 @@
+.pricing-system_container .pricing-system_content{
+    background-color: #fff;
+}
+.pricing-system_content .pricing-system-pricing_conditions{
+    padding: 15px 0 20px;
+}
+.pricing-system_content .pricing-system-pricing_conditions .ant-form-item-label label{
+    color: #333;
+    font-size: 14px;
+}
+.pricing-system_content .pricing-system-pricing_conditions .ant-select-selection__placeholder{
+    font-size: 12px;
+}
+.pricing-system_content .pricing-system-pricing_result{
+    padding: 10px 10px 15px;
+}
+
+/* tablelist冒号对齐 */
+.span-3{
+    display: inline-block;
+    width: 38px;
+    text-align: right;
+}
+.span-4{
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+}
+.span-5{
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+.span-6{
+    display: inline-block;
+    width: 74px;
+    text-align: right;
+}
+.span-7{
+    display: inline-block;
+    width: 84px;
+    text-align: right;
+}
+.span-8{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}

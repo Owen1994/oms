@@ -1,0 +1,131 @@
+.publish-batch-list {
+    padding: 20px 10px 12px;
+    position: relative;
+
+}
+.publish-batch-list .search-tab {
+    position: absolute;
+    top: 17px;
+    right: 10px;
+    z-index: 1000;
+}
+.top7 {
+    top: 7px;
+}
+/* .publish-batch .tweb-list-filter-item-title {
+    top:7px;
+} */
+.publish-batch-create-info {
+    background-color: #fff;
+    padding: 20px;
+    font-size: 12px;
+}
+.publish-batch .ant-radio-button-wrapper-checked {
+    background-color: #4D7BFE;
+    color:#fff;
+}
+.publish-batch-tablewrap {
+    margin-top: 10px;
+    padding:10px;
+    background-color: #fff;
+}
+.publish-batch-tablewrap-btns {
+    height: 42px;
+    padding-bottom: 10px;
+}
+.search-bgc {
+    margin-top: 8px;
+    padding: 3px 0 13px;
+    border-top: 1px solid #EAE9E9;
+    border-bottom: 1px solid #EAE9E9;
+    background-color: #fafafa;
+}
+.publish-batch-table-account {
+    margin: 0 auto;
+    width: 200px;
+    text-align: left;
+}
+.publish-batch-table-info {
+    margin: 0 auto;
+    width: 180px;
+    text-align: left;
+}
+.publish-batch-table-dispose {
+    margin: 0 auto;
+    width: 210px;
+    text-align: left;
+}
+.publish-batch-table-result {
+    margin: 0 auto;
+    /* width: 130px; */
+    text-align: left;
+}
+.publish-batch table {
+    table-layout: fixed;
+}
+.publish-batch-import .ant-steps-item-content{
+    padding-left: 30px;
+    text-align: left;
+}
+.publish-batch-import .ant-steps-item-title{
+    font-size: 12px;
+}
+/* .publish-batch-import .tweb-list-filter-item-title {
+    top: 7px;
+} */
+.publish-batch-import .red{
+    color:red;
+}
+.publish-batch-upload-com {
+    padding-left:117px;
+}
+.publish-batch-upload-com-btn {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color:#fff;
+    background-color: #4D7BFE;
+    border-radius:4px;
+    position: relative;
+    cursor: pointer;
+}
+.publish-batch-upload-com-btn input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    cursor: pointer;
+}
+.publish-batch-import-result {
+    height: 268px;
+    position: relative;
+}
+.publish-batch-import-result i {
+    margin: 20px auto;
+    width: 100px;
+    display: block;
+    font-size: 100px;
+}
+.publish-batch-import-success {
+    color: #4D7BFE;
+}
+.publish-batch-import-result p {
+    width: 100%;
+    text-align: center;
+    color: #4D7BFE;
+    font-size: 24px;
+}
+.publish-batch-import-success:hover {
+    color: #4D7BFE;
+}
+.publish-batch-buttons {
+    width: 459px;
+    text-align: right;
+}
+.publish-batch-import .margin-ss-top{
+    padding-bottom: 30px;
+}

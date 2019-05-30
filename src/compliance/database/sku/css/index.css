@@ -1,0 +1,172 @@
+/* 搜索 */
+.data-sku .search{
+    position: relative;
+}
+.data-sku .search-tab{
+    position: absolute;
+    width: 120px;
+    top: 10px;
+    right: 10px;
+    z-index: 0;
+}
+.data-sku .search-tab .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.data-sku .text-search .ant-radio-button-wrapper-checked{
+    background: #4d7bfe;
+    color: #fff;
+    border-color: #4d7bfe;
+}
+.data-sku .default-search{
+    overflow: hidden;
+}
+.data-sku .text-search{
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    background: #fafafa;
+}
+.data-sku .btn-search{
+    width: 504px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    text-align: right;
+}
+.data-sku .btn-search button{
+    margin-left: 10px;
+}
+.data-sku .height-search{
+    overflow: hidden;
+}
+.data-sku .height-search .standard-form-row{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.data-sku .height-search .ant-form-item-control-wrapper, .data-sku .height-search .ant-calendar-picker{
+    width: 344px;
+}
+
+/* 操作列 */
+.data-sku .options-style .inline-block{
+    display: inline-block;
+    margin-left: 10px;
+}
+.data-sku .options-style .ant-dropdown-trigger, .btn-name{
+    cursor: pointer;
+    color: #4d7bfe;
+}
+
+/* 详情页 */
+.sensitive-sku-detail .standard-item-row .items{
+    width: 384px;
+}
+.sensitive-sku-detail .ant-row.ant-form-item{
+    margin-bottom: 10px;
+}
+.sensitive-sku-detail .standard-item-row .label{
+    width: 84px;
+}
+.sensitive-sku-detail .ant-form:last-of-type>.ant-form-item:last-of-type {
+    margin-bottom: 0;
+}
+
+.sensitive-sku-detail .checkbox-input .input {
+    width: 220px;
+    float: left;
+}
+.sensitive-sku-detail .checkbox-input .checkbox {
+    width: 105px;
+}
+.sensitive-sku-detail .common-sensitive-platform-site .ant-form-item {
+    margin-bottom: 0!important;
+}
+
+
+
+.sensitive-sku-detail2 {
+    padding: 0 50px;
+ }
+ .sensitive-sku-detail2 .title{
+    padding-left: 0!important;
+    padding-right: 0!important;
+    margin-bottom: 10px;
+ }
+ .sensitive-sku-detail2 .title:last-of-type {
+    margin-top: 40px;
+ }
+ .sensitive-sku-detail2 .ant-table-body td {
+    text-align: center;
+ }
+ .sensitive-sku-detail2 .separate-line {
+    display: inline-block;
+    width:4px;
+    height:16px;
+    line-height: 30px;
+    background:rgba(77,123,254,1);
+    border-radius:2px;
+    vertical-align: middle;
+ }
+ .sensitive-sku-detail2 .separate-header {
+    margin: 8px;
+    height:17px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    vertical-align: middle;
+ }
+
+.sensitive-sku-detail2 .ant-form-item-control-wrapper {
+    /* overflow: hidden; */
+}
+.sensitive-sku-detail2 .ant-form-text {
+    width: 210px;
+    /* text-overflow: ellipsis;
+    white-space: nowrap; */
+}
+.sensitive-sku-detail2 .ant-row .ant-form-item-control {
+    line-height: 20px;
+    font-size: 12px;
+}
+.sensitive-sku-detail2 .ant-row .ant-form-item-label {
+    line-height: 20px;
+}
+/* 基础资料分类 */
+.basic-add .ant-col-18 .ant-form-item{
+    float: left !important;
+    margin-bottom: 0px;
+}
+.basic-add .dynamic-delete-button{
+    position: absolute;
+    top: 12px;
+    right: 50px;
+    cursor: pointer;
+}
+
+
+.tcloud-export .ant-checkbox-wrapper{
+    width: 104px;
+    margin-bottom: 5px;
+}
+.colon-separate p{
+    position: relative;
+    min-height: 16px;
+    padding-left: 100px;
+    text-align: left;
+}
+.colon-separate p span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    text-align: right;
+}
+.pt7 {
+    padding-top: 7px;
+}

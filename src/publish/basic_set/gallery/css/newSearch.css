@@ -1,0 +1,21 @@
+/* 搜索 */
+.gallery-listing_container .search{
+    position: relative;
+}
+.gallery-listing_container .height-search{
+    overflow: hidden;
+}
+.gallery-listing_container .height-search .standard-form-row{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.gallery-listing_container .btn-search {
+    width:490px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+.gallery-listing_container .btn-search button {
+    margin-left: 10px;
+}

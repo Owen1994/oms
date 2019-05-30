@@ -1,0 +1,44 @@
+.tclould-tab .ant-tabs-bar{
+    border-bottom: 1px #EAE9E9 solid;
+}
+.tclould-tab .ant-tabs-ink-bar{
+    background-color: #fff;
+    bottom: 0px;
+    left: -1px;
+}
+.tclould-tab .ant-tabs-nav-container{
+    overflow: initial;
+    margin-bottom: 0px;
+}
+.tclould-tab  .ant-tabs-nav .ant-tabs-tab{
+    margin: 0px;
+    border: 1px #EAE9E9 solid;
+    border-left: 0px;
+    background-color: #F9FAFD;
+    height: 40px;
+    line-height: 40px;
+    word-break: break-all;
+    margin-top: -1px;
+}
+.tclould-tab  .ant-tabs-nav .ant-tabs-tab a{
+    color:#666;
+    display: block;
+}
+.tclould-tab .ant-tabs-nav .ant-tabs-tab{
+    padding: 0px 16px !important;
+}
+.tclould-tab .ant-tabs-top .ant-tabs-ink-bar-animated {
+    transition: none;
+    -webkit-transition: none
+}
+.tclould-tab .ant-tabs-nav .ant-tabs-tab.ant-tabs-tab-active{
+    color: #4d7bfe;
+    border-top: 2px #4d7bfe solid;
+    background: #fff;
+    position: relative;
+    top: 1px;
+    word-break: break-all;
+}
+.tclould-tab .ant-tabs-nav .ant-tabs-tab.ant-tabs-tab-active a{
+    color:#333;
+}

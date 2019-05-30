@@ -1,0 +1,123 @@
+.buliang_purchase_div {
+    max-width: 180px;
+    margin: 0 auto;
+}
+
+.buliang_purchase_div p {
+    text-align: left;
+    padding: 2px 4px;
+}
+
+.buliang_purchase_div .info-span {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+
+.buliang_number_div {
+    max-width: 120px;
+    margin: 0 auto;
+}
+
+.buliang_number_div p {
+    text-align: left;
+    padding: 2px 4px;
+}
+
+.buliang_number_div .info-span {
+    display: inline-block;
+    width: 75px;
+    text-align: right;
+}
+
+.common_table_prompt {
+    border:1px solid red;
+    border-radius: 4px;
+    padding: 4px 6px;
+    color: red;
+}
+/*查看图片样式*/
+.defectiveproductsmanage{
+    width:100%;
+    padding: 15px 15px 20px 15px;
+}
+.defectiveproductsmanage .basic-data{
+    width:48%;
+    float: left;
+    position: relative;
+}
+.defectiveproductsmanage .warehouse{
+    width:48%;
+    float: right;
+    position: relative
+}
+.defectiveproductsmanage .basic-data h4,
+.defectiveproductsmanage .warehouse h4{
+    font-size:20px;
+    line-height: 30px;
+    color: #333;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.defectiveproductsmanage-left{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    color: #000;
+    top: 125px;
+    left: 5px;
+    z-index: 1;
+    font-size:22px;
+}
+.defectiveproductsmanage-right{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    color: #000;
+    top: 125px;
+    right: 5px;
+    z-index: 1;
+    font-size: 22px;
+}
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 212px;
+    line-height: 157px;
+    overflow: hidden;
+  }
+  
+.ant-carousel .slick-slide h3 {
+   color: #4D7BFE;
+   height: 212px;
+   line-height: 157px;
+}
+.ant-carousel .slick-slide h3 img{
+    height: 212px;
+    line-height: 157px;
+}
+.defectiveproductsmanage .ant-carousel .slick-slide img {
+   display: inline-block ;
+}
+
+.defectiveproductsmanage .ant-carousel .slick-dots li button {
+    border: 0;
+    cursor: pointer;
+    background: #666;
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 1px;
+    outline: none;
+    font-size: 0;
+    color: transparent;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    padding: 0;
+    border-radius: 100%;
+}
+.defectiveproductsmanage .ant-carousel .slick-dots li.slick-active button {
+    background: #4D7BFE;
+    opacity: 1;
+    width: 6px;
+}

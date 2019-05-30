@@ -1,0 +1,157 @@
+/* Search begin */
+.checkrules-search{
+    overflow: hidden;
+    background-color: #ffffff;
+    position: relative;
+}
+.checkrules-defaultSearch{
+    overflow: hidden;
+}
+.checkrules-heightSearch{
+    overflow: hidden;
+}
+.checkrules-searchBtn{
+    margin: 10px 0;
+    width: 330px;
+    text-align: right
+}
+.checkrules-searchBtn button{
+    margin-left: 10px;
+}
+.checkrules-searchTab{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+.checkrules-searchTab .ant-radio-button-wrapper-checked{
+    background-color: #4D7BFE !important;
+    color: #ffffff !important;
+}
+.checkrules-textSearch{
+    background: #fafafa;
+    border-top: 1px #EAE9E9 solid;
+    border-bottom: 1px #EAE9E9 solid;
+}
+.checkrules-textSearch > .ant-row.ant-form-item{
+    margin: 10px 0;
+}
+/* search end */
+
+.checkrules-tablelist{
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+}
+.checkrules-tablelist .ant-switch-checked{
+    background-color: #4d7bfe;
+}
+.checkrules-addBtn{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.checkrules-addBtn button{
+    margin-left: 20px;
+}
+
+.checkrules-modal{
+    padding: 0 20px;
+}
+.checkrules-modal-cselect .ant-form-item-control{
+    width: 260px !important;
+}
+.checkrules-modal-expectionOrder{
+    margin-left: 150px;
+}
+/* .checkrules-modal-form .ant-form-item-label, .checkrules-modal-baseInfo .ant-form-item-control{
+    overflow: hidden;
+    line-height: 33px !important;
+    margin: 8px 0;
+} */
+.checkrules-modal-form .ant-row.ant-form-item{
+    margin-bottom: 18px;
+} 
+.checkrules-modal-form{
+    margin-bottom: 10px !important;
+}
+.checkrules-modal .ant-radio-checked .ant-radio-inner{
+    border-color: #4d7bfe;
+}
+.checkrules-modal .ant-radio-checked .ant-radio-inner:after{
+    background-color: #4d7bfe;
+}
+.checkrules-modal-form p{
+    font-size:12px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+    line-height:33px;
+}
+.checkrules-modal-form button{
+    width: 260px;
+}
+.checkrules-submitBtn{
+    text-align: right;
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 1px solid #EAE9E9;
+}
+.checkrules-span-before{
+    display: inline-block;
+    width: 3px;
+    height: 12px;
+    background: rgba(77,123,254,1);
+    border-radius: 1px;
+    margin-right: 3px;
+}
+.checkrules-modal-condition > h3{
+    font-weight: bold;
+    color: rgba(51,51,51,1);
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.checkrules-modal-action > h3{
+    font-weight: bold;
+    color: rgba(51,51,51,1);
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+.checkrules-modal-condition{
+    margin-bottom: 20px;
+}
+
+.checkrules-submitBtn button{
+    margin-left: 20px;
+}
+.checkrules-clear{
+    overflow: hidden;
+    clear: both;
+    margin: 0 auto;
+}
+.checkrules-ebayClassify{
+    margin: 0 auto;
+}
+.checkrules-title{
+    float: left;
+    /*display: inline-flex;*/
+    text-align: right;
+    width: 62px;
+    /*max-width: 90px;*/
+    /*margin-left: 24%;*/
+}
+.checkrules-content{
+    float: left;
+    /* width: 60px; */
+    display: inline-flex;
+    text-align: left;
+}
+.checkrules-content2{
+    float: left;
+    max-width: 80%;
+    display: inline-flex;
+    text-align: left;
+    word-break: break-all;
+}

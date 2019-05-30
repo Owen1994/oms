@@ -1,0 +1,372 @@
+{
+  "operator": "huangjianfeng",
+  "pwd": "com.yks.urc.",
+  "ticket": "2b0ea391376d18e6de2f097fb8fedf4f",
+  "funcVersion": "af4f5b4e4cd399b0cc52703ed3700649",
+  "data": [
+    {
+      "apiUrlPrefix": [
+        "/customs/api/",
+        "/logisticsservice/api/"
+      ],
+      "system": {
+        "key": "002",
+        "name": "物流",
+        "url": "/lgtconfig/"
+      },
+      "menu": [
+        {
+          "key": "002-000001",
+          "name": "报关管理",
+          "url": "/lgtconfig/",
+          "module": [
+            {
+              "key": "002-000001-000001",
+              "name": "报关单",
+              "url": "/lgtconfig/declaration/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "002-000001-000001-001",
+                  "name": "查看",
+                  "url": [
+                    "/api/customs/list"
+                  ]
+                },
+                {
+                  "key": "002-000001-000001-002",
+                  "name": "驳回",
+                  "url": [
+                    "/api/customs/list/doAction"
+                  ]
+                },
+                {
+                  "key": "002-000001-000001-003",
+                  "name": "撤销",
+                  "url": [
+                    "/api/customs/list/doAction"
+                  ]
+                },
+                {
+                  "key": "002-000001-000001-004",
+                  "name": "删除",
+                  "url": [
+                    "/api/customs/list/doAction"
+                  ]
+                },
+                {
+                  "key": "002-000001-000001-005",
+                  "name": "归档",
+                  "url": [
+                    "/api/customs/list/doAction"
+                  ]
+                },
+                {
+                  "key": "002-000001-000001-006",
+                  "name": "审核",
+                  "url": [
+                    "/api/customs/list/audit"
+                  ]
+                },
+                {
+                  "key": "002-000001-000001-007",
+                  "name": "合并报关单",
+                  "url": [
+                    "/api/customes/list/combineOrder"
+                  ]
+                },
+                {
+                  "key": "002-000001-000001-008",
+                  "name": "修改报关单号",
+                  "url": [
+                    "/api/customs/editNumber"
+                  ]
+                },
+                {
+                  "key": "002-000001-000001-009",
+                  "name": "导入报关单号",
+                  "url": [
+                    "/api/customs/import/resouce",
+                    "/api/customs/import/confirm"
+                  ]
+                },
+                {
+                  "key": "002-000001-000001-010",
+                  "name": "新建报关单",
+                  "url": [
+                    "/api/customs/createOrders",
+                    "/api/customs/fba/orders",
+                    "/api/customs/import/resouce",
+                    "/api/customs/import/confirm"
+                  ]
+                },
+                {
+                  "key": "002-000001-000001-011",
+                  "name": "制单",
+                  "url": []
+                },
+                {
+                  "key": "002-000001-000001-012",
+                  "name": "查看制单数据",
+                  "url": []
+                }
+              ],
+              "module": [
+                {
+                  "key": "002-000001-000001-000001",
+                  "name": "制单",
+                  "url": "/lgtconfig/declaration/order/create/",
+                  "show": 1,
+                  "function": [
+                    {
+                      "key": "002-000001-000001-000001-003",
+                      "name": "导出核对清单",
+                      "url": [
+                        "/api/customes/export/columns"
+                      ]
+                    },
+                    {
+                      "key": "002-000001-000001-000001-004",
+                      "name": "合并、删除和同步SKU",
+                      "url": [
+                        "/api/customs/operation"
+                      ]
+                    },
+                    {
+                      "key": "002-000001-000001-000001-005",
+                      "name": "核对清单修改",
+                      "url": [
+                        "/api/customes/list/item/edit"
+                      ]
+                    },
+                    {
+                      "key": "002-000001-000001-000001-006",
+                      "name": "修改资料",
+                      "url": [
+                        "/api/customes/document/columns/edit"
+                      ]
+                    },
+                    {
+                      "key": "002-000001-000001-000001-007",
+                      "name": "核对清单排序",
+                      "url": [
+                        "/api/customes/list/item/edit_order"
+                      ]
+                    },
+                    {
+                      "key": "002-000001-000001-000001-008",
+                      "name": "生成报关资料",
+                      "url": [
+                        "/api/customs/operation"
+                      ]
+                    }
+                  ],
+                  "module": []
+                },
+                {
+                  "key": "002-000001-000001-000002",
+                  "name": "查看制单数据",
+                  "url": "/lgtconfig/declaration/order/view/",
+                  "show": 1,
+                  "function": [
+                    {
+                      "key": "002-000001-000001-000002-001",
+                      "name": "导出核对清单",
+                      "url": [
+                        "/api/customes/export/columns"
+                      ]
+                    }
+                  ],
+                  "module": []
+                },
+                {
+                  "key": "002-000001-000001-000003",
+                  "name": "查看报关资料",
+                  "url": "/lgtconfig/declaration/check_customs_info/",
+                  "show": 1,
+                  "function": [
+                    {
+                      "key": "002-000001-000001-000003-001",
+                      "name": "报关草单",
+                      "url": [
+                        "/api/customs/print/grassList"
+                      ]
+                    },
+                    {
+                      "key": "002-000001-000001-000003-002",
+                      "name": "发票",
+                      "url": [
+                        "/api/customs/print/invoice"
+                      ]
+                    },
+                    {
+                      "key": "002-000001-000001-000003-003",
+                      "name": "装箱单",
+                      "url": [
+                        "/api/customs/print/packing"
+                      ]
+                    },
+                    {
+                      "key": "002-000001-000001-000003-004",
+                      "name": "合同",
+                      "url": [
+                        "/api/customs/print/cnotract"
+                      ]
+                    },
+                    {
+                      "key": "002-000001-000001-000003-005",
+                      "name": "载货清单(FBA)",
+                      "url": [
+                        "/api/customs/print/cargoList-fba"
+                      ]
+                    },
+                    {
+                      "key": "002-000001-000001-000003-006",
+                      "name": "载货清单(海外仓)",
+                      "url": [
+                        "/api/customs/print/cargoList-oversea"
+                      ]
+                    },
+                    {
+                      "key": "002-000001-000001-000003-007",
+                      "name": "导出",
+                      "url": [
+                        "/api/customs/print/exportfile"
+                      ]
+                    }
+                  ],
+                  "module": []
+                }
+              ]
+            },
+            {
+              "key": "002-000001-000002",
+              "name": "报关设置",
+              "url": "/lgtconfig/customs_set/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "002-000001-000002-001",
+                  "name": "新增、修改和删除SKU税率",
+                  "url": [
+                    "/api/customs/skuRate/action"
+                  ]
+                },
+                {
+                  "key": "002-000001-000002-002",
+                  "name": "新增、修改汇率",
+                  "url": [
+                    "/api/customs/rate/action"
+                  ]
+                }
+              ],
+              "module": []
+            },
+            {
+                "key": "002-000001-000003",
+                "name": "操作日志",
+                "url": "/lgtconfig/operate_log/",
+                "show": 1,
+                "function": [],
+                "module": []
+            }
+          ]
+        },
+        {
+          "key": "002-000002",
+          "name": "物流轨迹",
+          "url": "/lgtconfig/",
+          "module": [
+            {
+              "key": "002-000002-000001",
+              "name": "轨迹查询",
+              "url": "/lgtconfig/trajectory/query/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "002-000002-000001-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "002-000002-000001-002",
+                  "name": "导出",
+                  "url": []
+                }
+              ]
+            },
+            {
+              "key": "002-000002-000002",
+              "name": "渠道设置",
+              "url": "/lgtconfig/trajectory/channelset/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "002-000002-000002-001",
+                  "name": "查看",
+                  "url": []
+                }
+              ]
+            },
+            {
+              "key": "002-000002-000003",
+              "name": "轨迹状态设置",
+              "url": "/lgtconfig/trajectory/channelstateset/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "002-000002-000003-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "002-000002-000003-002",
+                  "name": "设置",
+                  "url": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "002-000003",
+          "name": "物流商管理",
+          "url": "/lgtconfig/",
+          "module": [
+            {
+              "key": "002-000003-000001",
+              "name": "物流服务商",
+              "url": "/lgtconfig/servicemanage/provider/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "002-000003-000001-001",
+                  "name": "查看",
+                  "url": []
+                },
+                {
+                  "key": "002-000003-000001-002",
+                  "name": "编辑",
+                  "url": []
+                }
+              ]
+            },
+            {
+              "key": "002-000003-000002",
+              "name": "面单管理",
+              "url": "/lgtconfig/servicemanage/management/",
+              "show": 1,
+              "function": [
+                {
+                  "key": "002-000003-000002-001",
+                  "name": "查看",
+                  "url": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+import React, { Component } from 'react';
+import { Form, Input, Select } from 'antd';
+const FormItem = Form.Item;
+const Option = Select.Option;
+
+import { businessCode, platformCode } from '../../constants/index';
+
+import ItemSelect from '../../../../../common/components/itemSelect'
+import * as API from '../../../../constants/Api'
+
+class AddDetail3 extends Component {
+    formItemLayout = {
+        labelCol: { span: 8 },
+        wrapperCol: { span: 12 },
+    };
+
+    setFormInitial = () => {
+        if(this.props.item){
+            const { item } = this.props;
+            this.props.form.setFields({
+                code: {
+                    value: item.code
+                },
+                businessCode: {
+                    value: parseInt(item.businessCode)
+                },
+                platformCode: {
+                    value: item.platformCode
+                },
+                name: {
+                    value: item.name
+                }
+            })
+        }
+    }
+
+    handleChange = () => {}
+
+    componentWillMount(){
+        if(!this.props.list_reducer2.platform_data){
+            this.props.list_fetch2({name: 'platform_data', value: {pageNumber: 1, pageData: 20}});
+            // this.props.list_fetch3({name: 'userGroup_data', value: {pageNumber: 1, pageData: 20}});
+        }
+    }
+
+    componentDidMount(){
+        this.setFormInitial();
+    }
+
+    componentWillReceiveProps(){
+        if(!this.props.update){
+            this.setFormInitial();
+        }
+    }
+
+    render() {
+        const { getFieldDecorator } = this.props.form;
+        const { item } = this.props;
+        return (
+            <div className="npd-usermanagement-adddetail">
+                <Form>
+                    <FormItem
+                        {...this.formItemLayout}
+                        label="部门编码"
+                    >
+                        {getFieldDecorator('code', {
+                            rules: [{
+                                required: false, message: '请输入部门编码.',
+                                
+                            }],
+                        })(
+                            <Input readOnly style={{border: "none", boxShadow:"none"}} />
+                        )}
+                    </FormItem>
+                    <FormItem
+                        {...this.formItemLayout}
+                        label="业务线"
+                    >
+                        {getFieldDecorator('businessCode', {
+                            rules: [
+                                { required: true, message: '请选择业务线' },
+                            ],
+                        })(
+                            <Select placeholder="请选择业务线">
+                                {
+                                    businessCode.map((item, index) => (
+                                        <Option value={item.id + 1} key={item.id}>{item.name}</Option>
+                                    ))
+                                }
+                            </Select>
+                        )}
+                    </FormItem>
+                    <FormItem
+                        {...this.formItemLayout}
+                        label="平台"
+                    >
+                        <ItemSelect
+                            getFieldDecorator={getFieldDecorator}
+                            formName='platformCode'
+                            dName={item&&item.platformName}
+                            dValue={item&&item.platformCode}
+                            url={API.PLATFORM_LIST_API}
+                            onChange={this.handleChange}
+                            name="name"
+                            code="code"
+                            params={{'pageData': 20, 'pageNumber': 1}}
+                            rules={{
+                                rules: [{
+                                    required: false, message: '请选择平台'
+                                }],
+                              }}
+                        />
+                    </FormItem>
+                    <FormItem
+                        {...this.formItemLayout}
+                        label="用户组"
+                    >
+                        {getFieldDecorator('name', {
+                            rules: [{
+                                required: true, message: '请输入用户组.',
+                            }],
+                        })(
+                            <Input maxLength={20} />
+                        )}
+                    </FormItem>
+                </Form>
+            </div>
+        );
+    }
+}
+
+export default Form.create()(AddDetail3);
